@@ -1,8 +1,9 @@
-Notes
-======
+# Examen capacitacion GWS
+Evidencia de comunicacion con el API 
 
-- Make sure that you have Android SDK version 28 (for OS 9.0) installed.
-  See https://docs.microsoft.com/en-us/xamarin/android/platform/pie for
-  installation details.
-
-- For patent information, see www.hsmpats.com
+### Login
+![peticion login](/images/signon.png) 
+### Get containers
+![peticion login](/images/getcontainers.png) 
+### Open container
+![peticion login](/images/opencontainer.png) 
