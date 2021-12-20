@@ -2,8 +2,8 @@
 Evidencia de comunicacion con el API 
 
 ### Login
-![peticion login](/images/signon.png) 
+![peticion login](https://github.com/IvanHdzRz/gws/blob/main/images/signon.PNG?raw=true) 
 ### Get containers
-![peticion login](/images/getcontainers.png) 
+![peticion containers](https://github.com/IvanHdzRz/gws/blob/main/images/getcontainers.PNG?raw=true) 
 ### Open container
-![peticion login](/images/opencontainer.png) 
+![peticion open container](https://github.com/IvanHdzRz/gws/blob/main/images/opencontainer.PNG?raw=true) 
