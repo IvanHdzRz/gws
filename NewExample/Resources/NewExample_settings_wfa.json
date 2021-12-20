@@ -1,0 +1,31 @@
+﻿[
+  {
+    "Name": "NewExampleSettingsWorkflowActivityComp",
+    "Default": "NewExampleSettingsWorkflowActivity",
+    "ReferencedEvents": [
+      {
+        "WfaReferenceName": "SettingsWorkflowActivity",
+        "Name": "SettingsMenuWorkflowActivity::NewExampleSettings",
+        "Actions": [
+          {
+            "Type": "PushNavigation",
+            "Params": {
+              "Destination": "NewExampleSettingsWorkflowActivity"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "NewExampleSettingsWorkflowActivity",
+    "ControllerName": "NewExample.NewExampleSettingsController",
+    "ViewModelName": "NewExample.NewExampleSettingsViewModel",
+    "ViewNames": [ "NewExample.NewExampleSettingsView" ],
+    "Params": {
+      "EnableMenuOption": false,
+      "MicIconStateOverride": false,
+      "InactiveGlobalWords": [ "VocabWord_GlobalAnchorWord VocabWord_StandBy" ]
+    }
+  }
+]

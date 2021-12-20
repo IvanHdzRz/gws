@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<hfmcl:MasterDetailApplication
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:hfmcl="clr-namespace:Honeywell.Firebird.CoreLibrary;assembly=Honeywell.GuidedWork.XF"
+    x:Class="GWS.App">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <hfmcl:AppResources/>
+            </ResourceDictionary.MergedDictionaries>
+            <Style x:Key="WorkflowNameStyle" TargetType="Label">
+                <Setter Property="FontSize"
+                        Value="17" />
+                <Setter Property="HorizontalTextAlignment"
+                        Value="Center" />
+                <Setter Property="FontFamily"
+                        Value="{x:Static hfmcl:FontResources.HoneywellSansBold}" />
+                <Setter Property="VerticalOptions"
+                        Value="CenterAndExpand" />
+                <Setter Property="LineBreakMode"
+                        Value="TailTruncation" />
+            </Style>
+            <Style x:Key="WorkflowIndexStyle" TargetType="Label">
+                <Setter Property="FontSize"
+                        Value="36" />
+                <Setter Property="HorizontalTextAlignment"
+                         Value="Center" />
+                <Setter Property="FontFamily"
+                        Value="{x:Static hfmcl:FontResources.HoneywellSansBlack}" />
+                <Setter Property="Margin"
+                        Value="0,0,0,-2" />
+                <Setter Property="VerticalOptions"
+                        Value="Center" />
+            </Style>
+            <Style x:Key="DirectedSortConfirmationLabelStyle" TargetType="Label" BasedOn="{StaticResource ProductInfoLabelStyle}">
+                <Setter Property="FontSize"
+                        Value="18" />
+                <Setter Property="FontFamily"
+                        Value="{x:Static hfmcl:FontResources.HoneywellSansBlack}" />
+            </Style>
+            <Style x:Key="DirectedSortLocationLabelStyle" TargetType="Label" BasedOn="{StaticResource ProductInfoLabelStyle}">
+                <Setter Property="FontSize"
+                        Value="24" />
+                <Setter Property="FontFamily"
+                        Value="{x:Static hfmcl:FontResources.HoneywellSansBlack}" />
+            </Style>
+            <Style x:Key="ReplenishmentLocationLabelStyle" TargetType="Label" BasedOn="{StaticResource ProductInfoLabelStyle}">
+                <Setter Property="FontSize"
+                        Value="24" />
+                <Setter Property="FontFamily"
+                        Value="{x:Static hfmcl:FontResources.HoneywellSansBlack}" />
+            </Style>
+            <Style x:Key="ReplenishmentConfirmationLabelStyle" TargetType="Label" BasedOn="{StaticResource ProductInfoLabelStyle}">
+                <Setter Property="FontSize"
+                        Value="18" />
+                <Setter Property="FontFamily"
+                        Value="{x:Static hfmcl:FontResources.HoneywellSansBlack}" />
+            </Style>
+            <Style x:Key="SupportNameLabelStyle" TargetType="Label" BasedOn="{StaticResource ProductInfoLabelStyle}">
+                <Setter Property="FontSize"
+                        Value="36" />
+                <Setter Property="FontFamily"
+                        Value="{x:Static hfmcl:FontResources.HoneywellSansBlack}" />
+            </Style>
+            <Style x:Key="CycleCountSelectLocationIndexStyle" TargetType="Label">
+                <Setter Property="FontFamily"
+                        Value="{x:Static hfmcl:FontResources.HoneywellSansBlack}" />
+                <Setter Property="TextColor"
+                        Value="{x:Static hfmcl:ColorResources.HoneywellMediumBlue}" />
+                <Setter Property="Margin"
+                        Value="5,5,0,0" />
+            </Style>
+            <Style x:Key="Dynamics365LocationLabelStyle" TargetType="Label" BasedOn="{StaticResource ProductInfoLabelStyle}">
+                <Setter Property="FontSize"
+                        Value="24" />
+                <Setter Property="FontFamily"
+                        Value="{x:Static hfmcl:FontResources.HoneywellSansBlack}" />
+            </Style>
+            <Style x:Key="MediumBodyLabelStyle" TargetType="Label" BasedOn="{StaticResource BaseLabelStyle}">
+                <Setter Property="TextColor"
+                        Value="{x:Static hfmcl:ColorResources.HoneywellGray50}" />
+                <Setter Property="FontSize"
+                        Value="16" />
+            </Style>
+            <Style x:Key="MediumBodyBoldLabelStyle" TargetType="Label" BasedOn="{StaticResource BaseLabelStyle}">
+                <Setter Property="FontFamily"
+                        Value="{x:Static hfmcl:FontResources.HoneywellSansBold}" />
+                <Setter Property="FontSize"
+                        Value="16" />
+            </Style>
+            <Style x:Key="OrderPickingPromptLabelStyle" TargetType="Label">
+                <Setter Property="FontSize"
+                        Value="25" />
+                <Setter Property="HorizontalOptions"
+                        Value="Center" />
+                <Setter Property="HorizontalTextAlignment"
+                        Value="Center" />
+                <Setter Property="FontFamily"
+                        Value="{x:Static hfmcl:FontResources.HoneywellSansBold}" />
+            </Style>
+            <Style x:Key="OrderPickingStagingOrderNumberLabelStyle" TargetType="Label">
+                <Setter Property="FontSize"
+                        Value="25" />
+                <Setter Property="HorizontalOptions"
+                        Value="Center" />
+                <Setter Property="HorizontalTextAlignment"
+                        Value="Center" />
+                <Setter Property="FontFamily"
+                        Value="{x:Static hfmcl:FontResources.HoneywellSansBold}" />
+            </Style>
+            
+            <!-- 
+            The style keys listed below are from the hfmcl namespace.  These are provided for reference to 
+            allow core application styling to be overridden. 
+
+            Applicaiton styling can be overriden by providing styling setters for a given style key.
+            For example, to change the background color of the primary button, add a "BackgroundColor" setter 
+            property to the "PrimaryButtonStyle" key entry.
+
+            <Style x:Key="PrimaryButtonStyle" TargetType="Button" BasedOn="{StaticResource PrimaryButtonStyle}">
+                <Setter Property="BackgroundColor" Value="Green" />
+            </Style>
+            -->
+            <Style x:Key="PrimaryButtonStyle" TargetType="Button" BasedOn="{StaticResource PrimaryButtonStyle}" />
+            <Style x:Key="SecondaryButtonStyle" TargetType="Button" BasedOn="{StaticResource SecondaryButtonStyle}" />
+            <Style x:Key="HeaderLabelStyle" TargetType="Label" BasedOn="{StaticResource HeaderLabelStyle}" />
+            <Style x:Key="LocationLabelStyle" TargetType="Label" BasedOn="{StaticResource LocationLabelStyle}" />
+            <Style x:Key="LocationDescriptorLabelStyle" TargetType="Label" BasedOn="{StaticResource LocationDescriptorLabelStyle}" />
+            <Style x:Key="SectionTitleLayoutStyle" TargetType="StackLayout" BasedOn="{StaticResource SectionTitleLayoutStyle}" />
+            <Style x:Key="SectionTitleLabelStyle" TargetType="Label" BasedOn="{StaticResource SectionTitleLabelStyle}" />
+
+            <!-- Custom Styles  
+            Custom styles can be provided for UIElements defined in the application's StateEncoder files.  To provide 
+            custom styling for a UIElement:
+                * Define the style with a key and setter properties
+                * Specify the key as a string for the "Style" property when creating UIElements in a StateEncoder file.
+            For example, the key string for the "LAppCheckDigitHintStyle" defined below is provided as the "Style"
+            property value of the check digit hint UIElement created in the LAppStateEncoder file.
+            -->
+            <Style x:Key="LAppCheckDigitHintStyle" TargetType="Label">
+            <Setter Property="TextColor" Value="{x:Static hfmcl:ColorResources.HoneywellLightGreen}" />
+            <Setter Property="FontFamily" Value="{x:Static hfmcl:FontResources.HoneywellSansBold}" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</hfmcl:MasterDetailApplication>

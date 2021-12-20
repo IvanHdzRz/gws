@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright (C) 2018 Honeywell International Inc. All rights reserved. -->
+<hfmcl:CoreView
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:hfmcl="clr-namespace:Honeywell.Firebird.CoreLibrary;assembly=Honeywell.GuidedWork.XF"
+    xmlns:i18n="clr-namespace:Honeywell.Firebird.CoreLibrary.Localization.Xaml;assembly=Honeywell.GuidedWork.XF"
+    x:Class="OrderPicking.OrderPickingStagingLocationView">
+
+    <Grid RowSpacing="0" VerticalOptions="Fill">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="386*" />
+            <RowDefinition Height="65*" />
+        </Grid.RowDefinitions>
+
+        <Grid x:Name="HeaderGrid" Grid.Row="0" ColumnSpacing="0" VerticalOptions="Fill">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="50" />
+            </Grid.ColumnDefinitions>
+            <StackLayout x:Name="HeaderLayout" Spacing="0" VerticalOptions="Center" Grid.Column="1">
+                <StackLayout Orientation="Horizontal" Spacing="0" HorizontalOptions="Center">
+                    <Label x:Name="HeaderLabel" Text="{Binding Header}" FontSize="20" AutomationId="OrderPickingHeaderLabel" />
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout x:Name="InstructionsLayout" VerticalOptions="Center" IsVisible="False" Grid.Column="0" Grid.ColumnSpan="2">
+                <Label Text="{i18n:Translate Instructions}" AutomationId="OrderPickingInstructionsLabel" />
+            </StackLayout>
+
+            <StackLayout VerticalOptions="Fill" HorizontalOptions="Fill" Grid.Column="2">
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnInfoTapped" AutomationId="OrderPickingInfoTapRecognizer" />
+                </StackLayout.GestureRecognizers>
+                <Image Source="grey_info.png" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" AutomationId="OrderPickingInfoImage" />
+            </StackLayout>
+        </Grid>
+
+        <StackLayout Style="{StaticResource SectionTitleLayoutStyle}" Grid.Row="1">
+            <Label Text="{i18n:Translate OrderPickingWorkflowActivity_Details}" Style="{StaticResource SectionTitleLabelStyle}" AutomationId="OrderPickingDetailsLabel" />
+        </StackLayout>
+
+        <StackLayout VerticalOptions="FillAndExpand" Spacing="0" Padding="10,5,10,0" Grid.Row="2">
+
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <Label Text="{i18n:Translate OrderPickingWorkflowActivity_Container}" FontSize="20" HorizontalOptions="Center" AutomationId="OrderPickingContainerLabel" />
+                <Label Text="{Binding Container}" Style="{StaticResource OrderPickingStagingOrderNumberLabelStyle}" AutomationId="OrderPickingContainerIdentifierLabel" />
+            </StackLayout>
+            
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <Label Text="{i18n:Translate OrderPickingWorkflowActivity_OrderNumber}" FontSize="20" HorizontalOptions="Center" AutomationId="OrderPickingOrderNumberLabel" />
+                <Label Text="{Binding OrderIdentifier}" Style="{StaticResource OrderPickingStagingOrderNumberLabelStyle}" AutomationId="OrderPickingOrderIdentifierLabel" />
+            </StackLayout>
+            
+            <StackLayout VerticalOptions="CenterAndExpand">
+
+                <Label Text="{i18n:Translate OrderPickingWorkflowActivity_StagingLocation}" Style="{StaticResource EntryBoldLabelStyle}" AutomationId="OrderPickingStagingLocationLabel" />
+
+                <hfmcl:UserEntrySubview x:Name="StagingLocationEntrySubview"
+                        Placeholder="{i18n:Translate OrderPickingWorkflowActivity_StagingLocationEntryPlaceholder}"
+                        SubmitResponseCommand="{Binding ValidationModel.SubmitResponseCommand}"
+                        FontSize="14"
+                        ErrorMessageFontSize="10"
+                        BorderWidth="2"
+                        ShowUnderline="False"
+                        IsEnabled="False"
+                        Text="{Binding StagingLocation}"
+                        ErrorMessage="{Binding ErrorMessage}"
+                        Keyboard="Text"
+                        AutomationId="OrderPickingStagingLocationEntrySub" />
+                
+            </StackLayout>
+            
+        </StackLayout>
+
+        <Grid x:Name="ButtonGrid" VerticalOptions="End" Grid.Row="3" Padding="10,5,10,10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+        </Grid>
+
+    </Grid>
+
+</hfmcl:CoreView>

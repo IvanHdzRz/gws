@@ -1,0 +1,412 @@
+﻿[
+    {
+        "Name": "WarehousePickingWorkflowActivity",
+        "Default": "WarehousePickingProcessingWorkflowActivity",
+        "ReferencedEvents": [
+            {
+                "WfaReferenceName": "BaldEagleWorkflowActivity",
+                "Name": "TaskManagerWorkflowActivity::StartWarehousePickingWorkflow",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "BaldEagleWorkflowActivityWithSignOff"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "BaldEagleWorkflowActivityWithSignOff",
+                "Name": "TaskManagerWorkflowActivity::StartWarehousePickingWorkflow",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "WarehousePickingWorkflowActivity"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "BaldEagleWorkflowActivityWithSignOff",
+                "Name": "StartGuidedWorkSubcenters",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "WarehousePickingSubcenterWorkflowActivity"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "BaldEagleWorkflowActivityWithSignOff",
+                "Name": "StartGuidedWorkLabelPrinter",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "WarehousePickingEnterLabelPrinterWorkflowActivity"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "BaldEagleWorkflowActivityWithSignOff",
+                "Name": "StartGuidedWorkPickTripInfo",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "WarehousePickingReadyWorkflowActivity"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "BaldEagleWorkflowActivityWithSignOff",
+                "Name": "StartGuidedWorkLastPick",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "WarehousePickingLastPickWorkflowActivity"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "BaldEagleWorkflowActivityWithSignOff",
+                "Name": "StartGuidedWorkAcknowledgeLocation",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "WarehousePickingAcknowledgeLocationWorkflowActivity"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "BaldEagleWorkflowActivityWithSignOff",
+                "Name": "StartGuidedWorkConfirmNoMoreWork",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "WarehousePickingConfirmNoMoreWorkflowActivity"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "BaldEagleWorkflowActivityWithSignOff",
+                "Name": "StartGuidedWorkConfirmSkipProduct",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "WarehousePickingConfirmSkipProductWorkflowActivity"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "BaldEagleWorkflowActivityWithSignOff",
+                "Name": "StartGuidedWorkEnterProduct",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "WarehousePickingEnterProductWorkflowActivity"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "BaldEagleWorkflowActivityWithSignOff",
+                "Name": "StartGuidedWorkEnterQuantity",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "WarehousePickingEnterQuantityWorkflowActivity"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "BaldEagleWorkflowActivityWithSignOff",
+                "Name": "StartGuidedWorkConfirmQuantity",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "WarehousePickingConfirmQuantityWorkflowActivity"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "BaldEagleWorkflowActivityWithSignOff",
+                "Name": "StartGuidedWorkOrderStatus",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "WarehousePickingOrderStatusWorkflowActivity"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "BaldEagleWorkflowActivityWithSignOff",
+                "Name": "StartGuidedWorkOrderSummary",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "WarehousePickingOrderSummaryWorkflowActivity"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "BaldEagleWorkflowActivityWithSignOff",
+                "Name": "StartGuidedWorkPickPerformance",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "WarehousePickingPerformanceWorkflowActivity"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "OperPrepCompositeWorkflowActivity",
+                "Name": "WarehousePickingReturnFromOperPrep",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "WarehousePickingProcessingReturnFromOperPrepWorkflowActivity"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "NoiseSampleCompositeWorkflowActivityWithReturnActivity",
+                "Name": "WarehousePickingReturnFromOperPrep",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "WarehousePickingProcessingReturnFromOperPrepWorkflowActivity"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "WarehousePickingProcessingWorkflowActivity",
+        "ControllerName": "WarehousePicking.WarehousePickingGuidedWorkController"
+    },
+    {
+        "Name": "WarehousePickingProcessingReturnFromOperPrepWorkflowActivity",
+        "ControllerName": "WarehousePicking.WarehousePickingGuidedWorkController",
+        "Params": {
+            "IsReturningFromOperPrep": true
+        }
+    },
+    {
+        "Name": "WarehousePickingSubcenterWorkflowActivity",
+        "ControllerName": "WarehousePicking.WarehousePickingSubcenterListController",
+        "ViewModelName": "Honeywell.Firebird.CoreLibrary.SelectionViewModel",
+        "ViewNames": [
+            "WarehousePicking.WarehousePickingSubcenterSelectView",
+            "Honeywell.Firebird.CoreLibrary.SelectionDialogueView"
+        ],
+        "Params": {
+            "PublishesAsOptionEvent": false,
+            "ShowIndex": true,
+            "RecognizeIndex": true,
+            "RecognizeNames": true,
+            "ProvideSelectionFeedback": true
+        }
+    },
+    {
+        "Name": "WarehousePickingEnterLabelPrinterWorkflowActivity",
+        "ControllerName": "WarehousePicking.WarehousePickingEnterLabelPrinterController",
+        "ViewModelName": "WarehousePicking.WarehousePickingEnterDigitsViewModel",
+        "ViewNames": [
+            "WarehousePicking.WarehousePickingEnterLabelPrinterView",
+            "Honeywell.Firebird.CoreLibrary.DigitEntryDialogueView",
+            "Honeywell.Firebird.CoreLibrary.ValidatingScannerView",
+            "Honeywell.Firebird.CoreLibrary.ValidatingBluetoothScannerView"
+        ],
+        "Params": {
+            "Keyboard": "Numeric",
+            "ExpectedMaximumLength": 3
+        }
+    },
+    {
+        "Name": "WarehousePickingReadyWorkflowActivity",
+        "ControllerName": "WarehousePicking.WarehousePickingDynamicReadyController",
+        "ViewModelName": "WarehousePicking.WarehousePickingDynamicReadyViewModel",
+        "ViewNames": [
+            "WarehousePicking.WarehousePickingDynamicReadyView",
+            "Honeywell.Firebird.CoreLibrary.ReadyDialogueView"
+        ],
+        "Params": {
+            "BackgroundImage": "DefaultImage.png"
+        }
+    },
+    {
+        "Name": "WarehousePickingLastPickWorkflowActivity",
+        "ControllerName": "WarehousePicking.WarehousePickingLastPickController",
+        "ViewModelName": "WarehousePicking.WarehousePickingLastPickViewModel",
+        "ViewNames": [
+            "WarehousePicking.WarehousePickingLastPickView",
+            "Honeywell.Firebird.CoreLibrary.ReadyDialogueView"
+        ]
+    },
+    {
+        "Name": "WarehousePickingAcknowledgeLocationWorkflowActivity",
+        "ControllerName": "WarehousePicking.WarehousePickingAcknowledgeLocationController",
+        "ViewModelName": "WarehousePicking.WarehousePickingAcknowledgeLocationViewModel",
+        "ViewNames": [
+            "WarehousePicking.WarehousePickingAcknowledgeLocationView",
+            "WarehousePicking.WarehousePickingSingleResponseDialogueView"
+        ],
+        "Params": {
+            "PossibleResponses": [
+                "VocabWord_SkipProduct",
+                "VocabWord_EndOrder",
+                "accept_entry_word",
+                "next_entry_word"
+            ],
+            "OverflowMenuItems": [
+                "VocabWord_Info",
+                "VocabWord_OrderStatus",
+                "VocabWord_NoMore",
+                "VocabWord_LastPick"
+            ],
+            "PublishesAsOptionEvent": true
+        }
+    },
+    {
+        "Name": "WarehousePickingConfirmNoMoreWorkflowActivity",
+        "ControllerName": "WarehousePicking.WarehousePickingBooleanConfirmationController",
+        "ViewModelName": "WarehousePicking.WarehousePickingBooleanConfirmationViewModel",
+        "ViewNames": [
+            "Honeywell.Firebird.CoreLibrary.BooleanConfirmationView",
+            "Honeywell.Firebird.CoreLibrary.BooleanConfirmationDialogueView"
+        ],
+        "Params": {
+            "BackgroundImage": "end_order_icon"
+        }
+    },
+    {
+        "Name": "WarehousePickingConfirmSkipProductWorkflowActivity",
+        "ControllerName": "WarehousePicking.WarehousePickingBooleanConfirmationController",
+        "ViewModelName": "WarehousePicking.WarehousePickingBooleanConfirmationViewModel",
+        "ViewNames": [
+            "Honeywell.Firebird.CoreLibrary.BooleanConfirmationView",
+            "Honeywell.Firebird.CoreLibrary.BooleanConfirmationDialogueView"
+        ],
+        "Params": {
+            "BackgroundImage": "skip_item_icon"
+        }
+    },
+    {
+        "Name": "WarehousePickingEnterProductWorkflowActivity",
+        "ControllerName": "WarehousePicking.WarehousePickingEnterProductController",
+        "ViewModelName": "WarehousePicking.WarehousePickingEnterDigitsViewModel",
+        "ViewNames": [
+            "WarehousePicking.WarehousePickingEnterProductView",
+            "Honeywell.Firebird.CoreLibrary.DigitEntryDialogueView",
+            "Honeywell.Firebird.CoreLibrary.ValidatingScannerView",
+            "Honeywell.Firebird.CoreLibrary.ValidatingBluetoothScannerView"
+        ],
+        "Params": {
+            "UserVocab": [
+                "VocabWord_SkipProduct"
+            ],
+            "OverflowMenuItems": [
+                "VocabWord_Info",
+                "VocabWord_OrderStatus",
+                "VocabWord_NoMore",
+                "VocabWord_LastPick"
+            ]
+        }
+    },
+    {
+        "Name": "WarehousePickingEnterQuantityWorkflowActivity",
+        "ControllerName": "WarehousePicking.WarehousePickingEnterQuantityController",
+        "ViewModelName": "WarehousePicking.WarehousePickingEnterDigitsViewModel",
+        "ViewNames": [
+            "WarehousePicking.WarehousePickingEnterQuantityView",
+            "Honeywell.Firebird.CoreLibrary.DigitEntryDialogueView"
+        ],
+        "Params": {
+            "ExpectedMaximumLength": 3
+        }
+    },
+    {
+        "Name": "WarehousePickingConfirmQuantityWorkflowActivity",
+        "ControllerName": "WarehousePicking.WarehousePickingConfirmQuantityController",
+        "ViewModelName": "WarehousePicking.WarehousePickingBooleanConfirmationViewModel",
+        "ViewNames": [
+            "WarehousePicking.WarehousePickingView",
+            "Honeywell.Firebird.CoreLibrary.BooleanConfirmationDialogueView"
+        ]
+    },
+    {
+        "Name": "WarehousePickingOrderStatusWorkflowActivity",
+        "ControllerName": "WarehousePicking.WarehousePickingOrderStatusController",
+        "ViewModelName": "WarehousePicking.WarehousePickingOrderStatusViewModel",
+        "ViewNames": [
+            "WarehousePicking.WarehousePickingOrderStatusView",
+            "Honeywell.Firebird.CoreLibrary.SingleResponseDialogueView"
+        ],
+        "Params": {
+            "PossibleResponses": [
+                "VocabWord_Continue"
+            ]
+        }
+    },
+    {
+        "Name": "WarehousePickingOrderSummaryWorkflowActivity",
+        "ControllerName": "WarehousePicking.WarehousePickingOrderSummaryController",
+        "ViewModelName": "WarehousePicking.WarehousePickingOrderSummaryViewModel",
+        "ViewNames": [
+            "WarehousePicking.WarehousePickingOrderSummaryView",
+            "Honeywell.Firebird.CoreLibrary.SingleResponseDialogueView"
+        ],
+        "Params": {
+            "DisableNavigationButton": true,
+            "DisableSwipeBackNavigation": true,
+            "PossibleResponses": [
+                "accept_entry_word",
+                "next_entry_word"
+            ]
+        }
+    },
+    {
+        "Name": "WarehousePickingPerformanceWorkflowActivity",
+        "ControllerName": "WarehousePicking.WarehousePickingPerformanceController",
+        "ViewModelName": "WarehousePicking.WarehousePickingPerformanceViewModel",
+        "ViewNames": [
+            "WarehousePicking.WarehousePickingPerformanceView",
+            "Honeywell.Firebird.CoreLibrary.SingleResponseDialogueView"
+        ],
+        "Params": {
+            "PossibleResponses": [
+                "accept_entry_word",
+                "next_entry_word"
+            ]
+        }
+    }
+]

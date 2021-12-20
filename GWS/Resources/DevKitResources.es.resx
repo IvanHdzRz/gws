@@ -1,0 +1,2342 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  <data name="VocabWord_Backup">
+    <value>atrás</value>
+    <comment>"back up" spoken command word.</comment>
+  </data>
+  
+  <data name="Error_WrongProduct">
+    <value>Artículo incorrecto</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="Error_WrongProductPrompt">
+    <value>Artículo incorrecto. Vuélvalo a intentar.</value>
+    <comment>Spoken prompt </comment>
+  </data>
+  <data name="Error_NotUnique">
+    <value>No es único, debe escanearse</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="Error_NotUniquePrompt">
+    <value>No es único, debe escanearse</value>
+    <comment>Spoken prompt </comment>
+  </data>
+  <data name="Error_StockRecordNotFound">
+    <value>Registro de existencias no encontrado: {0}</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="Error_NotFound">
+    <value>Artículo no encontrado</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="Error_NotFoundWithResponse">
+    <value>Artículo no encontrado: {0}</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="Error_UnknownLocation">
+    <value>Ubicación desconocida</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="Error_UnexpectedResponse">
+    <value>Respuesta no prevista: {0}</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="Error_WrongQuantity">
+    <value>Cantidad incorrecta</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="Error_NoLabelVersionFound">
+    <value>Versión de etiqueta no encontrada</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="Error_InvalidEntry_Short">
+    <value>Repetir</value>
+    <comment>Spoken prompt used when user speaks/enters too few digits.</comment>
+  </data>
+  
+  <data name="StockCodeLabel">
+    <value>código de existencias:</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SOHLabel">
+    <value>Existencias disponibles:</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="InTransitLabel">
+    <value>    en tránsito:</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="LastReceivedOnLabel">
+    <value>últ. reg. en</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="LocationLabel">
+    <value>ubicación:</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="CasesLabel">
+    <value>cajas:</value>
+    <comment>Application screen label for the number of cases.</comment>
+  </data>
+  <data name="OriginalLabel">
+    <value>original:</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SinglesLabel">
+    <value>individuales:</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SizeLabel">
+    <value>tamaño:</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="PriceLabel">
+    <value>precio:</value>
+    <comment>Application screen label preceding a numeric price.</comment>
+  </data>
+  <data name="CurrentProductLabel">
+    <value>Artículo actual:</value>
+    <comment>Application screen label for the current item.</comment>
+  </data>
+  <data name="NoImage">
+    <value>Sin imagen</value>
+    <comment>Label displayed if no image is found.</comment>
+  </data>
+  
+  <data name="EmbeddedDemo">
+    <value>Demostración insertada</value>
+    <comment>Dropdown list text item</comment>
+  </data>
+  <data name="Server">
+    <value>Servidor</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="LegacyServer">
+    <value>Servidor obsoleta</value>
+    <comment>A dropdown list item</comment>
+  </data>
+  
+  <data name="StockOnHandPrompt">
+    <value>disponibles, {0}</value>
+    <comment>Prompt spoken to inform operator of how much of an item is available.</comment>
+  </data>
+  <data name="InTransitPrompt">
+    <value>{0} en tránsito</value>
+    <comment>Spoken prompt stating the number in transit.</comment>
+  </data>
+  <data name="LastReceivedTodayPrompt">
+    <value>{0} unidades recibidas hoy</value>
+    <comment>Spoken prompt saying the number of units received today.</comment>
+  </data>
+  <data name="LastReceivedYesterdayPrompt">
+    <value>{0} unidades recibidas ayer</value>
+    <comment>Spoken prompt saying the number of units received yesterday.</comment>
+  </data>
+  <data name="LastReceivedDaysAgoPrompt">
+    <value>{0} unidades recibidas hace {1} días</value>
+    <comment>Spoken prompt saying the number of units received and the number of days before when they were received.</comment>
+  </data>
+  <data name="LastReceivedPrompt">
+    <value>{0} unidades recibidas en la última entrega</value>
+    <comment>Spoken prompt saying the number of units received.</comment>
+  </data>
+  <data name="PlanogramGroupIDPrompt">
+    <value>IDENTIFICADOR {0}</value>
+    <comment>Spoken prompt, stating the identification number (ID#).</comment>
+  </data>
+  <data name="RowPrompt">
+    <value>Fila {0}</value>
+    <comment>Spoken prompt, stating the row and number thereof.</comment>
+  </data>
+  <data name="CasesPrompt">
+    <value>{0} cajas</value>
+    <comment>Spoken prompt stating the number of cases.</comment>
+  </data>
+  <data name="SinglesPrompt">
+    <value>{0} individuales</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="LocationPrompt">
+    <value>Ubicación: {0}</value>
+    <comment>Spoken prompt stating the location. </comment>
+  </data>
+  
+  <data name="AllDoneWorkflowActivity_Header">
+    <value>Todo hecho</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="AllDoneWorkflowActivity_InitialPrompt">
+    <value>Todo hecho Para continuar diga Next (Siguiente).</value>
+    <comment>Spoken prompt at end of a work assignment.</comment>
+  </data>
+  
+  <data name="SettingsMenuWorkflowActivity_ApplicationSettings">
+    <value>Configuración de la aplicación</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_ApplicationSettingsTitle">
+    <value>CONFIGURACIÓN DE LA APLICACIÓN</value>
+    <comment>Application screen title</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_GeneralSettings">
+    <value>CONFIGURACIÓN GENERAL</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_AboutApplication">
+    <value>Acerca de la aplicación</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_Legal">
+    <value>Legal</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_PersonalSettings">
+    <value>CONFIGURACIÓN PERSONAL</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_VoiceAndAudioSettings">
+    <value>Configuración de audio \u0026 de voz</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_ConnectivitySettings">
+    <value>CONFIGURACIÓN DE CONECTIVIDAD</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_ServerSettings">
+    <value>Configuración del servidor</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_WorkflowSettingsLabel">
+    <value>MODO DE PLANTILLA</value>
+    <comment>"Workflow settings" label text.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_ServerSettingsLabel">
+    <value>CONFIGURACIÓN DEL SERVIDOR DE PLANTILLA</value>
+    <comment>"Server settings" label text.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_CurrentWorkflowFilter">
+    <value>Modo de plantilla actual</value>
+    <comment>"Current workflow filter" label text.</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_ChooseWorkflow">
+    <value>Seleccione flujo de trabajo</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_WorkflowSelection">
+    <value>Selección de flujo de trabajo</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_AcuitySettings">
+    <value>Configuración de Acuity</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_HardwareSettings">
+    <value>CONFIGURACIÓN DE HARDWARE</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_ScannerSettings">
+    <value>Configuración del escáner</value>
+    <comment>Application screen label</comment>
+  </data>
+  
+  <data name="ApplicationSettingsWorkflowActivity_LicensingStatusLabel">
+    <value>Con licencia del estado</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_LicensingStatus_CheckingStatus">
+    <value>Comprobación del estado con licencia...</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_LicensingStatus_ApplicationLicensed">
+    <value>Solicitud Licenciada</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_LicensingStatus_ApplicationNotLicensed">
+    <value>Uso no autorizado</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="HomeWorkflowActivity_LicensingStatus_ApplicationLicenseCheckFailed">
+    <value>Error al comprobar la licencia. Verifique los ajustes de la aplicación.</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_ApplicationSchemeSettingsLabel">
+    <value>Configuración de esquema de la aplicación</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_ChooseApplicationScheme">
+    <value>Elegir el esquema de aplicación</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_CurrentApplicationScheme">
+    <value>Esquema de aplicación actual</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_AutomaticReleaseLeaseLabel">
+    <value>Lanzar automáticamente el arrendamiento en la pantalla de inicio</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="FileBased">
+    <value>Archivo de base de</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_FileBasedConfigSettingsLabel">
+    <value>Ajustes de la configuración basada en archivos</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="FileBasedCustomerName">
+    <value>Nombre del cliente:</value>
+    <comment>Customer name label</comment>
+  </data>
+  <data name="FileBasedExpiration">
+    <value>Fecha de caducidad:</value>
+    <comment>Expiration date label</comment>
+  </data>
+  <data name="FileBasedDateFormat">
+    <value>DD-MM-AAAA</value>
+    <comment>Expiration date format label</comment>
+  </data>
+  <data name="FileBased_Info">
+    <value>Licencias se hace con un archivo en el sistema de archivos, plantillas obtenidas y guardadas en el sistema de archivos y registros se almacenan en el sistema de archivos.</value>
+    <comment>Text explaining when licensing and voice templates are done on the device.</comment>
+  </data>
+  <data name="ServerBased">
+    <value>Servidor</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ServerBased_Info">
+    <value>Licencias se hace con un archivo en el sistema de archivos, plantillas obtenidas y guardadas en el servidor de plantilla y registros se almacenan en el sistema de archivos.</value>
+    <comment>Application screen label, explaining licensing.</comment>
+  </data>
+  <data name="VoiceConsoleBased">
+    <value>VoiceConsole</value>
+    <comment>Text in a listing</comment>
+  </data>
+  <data name="VoiceConsoleBased_Info">
+    <value>Licencias se hace vía VoiceConsole, plantillas obtenidas y guardadas en VoiceConsole y registros están almacenados en el sistema de archivos, así como envió a VoiceConsole cuando está habilitado el registro.</value>
+    <comment>Message in the Application Settings menu.</comment>
+  </data>
+  <data name="MicroserviceBased">
+    <value>Microservicios</value>
+    <comment>Text in a listing</comment>
+  </data>
+  <data name="MicroserviceBased_Info">
+    <value>Concesión de licencias se realiza a través de microservicios plantillas se recupera y guardadas con microservicios y registros se almacenan en el sistema de archivos.</value>
+    <comment>Text explaining microservices.</comment>
+  </data>
+  <data name="NoLicenseBased">
+    <value>Sin licencia</value>
+    <comment>Text in a listing</comment>
+  </data>
+  <data name="NoLicenseBased_Info">
+    <value>No se utiliza ninguna licencia; es posible que algunas características avanzadas no estén disponibles. Las plantillas se recuperan del servidor al que se está conectando</value>
+    <comment>Text explaining no licensing.</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_ApplicationServerSettingsLabel">
+    <value>Configuración de servidor de aplicaciones</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_MicroservicesConfigSettingsLabel">
+    <value>Ajustes de la configuración de microservicios</value>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_Host">
+    <value>Host</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_Port">
+    <value>Puerto</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_ServerSecureConnections">
+    <value>Servidor de conexiones seguras</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_SiteId">
+    <value>Identificador del sitio</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_MicroservicesConfigCustomerNameLabel">
+    <value>Nombre del cliente:</value>
+  </data>
+  
+  <data name="AcuitySettingsWorkflowActivity_AcuitySettingsLabel">
+    <value>CONFIGURACIÓN DE ACUITY</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="AcuitySettingsWorkflowActivity_AcuityEnabled">
+    <value>Acuity está activado</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="AcuitySettingsWorkflowActivity_AcuitySecureConnections">
+    <value>Conexiones seguras con Acuity</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="AcuitySettingsWorkflowActivity_AcuityHost">
+    <value>Huésped de Acuity</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="AcuitySettingsWorkflowActivity_AcuityPort">
+    <value>Puerto de Acuity</value>
+    <comment>Application screen label</comment>
+  </data>
+  
+  <data name="AuthenticateVoicePINWorkflowActivity_Abortable_ExceptionHeaderMsg">
+    <value>Error</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="AuthenticateVoicePINWorkflowActivity_Abortable_FailedHeaderMsg">
+    <value>Error</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="AuthenticateVoicePINWorkflowActivity_Abortable_StartedHeaderMsg">
+    <value>Iniciando sesión...</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="AuthenticateVoicePINWorkflowActivity_Abortable_ExceptionSubHeaderMsg">
+    <value>Error al iniciar sesión en el servidor de minoristas conectado</value>
+    <comment>Application screen subheader</comment>
+  </data>
+  <data name="AuthenticateVoicePINWorkflowActivity_Abortable_FailedSubHeaderMsg">
+    <value>Error al iniciar sesión.</value>
+    <comment>Application screen subheader</comment>
+  </data>
+  <data name="AuthenticateVoicePINWorkflowActivity_Abortable_StartedSubHeaderMsg">
+    <value>un momento...</value>
+    <comment>Application screen subheader</comment>
+  </data>
+  
+  <data name="CancelButtonText">
+    <value>No más</value>
+    <comment>"Cancel" button text.</comment>
+  </data>
+  <data name="SkipButtonText">
+    <value>Omitir artículo</value>
+    <comment>"Skip" button text.</comment>
+  </data>
+  <data name="TrainingCarouselWorkflowActivity_SkipButtonText">
+    <value>Omitir</value>
+    <comment>Application button text.</comment>
+  </data>
+  <data name="VocabWord_GlobalAnchorWord">
+    <value>control</value>
+    <comment>The word spoken before speaking a global command word.</comment>
+  </data>
+  <data name="GlobalAnchorWord">
+    <value>Control</value>
+    <comment>The correct (i.e. non-phonetic) spelling of VocabWord_GlobalAnchorWord.</comment>
+  </data>
+  <data name="RetrieveWorkersWorkflowActivity_Abortable_ExceptionSubHeaderMsg">
+    <value>Error al recuperar empleados del servidor de minoristas conectado</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="DataServiceInitializerWorkflowActivity_Abortable_ExceptionSubHeaderMsg">
+    <value>Error al recuperar datos iniciales del servidor de minoristas conectado</value>
+    <comment>Application screen subheader</comment>
+  </data>
+  <data name="TemplateRetrievalErrorBody">
+    <value>Error al recuperar plantillas del servidor de minoristas conectado.</value>
+    <comment>Body for template retrieval error message.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_SiteSettingsLabel">
+    <value />
+    <comment>"Site Settings" label text.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_CheckingServerReachability">
+    <value>Comprobación de conexión al servidor de plantilla</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_ServerReachable">
+    <value>Conectado al servidor de plantilla</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_ServerUnreachable">
+    <value>No se puede contactar con el servidor de minoristas, compruebe y actualice la configuración del servidor.</value>
+    <comment>Message displayed if the configured server is unresponsive.</comment>
+  </data>
+  <data name="lower_mic">
+    <value>Baje el micrófono para continuar</value>
+    <comment>Spoken prompt instructing the user to lower their microphone to continue.</comment>
+  </data>
+  
+  
+  <data name="SubmitButtonText">
+    <value>Enviar</value>
+    <comment>"Submit" button text.</comment>
+  </data>
+  <data name="NextButtonText">
+    <value>Siguiente</value>
+    <comment>"Next" button text.</comment>
+  </data>
+  <data name="ReadyButtonText">
+    <value>Listo</value>
+    <comment>"Ready" button text.</comment>
+  </data>
+  <data name="PauseText">
+    <value>Pausa</value>
+    <comment>"Pause" button text.</comment>
+  </data>
+  <data name="ResumeText">
+    <value>Reanudar</value>
+    <comment>"Resume" button text.</comment>
+  </data>
+  <data name="StopText">
+    <value>Detener</value>
+    <comment>"Stop" button text.</comment>
+  </data>
+  <data name="UpdateSitesText">
+    <value>Actualizar lista de sitios</value>
+    <comment>"Update site list" button text.</comment>
+  </data>
+  <data name="NewWorkerText">
+    <value>Nuevo empleado</value>
+    <comment>"New worker" button text.</comment>
+  </data>
+  <data name="LoginButtonText">
+    <value>Inicio de sesión</value>
+    <comment>"Login" button text.</comment>
+  </data>
+  <data name="GotItButtonText">
+    <value>Entendido</value>
+    <comment>"Got it" button text.</comment>
+  </data>
+  <data name="RestartText">
+    <value>Reiniciar</value>
+    <comment>"Restart" button text.</comment>
+  </data>
+  <data name="CameraButtonText">
+    <value>Cámara</value>
+    <comment>"Camera" button text.</comment>
+  </data>
+  <data name="SelectButtonText">
+    <value>Seleccionar</value>
+    <comment>"Select" button text.</comment>
+  </data>
+  
+  <data name="SuccesfulScannerConnectionMsg">
+    <value>Se ha establecido con éxito la conexión con el escáner secundario</value>
+    <comment>Message displayed when a secondary scanner connects.</comment>
+  </data>
+  <data name="FailedScannerConnectionMsg">
+    <value>Error de conexión con el escáner secundario</value>
+    <comment>Message displayed when a secondary scanner connection fails.</comment>
+  </data>
+  <data name="SuccessfulScannerDisconnectionMsg">
+    <value>Escáner secundario desconectado</value>
+    <comment>Message displayed when a secondary scanner disconnects.</comment>
+  </data>
+  <data name="BackgroundActivity_Header_Default">
+    <value>Procesando...</value>
+    <comment>Default message displayed on the spinner during a background activity.</comment>
+  </data>
+  
+  <data name="Error_InvalidEntry">
+    <value>Longitud mínima: {0} cifras</value>
+    <comment>Spoken prompt used when user speaks/enters too few digits.</comment>
+  </data>
+  <data name="Error_Confirmation">
+    <value>Incorrecto{0}. Vuélvalo a intentar.</value>
+    <comment>Spoken prompt used when user speaks/enters an incorrect sequence of digits.</comment>
+  </data>
+   <data name="Error_Contacting_Host">
+    <value>Error al contactar con el host</value>
+    <comment>The message spoken/displayed when a request has errored or timed out.</comment>
+  </data>
+  <data name="Error_Invalid_Host">
+    <value>Host no válido</value>
+    <comment>The message spoken/displayed when an invalid host value is provided in the application settings.</comment>
+  </data>
+  
+  <data name="Abortable_AbortHeaderMsg">
+    <value>Cancelado</value>
+    <comment>Header text displayed when a user aborts the blocking operation.</comment>
+  </data>
+  <data name="Abortable_CompletedHeaderMsg">
+    <value>Completado</value>
+    <comment>Header text displayed when the blocking operation completes.</comment>
+  </data>
+  <data name="Abortable_FailedHeaderMsg">
+    <value>Error</value>
+    <comment>Header text displayed when the blocking operation completes, but fails.</comment>
+  </data>
+  <data name="Abortable_StartedHeaderMsg">
+    <value>Iniciado</value>
+    <comment>Header text displayed when the blocking operation is started.</comment>
+  </data>
+  <data name="Abortable_ExceptionHeaderMsg">
+    <value>Cancelado</value>
+    <comment>Header text displayed when the blocking operation fails to complete.</comment>
+  </data>
+  <data name="Abortable_AlternateBtnText">
+    <value>Aceptar</value>
+    <comment>The text displayed on the button when the blocking operation completes or fails, and autoforwarding is disabled.</comment>
+  </data>
+  <data name="Abortable_AbortBtnText">
+    <value>Cancelar</value>
+    <comment>Text displayed on button that cancels the blocking operation.</comment>
+  </data>
+  <data name="Abortable_AbortSubHeaderMsg">
+    <value>Cancelado</value>
+    <comment>Subheader text displayed below the header when the user aborts the blocking operation.</comment>
+  </data>
+  <data name="Abortable_CompletedSubHeaderMsg">
+    <value>Completado</value>
+    <comment>The text displayed below the header when the blocking operation completes.</comment>
+    <comment>Subheader text displayed below the header when the blocking operation completes.</comment>
+  </data>
+  <data name="Abortable_FailedSubHeaderMsg">
+    <value>Error</value>
+    <comment>Subheader text displayed below the header when the blocking operation completes, but fails.</comment>
+  </data>
+  <data name="Abortable_StartedSubHeaderMsg">
+    <value>Iniciado</value>
+    <comment>Subheader text displayed below the header text, when the blocking operation is started.</comment>
+  </data>
+  <data name="Abortable_ExceptionSubHeaderMsg">
+    <value>Cancelado</value>
+    <comment>Subheader text displayed below the header when the blocking operation fails to complete.</comment>
+  </data>
+  <data name="Abortable_NoNetworkSubHeaderMsg">
+    <value>Esperando a la red...</value>
+    <comment>Subheader text displayed below the header when the blocking network operation can't proceed due to a lack of network connectivity.</comment>
+  </data>
+  <data name="Abortable_NoServerSubHeaderMsg">
+    <value>Esperando al servidor...</value>
+    <comment>Subheader text displayed below the header when the blocking network operation can't proceed due to an unresponsive server.</comment>
+  </data>
+  <data name="Abortable_PersistedRequestsSubHeaderMsg">
+    <value>Esperando la carga de datos. {0} mensajes restantes...</value>
+    <comment>Subheader text displayed below the header when the blocking network operation can't proceed until previously enqueued operations are executed.</comment>
+  </data>
+  
+  <data name="SelectDialogue_PromptStart">
+    <value>Diga una de las opciones siguientes... </value>
+    <comment>Spoken prompt for the beginning of selection.</comment>
+  </data>
+  <data name="SelectDialogue_PromptOption">
+    <value>{0} es {1}... </value>
+    <comment>The number and name of a selection dialogue option.</comment>
+  </data>
+  <data name="SelectDialogue_PromptAdditionalWords">
+    <value>o diga... </value>
+    <comment>Beginning of a prompt that lists the additional commands available for a selection dialogue.</comment>
+  </data>
+  <data name="SelectDialogue_PromptAdditionalWordWOMore">
+    <value>o {0}</value>
+    <comment>Used at before the the last word of a list of additional commands available at a selection dialogue. Speaks the last command in the list. For example "or say,,, help, retrain, OR repeat"</comment>
+  </data>
+  <data name="SelectDialogue_PromptAdditionalWordWMore">
+    <value>{0}, </value>
+    <comment>Spoken prompt for each additional command available at a selection dialogue.</comment>
+  </data>
+  
+  <data name="HomeWorkflowActivity_LicensingStatus_CheckingStatus">
+    <value>Comprobación del estado con licencia...</value>
+    <comment>Text shown when the application is checking to make sure it is licensed.</comment>
+  </data>
+  <data name="HomeWorkflowActivity_LicensingStatus_ReleasingLease">
+    <value>Liberando licencia...</value>
+    <comment>Text shown if lease is being released.</comment>
+  </data>
+  <data name="HomeWorkflowActivity_LicensingStatus_ApplicationLicensed">
+    <value>Solicitud Licenciada</value>
+    <comment>Text shown if application is licensed.</comment>
+  </data>
+  <data name="HomeWorkflowActivity_LicensingStatus_ApplicationNotLicensed">
+    <value>Uso no autorizado</value>
+    <comment>Text shown if aplication license if invalid or absent.</comment>
+  </data>
+  <data name="HomeWorkflowActivity_ReleaseLeaseMenuItemText">
+    <value>Liberar licencia</value>
+  </data>
+  
+  <data name="MicroserviceLicensing_NoLease">
+    <value>La aplicación no tiene arrendamiento</value>
+  </data>
+  <data name="MicroserviceLicensing_ReleaseLeaseError">
+    <value>Error al contactar con el servidor de licencias</value>
+  </data>
+  <data name="MicroserviceLicensing_ErrorSeeLogs">
+    <value>Error al recuperar el arrendamiento, consulte el registro para ver los detalles</value>
+  </data>
+  <data name="MicroserviceLicensing_ErrorClockSync">
+    <value>El servidor de licencias/hora del dispositivo no coinciden</value>
+  </data>
+  <data name="MicroserviceLicensing_ErrorExpiredLease">
+    <value>La licencia ha caducado</value>
+  </data>
+  
+  <data name="SettingsText">
+    <value>Configuración</value>
+    <comment>Text to display on "Settings" flyout menu option.</comment>
+  </data>
+  <data name="LanguageText">
+    <value>Idioma</value>
+    <comment>Text to display on "Language" flyout menu option.</comment>
+  </data>
+  <data name="HomeText">
+    <value>Inicio</value>
+    <comment>Text to display on "Home" flyout menu option.</comment>
+  </data>
+  <data name="VoiceHelpFeatureName">
+    <value>Ayuda de voz</value>
+    <comment>Text to display on "Voice Help" flyout menu option.</comment>
+  </data>
+  
+  <data name="Header">
+    <value />
+    <comment>Header text, default value, does not have to be used.</comment>
+  </data>
+  <data name="SubHeader">
+    <value />
+    <comment>Subheader text.</comment>
+  </data>
+  <data name="InitialPrompt">
+    <value />
+    <comment>Prompt spoken on starting the WFA, default value, does not have to be used.</comment>
+  </data>
+  <data name="ButtonText">
+    <value />
+    <comment>Button text, default text, does not need translated.</comment>
+  </data>
+  <data name="Title">
+    <value />
+    <comment>Navigation bar text, does not need translated.</comment>
+  </data>
+  <data name="Content">
+    <value />
+    <comment>Content text, default text, does not need translated.</comment>
+  </data>
+  <data name="Body">
+    <value />
+    <comment>Body text, default text, does not need translated.</comment>
+  </data>
+  
+  <data name="StandbyWaitWorkflowActivity_NextButtonText">
+    <value>Continuar</value>
+    <comment>"Continue" button text.</comment>
+  </data>
+  <data name="StandbyWaitWorkflowActivity_Header">
+    <value>Diga {0} {1}" para reanudar</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="StandbyWaitWorkflowActivity_InitialPrompt">
+    <value>En espera.</value>
+    <comment>Prompt spoken when a workflow is suspended.</comment>
+  </data>
+  
+  <data name="BoomWaitWorkflowActivity_NextButtonText">
+    <value>Aceptar</value>
+    <comment>"OK" button text.</comment>
+  </data>
+  <data name="BoomWaitWorkflowActivity_Header">
+    <value>Modo de espera</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="BoomWaitWorkflowActivity_SubHeader">
+    <value>El micrófono está en silencio</value>
+    <comment>Application screen subheader</comment>
+  </data>
+  <data name="BoomWaitWorkflowActivity_Content">
+    <value>El micrófono está actualmente en silencio, baje el brazo del micrófono para reanudar</value>
+    <comment>Text notifying that user is muted and explaining how to unmute and resume application.</comment>
+  </data>
+  <data name="BoomWaitWorkflowActivity_InitialPrompt">
+    <value>En espera.</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  
+  <data name="UpdateTrainSelectWordWorkflowActivity_Header">
+    <value>Toque una palabra para actualizar la formación</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="UpdateTrainSelectWordWorkflowActivity_InitialPrompt">
+    <value>Seleccionar palabra</value>
+    <comment>Prompt spoken when operator decides to retrain a command word.</comment>
+  </data>
+  
+  <data name="LoginWorkflowActivity_InitialPrompt">
+    <value>Seleccionar un usuario</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="LoginWorkflowActivity_Header">
+    <value>Bienvenido</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="LoginWorkflowActivity_SubHeader">
+    <value>Introducción</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="LoginWorkflowActivity_Username">
+    <value>Nombre de usuario</value>
+    <comment>Label for username field.</comment>
+  </data>
+  <data name="LoginWorkflowActivity_SelectUser">
+    <value>Seleccionar usuario</value>
+    <comment>Label for user picker.</comment>
+  </data>
+  <data name="LoginWorkflowActivity_EnterPin">
+    <value>Introducir PIN</value>
+    <comment>Gray, default, placeholder text in entry box, for personal identification number (PIN) field.</comment>
+  </data>
+  <data name="LoginWorkflowActivity_SecurityPin">
+    <value>PIN de seguridad</value>
+    <comment>Label for personal identification number (PIN) field.</comment>
+  </data>
+  
+  <data name="EnterNewWorkerWorkflowActivity_Header">
+    <value>Introducir nombre</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="EnterNewWorkerWorkflowActivity_Placeholder">
+    <value>Teclear</value>
+    <comment>Gray, default, placeholder text in entry box, for name field.</comment>
+  </data>
+  <data name="EnterNewWorkerWorkflowActivity_EntryLabel">
+    <value>Nombre</value>
+    <comment>Label for name field.</comment>
+  </data>
+  <data name="EnterNewWorkerWorkflowActivity_ErrorInvalidCharacter">
+    <value>Entrada no válida: no puede contener: {0}</value>
+    <comment>Message displayed when an entered name contains invalid characters.</comment>
+  </data>
+  <data name="EnterNewWorkerWorkflowActivity_ErrorBlank">
+    <value>Entrada no válida: no puede estar en blanco</value>
+    <comment>Message displayed when the user tries to proceed without entering a name.</comment>
+  </data>
+  <data name="EnterNewWorkerWorkflowActivity_ErrorInvalidEntry">
+    <value>Entrada no válida</value>
+    <comment>Message displayed when an entered name is invalid for any reason without a specific error message.</comment>
+  </data>
+  
+  <data name="ManageTemplatesWorkflowActivity_ChooseWorkerText">
+    <value>Seleccionar un empleado</value>
+    <comment>Label for worker dropdown list.</comment>
+  </data>
+  <data name="ManageTemplatesWorkflowActivity_NoWorkersText">
+    <value>No hay empleados disponibles</value>
+    <comment>Message displayed if no workers exist.</comment>
+  </data>
+  <data name="ManageTemplatesWorkflowActivity_VoiceTemplateManagement">
+    <value>GESTIÓN DE PLANTILLAS DE VOZ</value>
+    <comment>"Voice template management" label.</comment>
+  </data>
+  <data name="ManageTemplatesWorkflowActivity_DeleteLocalTemplates">
+    <value>SUPRIMIR PLANTILLAS LOCALES</value>
+    <comment>"Delete local templates" label.</comment>
+  </data>
+  <data name="ManageTemplatesWorkflowActivity_DeleteWorkerText">
+    <value>Suprimir empleados</value>
+    <comment>"Delete worker" button text.</comment>
+  </data>
+  <data name="ManageTemplatesWorkflowActivity_DeleteTemplatesText">
+    <value>Suprimir</value>
+    <comment>"Delete template" button text.</comment>
+  </data>
+  
+  <data name="ConfirmDeleteWorkerWorkflowActivity_Header">
+    <value>¿Desea suprimir este empleado?</value>
+    <comment>Application screen header</comment>
+  </data>
+  
+  <data name="AboutApplicationWorkflowActivity_AboutApplicationLabel">
+    <value>ACERCA DE LA APLICACIÓN</value>
+    <comment>"About Application" label text.</comment>
+  </data>
+  <data name="AboutApplicationWorkflowActivity_AboutSdkLabel">
+    <value>ACERCA DE SDK</value>
+    <comment>"About SDK" label text.</comment>
+  </data>
+  <data name="AboutApplicationWorkflowActivity_BranchLabel">
+    <value>Sucursal:</value>
+    <comment>Git branch label text.</comment>
+  </data>
+  <data name="AboutApplicationWorkflowActivity_BuildDateLabel">
+    <value>Fecha de construcción:</value>
+    <comment>Build date label text.</comment>
+  </data>
+  <data name="AboutApplicationWorkflowActivity_BuiltByLabel">
+    <value>Construido por:</value>
+    <comment>"Built by" label text.</comment>
+  </data>
+  <data name="AboutApplicationWorkflowActivity_DeviceIdentifierLabel">
+    <value>Identificador del dispositivo:</value>
+    <comment>"Device Identifier" label text.</comment>
+  </data>
+  <data name="AboutApplicationWorkflowActivity_ConfigurationLabel">
+    <value>Configuración:</value>
+    <comment>"Configuration" label text.</comment>
+  </data>
+  <data name="AboutApplicationWorkflowActivity_VersionLabel">
+    <value>Versión:</value>
+    <comment>"Version" label text.</comment>
+  </data>
+  <data name="AboutApplicationWorkflowActivity_AssemblyInfoLabel">
+    <value>INFORMACIÓN DE MONTAJE</value>
+    <comment>"Assembly Information" label text.</comment>
+  </data>
+  
+  <data name="LegalWorkflowActivity_PatentInfoLabel">
+    <value>INFORMACIÓN SOBRE PATENTES</value>
+    <comment>"Patent information" label text.</comment>
+  </data>
+  <data name="LegalWorkflowActivity_PatentInfoText">
+    <value>Para obtener más información sobre patentes, consulte www.hsmpats.com</value>
+    <comment>Instructions on finding patent information.</comment>
+  </data>
+  
+  <data name="VoiceAndAudioSettingsWorkflowActivity_TTSSettingsLabel">
+    <value>CONFIGURACIÓN DE TEXTO A VOZ</value>
+    <comment>"Text to speech settings" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_VoiceRecognitionSettingsLabel">
+    <value>CONFIGURACIÓN DE RECONOCIMIENTO DE VOZ</value>
+    <comment>"Voice recognition settings" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_VoiceRecognition">
+    <value>Reconocimiento de voz</value>
+    <comment>"Voice recognition" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_PickUpAndGo">
+    <value>Recoger e irse</value>
+    <comment>"Pick Up and Go" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_PlayExample">
+    <value>Reproducir ejemplo</value>
+    <comment>"Play Example" button text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_TTSSpeedExample">
+    <value>Este es un ejemplo de la configuración de velocidad actual de texto a voz</value>
+    <comment>The prompt to speak when the "Play Example" button is pressed.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_TTSSpeedSetting">
+    <value>Configuración de velocidad de texto a voz:</value>
+    <comment>"Text to Speech Speed Setting" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_VoiceTemplateSettings">
+    <value>CONFIGURACIÓN DE PLANTILLAS DE VOZ</value>
+    <comment>"Voice Template Settings" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_DeleteLocalTemplates">
+    <value>Suprimir plantillas locales</value>
+    <comment>"Delete Local Templates" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_ManageTemplates">
+    <value>Gestionar plantillas</value>
+    <comment>"Manage Local Templates" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_MicrophoneSettingsLabel">
+    <value>CONFIGURACIÓN DEL MICRÓFONO</value>
+    <comment>"Microphone Settings" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_PauseOnMicRaise">
+    <value>Pausa al elevar el micrófono</value>
+    <comment>"Pause on mic raise" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_PauseOnMicRaiseEnabled">
+    <value>Poner en espera cuando se eleva el micrófono</value>
+    <comment>Text displayed when "pause on mic raise" is set to enabled.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_PauseOnMicRaiseDisabled">
+    <value>Poner el micrófono en silencio solo cuando esté elevado</value>
+    <comment>Text displayed when "pause on mic raise" is set to disabled.</comment>
+  </data>
+  
+  <data name="ScannerSettingsWorkflowActivity_UseZebraDataWedge">
+    <value>Usar DataWedge (el EDMK utilizado está desactivado; es necesario reiniciar la aplicación si se cambia)</value>
+    <comment>"Use Data Wedge" label text.</comment>
+  </data>
+  <data name="ScannerSettingsWorkflowActivity_ZebraScannerSettingsLabel">
+    <value>AJUSTES DEL ESCÁNER ZEBRA</value>
+    <comment>"Zebra Scanner Settings" label text.</comment>
+  </data>
+  <data name="ScannerSettingsWorkflowActivity_ScannerSymbologySettingsLabel">
+    <value>CONFIGURACIÓN DE SIMBOLOGÍA DEL ESCÁNER</value>
+    <comment>"Scanner Symbology Settings" label text.</comment>
+  </data>
+  <data name="ScannerSettingsWorkflowActivity_ScannerSymbologySettings">
+    <value>Ajustes de la simbología del escáner de a bordo</value>
+    <comment>"Onboard Scanner Symbology Settings" label text.</comment>
+  </data>
+  <data name="ScannerSettingsWorkflowActivity_EditSymbologySettings">
+    <value>Editar configuración de simbología</value>
+    <comment>"Edit Symbology Settings" label text.</comment>
+  </data>
+  <data name="ScannerSettingsWorkflowActivity_SymbologyMenuName">
+    <value>Configuración de simbología</value>
+    <comment>The name to display for the settings.</comment>
+  </data>
+  <data name="ScannerSettingsWorkflowActivity_SecondaryScannerSettingsLabel">
+    <value>CONFIGURACIÓN DE ESCÁNER SECUNDARIO</value>
+    <comment>"Secondary Scanner Settings" label text.</comment>
+  </data>
+  <data name="ScannerSettingsWorkflowActivity_CurrentSecondaryScanner">
+    <value>Escáner secundario actual</value>
+    <comment>"Current Secondary Scanner" label text.</comment>
+  </data>
+  <data name="ScannerSettingsWorkflowActivity_ChooseSecondaryScanner">
+    <value>Seleccionar escáner secundario</value>
+    <comment>Label for secondary scanner picker.</comment>
+  </data>
+  <data name="ScannerSettingsWorkflowActivity_NoSecondaryScanner">
+    <value>-- Sin escáner secundario --</value>
+    <comment>Default item text for secondary scanner picker.</comment>
+  </data>
+  
+  
+  <data name="RetrieveWorkersWorkflowActivity_Abortable_ExceptionHeaderMsg">
+    <value>Error</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="RetrieveWorkersWorkflowActivity_Abortable_FailedHeaderMsg">
+    <value>No hay empleados disponibles</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="RetrieveWorkersWorkflowActivity_Abortable_StartedHeaderMsg">
+    <value>Recuperando empleados...</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="RetrieveWorkersWorkflowActivity_Abortable_FailedSubHeaderMsg">
+    <value>No hay empleados disponibles</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="RetrieveWorkersWorkflowActivity_Abortable_StartedSubHeaderMsg">
+    <value>Un momento...</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  
+  <data name="LicenseInitializerWorkflowActivity_Abortable_StartedHeaderMsg">
+    <value>Comprobación de licencia...</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="LicenseInitializerWorkflowActivity_Abortable_StartedSubHeaderMsg">
+    <value>Un momento...</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="LicenseInitializerWorkflowActivity_Abortable_ExceptionHeaderMsg">
+    <value>Licencia de comprobación de error</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="LicenseInitializerWorkflowActivity_Abortable_FailedHeaderMsg">
+    <value>Uso no autorizado</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="LicenseInitializerWorkflowActivity_Abortable_FailedSubHeaderMsg">
+    <value>Compruebe configuración de licencias</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="LicenseInitializerWorkflowActivity_Abortable_CompletedHeaderMsg">
+    <value>Solicitud Licenciada</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="LicenseInitializerWorkflowActivity_Abortable_CompletedSubHeaderMsg">
+    <value>Verificación de licencia completa</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  
+  <data name="DataServiceInitializerWorkflowActivity_Abortable_CompletedHeaderMsg">
+    <value>Completar</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="DataServiceInitializerWorkflowActivity_Abortable_StartedHeaderMsg">
+    <value>Recuperando datos iniciales...</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="DataServiceInitializerWorkflowActivity_Abortable_ExceptionHeaderMsg">
+    <value>Error</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="DataServiceInitializerWorkflowActivity_Abortable_CompletedSubHeaderMsg">
+    <value>Recuperación de datos completa</value>
+    <comment>Application screen subheader</comment>
+  </data>
+  <data name="DataServiceInitializerWorkflowActivity_Abortable_StartedSubHeaderMsg">
+    <value>un momento...</value>
+    <comment>Application screen subheader</comment>
+  </data>
+  
+  <data name="RequestPermissionsWorkflowActivity_ButtonText">
+    <value>Conceder permisos</value>
+    <comment>Application button text.</comment>
+  </data>
+  <data name="Text_OK">
+    <value>Aceptar</value>
+    <comment>Confirmation button text for modal alerts.</comment>
+  </data>
+  <data name="Text_PermissionsRequired">
+    <value>Se requieren permisos</value>
+    <comment>Title text of permissions request alert.</comment>
+  </data>
+  <data name="Text_PermissionsRationale">
+    <value>Se requiere acceso a micrófono y almacenamiento para utilizar esta aplicación.</value>
+    <comment>Message explaining the need for required permissions for the application to function.</comment>
+  </data>
+  <data name="Text_DeniedPermissionsRationale">
+    <value>Conceda los permisos solicitados para utilizar esta aplicación.</value>
+    <comment>Message text requesting that the user grant required permissions.</comment>
+  </data>
+  
+  <data name="Text_DataLossAlertTitle">
+    <value>Pérdida de datos detectada</value>
+    <comment>Title text for data loss alert.</comment>
+  </data>
+  <data name="Text_DataLossAlertBody">
+    <value>Se ha detectado una pérdida de datos Verifique la configuración de red.</value>
+    <comment>Body text for data loss alert.</comment>
+  </data>
+  
+  <data name="VoiceHelpWorkflowActivity_Header">
+    <value>Comandos de ayuda de voz</value>
+    <comment>Application screen header.</comment>
+  </data>
+  <data name="VoiceHelpWorkflowActivity_SubHeader">
+    <value>Cosas que me puede preguntar:</value>
+    <comment>Application screen subheader.</comment>
+  </data>
+  
+  <data name="BluetoothScannerConnectionSucceeded">
+    <value>Se ha conectado con éxito con el escáner Bluetooth</value>
+    <comment>Text displayed when a Bluetooth scanner successfully connects.</comment>
+  </data>
+  <data name="BluetoothScannerConnectionFailed">
+    <value>Error en la conexión del escáner Bluetooth</value>
+    <comment>Text displayed when a Bluetooth scanner connection fails.</comment>
+  </data>
+  <data name="BluetoothScannerDisconnected">
+    <value>Escáner Bluetooth desconectado</value>
+    <comment>Text displayed when a Bluetooth scanner disconnects.</comment>
+  </data>
+  
+  <data name="PleaseWait">
+    <value>Por favor, espere...</value>
+    <comment>"Please wait" text for template retrieval screen.</comment>
+  </data>
+  <data name="RetrievingTemplates">
+    <value>Recuperando plantillas...</value>
+    <comment>"Retrieving Templates" text.</comment>
+  </data>
+  <data name="TemplateRetrievalErrorTitle">
+    <value>Error</value>
+    <comment>Title for template retrieval error message.</comment>
+  </data>
+  <data name="NoiseSampleInfoText">
+    <value>Debe completarse antes de continuar</value>
+    <comment>Message indicating that a noise sample must be completed before continuing.</comment>
+  </data>
+  <data name="RetrievingData">
+    <value>Recuperar datos del servidor...</value>
+    <comment>Default "Please wait" text for server communications.</comment>
+  </data>
+  
+  <data name="SignOffConfirmationWorkflowActivity_Header">
+    <value>Diga "Yes" (Sí) o "No" (No) para continuar</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="SignOffConfirmationWorkflowActivity_InitialPrompt">
+    <value>Cierre la sesión. ¿Está seguro?</value>
+    <comment>Prompt spoken to confirm sign off.</comment>
+  </data>
+  
+  <data name="GuidedWork_SignIn_Header">
+    <value>Bienvenido</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="GuidedWork_SignIn_UserId_Label">
+    <value>Identidad de usuario</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="GuidedWork_SignIn_Password_Label">
+    <value>Contraseña</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="GuidedWork_SignIn_Login_Button_Label">
+    <value>Iniciar sesión</value>
+    <comment>Application button text.</comment>
+  </data>
+  <data name="GuidedWork_CancelButtonText">
+    <value>Cancelar</value>
+    <comment>Application button text.</comment>
+  </data>
+  <data name="GuidedWork_CancelableProgressDialogCancelText">
+    <value>Toque para cancelar.</value>
+    <comment>Cancel text for cancelable progress dialogs.</comment>
+  </data>
+  <data name="GuidedWork_NoMoreButtonText">
+    <value>Nada más</value>
+  </data>
+  
+  <data name="SubmitProblemReportWorkflowActivity_CreatingReportHeader">
+    <value>Creación de informe...</value>
+    <comment>Header displayed during all steps of report generation.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_GatheringInfoSubHeader">
+    <value>Información de reunión...</value>
+    <comment>Subheader displayed while gathering info for problem report.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_CompressingFilesSubHeader">
+    <value>Compresión de archivos...</value>
+    <comment>Subheader displayed while zipping the problem report.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_CompressionCanceledSubHeader">
+    <value>Compresión de la cancela.</value>
+    <comment>Subheader displayed if Cancel button is pressed while zipping the problem report.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_CompressionFailedSubHeader">
+    <value>Error de compresión.</value>
+    <comment>Subheader displayed if compression fails.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_UploadingReportHeader">
+    <value>Cargar el informe...</value>
+    <comment>Header displayed while uploading problem report zip.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_UploadingReportSubHeader">
+    <value>Informe subir al servidor...</value>
+    <comment>Subheader displayed while uploading problem report zip.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_ReportUploadedSubHeader">
+    <value>Informe subido al servidor.</value>
+    <comment>Subheader displayed when problem report is finished uploading.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_ReportSavedSubHeader">
+    <value>Informe guardado en {0}</value>
+    <comment>Subheader displayed when problem report is saved locally (embedded mode).</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_ReportSavedDueToErrorSubHeader">
+    <value>Informe de problema cargar error. Informe guardado localmente en {0}</value>
+    <comment>Subheader displayed when problem report fails to upload.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_SavingReportSubHeader">
+    <value>Informe de ahorro...</value>
+    <comment>Subheader displayed when user cancels report upload.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_ContinueButtonText">
+    <value>Continuar</value>
+    <comment>Text displayed when operation is finished or canceled.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_CancelButtonText">
+    <value>Cancelar</value>
+    <comment>Application button text displayed when operation can be canceled.</comment>
+  </data>
+  <data name="MenuItemDialogue_NoMoreNotAllowed">
+    <value>no se ha seleccionado ningún artículo, "nada más" no está permitido en este caso</value>
+  </data>
+  <data name="MenuItemView_NoItemsSelected">
+    <value>No se ha seleccionado ningún artículo</value>
+  </data>
+  <data name="MenuItemView_SearchPlaceholder">
+    <value>Buscar texto</value>
+  </data>
+  <data name="MenuItemDialogue_GenericTryAgain">
+    <value>{0}, inténtelo otra vez</value>
+  </data>
+  <data name="MenuItemDialogue_InvalidIndex">
+    <value>índice desconocido {0}, inténtelo otra vez</value>
+  </data>
+  <data name="MenuItemDialogue_ListItemDeselected">
+    <value>eliminado {0}</value>
+  </data>
+  <data name="MenuItemDialogue_ListItemSelected">
+    <value>{0}</value>
+  </data>
+  <data name="MenuItemDialogue_ConfirmMultiple_Display">
+    <value>Ha seleccionado: {0} ¿Es correcto?</value>
+  </data>
+  <data name="MenuItemDialogue_ConfirmMultiple_Prompt">
+    <value>Ha seleccionado: {0} y {1} ¿Es correcto?</value>
+  </data>
+  <data name="MenuItemDialogue_SelectionTypeBoth_MainHelpNoKeyWord">
+    <value>diga el valor de la clave, diga el artículo o diga {0} para que se le lea la lista,</value>
+  </data>
+  <data name="MenuItemDialogue_SelectionTypeBoth_MainHelpWithKeyWord">
+    <value>diga {0} seguido del valor de la clave, diga el artículo o diga {1} para que se le lea la lista,</value>
+  </data>
+  <data name="MenuItemDialogue_SelectionTypeIndexOnly_MainHelpNoKeyWord">
+    <value>diga el valor de la clave o diga el artículo,</value>
+  </data>
+  <data name="MenuItemDialogue_SelectionTypeIndexOnly_MainHelpWithKeyWord">
+    <value>diga {0} seguido del valor de la clave o diga el artículo,</value>
+  </data>
+  <data name="PhotoCaptureDialogue_NoMoreNotAllowed">
+    <value>Debe tomar al menos una foto</value>
+  </data>
+  <data name="PhotoCaptureDialogue_PhotoInProgress">
+    <value>Debe cerrar la cámara o la galería</value>
+  </data>
+  <data name="PhotoCapture_CameraNotAvailableTitle">
+    <value>Ninguna cámara</value>
+  </data>
+  <data name="PhotoCapture_CameraNotAvailableMessage">
+    <value>:( No hay ninguna cámara disponible.</value>
+  </data>
+  <data name="PhotoCapture_PhotosNotSupportedTitle">
+    <value>No se admiten fotos</value>
+  </data>
+  <data name="PhotoCapture_PhotosNotSupportedMessage">
+    <value>:( No se ha concedido permiso para fotos.</value>
+  </data>
+  <data name="PhotoCapture_PermissionDeniedTitle">
+    <value>Permisos denegados</value>
+  </data>
+  <data name="PhotoCapture_CameraPermissionDeniedMessage">
+    <value>No se pueden tomar fotos.</value>
+  </data>
+  <data name="PhotoCapture_PhotosPermissionDeniedMessage">
+    <value>No se puede acceder a las fotos</value>
+  </data>
+  <data name="PhotoCapture_ExceptionTitle">
+    <value>Error</value>
+  </data>
+  <data name="PhotoCapture_CameraExceptionMessage">
+    <value>No se puede abrir la cámara</value>
+  </data>
+  <data name="PhotoCapture_PhotosExceptionMessage">
+    <value>No se puede abrir la galería de fotos</value>
+  </data>
+  
+  <data name="EntryPlaceholder_VoiceDisabled" xml:space="preserve">
+    <value>Escanear/teclear</value></data>
+  <data name="EntryPlaceholder_VoiceEnabled" xml:space="preserve">
+    <value>Decir/escanear/teclear</value></data>
+  
+  <data name="AudioCapture_StartRecording" xml:space="preserve">
+    <value>Iniciar la grabación</value>
+  </data>
+  <data name="AudioCapture_StopRecording" xml:space="preserve">
+    <value>Detener la grabación</value>
+  </data>
+  <data name="AudioCapture_AnotherNote_Prompt" xml:space="preserve">
+    <value>Otra nota</value>
+  </data>
+  <data name="AudioCapture_AnotherNote_Vocab" xml:space="preserve">
+    <value>otra nota</value>
+  </data>
+  
+  <data name="VoiceNotes_Voice">
+    <value>Voz</value>
+    <comment>Used as the header for the voice recording tab</comment>
+  </data>
+  <data name="VoiceNotes_Text">
+    <value>Texto</value>
+    <comment>Used as the header for the text entry tab</comment>
+  </data>
+  
+  <data name="RecordMemo_Prompt" xml:space="preserve">
+    <value>diga "listo" para iniciar la grabación</value>
+  </data>
+  <data name="ReviewMemos_Prompt" xml:space="preserve">
+    <value>diga "listo" para reproducir la memo actual, "siguiente" para reproducir la siguiente memo o "nada más" cuando haya terminado de revisar memos</value>
+  </data>
+  <data name="RecordMemo_RecogDisabled_Header" xml:space="preserve">
+    <value>Las memos no pueden iniciar la grabación con el reconocimiento de voz desactivado</value>
+    <comment>The header text shown on-screen when trying to record a memo with voice recognition disabled.</comment>
+  </data>
+  <data name="RecordMemo_RecogDisabled_Prompt" xml:space="preserve">
+    <value>las memos no pueden iniciar la grabación con el reconocimiento de voz desactivado</value>
+    <comment>The prompt to speak when trying to record a memo with voice recognition disabled.</comment>
+  </data>
+  <data name="ReviewNotes_Prompt" xml:space="preserve">
+    <value>diga "listo" para reproducir la nota actual, "siguiente" para reproducir la nota siguiente o "nada más" si ha terminado de revisar las notas</value>
+  </data>
+  <data name="Transcription_Placeholder" xml:space="preserve">
+    <value>Transcripción</value>
+    <comment>Placeholder for the transcription editor when there is no transcription present.</comment>
+  </data>  
+  <data name="VocabWord_OrderStatus">
+    <value>estado del pedido</value>
+    <comment>System Vocabulary Word to request status of an order.</comment>
+  </data>
+  <data name="SignOnText">
+    <value>Iniciar sesión</value>
+    <comment>Text to display in the flyout menu's current user section when no user is signed on, indicating that touching will take the user to a screen to sign on.</comment>
+  </data>
+  <data name="SignOnInitials">
+    <value>?</value>
+    <comment>Text to display in a small user initials circle when no user is signed on.</comment>
+  </data>
+  <data name="SignOffText">
+    <value>Cerrar sesión</value>
+    <comment>Text to display in the flyout menu's user action section when a user is signed on, indicating that touching will take the user to a screen to sign off.</comment>
+  </data>
+  <data name="UpdateTrainSelectWordWorkflowActivity_VocabSet">
+    <value>Seleccionar conjunto de vocabulario</value>
+    <comment>Picker label</comment>
+  </data>
+  <data name="UpdateTrainSelectWordWorkflowActivity_SelectVocabSet">
+    <value>Seleccionar conjunto de vocabulario</value>
+    <comment>Picker menu label</comment>
+  </data>
+  <data name="UpdateTrainSelectWordWorkflowActivity_VocabSet_Current">
+    <value>Actual</value>
+    <comment>Drop down option</comment>
+  </data>
+  <data name="UpdateTrainSelectWordWorkflowActivity_VocabSet_All">
+    <value>Todos</value>
+    <comment>Drop down option</comment>
+  </data>
+  <data name="UpdateTrainSelectWordWorkflowActivity_VocabSet_Untrained">
+    <value>Sin practicar</value>
+    <comment>Drop down option</comment>
+  </data>
+  <data name="WorkflowListWorkflowActivity_Header">
+    <value>Diga un número o toque un flujo de trabajo para seleccionarlo</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="WorkflowListWorkflowActivity_InitialPrompt">
+    <value>Seleccionar un flujo de trabajo</value>
+    <comment>Spoken prompt after intial login.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_ToastDialogs">
+    <value>Transcribe indicaciones dichas por la aplicación en la pantalla</value>
+    <comment>Title for the setting which adds closed captioning style captions to each screen.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_DisableToastDialogs">
+    <value>El subtitulado de voz en pantalla está desactivado</value>
+    <comment>This tells the application NOT TO draw captions on screen.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_EnableToastDialogs">
+    <value>El subtitulado de voz en pantalla está activado.</value>
+    <comment>This tells the application to draw captions on screen.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_ChooseWorkflowFilter">
+    <value>Seleccionar filtro de flujo de trabajo</value>
+    <comment>"Choose Workflow Filter" label text.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_EmbeddedDemo">
+    <value>Demostración insertada</value>
+    <comment>"Embedded Demo" text for workflow filter picker.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_Server">
+    <value>Servidor</value>
+    <comment>"Server" text for workflow filter picker.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_ServerSecureConnections">
+    <value>Conexiones seguras del servidor</value>
+    <comment>Label text for HTTPS checkbox.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_ServerHost">
+    <value>Host del servidor</value>
+    <comment>Label for server host field.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_ServerPort">
+    <value>Puerto del servidor</value>
+    <comment>Label for server port field.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_SiteLabel">
+    <value>Sitio</value>
+    <comment>Label for site settings section.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_SubmitButtonText">
+    <value>Hecho</value>
+    <comment>Submit button text.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_SitePickerTitle">
+    <value>Elegir sitio</value>
+    <comment>Label for site picker.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_LoadingSites">
+    <value>Cargando sitios...</value>
+    <comment>Message displayed while retrieving site list from server.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_SitesUnavailable">
+    <value>Los sitios no están disponibles actualmente.</value>
+    <comment>Message displayed if site list is unavailable and cannot be retrieved.</comment>
+  </data>
+  <data name="NoiseSampleDisableVoiceRecognitionAlertTitleText">
+    <value>¿Quiere desactivar el reconocimiento de voz?</value>
+    <comment>A summary of a question to the user whether or not voice recognition should be disabled.</comment>
+  </data>
+  <data name="NoiseSampleDisableVoiceRecognitionAlertMessageText">
+    <value>Si continúa, la aplicación desactivará el reconocimiento de voz hasta que lo active en el menú de configuración de voz y audio.</value>
+    <comment>Details of a question to the user whether or not voice recognition should be disabled.</comment>
+  </data>
+  <data name="NoiseSampleDisableVoiceRecognitionAlertAcceptText">
+    <value>Continuar</value>
+    <comment>"Continue" button text that disables voice recognition.</comment>
+  </data>
+  <data name="NoiseSampleDisableVoiceRecognitionAlertCancelText">
+    <value>Cancelar</value>
+    <comment>"Cancel" button text that returns to the noise sample feature.</comment>
+  </data>
+  <data name="SignOffFromFlyoutConfirmationWorkflowActivity_Header">
+    <value>Diga "Yes" (Sí) o "No" (No) para continuar</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="SignOffFromFlyoutConfirmationWorkflowActivity_InitialPrompt">
+    <value>Cierre la sesión. ¿Está seguro?</value>
+    <comment>Prompt spoken to confirm sign off.</comment>
+  </data>
+  <data name="PercentComplete">
+    <value>{0}% completado</value>
+    <comment>The generic text used to label the current completion percentage of a process.</comment>
+  </data>
+  <data name="VoiceTrainingProgressFormat">
+    <value>{1} de {2} palabras</value>
+    <comment>Label text shown on-screen during voice training, first number {1} displays the number of words already trained.   Second number {2} displays the total that need trained.</comment>
+  </data>
+  <data name="TitleMessage_Enrollment">
+    <value>FORMACIÓN DE VOZ</value>
+    <comment>Title text displayed during Voice Training / Enrollment Training.</comment>
+  </data>
+  <data name="TitleMessage_NoiseSample">
+    <value>MUESTRA DE SONIDO DE FONDO</value>
+    <comment>Title Text displayed during a background noise sample.</comment>
+  </data>
+  <data name="VoiceTraining_BackupTemplatesUsed_Warning">
+    <value>Advertencia:\nSe ha producido un error al recuperar las plantillas de voz.\nEs posible que este sea el motivo por el que se le indica que entrene.</value>
+    <comment>The warning to display to the user when backup templates are being used due to a connection problem with the server.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage1Header">
+    <value>¡Bienvenido!</value>
+    <comment>The header text shown on-screen prior to voice training during the first page of instructions.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage1Body">
+    <value>Antes de comenzar, necesita realizar una formación de voz, que tarda aproximadamente {0} en completarse.</value>
+    <comment>The body text shown on-screen before voice training on the first page of instructions.   Displayed when there is more than a minute of estimated training time.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage1Body_LessThanAMinute">
+    <value>Antes de comenzar, necesita realizar una formación de voz, que debe tardar menos de un minuto en completarse.</value>
+    <comment>The body text shown on-screen before voice training on the first page of instructions.   Displayed when there is less than one minute of estimated training time.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage1Body_AboutAMinute">
+    <value>Antes de comenzar, necesita hacer una formación de voz, que tarda aproximadamente un minuto en completarse.</value>
+    <comment>The body text shown on-screen before voice training on the first page of instructions.  Displayed when there is about one minute of estimated training time.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage2Header">
+    <value>Repetición</value>
+    <comment>The header text shown on-screen prior to voice training during the second page of instructions.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage2Body">
+    <value>Durante la formación, tendrá que decir una serie de palabras que pueden repetirse o cambiar de orden.</value>
+    <comment>The body text shown on-screen prior to voice training during the second page of instructions.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage3Header">
+    <value>Formación de voz</value>
+    <comment>The header text shown on-screen prior to voice training during the third page of instructions.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage3Body">
+    <value>La formación de voz funciona mejor en el entorno donde trabaja.</value>
+    <comment>The body text shown on-screen prior to voice training during the third page of instructions.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage4Header">
+    <value>Muestra de sonido de fondo</value>
+    <comment>The header text shown on-screen prior to voice training during the fourth page of instructions.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage4Body">
+    <value>El sistema necesita tomar una muestra del sonido de fondo para poder reconocer su voz en su entorno.</value>
+    <comment>The body text shown on-screen prior to voice training during the fourth page of instructions.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsFinalPageFooter">
+    <value>Toque Listo para empezar.</value>
+    <comment>The footer text shown on-screen prior to voice training during the final page of instructions.</comment>
+  </data>
+  <data name="NoiseSampleAdjustingBackgroundNoiseDescription">
+    <value>Introduciendo ajuste para el sonido de fondo</value>
+    <comment>One-line description about why the user needs to do the noise sample procedure, displayed during the procedure.</comment>
+  </data>
+  <data name="OperPrepWordsInstructions">
+    <value>Diga las palabras siguientes:</value>
+    <comment>One-line instructions to user about speaking words for voice training.  Encompasses both plural and singular, e.g., "Take a break" and "ready".</comment>
+  </data>
+  <data name="VoiceTrainingComplete">
+    <value>Formación de voz completada</value>
+    <comment>Text shown on screen when voice-template training is complete.   Shown at same time that device is speaking the value for key "finished_creating_voice_templates".</comment>
+  </data>
+  <data name="ReportProblem">
+    <value>notificar problema</value>
+    <comment>"Report Problem" overflow menu item.</comment>
+  </data>
+  <data name="ReportProblemWorkflowActivity_Header">
+    <value>Notificar problema</value>
+    <comment>Header on "Report Problem" page.</comment>
+  </data>
+  <data name="ReportProblemWorkflowActivity_NoteLabel">
+    <value>Describa el problema:</value>
+    <comment>Label text explaining what to fill in on Report Problem page.</comment>
+  </data>
+  <data name="ReportProblemWorkflowActivity_ButtonText">
+    <value>Enviar</value>
+    <comment>Text for "submit" button on Report Problem page.</comment>
+  </data>
+  <data name="DialogueRunnerUnknownError">
+    <value>Se ha producido un error en el diálogo de voz, informe del problema. Utilice la pantalla para completar la tarea actual y continuar</value>
+    <comment>Spoken to user when current voice input dialogue encounters unexpected error and shuts down.</comment>
+  </data>
+
+  
+  <data name="LanguagesMenuWorkflowActivity_RestartRequiredTitle">
+    <value>Es necesario reiniciar</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_RestartRequiredMessage">
+    <value>Es necesario reiniciar la aplicación para que se apliquen los cambios de idioma</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_DeviceDefault">
+    <value>Dispositivo predeterminado - {0}</value>
+    <comment>Displays the devices default locale such as English or German</comment>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoNotAvailableTitle">
+    <value>"Recoger e irse" no disponible</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoNotAvailableMessage">
+    <value>"Recoger e irse" no está disponible para {0} y se desactivará.</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoAvailableTitle">
+    <value>"Recoger e irse" disponible</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoAvailableMessage">
+    <value>"Recoger e irse" está disponible para {0}.</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_EnablePickUpAndGo_Text">
+    <value>Activar "Recoger e irse"</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_DisablePickUpAndGo_Text">
+    <value>Desactivar "Recoger e irse"</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_NewPickUpAndGoVersionAvailableTitle">
+    <value>Nueva versión de Recoger e irse disponible</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_NewPickUpAndGoVersionAvailableMessage">
+    <value>Hay una nueva versión de Recoger e irse disponible para su descarga para {0}. ¿Desea descargarla?</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_DownloadNewVersion_Text">
+    <value>Descargar nueva versión</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_UseCurrentVersion_Text">
+    <value>Usar versión actual</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_InvalidLanguage_Title">
+    <value>Nombre(s) de idioma(s) no válido(s)</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_InvalidLanguage_Message">
+    <value>Estos nombres de idiomas no son válidos: {0}</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoAvailableToDownload_Title">
+    <value>Recoger e irse disponible para su descarga</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoAvailableToDownload_Message">
+    <value>No se ha descargado el modelo de Recoger e irse para{0}. ¿Desea descargarlo ahora?</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoAvailableToDownload_OkText">
+    <value>Descargar</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoAvailableToDownload_CancelText">
+    <value>Cancelar</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoDownloading_Text">
+    <value>Descargando Recoger e irse para {0}</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoDownloaded_Text">
+    <value>Se ha descargado Recoger e irse para {0} (versión: {1})</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoNotDownloaded_Title">
+    <value>No se ha descargado Recoger e irse para {0}</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoNotDownloaded_Text">
+    <value>{1}. Se deshabilitará Recoger e irse.</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoNotDownloadedFallBack_Text">
+    <value>{1}. Se está utilizando la versión existente en el dispositivo.</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_ModelNotFound_Message">
+    <value>No se ha encontrado el modelo</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoDisabled_Text">
+    <value>Se ha deshabilitado Recoger e irse</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_NoNetworkConnection_Title">
+    <value>Sin conexión a la red</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_NoNetworkConnection_Message">
+    <value>No hay conexión a la red y no puede descargarse el modelo de Recoger e irse para {0}. Se deshabilitará Recoger e irse.</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_NoNetworkConnectionFallBack_Message">
+    <value>No hay conexión a la red y no puede descargarse el modelo de Recoger e irse para {0}. Se está utilizando la versión existente en el dispositivo.</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_UpdatingAvailablePickUpAndGoModels_Message">
+    <value>Se están actualizando los modelos disponibles de Recoger e irse.</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_DeviceOffline_ToastMessage">
+    <value>El dispositivo está sin conexión. No podrá descargar ningún nuevo modelo de idioma.</value>
+  </data>
+
+  
+  <data name="Android_Foreground_Notification_Title">
+    <value>Estado de la aplicación</value>
+    <comment>A short title for the notification that is used to keep the application in the foreground. Must fit on one line of a notification for small devices, using a large font.</comment>
+  </data>
+  <data name="Android_Foreground_Notification_Summary">
+    <value>Permanecer en primer plano</value>
+    <comment>A short summary for the notification that is used to keep the application in the foreground, where the parameter is the name of the application. Must fit on one line of a notification for small devices.</comment>
+  </data>
+  <data name="Android_Foreground_Notification_Text">
+    <value>Mantener la aplicación {0} en primer plano para que pueda usarla con la pantalla apagada o mientras otra aplicación está en primer plano.</value>
+    <comment>Text that explains why the application is kept in the foreground, where the parameter is the name of the application.  Can use a larger amount of space.</comment>
+  </data>
+  <data name="Android_Foreground_Notification_Channel_Name">
+    <value>Modo "Primer plano"</value>
+    <comment>A category name for notifications, per https://developer.android.com/training/notify-user/channels . Should be less than or equal to 40 characters</comment>
+  </data>
+  <data name="Android_Foreground_Notification_Channel_Description">
+    <value>Permite el funcionamiento cuando la aplicación está en segundo plano o si la pantalla está apagada.</value>
+    <comment>Tne description of the foreground notification channel/category, per https://developer.android.com/training/notify-user/channels . Should be less than or equal to 300 characters. </comment>
+  </data>
+    
+<data name="alpha_a">
+    <value>A</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_b">
+    <value>B</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_c">
+    <value>C</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_d">
+    <value>D</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_e">
+    <value>E</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_f">
+    <value>F</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_g">
+    <value>G</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_h">
+    <value>H</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_i">
+    <value>Me</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_j">
+    <value>J</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_k">
+    <value>K</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_l">
+    <value>L</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_m">
+    <value>M</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_n">
+    <value>N</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_o">
+    <value>O</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_p">
+    <value>P</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_q">
+    <value>Q</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_r">
+    <value>R</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_s">
+    <value>S</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_t">
+    <value>T</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_u">
+    <value>U</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_v">
+    <value>V</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_w">
+    <value>W</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_x">
+    <value>X</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_y">
+    <value>Y</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_z">
+    <value>Z</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="phonetic_a">
+    <value>alfa</value>
+    <comment>The phonetic word for the letter "a"</comment>
+  </data>
+  <data name="phonetic_b">
+    <value>Bravo</value>
+    <comment>The phonetic word for the letter "b"</comment>
+  </data>
+  <data name="phonetic_c">
+    <value>Charlie</value>
+    <comment>The phonetic word for the letter "c"</comment>
+  </data>
+  <data name="phonetic_d">
+    <value>Delta</value>
+    <comment>The phonetic word for the letter "d"</comment>
+  </data>
+  <data name="phonetic_e">
+    <value>Eco</value>
+    <comment>The phonetic word for the letter "e"</comment>
+  </data>
+  <data name="phonetic_f">
+    <value>Foxtrot</value>
+    <comment>The phonetic word for the letter "f"</comment>
+  </data>
+  <data name="phonetic_g">
+    <value>Golf</value>
+    <comment>The phonetic word for the letter "g"</comment>
+  </data>
+  <data name="phonetic_h">
+    <value>Hotel</value>
+    <comment>The phonetic word for the letter "h"</comment>
+  </data>
+  <data name="phonetic_i">
+    <value>India</value>
+    <comment>The phonetic word for the letter "i"</comment>
+  </data>
+  <data name="phonetic_j">
+    <value>Julieta</value>
+    <comment>The phonetic word for the letter "j"</comment>
+  </data>
+  <data name="phonetic_k">
+    <value>kilo</value>
+    <comment>The phonetic word for the letter "k"</comment>
+  </data>
+  <data name="phonetic_l">
+    <value>Lima</value>
+    <comment>The phonetic word for the letter "l"</comment>
+  </data>
+  <data name="phonetic_m">
+    <value>Mike</value>
+    <comment>The phonetic word for the letter "m"</comment>
+  </data>
+  <data name="phonetic_n">
+    <value>noviembre</value>
+    <comment>The phonetic word for the letter "n"</comment>
+  </data>
+  <data name="phonetic_o">
+    <value>Oscar</value>
+    <comment>The phonetic word for the letter "o"</comment>
+  </data>
+  <data name="phonetic_p">
+    <value>Papa</value>
+    <comment>The phonetic word for the letter "p"</comment>
+  </data>
+  <data name="phonetic_q">
+    <value>Quebec</value>
+    <comment>The phonetic word for the letter "q"</comment>
+  </data>
+  <data name="phonetic_r">
+    <value>Romeo</value>
+    <comment>The phonetic word for the letter "r"</comment>
+  </data>
+  <data name="phonetic_s">
+    <value>Sierra</value>
+    <comment>The phonetic word for the letter "s"</comment>
+  </data>
+  <data name="phonetic_t">
+    <value>Tango</value>
+    <comment>The phonetic word for the letter "t"</comment>
+  </data>
+  <data name="phonetic_u">
+    <value>uniforme</value>
+    <comment>The phonetic word for the letter "u"</comment>
+  </data>
+  <data name="phonetic_v">
+    <value>Victor</value>
+    <comment>The phonetic word for the letter "v"</comment>
+  </data>
+  <data name="phonetic_w">
+    <value>Whisky</value>
+    <comment>The phonetic word for the letter "w"</comment>
+  </data>
+  <data name="phonetic_x">
+    <value>rayos x</value>
+    <comment>The phonetic word for the letter "x"</comment>
+  </data>
+  <data name="phonetic_y">
+    <value>Yankee</value>
+    <comment>The phonetic word for the letter "y"</comment>
+  </data>
+  <data name="phonetic_z">
+    <value>Zulú</value>
+    <comment>The phonetic word for the letter "z"</comment>
+  </data>
+  
+  <data name="VocabWord_NoMore">
+    <value>no más</value>
+    <comment>"no more"  spoken command word.</comment>
+  </data>
+  
+  
+  <data name="noise_sample_please_keep_quiet_instruction">
+    <value>Manténgase en silencio durante unos segundos</value>
+    <comment>Spoken prompt intructing the user to keep quiet for a noise sample.</comment>
+  </data>
+  <data name="noise_sample_no_speech_detected_warning">
+    <value>No le he oído bien, ¿podría hablar un poco más alto?</value>
+    <comment>Spoken prompt used if no speech is detected during noise sample.</comment>
+  </data>
+  <data name="noise_sample_first_utterance_prompt">
+    <value>Diga: {0}</value>
+    <comment>Spoken prompt instructing the user to speak during noise sample.</comment>
+  </data>
+  <data name="noise_sample_first_utterance">
+    <value>0</value>
+    <comment>First utterance to be spoken during noise sample.</comment>
+  </data>
+  <data name="noise_sample_second_utterance">
+    <value>1</value>
+    <comment>Second utterance to be spoken during noise sample.</comment>
+  </data>
+  <data name="noise_sample_third_utterance">
+    <value>2</value>
+    <comment>Third utterance to be spoken during noise sample.</comment>
+  </data>
+  <data name="noise_sample_warning_too_long">
+    <value>El texto de voz de la muestra de ruido es demasiado largo</value>
+    <comment>Spoken prompt used if speech detected during noise sample was too long.</comment>
+  </data>
+  <data name="noise_sample_completed">
+    <value>Muestra de ruido completada</value>
+    <comment>Spoken prompt used when a noise sample completes successfully.</comment>
+  </data>
+  <data name="noise_sample_paused">
+    <value>Muestra de ruido pausada</value>
+    <comment>Spoken prompt used when a noise sample is paused.</comment>
+  </data>
+  <data name="noise_sample_failed">
+    <value>Error en la muestra de ruido</value>
+    <comment>Spoken prompt used when a noise sample has failed.</comment>
+  </data>
+  <data name="training_please_say_following_words">
+    <value>Diga las palabras siguientes</value>
+    <comment>Prompt spoken/onscreen text when instructing the user to speak words for training.</comment>
+  </data>
+  <data name="training_wait_for_template_creation">
+    <value>Creando plantillas de voz. Espere.</value>
+    <comment>Prompt spoken/onscreen text while waiting for voice templates to be created.</comment>
+  </data>
+  <data name="finished_creating_voice_templates">
+    <value>Se han acabado de crear plantillas de voz.</value>
+    <comment>Spoken prompt used when voice templates have been created.</comment>
+  </data>
+  <data name="training_interrupted">
+    <value>Formación interrumpida</value>
+    <comment>Prompt spoken/onscreen text when training is interrupted.</comment>
+  </data>
+  <data name="training_timed_out">
+    <value>Formación expirada</value>
+    <comment>Prompt spoken/onscreen text when training times out while waiting for the user to speak.</comment>
+  </data>
+  <data name="training_failed">
+    <value>Error en la formación</value>
+    <comment>Prompt spoken/onscreen text when training fails.</comment>
+  </data>
+  <data name="training_stopped">
+    <value>Formación detenida</value>
+    <comment>Prompt spoken/onscreen text when training is stopped.</comment>
+  </data>
+  <data name="training_pause_display_between_words">
+    <value>...</value>
+    <comment>Text displayed on screen during the pause between words in training.</comment>
+  </data>
+  <data name="number_0">
+    <value>0</value>
+    <comment>The digit 0.</comment>
+  </data>
+  <data name="number_1">
+    <value>1</value>
+    <comment>The digit 1.</comment>
+  </data>
+  <data name="number_2">
+    <value>2</value>
+    <comment>The digit 2.</comment>
+  </data>
+  <data name="number_3">
+    <value>3</value>
+    <comment>The digit 3.</comment>
+  </data>
+  <data name="number_4">
+    <value>4</value>
+    <comment>The digit 4.</comment>
+  </data>
+  <data name="number_5">
+    <value>5</value>
+    <comment>The digit 5.</comment>
+  </data>
+  <data name="number_6">
+    <value>6</value>
+    <comment>The digit 6.</comment>
+  </data>
+  <data name="number_7">
+    <value>7</value>
+    <comment>The digit 7.</comment>
+  </data>
+  <data name="number_8">
+    <value>8</value>
+    <comment>The digit 8.</comment>
+  </data>
+  <data name="number_9">
+    <value>9</value>
+    <comment>The digit 9.</comment>
+  </data>
+  <data name="phonetic_0">
+    <value>Cero</value>
+    <comment>The phonetic word for 0.</comment>
+  </data>
+  <data name="phonetic_1">
+    <value>Uno</value>
+    <comment>The phonetic word for 1.</comment>
+  </data>
+  <data name="phonetic_2">
+    <value>Dos</value>
+    <comment>The phonetic word for 2.</comment>
+  </data>
+  <data name="phonetic_3">
+    <value>Tres</value>
+    <comment>The phonetic word for 3.</comment>
+  </data>
+  <data name="phonetic_4">
+    <value>Cuatro</value>
+    <comment>The phonetic word for 4.</comment>
+  </data>
+  <data name="phonetic_5">
+    <value>Cinco</value>
+    <comment>The phonetic word for 5.</comment>
+  </data>
+  <data name="phonetic_6">
+    <value>Seis</value>
+    <comment>The phonetic word for 6.</comment>
+  </data>
+  <data name="phonetic_7">
+    <value>Siete</value>
+    <comment>The phonetic word for 7.</comment>
+  </data>
+  <data name="phonetic_8">
+    <value>Ocho</value>
+    <comment>The phonetic word for 8.</comment>
+  </data>
+  <data name="phonetic_9">
+    <value>Nueve</value>
+    <comment>The phonetic word for 9.</comment>
+  </data>
+  <data name="phonetic_decimal">
+    <value>Punto de</value>
+    <comment>The phonetic word for a decimal point</comment>
+  </data>
+  <data name="prompt_separator_then">
+    <value> Entonces: </value>
+    <comment>"Then: "</comment>
+  </data>
+  <data name="prompt_separator_or">
+    <value> O: </value>
+    <comment>"Or: "</comment>
+  </data>
+  <data name="prompt_separator_if_required">
+    <value> En caso necesario: </value>
+    <comment>"If required: "</comment>
+  </data>
+  <data name="whole_number_separator">
+    <value>.</value>
+    <comment>This culture's symbol for the decimal mark.</comment>
+  </data>
+  <data name="whole_number_separator_phonetic">
+    <value>punto</value>
+    <comment>The phonetic word for this culture's decimal mark.</comment>
+  </data>
+  <data name="symbol_dash">
+    <value>-</value>
+    <comment>This culture's symbol for the hyphen mark.</comment>
+  </data>
+  <data name="phonetic_dash">
+    <value>tablero</value>
+    <comment>The phonetic word for this culture's hyphen mark.</comment>
+  </data>
+  <data name="confirmation_of_spoken_value">
+    <value>Usted dijo {0}. ¿Es correcto?</value>
+    <comment>Spoken prompt asking user for confirmation of a spoken value.</comment>
+  </data>
+  <data name="confirmation_of_spoken_value_and_anchor">
+    <value> {0}, {1}, ¿correcto?</value>
+    <comment>A spoken prompt asking the user to confirm their spoken value and anchor</comment>
+  </data>
+  <data name="pick_from_list_help_only_1_option">
+    <value>La única opción es {0}</value>
+    <comment>The help prompt spoken when the user is presented a list with only one option.</comment>
+  </data>
+  <data name="pick_from_list_help_multiple_options">
+    <value>Las opciones son: {0} y {1}</value>
+    <comment>The help prompt spoken when the user is presented with a list of two options.</comment>
+  </data>
+  <data name="pick_from_list_confirmation_prompt">
+    <value>Usted seleccionó {0}. ¿Es correcto?</value>
+    <comment>Prompt user for confirmation of a list selection.</comment>
+  </data>
+  <data name="digit_entry_say_digits">
+    <value>Diga {0} cifras.</value>
+    <comment>Spoken prompt asking the user to speak a certain number of digits.</comment>
+  </data>
+  <data name="digit_entry_say_between_digits">
+    <value>Diga entre {0} y {1} cifras.</value>
+    <comment>Spoken prompt asking the user to speak within a certain range of digits.</comment>
+  </data>
+  <data name="value_entry_say_characters">
+    <value>Diga {0} caracteres.</value>
+    <comment>Spoken prompt asking the user to speak a certain number of characters.</comment>
+  </data>
+  <data name="value_entry_say_between_characters">
+    <value>Diga entre {0} y {1} caracteres.</value>
+    <comment>Spoken prompt asking the user to speak within a certain range of characters.</comment>
+  </data>
+  <data name="digit_entry_long_value_help">
+    <value>diga los dígitos, pare para escuchar el último grupo hablado, diga "no" para rechazar el último grupo hablado, diga "listo" para completar la entrada.</value>
+    <comment>Main help prompt for long value entry dialogue</comment>
+  </data>
+  <data name="value_entry_long_value_help_characters">
+    <value>diga los caracteres, pare para escuchar el último grupo hablado, diga "no" para rechazar el último grupo hablado, diga "listo" para completar la entrada.</value>
+    <comment>Main help prompt for long value entry dialogue</comment>
+  </data>
+  <data name="default_help_no_help_available">
+    <value>No hay ayuda disponible</value>
+    <comment>Spoken prompt used when no help prompt exists for this WFA.</comment>
+  </data>
+  <data name="default_help_only_1_word">
+    <value>Diga {0}.</value>
+    <comment>Spoken prompt asking the user to speak a word.</comment>
+  </data>
+  <data name="default_help_multiple_words">
+    <value>Diga {0}, o {1}.</value>
+    <comment>Spoken prompt asking the user to speak one of two words.</comment>
+  </data>
+  <data name="default_help_multiple_words_and_anchors">
+    <value>seguido de {0} o {1}</value>
+    <comment>Spoken after default_help_multiple_words, when the user must say an anchor word after their input</comment>
+  </data>
+  <data name="yes">
+    <value>sí</value>
+    <comment>"Yes"</comment>
+  </data>
+  <data name="no">
+    <value>no</value>
+    <comment>"No" command word</comment>
+  </data>
+  <data name="accept_entry_word">
+    <value>listo</value>
+    <comment>"Ready" command word.</comment>
+  </data>
+  <data name="next_entry_word">
+    <value>siguiente</value>
+    <comment>"Next" command word</comment>
+  </data>
+  <data name="digits_word">
+    <value>cifras</value>
+    <comment>"Digits" command word</comment>
+  </data>
+  
+    <data name="Validation_GetValue_MinAndMax">
+    <value>Ha introducido {0}; el valor debe estar entre {1} y {2}, vuelva a intentarlo</value>
+    <comment>Text displayed or spoken when get digits is not in specified range</comment>
+  </data>
+  <data name="Validation_GetValue_Min">
+    <value>ha introducido {0}; el valor debe ser mayor o igual que {1}, vuelva a intentarlo</value>
+    <comment>Text displayed or spoken when get digits entry is less than min value</comment>
+  </data>
+  <data name="Validation_GetValue_Max">
+    <value>ha introducido {0}; el valor debe ser menor o igual que {1}, vuelva a intentarlo</value>
+    <comment>Text displayed or spoken when get digits entry is greater than max value</comment>
+  </data>
+  <data name="Validation_GetValue_NotNumeric">
+    <value>{0} no es un valor numérico, vuelva a intentarlo</value>
+    <comment>Text displayed or spoken when get digits entry is expected to be numeric</comment>
+  </data>
+  <data name="Validation_GetValue_MinLength">
+    <value>incorrecto {0}, introduzca un mínimo total de {1} caracteres</value>
+    <comment>Test displayed when the the digit entry doesn't have enough digits</comment>
+  </data>
+  <data name="Validation_GetValue_MaxLength">
+    <value>incorrecto {0}, introduzca un máximo total de {1} caracteres</value>
+    <comment>Test displayed when the the digit entry doesn't have enough digits</comment>
+  </data>
+  <data name="Validation_GetDigits_InsufficientWholeNumbers">
+    <value>incorrecto {0}, introduzca un mínimo de {1} dígitos antes del lugar de los decimales</value>
+    <comment>Test displayed when the the digit entry doesn't have enough digits before the decimal place</comment>
+  </data>
+  <data name="Validation_GetDigits_ExcessiveWholeNumbers">
+    <value>incorrecto {0}, introduzca un máximo de {1} dígitos antes del lugar de los decimales</value>
+    <comment>Test displayed when the the digit entry has too many digits before the decimal place</comment>
+  </data>
+  <data name="Validation_GetDigits_InsufficientPrecision">
+    <value>incorrecto {0}, introduzca un mínimo de {1} dígitos después del lugar de los decimales</value>
+    <comment>Test displayed when the the digit entry doesn't have enough digits after the decimal place</comment>
+  </data>
+  <data name="Validation_GetDigits_ExcessivePrecision">
+    <value>incorrecto {0}, introduzca un máximo de {1} dígitos después del lugar de los decimales</value>
+    <comment>Test displayed when the the digit entry has too many digits after the decimal place</comment>
+  </data>
+  <data name="Validation_GetValue_InvalidCharacters">
+    <value>incorrecto {0}, caracteres no válidos</value>
+    <comment>Text displayed when the the value entry has invalid characters</comment>
+  </data>
+  <data name="Validation_General_UnexpectedValue">
+    <value>incorrecto {0}, vuelva a intentarlo</value>
+    <comment>Text displayed or spoken when entry is not one of expected values</comment>
+  </data>
+
+  <data name="DateEntryDialogue_Day_Prompt">
+    <value>¿Día?</value>
+  </data>
+  <data name="DateEntryDialogue_Month_Prompt">
+    <value>¿Mes?</value>
+  </data>
+  <data name="DateEntryDialogue_Year_Prompt">
+    <value>¿Año?</value>
+  </data>
+  <data name="DateDialogue_Invalid_Prompt">
+    <value>Fecha no válida para el mes {0}, día {1} y año {2}</value>
+  </data>
+  <data name="DateDialogue_BiggerThanMax_Prompt">
+    <value>Mes {0}, día {1} y año {2} no válidos, introduzca una fecha que coincida o sea anterior al mes {3}, día {4} y año {5}.</value>
+  </data>
+  <data name="DateDialogue_SmallerThanMin_Prompt">
+    <value>Mes {0}, día {1} y año {2} no válidos, introduzca una fecha que coincida o sea posterior al mes {3}, día {4} y año {5}.</value>
+  </data>
+  <data name="DateEntryDialogue_StartEntryM_Prompt">
+    <value>Diga 2 dígitos para el mes,</value>
+  </data>
+  <data name="DateEntryDialogue_StartEntryD_Prompt">
+    <value>Diga dos dígitos para el día,</value>
+  </data>
+  <data name="DateEntryDialogue_StartEntryY_Prompt">
+    <value>Diga 2 dígitos para el año,</value>
+  </data>
+  <data name="DateEntryDialogue_Confirmation_Prompt">
+    <value>mes {0}, día {1} y año {2}</value>
+  </data>
+   
+  <data name="VocabWord_Help">
+    <value>ayuda</value>
+    <comment>Global "help" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_SayAgain">
+    <value>dígalo otra vez</value>
+    <comment>"Say again" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_StandBy">
+    <value>en espera</value>
+    <comment>Global "standby"  spoken command word.</comment>
+  </data>
+  <data name="VocabWord_NoiseSample">
+    <value>muestra de ruido</value>
+    <comment>Global "noise sample" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_Continue">
+    <value>continuar</value>
+    <comment>"Continue" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_SignOff">
+    <value>cerrar sesión</value>
+    <comment>Global "sign off" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_Yes">
+    <value>sí</value>
+    <comment>"Yes" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_No">
+    <value>no</value>
+    <comment>"No" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_UpdateTrain">
+    <value>actualizar formación</value>
+    <comment>Global "update train"  spoken command word.</comment>
+  </data>
+  <data name="VocabWord_Info">
+    <value>info.</value>
+    <comment>"info" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_Option">
+    <value>opciones</value>
+    <comment>"Option" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_Negative">
+    <value>negativo</value>
+    <comment>"negative" spoken word for negative numeric values.</comment>
+  </data>
+  <data name="VocabWord_Cancel">
+    <value>cancelar</value>
+    <comment>"cancel" spoken word for cancelling entries.</comment>
+  </data>
+  
+  <data name="OverflowMenuItem_ReportProblem">
+    <value>problema de informe</value>
+    <comment>Global "report problem" overflow menu item.</comment>
+  </data>
+  
+  <data name="AffirmativeButtonText">
+    <value>Sí</value>
+    <comment>"Yes" button text.</comment>
+  </data>
+  <data name="NegativeButtonText">
+    <value>No</value>
+    <comment>"No" button text.</comment>
+  </data>
+  
+  <data name="Generic_Additional_Cmd_Background_Header">
+    <value>Procesando el comando</value>
+  </data>
+  <data name="Generic_SelectOperatorTeam_Header">
+    <value>Seleccionar equipo de operadores</value>
+  </data>
+  <data name="Generic_SelectOperatorTeam_Prompt">
+    <value>seleccionar equipo de operador</value>
+  </data>
+  <data name="Generic_SignOn_Failed_EntrysBlank">
+    <value>El nombre de usuario y la contraseña son obligatorios</value>
+  </data>
+  <data name="Generic_SignOn_Header">
+    <value>Seleccionar operador</value>
+  </data>
+  <data name="VoiceCentric_Header" xml:space="preserve">
+    <value>Entrada centrada en la voz</value>
+  </data>
+  <data name="VoiceCentric_Label" xml:space="preserve">
+    <value>Valor centrado en la voz</value>
+  </data>
+</root>

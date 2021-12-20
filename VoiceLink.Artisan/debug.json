@@ -1,0 +1,17 @@
+{
+	"AppProperties": {
+		"Server or EmbeddedDemo": "EmbeddedDemo",
+		"VoiceLink Host": "164.145.197.243",
+		"ODR Port": "80",
+		"LUT or Host port": "9092",
+		"Use Secure Connections": "false",
+		"Site Name": "Default"
+	},
+	"DeviceProperties": {
+		"SwVersion.Locale": "en_US",
+		"Operator.Id": "operator",
+		"Device.Id": "1234",
+		"SwVersion.ApplicationVersion": "CAT_V4.1.3"
+	},
+	"WorkflowName": "VoiceLink"
+}

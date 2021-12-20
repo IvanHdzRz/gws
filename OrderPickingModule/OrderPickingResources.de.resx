@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  <!-- Workflow Friendly Names -->
+  <data name="WorkflowFriendlyName_OrderPicking">
+    <value>Kommissionierung</value>
+  </data>
+
+  <!-- Vocab Words -->
+  <data name="VocabWord_EndOrder">
+    <value>Auftrag beenden</value>
+  </data>
+  <data name="VocabWord_Overflow">
+    <value>Überlauf</value>
+  </data>
+  <data name="VocabWord_OrderStatus">
+      <value>Auftragsstatus</value>
+      <comment>"Order status" command.</comment>
+  </data>
+
+  <!-- Order Picking Workflow -->
+  <data name="OrderPickingWorkflowActivity_Title">
+    <value>Kommissionierung</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_OrderNumber">
+    <value>Auftrags-ID: </value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_StockCode">
+    <value>Bestandscode</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_StockCodeEntryPlaceholder">
+    <value>Sagen/Eingeben/Scannen</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_QuantityEntryPlaceholder">
+    <value>Sagen/Eingeben</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_Sequence">
+    <value>Kommissionierungsartikel {0} von {1}</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_Location">
+    <value>PLATZ</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_Details">
+    <value>DETAILS</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_OrderedQuantity">
+    <value>Bestellte Menge</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_LastDigits">
+    <value> (Letzte {0} Ziffern)</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_PickedQuantity">
+    <value>Kommissionierte Menge</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_CancelButtonText">
+    <value>Auftrag beenden</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_PriceLabel">
+    <value>Stückpreis:</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_StagingLocation">
+    <value>Bereitstellungsplatz</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_StagingLocationEntryPlaceholder">
+    <value>Sagen/Eingeben/Scannen</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_Container">
+    <value>Container</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_OverflowButtonText">
+    <value>Überlauf</value>
+  </data>
+
+  <!-- Order Picking Get Containers Workflow -->
+  <data name="OrderPickingGetContainersWorkflowActivity_Header">
+    <value>Container besorgen</value>
+  </data>
+  <data name="OrderPickingGetContainersWorkflowActivity_InitialPromptSingular">
+    <value>Besorgen Sie Container für {0} Auftrag. Wenn fertig, sagen Sie "Weiter“.</value>
+  </data>
+  <data name="OrderPickingGetContainersWorkflowActivity_InitialPromptPlural">
+    <value>Besorgen Sie Container für {0} Aufträge. Wenn fertig, sagen Sie "Weiter“.</value>
+  </data>
+  <data name="OrderPickingGetContainersWorkflowActivity_Instructions">
+    <value> • Besorgen Sie Container für Aufträge.\n • Sagen oder drücken Sie zum Fortfahren "Weiter“.</value>
+  </data>
+  
+  <!-- Order Picking Acknowledge Location Workflow -->
+  <data name="OrderPickingAcknowledgeLocationWorkflowActivity_Header">
+    <value>Artikel {0} von {1}</value>
+  </data>
+  <data name="OrderPickingAcknowledgeLocationWorkflowActivity_InitialPrompt">
+    <value>Platz: {0}</value>
+  </data>
+  <data name="OrderPickingAcknowledgeLocationWorkflowActivity_Instructions">
+    <value> • Gehen Sie zum unten genannten Platz.\n • Um den Artikel zu kommissionieren, sagen oder drücken Sie „Weiter“.</value>
+  </data>
+
+  <!-- Order Picking Confirm No More Workflow -->
+  <data name="OrderPickingConfirmNoMoreWorkflowActivity_Header">
+    <value>Auftrag beenden</value>
+  </data>
+  <data name="OrderPickingConfirmNoMoreWorkflowActivity_SubHeader">
+    <value>Prüfen Sie Ihre Artikelauftragsliste</value>
+  </data>
+  <data name="OrderPickingConfirmNoMoreWorkflowActivity_Body">
+    <value>Möchten Sie Ihren Auftrag wirklich beenden?</value>
+  </data>
+  <data name="OrderPickingConfirmNoMoreWorkflowActivity_InitialPrompt">
+    <value>Auftrag beenden, korrekt?</value>
+  </data>
+  
+  <!-- Order Picking Confirm Skip Item Workflow -->
+  <data name="OrderPickingConfirmSkipProductWorkflowActivity_Header">
+    <value>Artikel überspringen</value>
+  </data>
+  <data name="OrderPickingConfirmSkipProductWorkflowActivity_Body">
+    <value>Übersprungene Artikel werden an das Ende der Auftragsliste gestellt. Möchten Sie den Artikel jetzt wirklich überspringen?</value>
+  </data>
+  <data name="OrderPickingConfirmSkipProductWorkflowActivity_InitialPrompt">
+    <value>Artikel überspringen, korrekt?</value>
+  </data>
+  <data name="OrderPickingConfirmSkipProductWorkflowActivity_Instructions">
+    <value> • Um diesen Artikel zu überspringen, sagen oder drücken Sie „Ja“.\n • Um fortzufahren, sagen oder drücken Sie „Nein“.</value>
+  </data>
+  
+  <!-- Order Picking Confirm Skip Enter Item Workflow -->
+  <data name="OrderPickingConfirmSkipEnterItemWorkflowActivity_Header">
+    <value>Artikel überspringen</value>
+  </data>
+  <data name="OrderPickingConfirmSkipEnterItemWorkflowActivity_Body">
+    <value>Übersprungene Artikel werden an das Ende der Auftragsliste gestellt. Möchten Sie den Artikel jetzt wirklich überspringen?</value>
+  </data>
+  <data name="OrderPickingConfirmSkipEnterItemWorkflowActivity_InitialPrompt">
+    <value>Artikel überspringen, korrekt?</value>
+  </data>
+  <data name="OrderPickingConfirmSkipEnterItemWorkflowActivity_Instructions">
+    <value> • Um diesen Artikel zu überspringen, sagen oder drücken Sie „Ja“.\n • Um fortzufahren, sagen oder drücken Sie „Nein“.</value>
+  </data>
+
+  <!-- Order Picking Enter Product Workflow -->
+  <data name="OrderPickingEnterProductWorkflowActivity_Header">
+    <value>Artikel {0} von {1}</value>
+  </data>
+  <data name="OrderPickingEnterProductWorkflowActivity_InitialPrompt">
+    <value>Platz: {0}</value>
+  </data>
+  <data name="OrderPickingEnterProductWorkflowActivity_Placeholder">
+    <value>Produkt-ID?</value>
+  </data>
+  <data name="OrderPickingEnterProductWorkflowActivity_InfoPrompt">
+    <value>Platz: {0}</value>
+  </data>
+  <data name="OrderPickingEnterProductWorkflowActivity_Instructions">
+    <value> • Finden Sie den Artikel mit dem Bestandscode auf der Verpackung.\n • Geben Sie den Bestandscode an, indem Sie ihn sagen, scannen oder eingeben.</value>
+  </data>
+
+  <!-- Order Picking Enter Quantity Workflow -->
+  <data name="OrderPickingEnterQuantityWorkflowActivity_Header">
+    <value>{0} in Container {1} legen</value>
+  </data>
+  <data name="OrderPickingEnterQuantityWorkflowActivity_InitialPrompt">
+    <value>Legen Sie {0} in Container {1}.</value>
+  </data>
+  <data name="OrderPickingEnterQuantityWorkflowActivity_ErrorPrompt">
+    <value>Sie haben die falsche Menge kommissioniert! Bitte versuchen Sie es noch einmal. {0} in Auftrag {1} legen</value>
+  </data>
+  <data name="OrderPickingEnterQuantityWorkflowActivity_ErrorMsg">
+    <value>Sie haben die falsche Menge kommissioniert! Bitte versuchen Sie es noch einmal.</value>
+  </data>
+  <data name="OrderPickingEnterQuantityWorkflowActivity_Placeholder">
+    <value>Welche Menge haben Sie kommissioniert?</value>
+  </data>
+  <data name="OrderPickingEnterQuantityWorkflowActivity_Instructions">
+    <value> • Kommissionieren Sie die bestellte Menge für den Artikel.\n • Geben Sie die kommissionierte Menge für den Artikel an, indem Sie sie sagen oder eingeben.\n • Sagen Sie „Weiter“.</value>
+  </data>
+
+  <!-- Order Picking Confirm Quanitity Workflow Activity -->
+  <data name="OrderPickingConfirmQuantityWorkflowActivity_Header">
+    <value>{0} in Container {1} bestätigen</value>
+  </data>
+  <data name="OrderPickingConfirmQuantityWorkflowActivity_InitialPrompt">
+    <value>{0} in Container {1}, korrekt?</value>
+  </data>
+  <data name="OrderPickingConfirmQuantityWorkflowActivity_Instructions">
+    <value> • Um die Anzahl zu bestätigen, sagen oder drücken Sie „Ja“.\n • Wenn falsch, sagen oder drücken Sie „Nein“.</value>
+  </data>
+
+  <!-- Order Picking Enter Substitute Product Workflow -->
+  <data name="OrderPickingEnterSubProductWorkflowActivity_Placeholder">
+    <value>Produkt-ID?</value>
+  </data>
+  <data name="OrderPickingEnterSubProductWorkflowActivity_SubstitutionInfoPrompt">
+    <value>{0}, Platz: {1}, Ersatz für {2}</value>
+  </data>
+  <data name="OrderPickingEnterSubProductWorkflowActivity_SubstitutionsAvailablePrompt">
+    <value>Für diesen Artikel ist Ersatz verfügbar. Finden Sie {0}.</value>
+  </data>
+  <data name="OrderPickingEnterSubProductWorkflowActivity_SubstituteHeader">
+    <value>Ersatz für: {0}</value>
+  </data>
+  <data name="OrderPickingEnterSubProductWorkflowActivity_Instructions">
+    <value> • Finden Sie den Artikel mit dem Bestandscode auf der Verpackung.\n • Geben Sie den Bestandscode an, indem Sie ihn sagen, scannen oder eingeben.</value>
+  </data>
+
+  <!-- Order Picking Confirm Overflow Workflow -->
+  <data name="OrderPickingConfirmOverflowWorkflowActivity_Header">
+    <value>Überlauf bestätigen</value>
+  </data>
+  <data name="OrderPickingConfirmOverflowWorkflowActivity_InitialPrompt">
+    <value>Überlauf bei Container {0}, korrekt?</value>
+  </data>
+  <data name="OrderPickingConfirmOverflowWorkflowActivity_Instructions">
+    <value> • Bestätigen Sie die Verwendung eines neuen Containers für den Auftrag.</value>
+  </data>
+
+  <!-- Order Picking Order Status Workflow Activity-->
+  <data name="OrderPickingOrderStatusWorkflowActivity_InitialPrompt">
+    <value>Auftragsstatus</value>
+  </data>
+  <data name="OrderPickingOrderStatusWorkflowActivity_RequestedQuantity">
+    <value>Angeforderte Menge: {0}</value>
+  </data>
+  <data name="OrderPickingOrderStatusWorkflowActivity_InfoPromptSingular">
+    <value>Sie müssen noch einen Artikel kommissionieren</value>
+  </data>
+  <data name="OrderPickingOrderStatusWorkflowActivity_InfoPromptPlural">
+    <value>Sie müssen noch {0} Artikel kommissionieren</value>
+  </data>
+
+  <!-- Order Picking Go To Staging Location Workflow -->
+  <data name="OrderPickingGoToStagingLocationWorkflowActivity_Header">
+    <value>Zum Bereitstellungsplatz gehen</value>
+  </data>
+  <data name="OrderPickingGoToStagingLocationWorkflowActivity_InitialPrompt">
+    <value>Bringen Sie die abgeschlossenen Aufträge zum Bereitstellungsplatz.\nSagen Sie zum Fortfahren "Weiter“.</value>
+  </data>
+  <data name="OrderPickingGoToStagingLocationWorkflowActivity_Instructions">
+    <value> • Bringen Sie Aufträge zum Bereitstellungsplatz.\n • Sagen oder drücken Sie zum Fortfahren "Weiter“.</value>
+  </data>
+
+  <!-- Order Picking Enter Staging Location Workflow -->
+  <data name="OrderPickingEnterStagingLocationWorkflowActivity_Header">
+    <value>Bereitstellungsplatz für Container {0}</value>
+  </data>
+  <data name="OrderPickingEnterStagingLocationWorkflowActivity_InitialPrompt">
+    <value>Geben Sie den Bereitstellungsplatz für Container {0} ein.</value>
+  </data>
+  <data name="OrderPickingEnterStagingLocationWorkflowActivity_Instructions">
+    <value> • Platzieren Sie den Container an einem Bereitstellungsplatz.\n • Geben Sie den Bereitstellungsplatz ein.</value>
+  </data>
+
+  <!-- Order Picking Confirm Staging Location Workflow -->
+  <data name="OrderPickingConfirmStagingLocationWorkflowActivity_Header">
+    <value>Bereitstellungsplatz bestätigen</value>
+  </data>
+  <data name="OrderPickingConfirmStagingLocationWorkflowActivity_InitialPrompt">
+    <value>Container {0} an Bereitstellungsplatz {1}, korrekt?</value>
+  </data>
+  <data name="OrderPickingConfirmStagingLocationWorkflowActivity_Instructions">
+    <value> • Bestätigen Sie den Bereitstellungsplatz.</value>
+  </data>
+
+  <!-- Order Picking All Done Workflow -->
+  <data name="OrderPickingAllDoneWorkflowActivity_Header">
+    <value>Alles erledigt</value>
+  </data>
+  <data name="OrderPickingAllDoneWorkflowActivity_InitialPrompt">
+    <value>Alles erledigt. Sagen Sie zum Fortfahren „Weiter“.</value>
+  </data>
+  
+</root>

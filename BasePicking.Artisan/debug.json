@@ -1,0 +1,21 @@
+{
+	"AppProperties": {
+		"Server or EmbeddedDemo": "EmbeddedDemo",
+		"BasePicking Host": "192.168.1.1",
+		"LUT or Host port": "8080",
+		"ODR Port": "15001",
+		"Use Secure Connections": "true",
+		"Request remaining quantity if not fully picked": "true",
+		"Discrete or Cluster picking": "Discrete",
+		"Confirm location with check digit": "true",
+		"Confirm product with product id": "true",
+		"Confirm the quantity input": "true"
+	},
+	"DeviceProperties": {
+		"SwVersion.Locale": "en_US",
+		"Operator.Id": "operator",
+		"Device.Id": "1234",
+		"SwVersion.ApplicationVersion": "CAT_V4.1.3"
+	},
+	"WorkflowName": "BasePicking"
+}

@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright (C) 2019 Honeywell International Inc. All rights reserved. -->
+<hfmcl:CoreView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:hfmcl="clr-namespace:Honeywell.Firebird.CoreLibrary;assembly=Honeywell.GuidedWork.XF"
+             xmlns:i18n="clr-namespace:Honeywell.Firebird.CoreLibrary.Localization.Xaml;assembly=Honeywell.GuidedWork.XF"
+             x:Class="VoiceLink.VoiceLinkServerSettingsView">
+
+
+    <ScrollView>
+        <StackLayout VerticalOptions="Fill" Spacing="0" BackgroundColor="{x:Static hfmcl:ColorResources.HoneywellWhite}">
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="VoiceLinkServerSettingsViewWorkflowSettingsBoxView"/>
+
+            <!-- WORKFLOW SETTINGS -->
+            <StackLayout Style="{StaticResource SectionTitleLayoutStyle}">
+                <Label Text="{i18n:Translate WorkflowSettingsLabel, Converter={StaticResource StringCaseConverter}, ConverterParameter=U}"
+                       Style="{StaticResource SectionTitleLabelStyle}"
+                       AutomationId="ServerSettingsWorkflowSettingsLabel" />
+            </StackLayout>
+
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="VoiceLinkServerSettingsViewWorkflowFilterBoxView" />
+
+            <!--- Select Workflow Filter -->
+            <StackLayout Style="{StaticResource SettingsItemVerticalLayoutStyle}" IsVisible="{Binding WorkflowFilterSettingsVisible}">
+                <Label Text="{i18n:Translate CurrentWorkflowFilter}" Style="{StaticResource SettingsItemLabelStyle}" AutomationId="ServerSettingsCurrentWorkflowFilterLabel" />
+                <StackLayout Style="{StaticResource EntryBorderStyle}">
+                    <StackLayout Style="{StaticResource EntryLayoutStyle}">
+                        <hfmcl:CustomPicker Title="{i18n:Translate ChooseWorkflowFilter}"
+                            ItemsSource="{Binding WorkflowFilterChoices}"
+                            SelectedItem="{Binding SelectedWorkflowFilter}"
+                            x:Name="WorkflowFilterPicker"
+                            FontFamily="HoneywellSans-Book"
+                            AutomationId="ServerSettingsWorkflowPicker" />
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="VoiceLinkServerSettingsViewVoiceLinkSettingsBoxView" />
+    
+            <!-- VoiceLink SETTINGS -->
+            <StackLayout Style="{StaticResource SectionTitleLayoutStyle}" IsVisible="{Binding ServerSettingsVisible}">
+                <Label Text="{i18n:Translate VoiceLinkSettingsLabel, Converter={StaticResource StringCaseConverter}, ConverterParameter=U}"
+                       Style="{StaticResource SectionTitleLabelStyle}" 
+                       AutomationId="VoiceLinkSettingsLabel" />
+            </StackLayout>
+
+            <!-- Server Use Secure Connections -->
+            <StackLayout Style="{StaticResource SettingsItemLayoutStyle}" IsVisible="{Binding ServerSettingsVisible}">
+                <Label Text="{i18n:Translate ServerSecureConnections}" Style="{StaticResource SettingsItemLabelStyle}" AutomationId="ServerSettingsServerSecureConnectionsLabel" />
+                <Switch IsToggled="{Binding ServerSecureConnections}" HorizontalOptions="EndAndExpand" VerticalOptions="Center" AutomationId="ServerSettingsServerSecureConnectionsSwitch" />
+            </StackLayout>
+
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="VoiceLinkServerSettingsViewVoiceLinkHostBoxView"/>
+
+            <!-- VoiceLink Host -->
+            <StackLayout Style="{StaticResource SettingsItemVerticalLayoutStyle}" IsVisible="{Binding ServerSettingsVisible}">
+                <Label Text="{i18n:Translate Host}" Style="{StaticResource SettingsItemLabelStyle}" AutomationId="HostLabel" />
+                <hfmcl:UserEntrySubview
+                        Text="{Binding Host}"
+                        x:Name="HostEntry"
+                        BorderWidth="2"
+                        ShowUnderline="False"
+                        Keyboard="Text"
+                        AutomationId="Host" />
+            </StackLayout>
+
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="VoiceLinkServerSettingsViewVoiceLinkPortBoxView" />
+
+            <!-- VoiceLink Port or Legacy LUT port -->
+            <StackLayout Style="{StaticResource SettingsItemVerticalLayoutStyle}" IsVisible="{Binding ServerSettingsVisible}">
+                <Label Text="{i18n:Translate Port}" Style="{StaticResource SettingsItemLabelStyle}" AutomationId="PortLabel" />
+                <hfmcl:UserEntrySubview
+                        Text="{Binding Port}"
+                        x:Name="PortEntry"
+                        BorderWidth="2"
+                        ShowUnderline="False"
+                        Keyboard="Numeric"
+                        AutomationId="Port" />
+            </StackLayout>
+
+            <!-- VoiceLink Legacy ODR Port -->
+            <StackLayout Style="{StaticResource SettingsItemVerticalLayoutStyle}" IsVisible="{Binding LegacyServerSettingsVisible}">
+                <Label Text="{i18n:Translate ODRPort}" Style="{StaticResource SettingsItemLabelStyle}" AutomationId="ODRPortLabel" />
+                <hfmcl:UserEntrySubview
+                        Text="{Binding ODRPort}"
+                        x:Name="ODRPortEntry"
+                        BorderWidth="2"
+                        ShowUnderline="False"
+                        Keyboard="Numeric"
+                        AutomationId="Port" />
+            </StackLayout>
+
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="VoiceLinkServerSettingsViewVoiceLinkLegacyODRPortBoxView"/>
+
+            <!-- VoiceLink Site -->
+            <StackLayout Style="{StaticResource SettingsItemVerticalLayoutStyle}" IsVisible="{Binding ServerSettingsVisible}">
+                <Label Text="{i18n:Translate SiteName}" Style="{StaticResource SettingsItemLabelStyle}" AutomationId="SiteNameLabel" />
+                <hfmcl:UserEntrySubview
+                        Text="{Binding SiteName}"
+                        x:Name="SiteNameEntry"
+                        BorderWidth="2"
+                        ShowUnderline="False"
+                        Keyboard="Text"
+                        AutomationId="SiteName" />
+            </StackLayout>
+
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="VoiceLinkServerSettingsViewVoiceLinkSiteNameBoxView"/>
+        </StackLayout>
+    </ScrollView>
+</hfmcl:CoreView>

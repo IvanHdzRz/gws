@@ -1,0 +1,105 @@
+﻿[
+  {
+    "Name": "SimpleAppWorkflowActivity",
+    "Default": "GenericCodeProcessingWorkflowActivity",
+    "ReferencedEvents": [
+      {
+        "WfaReferenceName": "BaldEagleWorkflowActivity",
+        "Name": "TaskManagerWorkflowActivity::StartSimpleAppWorkflow",
+        "Actions": [
+          {
+            "Type": "PushReplaceNavigation",
+            "Params": {
+              "Destination": "SimpleAppWorkflowActivity"
+            }
+          }
+        ]
+      },
+      {
+        "WfaReferenceName": "OperPrepCompositeWorkflowActivity",
+        "Name": "SimpleAppReturnFromOperPrep",
+        "Actions": [
+          {
+            "Type": "PushReplaceNavigation",
+            "Params": {
+              "Destination": "GenericCodeProcessingWorkflowReturnFromOperPrepActivity"
+            }
+          }
+        ]
+      },
+      {
+        "WfaReferenceName": "NoiseSampleCompositeWorkflowActivityWithReturnActivity",
+        "Name": "SimpleAppReturnFromOperPrep",
+        "Actions": [
+          {
+            "Type": "PushReplaceNavigation",
+            "Params": {
+              "Destination": "GenericCodeProcessingWorkflowReturnFromOperPrepActivity"
+            }
+          }
+        ]
+      }
+    ],
+    "Events": [
+      {
+        "Name": "OverflowMenuItemSelected",
+        "Option": "VocabWord_Info",
+        "Actions": [
+          {
+            "Type": "ReturnToSender",
+            "Params": {
+              "SpeakPrompt": "InfoGlobalWordPrompt"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "GlobalWord",
+        "Option": [ "VocabWord_Info" ],
+        "Actions": [
+          {
+            "Type": "ReturnToSender",
+            "Params": {
+              "SpeakPrompt": "InfoGlobalWordPrompt"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "OverflowMenuItemSelected",
+        "Option": "VocabWord_Option",
+        "Actions": [
+          {
+            "Type": "ReturnToSender",
+            "Params": {
+              "SpeakPrompt": "OptionGlobalWordPrompt"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "GlobalWord",
+        "Option": [ "VocabWord_Option" ],
+        "Actions": [
+          {
+            "Type": "ReturnToSender",
+            "Params": {
+              "SpeakPrompt": "OptionGlobalWordPrompt"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "GenericCodeProcessingWorkflowActivity",
+    "ControllerName": "SimpleAppWorkflowController"
+  },
+  {
+    "Name": "GenericCodeProcessingWorkflowReturnFromOperPrepActivity",
+    "ControllerName": "SimpleAppWorkflowController",
+    "Params": {
+      "IsReturningFromOperPrep": true
+    }
+  }
+]

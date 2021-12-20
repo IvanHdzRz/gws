@@ -1,0 +1,3 @@
+﻿"NSMicrophoneUsageDescription" = "このアプリケーションは、発話された音声をコマンドに変換する為にマイク機能を使用します。";
+"NSCameraUsageDescription" = "このアプリケーションは、撮影の為にカメラ機能へのアクセスを必要とします。";
+"NSPhotoLibraryUsageDescription" = "このアプリケーションは、撮影された画像データへのアクセスを必要とします。";

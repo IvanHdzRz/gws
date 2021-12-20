@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wpa81</AssetTargetFallback>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VoiceLinkModule\VoiceLinkModule.csproj" />
+  </ItemGroup>
+    
+  <ItemGroup>
+    <None Remove="Resources\VoiceLink_configuration.json" />
+    <None Remove="Resources\VoiceLink_data.json" />
+    <None Remove="Resources\VoiceLink_wfa.json" />
+    <None Remove="Resources\VoiceLink_settings_wfa.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\VoiceLink_configuration.json" />
+    <EmbeddedResource Include="Resources\VoiceLink_data.json" />
+    <EmbeddedResource Include="Resources\VoiceLink_wfa.json" />
+    <EmbeddedResource Include="Resources\VoiceLink_settings_wfa.json" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Honeywell.GuidedWork" Version="1.4.0.0" />
+  </ItemGroup>
+</Project>

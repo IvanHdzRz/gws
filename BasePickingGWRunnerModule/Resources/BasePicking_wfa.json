@@ -1,0 +1,55 @@
+﻿[
+  {
+    "Name": "BasePickingWorkflowActivity",
+    "Default": "GenericCodeProcessingWorkflowActivity",
+    "ReferencedEvents": [
+      {
+        "WfaReferenceName": "BaldEagleWorkflowActivity",
+        "Name": "TaskManagerWorkflowActivity::StartBasePickingWorkflow",
+        "Actions": [
+          {
+            "Type": "PushReplaceNavigation",
+            "Params": {
+              "Destination": "BasePickingWorkflowActivity"
+            }
+          }
+        ]
+      },
+      {
+        "WfaReferenceName": "OperPrepCompositeWorkflowActivity",
+        "Name": "BasePickingReturnFromOperPrep",
+        "Actions": [
+          {
+            "Type": "PushReplaceNavigation",
+            "Params": {
+              "Destination": "GenericCodeProcessingWorkflowReturnFromOperPrepActivity"
+            }
+          }
+        ]
+      },
+      {
+        "WfaReferenceName": "NoiseSampleCompositeWorkflowActivityWithReturnActivity",
+        "Name": "BasePickingReturnFromOperPrep",
+        "Actions": [
+          {
+            "Type": "PushReplaceNavigation",
+            "Params": {
+              "Destination": "GenericCodeProcessingWorkflowReturnFromOperPrepActivity"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "GenericCodeProcessingWorkflowActivity",
+    "ControllerName": "BasePickingWorkflowController"
+  },
+  {
+    "Name": "GenericCodeProcessingWorkflowReturnFromOperPrepActivity",
+    "ControllerName": "BasePickingWorkflowController",
+    "Params": {
+      "IsReturningFromOperPrep": true
+    }
+  }
+]

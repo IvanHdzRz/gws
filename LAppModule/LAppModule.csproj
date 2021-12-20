@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wpa81</AssetTargetFallback>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <RootNamespace>LApp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\A00002.png" />
+    <None Remove="Images\A00003.png" />
+    <None Remove="Images\A00005.png" />
+    <None Remove="Resources\LApp_configuration.json" />
+    <None Remove="Resources\LApp_settings_wfa.json" />
+    <None Remove="Resources\LApp_wfa.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\A00002.png" />
+    <EmbeddedResource Include="Images\A00003.png" />
+    <EmbeddedResource Include="Images\A00005.png" />
+    <EmbeddedResource Include="Resources\LApp_configuration.json" />
+    <EmbeddedResource Include="Resources\LApp_settings_wfa.json" />
+    <EmbeddedResource Include="Resources\LApp_wfa.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Honeywell.GuidedWork" Version="1.4.0.0" />
+  </ItemGroup>
+
+</Project>

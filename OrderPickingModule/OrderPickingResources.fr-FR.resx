@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="WorkflowFriendlyName_OrderPicking" xml:space="preserve">
+    <value>Préparation des commandes</value>
+  </data>
+  <data name="VocabWord_EndOrder" xml:space="preserve">
+    <value>ordre de fin</value>
+  </data>
+  <data name="VocabWord_Overflow" xml:space="preserve">
+    <value>dépassement de capacité</value>
+  </data>
+  <data name="VocabWord_OrderStatus" xml:space="preserve">
+    <value>statut des commandes</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_Title" xml:space="preserve">
+    <value>Préparation des commandes</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_OrderNumber" xml:space="preserve">
+    <value>ID de la commande : </value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_StockCode" xml:space="preserve">
+    <value>Code stock</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_StockCodeEntryPlaceholder" xml:space="preserve">
+    <value>Parler/Type/Scan</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_QuantityEntryPlaceholder" xml:space="preserve">
+    <value>Parler/Type</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_Sequence" xml:space="preserve">
+    <value>Choisissez l’élément {0} de {1}</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_Location" xml:space="preserve">
+    <value>EMPLACEMENT</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_Details" xml:space="preserve">
+    <value>DÉTAILS</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_OrderedQuantity" xml:space="preserve">
+    <value>Quantité commandée</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_LastDigits" xml:space="preserve">
+    <value> ({0} derniers chiffres)</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_PickedQuantity" xml:space="preserve">
+    <value>Quantité cueillie</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_CancelButtonText" xml:space="preserve">
+    <value>Ordre de fin</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_PriceLabel" xml:space="preserve">
+    <value>Prix unitaire :</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_StagingLocation" xml:space="preserve">
+    <value>Emplacement de la mise en scène</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_StagingLocationEntryPlaceholder" xml:space="preserve">
+    <value>Parler/Type/Scan</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_Container" xml:space="preserve">
+    <value>Conteneur</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_OverflowButtonText" xml:space="preserve">
+    <value>Dépassement de capacité</value>
+  </data>
+  <data name="OrderPickingGetContainersWorkflowActivity_Header" xml:space="preserve">
+    <value>Obtenez des conteneurs</value>
+  </data>
+  <data name="OrderPickingGetContainersWorkflowActivity_InitialPromptSingular" xml:space="preserve">
+    <value>Obtenez des conteneurs pour commande {0}. Dire ensuite lorsque vous avez terminé.</value>
+  </data>
+  <data name="OrderPickingGetContainersWorkflowActivity_InitialPromptPlural" xml:space="preserve">
+    <value>Téléchargez des conteneurs pour les commandes de {0}. Dire ensuite lorsque vous avez terminé.</value>
+  </data>
+  <data name="OrderPickingGetContainersWorkflowActivity_Instructions" xml:space="preserve">
+    <value> • Les contenants de get pour les commandes\n • Dire ou appuyez sur Next pour continuer</value>
+  </data>
+  <data name="OrderPickingAcknowledgeLocationWorkflowActivity_Header" xml:space="preserve">
+    <value>Élément {0} de {1}</value>
+  </data>
+  <data name="OrderPickingAcknowledgeLocationWorkflowActivity_InitialPrompt" xml:space="preserve">
+    <value>Localisation : {0}</value>
+  </data>
+  <data name="OrderPickingAcknowledgeLocationWorkflowActivity_Instructions" xml:space="preserve">
+    <value> • Accédez à l’emplacement ci-dessous\n • Dire ou appuyez sur Next pour sélectionner l’élément</value>
+  </data>
+  <data name="OrderPickingConfirmNoMoreWorkflowActivity_Header" xml:space="preserve">
+    <value>Ordre de fin</value>
+  </data>
+  <data name="OrderPickingConfirmNoMoreWorkflowActivity_SubHeader" xml:space="preserve">
+    <value>Vérifiez votre liste d’éléments de commande</value>
+  </data>
+  <data name="OrderPickingConfirmNoMoreWorkflowActivity_Body" xml:space="preserve">
+    <value>Êtes-vous certain de que vouloir terminer votre commande ?</value>
+  </data>
+  <data name="OrderPickingConfirmNoMoreWorkflowActivity_InitialPrompt" xml:space="preserve">
+    <value>Ordre de fin, correct ?</value>
+  </data>
+  <data name="OrderPickingConfirmSkipProductWorkflowActivity_Header" xml:space="preserve">
+    <value>Point de Skip</value>
+  </data>
+  <data name="OrderPickingConfirmSkipProductWorkflowActivity_Body" xml:space="preserve">
+    <value>Ignoré des éléments s’ajouteront à la fin de la liste des commandes. Êtes-vous sûr de que vouloir sauter cet article maintenant ?</value>
+  </data>
+  <data name="OrderPickingConfirmSkipProductWorkflowActivity_InitialPrompt" xml:space="preserve">
+    <value>Skip Item, correct ?</value>
+  </data>
+  <data name="OrderPickingConfirmSkipProductWorkflowActivity_Instructions" xml:space="preserve">
+    <value> • Parlez ou appuyez sur Oui pour ignorer cet élément\n • Parler ou appuyez sur non pour continuer</value>
+  </data>
+  <data name="OrderPickingConfirmSkipEnterItemWorkflowActivity_Header" xml:space="preserve">
+    <value>Point de Skip</value>
+  </data>
+  <data name="OrderPickingConfirmSkipEnterItemWorkflowActivity_Body" xml:space="preserve">
+    <value>Ignoré des éléments s’ajouteront à la fin de la liste des commandes. Êtes-vous sûr de que vouloir sauter cet article maintenant ?</value>
+  </data>
+  <data name="OrderPickingConfirmSkipEnterItemWorkflowActivity_InitialPrompt" xml:space="preserve">
+    <value>Skip Item, correct ?</value>
+  </data>
+  <data name="OrderPickingConfirmSkipEnterItemWorkflowActivity_Instructions" xml:space="preserve">
+    <value> • Parlez ou appuyez sur Oui pour ignorer cet élément\n • Parler ou appuyez sur non pour continuer</value>
+  </data>
+  <data name="OrderPickingEnterProductWorkflowActivity_Header" xml:space="preserve">
+    <value>Élément {0} de {1}</value>
+  </data>
+  <data name="OrderPickingEnterProductWorkflowActivity_InitialPrompt" xml:space="preserve">
+    <value>Localisation : {0}</value>
+  </data>
+  <data name="OrderPickingEnterProductWorkflowActivity_Placeholder" xml:space="preserve">
+    <value>Identificateur du produit ?</value>
+  </data>
+  <data name="OrderPickingEnterProductWorkflowActivity_InfoPrompt" xml:space="preserve">
+    <value>Localisation : {0}</value>
+  </data>
+  <data name="OrderPickingEnterProductWorkflowActivity_Instructions" xml:space="preserve">
+    <value> • Localiser l’article avec le code de stock sur la boîte\n • Parler, de numériser ou de taper le code de stock</value>
+  </data>
+  <data name="OrderPickingEnterQuantityWorkflowActivity_Header" xml:space="preserve">
+    <value>Equipez {0} de {1} conteneur</value>
+  </data>
+  <data name="OrderPickingEnterQuantityWorkflowActivity_InitialPrompt" xml:space="preserve">
+    <value>Equipez {0} de {1} conteneur</value>
+  </data>
+  <data name="OrderPickingEnterQuantityWorkflowActivity_ErrorPrompt" xml:space="preserve">
+    <value>Vous avez choisi la mauvaise quantité ! S’il vous plaît essayer de nouveau. Equipez {0} de {1} ordre</value>
+  </data>
+  <data name="OrderPickingEnterQuantityWorkflowActivity_Instructions" xml:space="preserve">
+    <value> • Saisissez la quantité commandée pour l’article\n • Dire ou tapez cueillie quantité d’article\n • Dire Next</value>
+  </data>
+  <data name="OrderPickingConfirmQuantityWorkflowActivity_Header" xml:space="preserve">
+    <value>Confirmer {0} de {1} conteneur</value>
+  </data>
+  <data name="OrderPickingConfirmQuantityWorkflowActivity_InitialPrompt" xml:space="preserve">
+    <value>{0} dans {1}, conteneur de corriger ?</value>
+  </data>
+  <data name="OrderPickingConfirmQuantityWorkflowActivity_Instructions" xml:space="preserve">
+    <value> • Dire ou appuyez sur Oui pour confirmer la quantité\n • Dire ou sur No si c’est une erreur</value>
+  </data>
+  <data name="OrderPickingEnterSubProductWorkflowActivity_Placeholder" xml:space="preserve">
+    <value>Identificateur du produit ?</value>
+  </data>
+  <data name="OrderPickingEnterSubProductWorkflowActivity_SubstitutionInfoPrompt" xml:space="preserve">
+    <value>{0}, emplacement : {1}, son remplacement par {2}</value>
+  </data>
+  <data name="OrderPickingEnterSubProductWorkflowActivity_SubstitutionsAvailablePrompt" xml:space="preserve">
+    <value>Substitutions sont disponibles pour cet article. Localiser {0}</value>
+  </data>
+  <data name="OrderPickingEnterSubProductWorkflowActivity_SubstituteHeader" xml:space="preserve">
+    <value>Remplaçant : {0}</value>
+  </data>
+  <data name="OrderPickingEnterSubProductWorkflowActivity_Instructions" xml:space="preserve">
+    <value> • Localiser l’article avec le code de stock sur la boîte\n • Parler, de numériser ou de taper le code de stock</value>
+  </data>
+  <data name="OrderPickingConfirmOverflowWorkflowActivity_Header" xml:space="preserve">
+    <value>Confirmer le trop-plein ?</value>
+  </data>
+  <data name="OrderPickingConfirmOverflowWorkflowActivity_InitialPrompt" xml:space="preserve">
+    <value>Dépassement de capacité par conteneur {0} correcte ?</value>
+  </data>
+  <data name="OrderPickingConfirmOverflowWorkflowActivity_Instructions" xml:space="preserve">
+    <value> • Validez pour lancer le nouveau conteneur pour commander</value>
+  </data>
+  <data name="OrderPickingOrderStatusWorkflowActivity_InitialPrompt" xml:space="preserve">
+    <value>statut des commandes</value>
+  </data>
+  <data name="OrderPickingOrderStatusWorkflowActivity_RequestedQuantity" xml:space="preserve">
+    <value>Demandé la quantité : {0}</value>
+  </data>
+  <data name="OrderPickingOrderStatusWorkflowActivity_InfoPromptSingular" xml:space="preserve">
+    <value>vous en avez un pick restant</value>
+  </data>
+  <data name="OrderPickingOrderStatusWorkflowActivity_InfoPromptPlural" xml:space="preserve">
+    <value>vous avez des pics de {0} restant</value>
+  </data>
+  <data name="OrderPickingGoToStagingLocationWorkflowActivity_Header" xml:space="preserve">
+    <value>Allez à l’emplacement de la mise en scène</value>
+  </data>
+  <data name="OrderPickingGoToStagingLocationWorkflowActivity_InitialPrompt" xml:space="preserve">
+    <value>Prendre des commandes exécutées à emplacement intermédiaire.\nDire suivant pour continuer.</value>
+  </data>
+  <data name="OrderPickingGoToStagingLocationWorkflowActivity_Instructions" xml:space="preserve">
+    <value> • Prendre les commandes à la mise en scène de situation\n • Dire ou appuyez sur Next pour continuer</value>
+  </data>
+  <data name="OrderPickingEnterStagingLocationWorkflowActivity_Header" xml:space="preserve">
+    <value>Location de conteneur {0}</value>
+  </data>
+  <data name="OrderPickingEnterStagingLocationWorkflowActivity_InitialPrompt" xml:space="preserve">
+    <value>Entrez le conteneur {0} mise en scène d’emplacement</value>
+  </data>
+  <data name="OrderPickingEnterStagingLocationWorkflowActivity_Instructions" xml:space="preserve">
+    <value> • Placer le récipient dans un endroit intermédiaire\n • Entrez l’emplacement de la zone de transit</value>
+  </data>
+  <data name="OrderPickingConfirmStagingLocationWorkflowActivity_Header" xml:space="preserve">
+    <value>Confirmer l’emplacement de la mise en scène</value>
+  </data>
+  <data name="OrderPickingConfirmStagingLocationWorkflowActivity_InitialPrompt" xml:space="preserve">
+    <value>Conteneur {0} dans la mise en scène d’emplacement {1}, correct ?</value>
+  </data>
+  <data name="OrderPickingConfirmStagingLocationWorkflowActivity_Instructions" xml:space="preserve">
+    <value> • Confirmer l’emplacement intermédiaire</value>
+  </data>
+  <data name="OrderPickingAllDoneWorkflowActivity_Header" xml:space="preserve">
+    <value>Tout ce que fait</value>
+  </data>
+  <data name="OrderCompleteAllDoneWorkflowActivity_InitialPrompt" xml:space="preserve">
+    <value>Tout fait. Continuer à dire prochaine.</value>
+  </data>
+</root>

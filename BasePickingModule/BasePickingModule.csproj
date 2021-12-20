@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wpa81</AssetTargetFallback>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <NoWarn>NU1701</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Honeywell.GuidedWork" Version="1.4.0.0" />
+    <PackageReference Include="Honeywell.GuidedWork.TCPSocketCommunication" Version="1.4.0.0" />
+  </ItemGroup>
+
+</Project>

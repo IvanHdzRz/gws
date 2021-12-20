@@ -1,0 +1,620 @@
+﻿{
+  "fetchReceivingAssignments":{
+    "assignments": {
+      "assignment": [
+        {
+          "@xsi.type": "receiving",
+          "id": 9,
+          "version": 1,
+          "completionOrder": 1,
+          "product": {
+            "id": 180,
+            "version": 0,
+            "productIdentifier": "076808006889",
+            "name": "Barilla Pasta Variety Pack",
+            "description": "Barilla Pasta Variety Pack",
+            "cases": 0,
+            "stockOnHand": 50,
+            "inventory": {
+              "locationId": 5
+            },
+            "sites": {
+              "description": "Default Location",
+              "id": -1,
+              "name": "Default",
+              "version": 1
+            }
+          },
+          "productId": 180,
+          "location": {
+            "id": 1,
+            "version": 0,
+            "descriptiveText": "Stocking Staging - Cart",
+            "compactDescriptiveText": "Cart",
+            "descriptiveSpoken": "Cart",
+            "definitionId": 1,
+            "stockingStagingName": "Cart",
+            "sites": {
+              "description": "Default Location",
+              "id": -1,
+              "name": "Default",
+              "version": 1
+            }
+          },
+          "locationId": 1,
+          "sites": {
+            "description": "Default Location",
+            "id": -1,
+            "name": "Default",
+            "version": 1
+          },
+          "status": 0,
+          "type": "RECEIVING",
+          "workerId": 3,
+          "frontOfStoreLocation": {
+            "id": 5,
+            "version": 0,
+            "descriptiveText": "Cart 1",
+            "compactDescriptiveText": "Aisle 1 Side east Section 1 Shelf 4",
+            "descriptiveSpoken": "Aisle 1 Side east Section 1 Shelf 4",
+            "definitionId": 2,
+            "descriptors": [
+              {
+                "id": 19,
+                "version": 0,
+                "name": "Aisle",
+                "value": 1,
+                "spoken": 1,
+                "descOrder": 1,
+                "usedForInterleaving": true
+              },
+              {
+                "id": 21,
+                "version": 0,
+                "name": "Side",
+                "value": "east",
+                "spoken": "east",
+                "descOrder": 2,
+                "usedForInterleaving": false
+              },
+              {
+                "id": 20,
+                "version": 0,
+                "name": "Section",
+                "value": 1,
+                "spoken": 1,
+                "descOrder": 3,
+                "usedForInterleaving": false
+              },
+              {
+                "id": 22,
+                "version": 0,
+                "name": "Shelf",
+                "value": 4,
+                "spoken": 4,
+                "descOrder": 4,
+                "usedForInterleaving": false
+              }
+            ],
+            "sites": {
+              "description": "Default Location",
+              "id": -1,
+              "name": "Default",
+              "version": 1
+            }
+          }
+        },
+        {
+          "@xsi.type": "receiving",
+          "id": 10,
+          "version": 1,
+          "completionOrder": 2,
+          "product": {
+            "id": 241,
+            "version": 0,
+            "productIdentifier": "078742002781",
+            "name": "Daily Chef Spaghetti Pantry Pack",
+            "description": "Daily Chef Spaghetti Pantry Pack",
+            "cases": 0,
+            "stockOnHand": 40,
+            "inventory": {
+              "locationId": 11
+            },
+            "sites": {
+              "description": "Default Location",
+              "id": -1,
+              "name": "Default",
+              "version": 1
+            }
+          },
+          "productId": 241,
+          "location": {
+            "id": 1,
+            "version": 0,
+            "descriptiveText": "Stocking Staging - Cart",
+            "compactDescriptiveText": "Cart",
+            "descriptiveSpoken": "Cart",
+            "definitionId": 1,
+            "stockingStagingName": "Cart",
+            "sites": {
+              "description": "Default Location",
+              "id": -1,
+              "name": "Default",
+              "version": 1
+            }
+          },
+          "locationId": 1,
+          "sites": {
+            "description": "Default Location",
+            "id": -1,
+            "name": "Default",
+            "version": 1
+          },
+          "status": 0,
+          "type": "RECEIVING",
+          "workerId": 3,
+          "frontOfStoreLocation": {
+            "id": 11,
+            "version": 0,
+            "descriptiveText": "Bin Staging Area",
+            "compactDescriptiveText": "Aisle 1 Side west Section 1 Shelf 1",
+            "descriptiveSpoken": "Aisle 1 Side west Section 1 Shelf 1",
+            "definitionId": 2,
+            "descriptors": [
+              {
+                "id": 45,
+                "version": 0,
+                "name": "Aisle",
+                "value": 1,
+                "spoken": 1,
+                "descOrder": 1,
+                "usedForInterleaving": true
+              },
+              {
+                "id": 43,
+                "version": 0,
+                "name": "Side",
+                "value": "west",
+                "spoken": "west",
+                "descOrder": 2,
+                "usedForInterleaving": false
+              },
+              {
+                "id": 46,
+                "version": 0,
+                "name": "Section",
+                "value": 1,
+                "spoken": 1,
+                "descOrder": 3,
+                "usedForInterleaving": false
+              },
+              {
+                "id": 44,
+                "version": 0,
+                "name": "Shelf",
+                "value": 1,
+                "spoken": 1,
+                "descOrder": 4,
+                "usedForInterleaving": false
+              }
+            ],
+            "sites": {
+              "description": "Default Location",
+              "id": -1,
+              "name": "Default",
+              "version": 1
+            }
+          }
+        },
+        {
+          "@xsi.type": "receiving",
+          "id": 11,
+          "version": 1,
+          "completionOrder": 3,
+          "product": {
+            "id": 33,
+            "version": 0,
+            "productIdentifier": "021000025879",
+            "name": "Kraft Easy Mac Cups",
+            "description": "Kraft Easy Mac Cups",
+            "cases": 0,
+            "stockOnHand": 36,
+            "inventory": {
+              "locationId": 9
+            },
+            "sites": {
+              "description": "Default Location",
+              "id": -1,
+              "name": "Default",
+              "version": 1
+            }
+          },
+          "productId": 33,
+          "location": {
+            "id": 1,
+            "version": 0,
+            "descriptiveText": "Stocking Staging - Cart",
+            "compactDescriptiveText": "Cart",
+            "descriptiveSpoken": "Cart",
+            "definitionId": 1,
+            "stockingStagingName": "Cart",
+            "sites": {
+              "description": "Default Location",
+              "id": -1,
+              "name": "Default",
+              "version": 1
+            }
+          },
+          "locationId": 1,
+          "sites": {
+            "description": "Default Location",
+            "id": -1,
+            "name": "Default",
+            "version": 1
+          },
+          "status": 0,
+          "type": "RECEIVING",
+          "workerId": 3,
+          "frontOfStoreLocation": {
+            "id": 9,
+            "version": 0,
+            "descriptiveText": "Critical Out Staging Area",
+            "compactDescriptiveText": "Aisle 1 Side east Section 2 Shelf 4",
+            "descriptiveSpoken": "Aisle 1 Side east Section 2 Shelf 4",
+            "definitionId": 2,
+            "descriptors": [
+              {
+                "id": 35,
+                "version": 0,
+                "name": "Aisle",
+                "value": 1,
+                "spoken": 1,
+                "descOrder": 1,
+                "usedForInterleaving": true
+              },
+              {
+                "id": 37,
+                "version": 0,
+                "name": "Side",
+                "value": "east",
+                "spoken": "east",
+                "descOrder": 2,
+                "usedForInterleaving": false
+              },
+              {
+                "id": 36,
+                "version": 0,
+                "name": "Section",
+                "value": 2,
+                "spoken": 2,
+                "descOrder": 3,
+                "usedForInterleaving": false
+              },
+              {
+                "id": 38,
+                "version": 0,
+                "name": "Shelf",
+                "value": 4,
+                "spoken": 4,
+                "descOrder": 4,
+                "usedForInterleaving": false
+              }
+            ],
+            "sites": {
+              "description": "Default Location",
+              "id": -1,
+              "name": "Default",
+              "version": 1
+            }
+          }
+        },
+        {
+          "@xsi.type": "receiving",
+          "id": 12,
+          "version": 1,
+          "completionOrder": 4,
+          "product": {
+            "id": 66,
+            "version": 0,
+            "productIdentifier": "070662030332",
+            "name": "Chicken Flavor Ramen Noodle Soup",
+            "description": "Chicken Flavor Ramen Noodle Soup",
+            "cases": 0,
+            "stockOnHand": 42,
+            "inventory": {
+              "locationId": 17
+            },
+            "sites": {
+              "description": "Default Location",
+              "id": -1,
+              "name": "Default",
+              "version": 1
+            }
+          },
+          "productId": 66,
+          "location": {
+            "id": 1,
+            "version": 0,
+            "descriptiveText": "Stocking Staging - Cart",
+            "compactDescriptiveText": "Cart",
+            "descriptiveSpoken": "Cart",
+            "definitionId": 1,
+            "stockingStagingName": "Cart",
+            "sites": {
+              "description": "Default Location",
+              "id": -1,
+              "name": "Default",
+              "version": 1
+            }
+          },
+          "locationId": 1,
+          "sites": {
+            "description": "Default Location",
+            "id": -1,
+            "name": "Default",
+            "version": 1
+          },
+          "status": 0,
+          "type": "RECEIVING",
+          "workerId": 3,
+          "frontOfStoreLocation": {
+            "id": 17,
+            "version": 0,
+            "descriptiveText": "Cart 4",
+            "compactDescriptiveText": "Aisle 2 Side east Section 1 Shelf 3",
+            "descriptiveSpoken": "Aisle 2 Side east Section 1 Shelf 3",
+            "definitionId": 2,
+            "descriptors": [
+              {
+                "id": 67,
+                "version": 0,
+                "name": "Aisle",
+                "value": 2,
+                "spoken": 2,
+                "descOrder": 1,
+                "usedForInterleaving": true
+              },
+              {
+                "id": 69,
+                "version": 0,
+                "name": "Side",
+                "value": "east",
+                "spoken": "east",
+                "descOrder": 2,
+                "usedForInterleaving": false
+              },
+              {
+                "id": 68,
+                "version": 0,
+                "name": "Section",
+                "value": 1,
+                "spoken": 1,
+                "descOrder": 3,
+                "usedForInterleaving": false
+              },
+              {
+                "id": 70,
+                "version": 0,
+                "name": "Shelf",
+                "value": 3,
+                "spoken": 3,
+                "descOrder": 4,
+                "usedForInterleaving": false
+              }
+            ],
+            "sites": {
+              "description": "Default Location",
+              "id": -1,
+              "name": "Default",
+              "version": 1
+            }
+          }
+        },
+        {
+          "@xsi.type": "receiving",
+          "id": 13,
+          "version": 1,
+          "completionOrder": 5,
+          "product": {
+            "id": 67,
+            "version": 0,
+            "productIdentifier": "041000402920",
+            "name": "Lipton Iced Tea Brew",
+            "description": "Lipton Iced Tea Brews",
+            "cases": 0,
+            "stockOnHand": 21,
+            "inventory": {
+              "locationId": 17
+            },
+            "sites": {
+              "description": "Default Location",
+              "id": -1,
+              "name": "Default",
+              "version": 1
+            }
+          },
+          "productId": 67,
+          "location": {
+            "id": 1,
+            "version": 0,
+            "descriptiveText": "Stocking Staging - Cart",
+            "compactDescriptiveText": "Cart",
+            "descriptiveSpoken": "Cart",
+            "definitionId": 1,
+            "stockingStagingName": "Cart",
+            "sites": {
+              "description": "Default Location",
+              "id": -1,
+              "name": "Default",
+              "version": 1
+            }
+          },
+          "locationId": 1,
+          "sites": {
+            "description": "Default Location",
+            "id": -1,
+            "name": "Default",
+            "version": 1
+          },
+          "status": 0,
+          "type": "RECEIVING",
+          "workerId": 3,
+          "frontOfStoreLocation": {
+            "id": 17,
+            "version": 0,
+            "descriptiveText": "Cart 4",
+            "compactDescriptiveText": "Aisle 2 Side east Section 1 Shelf 3",
+            "descriptiveSpoken": "Aisle 2 Side east Section 1 Shelf 3",
+            "definitionId": 2,
+            "descriptors": [
+              {
+                "id": 67,
+                "version": 0,
+                "name": "Aisle",
+                "value": 2,
+                "spoken": 2,
+                "descOrder": 1,
+                "usedForInterleaving": true
+              },
+              {
+                "id": 69,
+                "version": 0,
+                "name": "Side",
+                "value": "east",
+                "spoken": "east",
+                "descOrder": 2,
+                "usedForInterleaving": false
+              },
+              {
+                "id": 68,
+                "version": 0,
+                "name": "Section",
+                "value": 1,
+                "spoken": 1,
+                "descOrder": 3,
+                "usedForInterleaving": false
+              },
+              {
+                "id": 70,
+                "version": 0,
+                "name": "Shelf",
+                "value": 3,
+                "spoken": 3,
+                "descOrder": 4,
+                "usedForInterleaving": false
+              }
+            ],
+            "sites": {
+              "description": "Default Location",
+              "id": -1,
+              "name": "Default",
+              "version": 1
+            }
+          }
+        },
+        {
+          "@xsi.type": "receiving",
+          "id": 14,
+          "version": 1,
+          "completionOrder": 6,
+          "product": {
+            "id": 68,
+            "version": 0,
+            "productIdentifier": "043000057254",
+            "name": "Maxwell House House Blend",
+            "description": "Maxwell House House Blend",
+            "cases": 0,
+            "stockOnHand": 64,
+            "inventory": {
+              "locationId": 17
+            },
+            "sites": {
+              "description": "Default Location",
+              "id": -1,
+              "name": "Default",
+              "version": 1
+            }
+          },
+          "productId": 68,
+          "location": {
+            "id": 1,
+            "version": 0,
+            "descriptiveText": "Stocking Staging - Cart",
+            "compactDescriptiveText": "Cart",
+            "descriptiveSpoken": "Cart",
+            "definitionId": 1,
+            "stockingStagingName": "Cart",
+            "sites": {
+              "description": "Default Location",
+              "id": -1,
+              "name": "Default",
+              "version": 1
+            }
+          },
+          "locationId": 1,
+          "sites": {
+            "description": "Default Location",
+            "id": -1,
+            "name": "Default",
+            "version": 1
+          },
+          "status": 0,
+          "type": "RECEIVING",
+          "workerId": 3,
+          "frontOfStoreLocation": {
+            "id": 17,
+            "version": 0,
+            "descriptiveText": "Cart 4",
+            "compactDescriptiveText": "Aisle 2 Side east Section 1 Shelf 3",
+            "descriptiveSpoken": "Aisle 2 Side east Section 1 Shelf 3",
+            "definitionId": 2,
+            "descriptors": [
+              {
+                "id": 67,
+                "version": 0,
+                "name": "Aisle",
+                "value": 2,
+                "spoken": 2,
+                "descOrder": 1,
+                "usedForInterleaving": true
+              },
+              {
+                "id": 69,
+                "version": 0,
+                "name": "Side",
+                "value": "east",
+                "spoken": "east",
+                "descOrder": 2,
+                "usedForInterleaving": false
+              },
+              {
+                "id": 68,
+                "version": 0,
+                "name": "Section",
+                "value": 1,
+                "spoken": 1,
+                "descOrder": 3,
+                "usedForInterleaving": false
+              },
+              {
+                "id": 70,
+                "version": 0,
+                "name": "Shelf",
+                "value": 3,
+                "spoken": 3,
+                "descOrder": 4,
+                "usedForInterleaving": false
+              }
+            ],
+            "sites": {
+              "description": "Default Location",
+              "id": -1,
+              "name": "Default",
+              "version": 1
+            }
+          }
+        }
+      ]
+    }
+  }
+}

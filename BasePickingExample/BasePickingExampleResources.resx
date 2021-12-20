@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="WorkflowFriendlyName_BasePickingExample" xml:space="preserve">
+    <value>BasePickingExample</value>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_BasePickingExampleSettings" xml:space="preserve">
+    <value>BasePickingExample Settings</value>
+  </data>
+  <data name="BasePickingExampleSettingsWorkflowActivity_WorkflowSettingsLabel" xml:space="preserve">
+    <value>WORKFLOW SETTINGS</value>
+  </data>
+  <data name="BasePickingExampleSettingsWorkflowActivity_ServerSecureConnections" xml:space="preserve">
+    <value>Server Secure Connections</value>
+  </data>
+  <data name="BasePickingExampleSettingsWorkflowActivity_Host" xml:space="preserve">
+    <value>Host</value>
+  </data>
+  <data name="BasePickingExampleSettingsWorkflowActivity_BasePickingExampleSettingsLabel" xml:space="preserve">
+    <value>BasePickingExample SETTINGS</value>
+  </data>
+  <data name="BasePickingExampleSettingsWorkflowActivity_Port" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="BasePickingExampleSettingsWorkflowActivity_Title" xml:space="preserve">
+    <value>BasePickingExample Settings</value>
+  </data>
+	<data name="BasePicking_BackgroundActivity_Header_SignOn" xml:space="preserve">
+    <value>Signing On</value>
+  </data>
+	<data name="BasePicking_NetworkTimeout_Error" xml:space="preserve">
+    <value>Network request has timed out.</value>
+  </data>
+	<data name="BasePicking_SignOn_Authentication_Failed" xml:space="preserve">
+    <value>Authentication Failed</value>
+  </data>
+	<data name="BasePicking_Aisle_Header" xml:space="preserve">
+    <value>Proceed to Aisle</value>
+  </data>
+	<data name="BasePicking_Aisle_Label" xml:space="preserve">
+    <value>Aisle</value>
+  </data>
+	<data name="BasePicking_Aisle_Prompt" xml:space="preserve">
+    <value>Proceed to Aisle {0}</value>
+  </data>
+	<data name="BasePicking_AssignmentComplete_Header" xml:space="preserve">
+    <value>Assignment Complete.</value>
+  </data>
+	<data name="BasePicking_AssignmentComplete_Prompt" xml:space="preserve">
+    <value>Assignment Complete.</value>
+  </data>
+	<data name="BasePicking_BackgroundActivity_Header_GetPicks" xml:space="preserve">
+    <value>Getting Picks</value>
+  </data>
+	<data name="BasePicking_Details_Banner_Label" xml:space="preserve">
+    <value>Details</value>
+  </data>
+	<data name="BasePicking_Location_Banner_Label" xml:space="preserve">
+    <value>Location</value>
+  </data>
+	<data name="BasePicking_ProductId_Label" xml:space="preserve">
+    <value>Product ID:</value>
+  </data>
+	<data name="BasePicking_ProductName_Label" xml:space="preserve">
+    <value>Product Name:</value>
+  </data>
+	  <data name="BasePicking_ProgressBar_TitleLabel" xml:space="preserve">
+    <value>Picks Completed</value>
+  </data>
+	<data name="BasePicking_Quantity_Label" xml:space="preserve">
+    <value>Quantity:</value>
+  </data>
+	<data name="BasePicking_Slot_Label" xml:space="preserve">
+    <value>Slot</value>
+  </data>
+	<data name="BasePicking_Start_Another_Assignment_Header" xml:space="preserve">
+    <value>Start Another Assignment</value>
+  </data>
+	<data name="BasePicking_Start_Another_Assignment_Prompt" xml:space="preserve">
+    <value>To start another assignment, say ready</value>
+  </data>
+	<data name="BasePicking_Start_First_Assignment_Header" xml:space="preserve">
+    <value>Start an Assignment</value>
+  </data>
+	<data name="BasePicking_Start_First_Assignment_Prompt" xml:space="preserve">
+    <value>To start assignment, say ready</value>
+  </data>
+	<data name="BasePicking_EnterLocation_Header" xml:space="preserve">
+    <value>Confirm Location</value>
+  </data>
+	<data name="BasePicking_EnterLocation_Label" xml:space="preserve">
+    <value>Check Digit</value>
+  </data>
+	<data name="BasePicking_EnterLocation_Prompt" xml:space="preserve">
+    <value>Slot {0}</value>
+  </data>
+	<data name="BasePicking_Location_WrongCheckDigit" xml:space="preserve">
+    <value>Wrong Check Digit</value>
+  </data>
+	<data name="BasePicking_VocabWord_SkipSlot" xml:space="preserve">
+    <value>skip slot</value>
+  </data>
+	<data name="BasePicking_EnterQuantity_Failed" xml:space="preserve">
+    <value>Quantity not set</value>
+  </data>
+	<data name="BasePicking_EnterQuantity_Header" xml:space="preserve">
+    <value>Pick {0}</value>
+  </data>
+	<data name="BasePicking_EnterQuantity_Label" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+	<data name="BasePicking_EnterQuantity_Prompt" xml:space="preserve">
+    <value>Pick {0}</value>
+  </data>
+	<data name="BasePicking_EnterQuantity_Wrong" xml:space="preserve">
+    <value>Wrong Quantity</value>
+  </data>
+
+	<data name="BasePicking_EnterProduct_Header" xml:space="preserve">
+    <value>Enter Product ID</value>
+  </data>
+    <data name="BasePicking_EnterProduct_Label" xml:space="preserve">
+        <value>Product ID</value>
+    </data>
+	<data name="BasePicking_BackgroundActivity_Header_UpdatePick" xml:space="preserve">
+        <value>Updating pick</value>
+    </data>
+	<data name="BasePicking_ConfirmShortProduct_Header" xml:space="preserve">
+    <value>Confirm short product?</value>
+  </data>
+	<data name="BasePicking_ConfirmShortProduct_Prompt" xml:space="preserve">
+    <value>Confirm short product?</value>
+  </data>
+	<data name="BasePicking_VocabWord_ShortProduct" xml:space="preserve">
+    <value>Producto faltante</value>
+  </data>
+	<data name="BasePicking_Signoff_Not_Allowed_Prompt" xml:space="preserve">
+    <value>Sign off not allowed.</value>
+    <comment>Spoken prompt</comment>
+  </data>
+	<data name="BasePicking_Vocab_Additional_Cmd_SignOff" xml:space="preserve">
+    <value>salir</value>
+  </data>
+	<!--Mis custom Promps and labels-->
+    <data name="ExamSM_Getting_Containers" xml:space="preserve">
+        <value>Getting Containers Data</value>
+    </data>
+	<data name="Open_Container_Title" xml:space="preserve">
+        <value>Open Container</value>
+    </data>
+	
+	
+	<data name="IntroduceContainerLabel" xml:space="preserve">
+        <value>Introduce el ide del contenedor</value>
+    </data>
+</root>

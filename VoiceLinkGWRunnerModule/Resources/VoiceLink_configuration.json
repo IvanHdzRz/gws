@@ -1,0 +1,10 @@
+﻿{
+    "WorkflowConfiguration" :
+    {
+        "WorkflowName": "VoiceLink",
+        "WorkflowFriendlyName": "WorkflowFriendlyName_VoiceLink",
+        "WorkflowModelName": "VoiceLinkModel",
+        "WorkflowFiltersForSelecting": [ "EmbeddedDemo", "Server", "VoiceConsole", "MicroServices" ],
+        "AdditionalWorkflowsToLoad": [ "GuidedWorkRunner" ]
+    }
+}

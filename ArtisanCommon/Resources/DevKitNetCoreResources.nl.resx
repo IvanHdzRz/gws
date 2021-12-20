@@ -1,0 +1,664 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="alpha_a">
+    <value>A</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_b">
+    <value>B</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_c">
+    <value>C</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_d">
+    <value>D</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_e">
+    <value>E</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_f">
+    <value>F</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_g">
+    <value>G</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_h">
+    <value>H</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_i">
+    <value>I</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_j">
+    <value>J</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_k">
+    <value>K</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_l">
+    <value>L</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_m">
+    <value>M</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_n">
+    <value>N</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_o">
+    <value>O</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_p">
+    <value>P</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_q">
+    <value>Q</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_r">
+    <value>R</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_s">
+    <value>S</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_t">
+    <value>T</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_u">
+    <value>U</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_v">
+    <value>V</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_w">
+    <value>W</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_x">
+    <value>X</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_y">
+    <value>Y</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_z">
+    <value>Z</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="phonetic_a">
+    <value>anna</value>
+    <comment>The phonetic word for the letter "a"</comment>
+  </data>
+  <data name="phonetic_b">
+    <value>bernard</value>
+    <comment>The phonetic word for the letter "b"</comment>
+  </data>
+  <data name="phonetic_c">
+    <value>cornelis</value>
+    <comment>The phonetic word for the letter "c"</comment>
+  </data>
+  <data name="phonetic_d">
+    <value>dirk</value>
+    <comment>The phonetic word for the letter "d"</comment>
+  </data>
+  <data name="phonetic_e">
+    <value>eduard</value>
+    <comment>The phonetic word for the letter "e"</comment>
+  </data>
+  <data name="phonetic_f">
+    <value>ferdinand</value>
+    <comment>The phonetic word for the letter "f"</comment>
+  </data>
+  <data name="phonetic_g">
+    <value>gerard</value>
+    <comment>The phonetic word for the letter "g"</comment>
+  </data>
+  <data name="phonetic_h">
+    <value>hendrik</value>
+    <comment>The phonetic word for the letter "h"</comment>
+  </data>
+  <data name="phonetic_i">
+    <value>izaak</value>
+    <comment>The phonetic word for the letter "i"</comment>
+  </data>
+  <data name="phonetic_j">
+    <value>jan</value>
+    <comment>The phonetic word for the letter "j"</comment>
+  </data>
+  <data name="phonetic_k">
+    <value>karel</value>
+    <comment>The phonetic word for the letter "k"</comment>
+  </data>
+  <data name="phonetic_l">
+    <value>lodewijk</value>
+    <comment>The phonetic word for the letter "l"</comment>
+  </data>
+  <data name="phonetic_m">
+    <value>maria</value>
+    <comment>The phonetic word for the letter "m"</comment>
+  </data>
+  <data name="phonetic_n">
+    <value>nico</value>
+    <comment>The phonetic word for the letter "n"</comment>
+  </data>
+  <data name="phonetic_o">
+    <value>otto</value>
+    <comment>The phonetic word for the letter "o"</comment>
+  </data>
+  <data name="phonetic_p">
+    <value>pieter</value>
+    <comment>The phonetic word for the letter "p"</comment>
+  </data>
+  <data name="phonetic_q">
+    <value>quotiënt</value>
+    <comment>The phonetic word for the letter "q"</comment>
+  </data>
+  <data name="phonetic_r">
+    <value>rudolf</value>
+    <comment>The phonetic word for the letter "r"</comment>
+  </data>
+  <data name="phonetic_s">
+    <value>simon</value>
+    <comment>The phonetic word for the letter "s"</comment>
+  </data>
+  <data name="phonetic_t">
+    <value>tinus</value>
+    <comment>The phonetic word for the letter "t"</comment>
+  </data>
+  <data name="phonetic_u">
+    <value>utrecht</value>
+    <comment>The phonetic word for the letter "u"</comment>
+  </data>
+  <data name="phonetic_v">
+    <value>victor</value>
+    <comment>The phonetic word for the letter "v"</comment>
+  </data>
+  <data name="phonetic_w">
+    <value>willem</value>
+    <comment>The phonetic word for the letter "w"</comment>
+  </data>
+  <data name="phonetic_x">
+    <value>xantippe</value>
+    <comment>The phonetic word for the letter "x"</comment>
+  </data>
+  <data name="phonetic_y">
+    <value>ypsilon</value>
+    <comment>The phonetic word for the letter "y"</comment>
+  </data>
+  <data name="phonetic_z">
+    <value>zaandam</value>
+    <comment>The phonetic word for the letter "z"</comment>
+  </data>
+  <!-- Vocab Words -->
+  <data name="VocabWord_NoMore">
+    <value>dat is het</value>
+    <comment>"no more"  spoken command word.</comment>
+  </data>
+  <!-- Keys identical to CoreLibrary's (placeholders for overriding) -->
+  <!-- Dialog Runner Localization Keys -->
+  <data name="noise_sample_please_keep_quiet_instruction">
+    <value>Blijf een paar seconden stil</value>
+    <comment>Spoken prompt intructing the user to keep quiet for a noise sample.</comment>
+  </data>
+  <data name="noise_sample_no_speech_detected_warning">
+    <value>Ik heb u niet kunnen verstaan, kunt u luider spreken?</value>
+    <comment>Spoken prompt used if no speech is detected during noise sample.</comment>
+  </data>
+  <data name="noise_sample_first_utterance_prompt">
+    <value>Zeg: {0}</value>
+    <comment>Spoken prompt instructing the user to speak during noise sample.</comment>
+  </data>
+  <data name="noise_sample_first_utterance">
+    <value>0</value>
+    <comment>First utterance to be spoken during noise sample.</comment>
+  </data>
+  <data name="noise_sample_second_utterance">
+    <value>1</value>
+    <comment>Second utterance to be spoken during noise sample.</comment>
+  </data>
+  <data name="noise_sample_third_utterance">
+    <value>2</value>
+    <comment>Third utterance to be spoken during noise sample.</comment>
+  </data>
+  <data name="noise_sample_warning_too_long">
+    <value>Geluidstest voor spreken was te lang</value>
+    <comment>Spoken prompt used if speech detected during noise sample was too long.</comment>
+  </data>
+  <data name="noise_sample_completed">
+    <value>Geluidstest is voltooid</value>
+    <comment>Spoken prompt used when a noise sample completes successfully.</comment>
+  </data>
+  <data name="noise_sample_paused">
+    <value>Geluidstest gepauzeerd</value>
+    <comment>Spoken prompt used when a noise sample is paused.</comment>
+  </data>
+  <data name="noise_sample_failed">
+    <value>Geluidstest mislukt</value>
+    <comment>Spoken prompt used when a noise sample has failed.</comment>
+  </data>
+  <data name="training_please_say_following_words">
+    <value>Zeg de volgende woorden</value>
+    <comment>Prompt spoken/onscreen text when instructing the user to speak words for training.</comment>
+  </data>
+  <data name="training_wait_for_template_creation">
+    <value>Stemsjablonen worden gemaakt. Een ogenblik geduld.</value>
+    <comment>Prompt spoken/onscreen text while waiting for voice templates to be created.</comment>
+  </data>
+  <data name="finished_creating_voice_templates">
+    <value>Stemsjablonen zijn voltooid.</value>
+    <comment>Spoken prompt used when voice templates have been created.</comment>
+  </data>
+  <data name="training_interrupted">
+    <value>Training onderbroken</value>
+    <comment>Prompt spoken/onscreen text when training is interrupted.</comment>
+  </data>
+  <data name="training_timed_out">
+    <value>Time-out training</value>
+    <comment>Prompt spoken/onscreen text when training times out while waiting for the user to speak.</comment>
+  </data>
+  <data name="training_failed">
+    <value>Training mislukt</value>
+    <comment>Prompt spoken/onscreen text when training fails.</comment>
+  </data>
+  <data name="training_stopped">
+    <value>Training gestopt</value>
+    <comment>Prompt spoken/onscreen text when training is stopped.</comment>
+  </data>
+  <data name="training_pause_display_between_words">
+    <value>...</value>
+    <comment>Text displayed on screen during the pause between words in training.</comment>
+  </data>
+  <data name="number_0">
+    <value>0</value>
+    <comment>The digit 0.</comment>
+  </data>
+  <data name="number_1">
+    <value>1</value>
+    <comment>The digit 1.</comment>
+  </data>
+  <data name="number_2">
+    <value>2</value>
+    <comment>The digit 2.</comment>
+  </data>
+  <data name="number_3">
+    <value>3</value>
+    <comment>The digit 3.</comment>
+  </data>
+  <data name="number_4">
+    <value>4</value>
+    <comment>The digit 4.</comment>
+  </data>
+  <data name="number_5">
+    <value>5</value>
+    <comment>The digit 5.</comment>
+  </data>
+  <data name="number_6">
+    <value>6</value>
+    <comment>The digit 6.</comment>
+  </data>
+  <data name="number_7">
+    <value>7</value>
+    <comment>The digit 7.</comment>
+  </data>
+  <data name="number_8">
+    <value>8</value>
+    <comment>The digit 8.</comment>
+  </data>
+  <data name="number_9">
+    <value>9</value>
+    <comment>The digit 9.</comment>
+  </data>
+  <data name="phonetic_0">
+    <value>Nul</value>
+    <comment>The phonetic word for 0.</comment>
+  </data>
+  <data name="phonetic_1">
+    <value>Een</value>
+    <comment>The phonetic word for 1.</comment>
+  </data>
+  <data name="phonetic_2">
+    <value>Twee</value>
+    <comment>The phonetic word for 2.</comment>
+  </data>
+  <data name="phonetic_3">
+    <value>Drie</value>
+    <comment>The phonetic word for 3.</comment>
+  </data>
+  <data name="phonetic_4">
+    <value>Vier</value>
+    <comment>The phonetic word for 4.</comment>
+  </data>
+  <data name="phonetic_5">
+    <value>Vijf</value>
+    <comment>The phonetic word for 5.</comment>
+  </data>
+  <data name="phonetic_6">
+    <value>Zes</value>
+    <comment>The phonetic word for 6.</comment>
+  </data>
+  <data name="phonetic_7">
+    <value>Zeven</value>
+    <comment>The phonetic word for 7.</comment>
+  </data>
+  <data name="phonetic_8">
+    <value>Acht</value>
+    <comment>The phonetic word for 8.</comment>
+  </data>
+  <data name="phonetic_9">
+    <value>Negen</value>
+    <comment>The phonetic word for 9.</comment>
+  </data>
+  <data name="phonetic_decimal">
+    <value>Komma</value>
+    <comment>The phonetic word for a decimal point</comment>
+  </data>
+  <data name="prompt_separator_then">
+    <value> Dan: </value>
+    <comment>"Then: "</comment>
+  </data>
+  <data name="prompt_separator_or">
+    <value> Of: </value>
+    <comment>"Or: "</comment>
+  </data>
+  <data name="prompt_separator_if_required">
+    <value> Indien vereist: </value>
+    <comment>"If required: "</comment>
+  </data>
+  <data name="whole_number_separator">
+    <value>.</value>
+    <comment>This culture's symbol for the decimal mark.</comment>
+  </data>
+  <data name="whole_number_separator_phonetic">
+    <value>komma</value>
+    <comment>The phonetic word for this culture's decimal mark.</comment>
+  </data>
+  <data name="symbol_dash">
+    <value>-</value>
+    <comment>This culture's symbol for the hyphen mark.</comment>
+  </data>
+  <data name="phonetic_dash">
+    <value>streepje</value>
+    <comment>The phonetic word for this culture's hyphen mark.</comment>
+  </data>
+  <data name="confirmation_of_spoken_value">
+    <value>{0}, correct?</value>
+    <comment>Spoken prompt asking user for confirmation of a spoken value.</comment>
+  </data>
+  <data name="confirmation_of_spoken_value_and_anchor">
+    <value> {0}, {1}, correct?</value>
+    <comment>A spoken prompt asking the user to confirm their spoken value and anchor</comment>
+  </data>
+  <data name="pick_from_list_help_only_1_option">
+    <value>De enige mogelijkheid is {0}</value>
+    <comment>The help prompt spoken when the user is presented a list with only one option.</comment>
+  </data>
+  <data name="pick_from_list_help_multiple_options">
+    <value>De mogelijkheden zijn: {0} en {1}</value>
+    <comment>The help prompt spoken when the user is presented with a list of two options.</comment>
+  </data>
+  <data name="pick_from_list_confirmation_prompt">
+    <value>U hebt {0} geselecteerd. Isdat correct?</value>
+    <comment>Prompt user for confirmation of a list selection.</comment>
+  </data>
+  <data name="digit_entry_say_digits">
+    <value>Zeg {0} cijfers.</value>
+    <comment>Spoken prompt asking the user to speak a certain number of digits.</comment>
+  </data>
+  <data name="digit_entry_say_between_digits">
+    <value>Zeg tussen {0} en {1} cijfers.</value>
+    <comment>Spoken prompt asking the user to speak within a certain range of digits.</comment>
+  </data>
+  <data name="value_entry_say_characters">
+    <value>Zeg {0} tekens</value>
+    <comment>Spoken prompt asking the user to speak a certain number of characters.</comment>
+  </data>
+  <data name="value_entry_say_between_characters">
+    <value>Zeg tussen {0} en {1} tekens.</value>
+    <comment>Spoken prompt asking the user to speak within a certain range of characters.</comment>
+  </data>
+  <data name="digit_entry_long_value_help">
+    <value>zeg getallen, pauzeer om de laatst gesproken groep te horen, zeg "nee" om de laatst gesproken groep af te wijzen, zeg "gereed" om de invoer te voltooien. </value>
+    <comment>Main help prompt for long value entry dialogue</comment>
+  </data>
+  <data name="value_entry_long_value_help_characters">
+    <value>zeg tekens, pauzeer om de laatst gesproken groep te horen, zeg "nee" om de laatst gesproken groep af te wijzen, zeg "gereed" om de invoer te voltooien. </value>
+    <comment>Main help prompt for long value entry dialogue</comment>
+  </data>
+  <data name="default_help_no_help_available">
+    <value>Geen Help beschikbaar</value>
+    <comment>Spoken prompt used when no help prompt exists for this WFA.</comment>
+  </data>
+  <data name="default_help_only_1_word">
+    <value>Zeg {0}.</value>
+    <comment>Spoken prompt asking the user to speak a word.</comment>
+  </data>
+  <data name="default_help_multiple_words">
+    <value>Zeg {0} of {1}.</value>
+    <comment>Spoken prompt asking the user to speak one of two words.</comment>
+  </data>
+  <data name="default_help_multiple_words_and_anchors">
+    <value>gevolgd door {0} of {1}</value>
+    <comment>Spoken after default_help_multiple_words, when the user must say an anchor word after their input</comment>
+  </data>
+  <data name="yes">
+    <value>ja</value>
+    <comment>"Yes"</comment>
+  </data>
+  <data name="no">
+    <value>nee</value>
+    <comment>"No" command word</comment>
+  </data>
+  <data name="accept_entry_word">
+    <value>gereed</value>
+    <comment>"Ready" command word.</comment>
+  </data>
+  <data name="next_entry_word">
+    <value>volgende</value>
+    <comment>"Next" command word</comment>
+  </data>
+  <data name="digits_word">
+    <value>cijfers</value>
+    <comment>"Digits" command word</comment>
+  </data>
+  <!-- Intent Validation -->
+    <data name="Validation_GetValue_MinAndMax">
+    <value>U hebt {0} ingevoerd, de waarde moet tussen {1} en {2} liggen, probeer het opnieuw</value>
+    <comment>Text displayed or spoken when get digits is not in specified range</comment>
+  </data>
+  <data name="Validation_GetValue_Min">
+    <value>U hebt {0} ingevoerd, de waarde moet groter dan of gelijk aan {1} zijn, probeer het opnieuw</value>
+    <comment>Text displayed or spoken when get digits entry is less than min value</comment>
+  </data>
+  <data name="Validation_GetValue_Max">
+    <value>U hebt {0} ingevoerd, de waarde moet kleiner dan of gelijk aan {1} zijn, probeer het opnieuw</value>
+    <comment>Text displayed or spoken when get digits entry is greater than max value</comment>
+  </data>
+  <data name="Validation_GetValue_NotNumeric">
+    <value>{0} is geen numerieke waarde, probeer het opnieuw</value>
+    <comment>Text displayed or spoken when get digits entry is expected to be numeric</comment>
+  </data>
+  <data name="Validation_GetValue_MinLength">
+    <value>{0} verkeerd, voer in totaal ten minste {1} tekens in</value>
+    <comment>Test displayed when the the digit entry doesn't have enough digits</comment>
+  </data>
+  <data name="Validation_GetValue_MaxLength">
+    <value>{0} verkeerd, voer in totaal maximaal {1} tekens in</value>
+    <comment>Test displayed when the the digit entry doesn't have enough digits</comment>
+  </data>
+  <data name="Validation_GetDigits_InsufficientWholeNumbers">
+    <value>{0} verkeerd, voer ten minste {1} cijfers in voor de komma</value>
+    <comment>Test displayed when the the digit entry doesn't have enough digits before the decimal place</comment>
+  </data>
+  <data name="Validation_GetDigits_ExcessiveWholeNumbers">
+    <value>{0} verkeerd, voer niet meer dan {1} cijfers in voor de komma</value>
+    <comment>Test displayed when the the digit entry has too many digits before the decimal place</comment>
+  </data>
+  <data name="Validation_GetDigits_InsufficientPrecision">
+    <value>{0} verkeerd, voer ten minste {1} cijfers in achter de komma</value>
+    <comment>Test displayed when the the digit entry doesn't have enough digits after the decimal place</comment>
+  </data>
+  <data name="Validation_GetDigits_ExcessivePrecision">
+    <value>{0} verkeerd, voer niet meer dan {1} cijfers in achter de komma</value>
+    <comment>Test displayed when the the digit entry has too many digits after the decimal place</comment>
+  </data>
+  <data name="Validation_GetValue_InvalidCharacters">
+    <value>{0} verkeerd, ongeldige tekens</value>
+    <comment>Text displayed when the the value entry has invalid characters</comment>
+  </data>
+  <data name="Validation_General_UnexpectedValue">
+    <value>{0} verkeerd, probeer het opnieuw</value>
+    <comment>Text displayed or spoken when entry is not one of expected values</comment>
+  </data>
+<!-- Date Entry Dialogue -->
+  <data name="DateEntryDialogue_Day_Prompt">
+    <value>Dag?</value>
+  </data>
+  <data name="DateEntryDialogue_Month_Prompt">
+    <value>Maand?</value>
+  </data>
+  <data name="DateEntryDialogue_Year_Prompt">
+    <value>Jaar?</value>
+  </data>
+  <data name="DateDialogue_Invalid_Prompt">
+    <value>Ongeldige datum voor maand {0}, dag {1} en jaar {2}</value>
+  </data>
+  <data name="DateDialogue_BiggerThanMax_Prompt">
+    <value>Ongeldige maand {0}, dag {1} en jaar {2}, voer een datum in vóór maand {3}, dag {4} en jaar {5}.</value>
+  </data>
+  <data name="DateDialogue_SmallerThanMin_Prompt">
+    <value>Ongeldige maand {0}, dag {1} en jaar {2}, voer een datum in op of na maand {3}, dag {4} en jaar {5}.</value>
+  </data>
+  <data name="DateEntryDialogue_StartEntryM_Prompt">
+    <value>Zeg 2 cijfers voor de maand, </value>
+  </data>
+  <data name="DateEntryDialogue_StartEntryD_Prompt">
+    <value>Zeg 2 cijfers voor de dag, </value>
+  </data>
+  <data name="DateEntryDialogue_StartEntryY_Prompt">
+    <value>Zeg 2 cijfers voor het jaar, </value>
+  </data>
+  <data name="DateEntryDialogue_Confirmation_Prompt">
+    <value>maand {0}, dag {1} en jaar {2}</value>
+  </data>
+   <!-- Vocab Words -->
+  <data name="VocabWord_Help">
+    <value>help</value>
+    <comment>Global "help" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_SayAgain">
+    <value>zeg het opnieuw</value>
+    <comment>"Say again" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_StandBy">
+    <value>Stand-by</value>
+    <comment>Global "standby"  spoken command word.</comment>
+  </data>
+  <data name="VocabWord_NoiseSample">
+    <value>geluidstest</value>
+    <comment>Global "noise sample" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_Continue">
+    <value>doorgaan</value>
+    <comment>"Continue" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_SignOff">
+    <value>afmelden</value>
+    <comment>Global "sign off" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_Yes">
+    <value>ja</value>
+    <comment>"Yes" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_No">
+    <value>nee</value>
+    <comment>"No" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_UpdateTrain">
+    <value>training bijwerken</value>
+    <comment>Global "update train"  spoken command word.</comment>
+  </data>
+  <data name="VocabWord_Info">
+    <value>info</value>
+    <comment>"info" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_Option">
+    <value>opties</value>
+    <comment>"Option" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_Negative">
+    <value>negatief</value>
+    <comment>"negative" spoken word for negative numeric values.</comment>
+  </data>
+  <data name="VocabWord_Cancel">
+    <value>annuleren</value>
+    <comment>"cancel" spoken word for cancelling entries.</comment>
+  </data>
+  <!-- Overflow Menu Items -->
+  <data name="OverflowMenuItem_ReportProblem">
+    <value>probleem rapporteren</value>
+    <comment>Global "report problem" overflow menu item.</comment>
+  </data>
+  <!-- Button Labels -->
+  <data name="AffirmativeButtonText">
+    <value>Ja</value>
+    <comment>"Yes" button text.</comment>
+  </data>
+  <data name="NegativeButtonText">
+    <value>Nee</value>
+    <comment>"No" button text.</comment>
+  </data>
+  <!-- Generic Code Keys -->
+  <data name="Generic_Additional_Cmd_Background_Header">
+    <value>Verwerkingsopdracht</value>
+  </data>
+  <data name="Generic_SelectOperatorTeam_Header">
+    <value>Operatorteams selecteren</value>
+  </data>
+  <data name="Generic_SelectOperatorTeam_Prompt">
+    <value>selecteer operatorteam</value>
+  </data>
+  <data name="Generic_SignOn_Failed_EntrysBlank">
+    <value>Gebruikersnaam en wachtwoord zijn verplicht</value>
+  </data>
+  <data name="Generic_SignOn_Header">
+    <value>Operator selecteren</value>
+  </data>
+  <data name="VoiceCentric_Header" xml:space="preserve">
+    <value>Voicegerichte invoer</value>
+  </data>
+  <data name="VoiceCentric_Label" xml:space="preserve">
+    <value>Voicegerichte waarde</value>
+  </data>
+</root>

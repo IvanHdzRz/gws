@@ -1,0 +1,10 @@
+﻿{
+    "WorkflowConfiguration" :
+    {
+        "WorkflowName": "NewExample",
+        "WorkflowFriendlyName": "WorkflowFriendlyName_NewExample",
+        "WorkflowModelName": "NewExampleModel",
+        "WorkflowFiltersForSelecting": [ "EmbeddedDemo", "MicroServices" ],
+        "AdditionalWorkflowsToLoad": [ "GuidedWorkRunner" ] 
+    }
+}

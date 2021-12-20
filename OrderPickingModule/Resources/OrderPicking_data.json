@@ -1,0 +1,384 @@
+﻿{
+    "fetchOrders": {
+        "assignments": {
+            "assignment": [
+                {
+                    "@xsi.type": "pick",
+                    "id": 2006,
+                    "version": 1,
+                    "completionOrder": 1,
+                    "product": {
+                        "id": 1004,
+                        "version": 0,
+                        "productIdentifier": "044000004590",
+                        "acceptedIdentifiers": [ "044000004590", "0044000004590" ],
+                        "name": "Nabisco Honey Maid Graham Crackers - Family Size",
+                        "description": "Nabisco Honey Maid Graham Crackers - Family Size, 28.8 OZ",
+                        "displayPrice": "$4.99",
+                        "size": "Family Size",
+                        "cases": 0,
+                        "singles": 1,
+                        "inventory": {
+                            "locationId": 160
+                        },
+                        "sites": {
+                            "description": "Default Location",
+                            "id": -1,
+                            "name": "Default",
+                            "version": 1
+                        }
+                    },
+                    "productId": 1004,
+                    "location": {
+                        "id": 160,
+                        "version": 0,
+                        "descriptiveText": "Front of Store - Aisle:1->Side:Right->Section:1->Shelf:5",
+                        "compactDescriptiveText": "Aisle 1 Side Right Section 1 Shelf 5",
+                        "descriptiveSpoken": "Aisle 1 Side Right Section 1 Shelf 5",
+                        "definitionId": 9,
+                        "descriptors": [
+                            {
+                                "id": 649,
+                                "version": 0,
+                                "name": "Aisle",
+                                "value": 1,
+                                "spoken": 1,
+                                "descOrder": 1,
+                                "usedForInterleaving": true
+                            },
+                            {
+                                "id": 646,
+                                "version": 0,
+                                "name": "Side",
+                                "value": "Right",
+                                "spoken": "Right",
+                                "descOrder": 2,
+                                "usedForInterleaving": false
+                            },
+                            {
+                                "id": 647,
+                                "version": 0,
+                                "name": "Section",
+                                "value": 1,
+                                "spoken": 1,
+                                "descOrder": 3,
+                                "usedForInterleaving": false
+                            },
+                            {
+                                "id": 648,
+                                "version": 0,
+                                "name": "Shelf",
+                                "value": 5,
+                                "spoken": 5,
+                                "descOrder": 4,
+                                "usedForInterleaving": false
+                            }
+                        ],
+                        "sites": {
+                            "description": "Default Location",
+                            "id": -1,
+                            "name": "Default",
+                            "version": 1
+                        }
+                    },
+                    "locationId": 160,
+                    "status": 0,
+                    "type": "PICK",
+                    "workerId": 51,
+                    "quantity": 4,
+                    "pickGroupId": 87,
+                    "orderInfo": {
+                        "id": 1,
+                        "version": 1,
+                        "orderIdentifier": 1,
+                        "description": "",
+                        "requestedCompletionDate": "2017-01-01T09:35:00-05:00",
+                        "workerId": 51,
+                        "status": 0
+                    },
+                    "substitutions": [
+                        {
+                            "id": 2008,
+                            "version": 1,
+                            "completionOrder": 1,
+                            "product": {
+                                "id": 1160,
+                                "version": 0,
+                                "productIdentifier": "000004446307",
+                                "acceptedIdentifiers": [ "000004446307" ],
+                                "name": "Honey Maid Graham Crackers",
+                                "description": "Honey Maid Graham Crackers, 14.4oz",
+                                "displayPrice": "$2.99",
+                                "size": "14.4 oz",
+                                "cases": 0,
+                                "singles": 1,
+                                "inventory": {
+                                    "locationId": 159
+                                },
+                                "sites": {
+                                    "description": "Default Location",
+                                    "id": -1,
+                                    "name": "Default",
+                                    "version": 1
+                                }
+                            },
+                            "productId": 1160,
+                            "location": {
+                                "id": 159,
+                                "version": 0,
+                                "descriptiveText": "Front of Store - Aisle:1->Side:Right->Section:1->Shelf:5",
+                                "compactDescriptiveText": "Aisle 1 Side Right Section 1 Shelf 5",
+                                "descriptiveSpoken": "Aisle 1 Side Right Section 1 Shelf 5",
+                                "definitionId": 9,
+                                "descriptors": [
+                                    {
+                                        "id": 645,
+                                        "version": 0,
+                                        "name": "Aisle",
+                                        "value": 1,
+                                        "spoken": 1,
+                                        "descOrder": 1,
+                                        "usedForInterleaving": true
+                                    },
+                                    {
+                                        "id": 642,
+                                        "version": 0,
+                                        "name": "Side",
+                                        "value": "Right",
+                                        "spoken": "Right",
+                                        "descOrder": 2,
+                                        "usedForInterleaving": false
+                                    },
+                                    {
+                                        "id": 644,
+                                        "version": 0,
+                                        "name": "Section",
+                                        "value": 1,
+                                        "spoken": 1,
+                                        "descOrder": 3,
+                                        "usedForInterleaving": false
+                                    },
+                                    {
+                                        "id": 643,
+                                        "version": 0,
+                                        "name": "Shelf",
+                                        "value": 5,
+                                        "spoken": 5,
+                                        "descOrder": 4,
+                                        "usedForInterleaving": false
+                                    }
+                                ],
+                                "sites": {
+                                    "description": "Default Location",
+                                    "id": -1,
+                                    "name": "Default",
+                                    "version": 1
+                                }
+                            },
+                            "locationId": 159,
+                            "status": 0,
+                            "type": "ORDERPICKSUB",
+                            "workerId": 51,
+                            "quantity": 4,
+                            "parentPickId": 2006,
+                            "substitutionPriority": 1
+                        }
+                    ],
+                    "notes": ""
+                },
+                {
+                    "@xsi.type": "pick",
+                    "id": 2009,
+                    "version": 1,
+                    "completionOrder": 2,
+                    "product": {
+                        "id": 1158,
+                        "version": 0,
+                        "productIdentifier": "027500095596",
+                        "acceptedIdentifiers": [ "027500095596", "0027500095596" ],
+                        "name": "Archway Soft Chocolate Chip Cookies",
+                        "description": "Archway Soft Chocolate Chip Cookies, 9 oz",
+                        "displayPrice": "$2.50",
+                        "size": "9 oz",
+                        "cases": 0,
+                        "singles": 6,
+                        "inventory": {
+                            "locationId": 159
+                        },
+                        "sites": {
+                            "description": "Default Location",
+                            "id": -1,
+                            "name": "Default",
+                            "version": 1
+                        }
+                    },
+                    "productId": 1158,
+                    "location": {
+                        "id": 159,
+                        "version": 0,
+                        "descriptiveText": "Front of Store - Aisle:1->Side:Left->Section:2->Shelf:4",
+                        "compactDescriptiveText": "Aisle 1 Side Left Section 2 Shelf 4",
+                        "descriptiveSpoken": "Aisle 1 Side Left Section 2 Shelf 4",
+                        "definitionId": 9,
+                        "descriptors": [
+                            {
+                                "id": 645,
+                                "version": 0,
+                                "name": "Aisle",
+                                "value": 1,
+                                "spoken": 1,
+                                "descOrder": 1,
+                                "usedForInterleaving": true
+                            },
+                            {
+                                "id": 642,
+                                "version": 0,
+                                "name": "Side",
+                                "value": "Left",
+                                "spoken": "Left",
+                                "descOrder": 2,
+                                "usedForInterleaving": false
+                            },
+                            {
+                                "id": 644,
+                                "version": 0,
+                                "name": "Section",
+                                "value": 2,
+                                "spoken": 2,
+                                "descOrder": 3,
+                                "usedForInterleaving": false
+                            },
+                            {
+                                "id": 643,
+                                "version": 0,
+                                "name": "Shelf",
+                                "value": 4,
+                                "spoken": 4,
+                                "descOrder": 4,
+                                "usedForInterleaving": false
+                            }
+                        ],
+                        "sites": {
+                            "description": "Default Location",
+                            "id": -1,
+                            "name": "Default",
+                            "version": 1
+                        }
+                    },
+                    "locationId": 159,
+                    "status": 0,
+                    "type": "PICK",
+                    "workerId": 51,
+                    "quantity": 3,
+                    "pickGroupId": 87,
+                    "orderInfo": {
+                        "id": 2,
+                        "version": 1,
+                        "orderIdentifier": 2,
+                        "description": "",
+                        "requestedCompletionDate": "2017-01-01T09:35:00-05:00",
+                        "workerId": 51,
+                        "status": 0
+                    },
+                    "notes": ""
+                },
+                {
+                    "@xsi.type": "pick",
+                    "id": 2010,
+                    "version": 1,
+                    "completionOrder": 3,
+                    "product": {
+                        "id": 1171,
+                        "version": 0,
+                        "productIdentifier": "071580000919",
+                        "acceptedIdentifiers": [ "071580000919", "0071580000919" ],
+                        "name": "United Fat Free Skim Milk",
+                        "description": "United Fat Free Skim Milk, 1/2 Gallon",
+                        "displayPrice": "$2.99",
+                        "size": "1/2 Gallon",
+                        "cases": 0,
+                        "singles": 5,
+                        "inventory": {
+                            "locationId": 193
+                        },
+                        "sites": {
+                            "description": "Default Location",
+                            "id": -1,
+                            "name": "Default",
+                            "version": 1
+                        }
+                    },
+                    "productId": 1171,
+                    "location": {
+                        "id": 193,
+                        "version": 0,
+                        "descriptiveText": "Front of Store - Aisle:2->Side:Right->Section:1->Shelf:3",
+                        "compactDescriptiveText": "Aisle 2 Side Right Section 1 Shelf 3",
+                        "descriptiveSpoken": "Aisle 2 Side Right Section 1 Shelf 3",
+                        "definitionId": 9,
+                        "descriptors": [
+                            {
+                                "id": 781,
+                                "version": 0,
+                                "name": "Aisle",
+                                "value": 2,
+                                "spoken": 2,
+                                "descOrder": 1,
+                                "usedForInterleaving": true
+                            },
+                            {
+                                "id": 778,
+                                "version": 0,
+                                "name": "Side",
+                                "value": "Right",
+                                "spoken": "Right",
+                                "descOrder": 2,
+                                "usedForInterleaving": false
+                            },
+                            {
+                                "id": 779,
+                                "version": 0,
+                                "name": "Section",
+                                "value": 1,
+                                "spoken": 1,
+                                "descOrder": 3,
+                                "usedForInterleaving": false
+                            },
+                            {
+                                "id": 780,
+                                "version": 0,
+                                "name": "Shelf",
+                                "value": 3,
+                                "spoken": 3,
+                                "descOrder": 4,
+                                "usedForInterleaving": false
+                            }
+                        ],
+                        "sites": {
+                            "description": "Default Location",
+                            "id": -1,
+                            "name": "Default",
+                            "version": 1
+                        }
+                    },
+                    "locationId": 193,
+                    "status": 0,
+                    "type": "PICK",
+                    "workerId": 51,
+                    "quantity": 1,
+                    "pickGroupId": 87,
+                    "orderInfo": {
+                        "id": 2,
+                        "version": 1,
+                        "orderIdentifier": 2,
+                        "description": "",
+                        "requestedCompletionDate": "2017-01-01T09:35:00-05:00",
+                        "workerId": 51,
+                        "status": 0
+                    },
+                    "notes": ""
+                }
+            ]
+        }
+    }
+}

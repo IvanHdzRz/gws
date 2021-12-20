@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright (C) 2019 Honeywell International Inc. All rights reserved. -->
+<hfmcl:CoreView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:hfmcl="clr-namespace:Honeywell.Firebird.CoreLibrary;assembly=Honeywell.GuidedWork.XF"
+             xmlns:i18n="clr-namespace:Honeywell.Firebird.CoreLibrary.Localization.Xaml;assembly=Honeywell.GuidedWork.XF"
+             x:Class="BasePicking.BasePickingConfigurationSettingsView">
+
+
+    <ScrollView>
+        <StackLayout VerticalOptions="Fill" Spacing="0" BackgroundColor="{x:Static hfmcl:ColorResources.HoneywellWhite}">
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" />
+
+            <!-- CONFIGURATION SETTINGS -->
+            <StackLayout Style="{StaticResource SectionTitleLayoutStyle}">
+                <Label Text="{i18n:Translate BasePickingSettingsWorkflowActivity_ConfigurationSettingsTitle, Converter={StaticResource StringCaseConverter}, ConverterParameter=U}" 
+                     Style="{StaticResource SectionTitleLabelStyle}"
+                     AutomationId="SettingsMenuConfigurationSettingsLabel" />
+            </StackLayout>
+
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="SettingsMenuViewApplicationSettingsBoxView"/>
+
+            <!-- Hide Configuration Settins -->
+            <StackLayout Style="{StaticResource SettingsItemLayoutStyle}" IsVisible="{Binding ServerSettingsVisible}">
+                <StackLayout VerticalOptions="Center" Spacing="1">
+                    <Label Text="Hide Configuration Settings" Style="{StaticResource SettingsItemLabelStyle}" AutomationId="ServerSettingsServerSecureConnectionsLabel" />
+                    <Label Text="This will hide this screen and it will only be able to be turned back on via configuration file" Style="{StaticResource SettingsItemDescriptionLabelStyle}" TextColor="Red" AutomationId="VoiceAndAudioSettingsDeleteLocalTemplatesLabel" />
+                </StackLayout>
+                <Switch IsToggled="{Binding HideConfigurationSettings}" HorizontalOptions="EndAndExpand" VerticalOptions="Center" AutomationId="ServerSettingsServerSecureConnectionsSwitch" />
+            </StackLayout>
+
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="SettingsMenuViewApplicationSettingsBoxView"/>
+
+            <!-- PickMethod -->
+            <StackLayout Style="{StaticResource SettingsItemVerticalLayoutStyle}" IsVisible="{Binding ServerSettingsVisible}">
+                <Label Text="Pick Method" Style="{StaticResource SettingsItemLabelStyle}" AutomationId="ServerSettingsServerSecureConnectionsLabel" />
+                <StackLayout Style="{StaticResource EntryBorderStyle}">
+                    <StackLayout Style="{StaticResource EntryLayoutStyle}">
+                        <hfmcl:CustomPicker Title="Pick Method"
+                            ItemsSource="{Binding PickMethodChoices}"
+                            SelectedItem="{Binding SelectedPickMethod}"
+                            x:Name="PickMethodPicker"
+                            FontFamily="HoneywellSans-Book"
+                            AutomationId="ServerSettingsWorkflowPicker" />
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="SettingsMenuViewApplicationSettingsBoxView"/>
+
+            <!-- ShowHints -->
+            <StackLayout Style="{StaticResource SettingsItemLayoutStyle}" IsVisible="{Binding ServerSettingsVisible}">
+                <Label Text="Show Hints" Style="{StaticResource SettingsItemLabelStyle}" AutomationId="ServerSettingsServerSecureConnectionsLabel" />
+                <Switch IsToggled="{Binding ShowHints}" HorizontalOptions="EndAndExpand" VerticalOptions="Center" AutomationId="ServerSettingsServerSecureConnectionsSwitch" />
+            </StackLayout>
+
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="SettingsMenuViewApplicationSettingsBoxView"/>
+
+            <!-- ConfirmLocation -->
+            <StackLayout Style="{StaticResource SettingsItemLayoutStyle}" IsVisible="{Binding ServerSettingsVisible}">
+                <Label Text="Confirm Location" Style="{StaticResource SettingsItemLabelStyle}" AutomationId="ServerSettingsServerSecureConnectionsLabel" />
+                <Switch IsToggled="{Binding ConfirmLocation}" HorizontalOptions="EndAndExpand" VerticalOptions="Center" AutomationId="ServerSettingsServerSecureConnectionsSwitch" />
+            </StackLayout>
+
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="SettingsMenuViewApplicationSettingsBoxView"/>
+
+            <!-- ConfirmProduct -->
+            <StackLayout Style="{StaticResource SettingsItemLayoutStyle}" IsVisible="{Binding ServerSettingsVisible}">
+                <Label Text="Confirm Product" Style="{StaticResource SettingsItemLabelStyle}" AutomationId="ServerSettingsServerSecureConnectionsLabel" />
+                <Switch IsToggled="{Binding ConfirmProduct}" HorizontalOptions="EndAndExpand" VerticalOptions="Center" AutomationId="ServerSettingsServerSecureConnectionsSwitch" />
+            </StackLayout>
+
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="SettingsMenuViewApplicationSettingsBoxView"/>
+
+            <!-- ConfirmQuantityVoiceInput -->
+            <StackLayout Style="{StaticResource SettingsItemLayoutStyle}" IsVisible="{Binding ServerSettingsVisible}">
+                <Label Text="Confirm Quantity Voice Input" Style="{StaticResource SettingsItemLabelStyle}" AutomationId="ServerSettingsServerSecureConnectionsLabel" />
+                <Switch IsToggled="{Binding ConfirmQuantityVoiceInput}" HorizontalOptions="EndAndExpand" VerticalOptions="Center" AutomationId="ServerSettingsServerSecureConnectionsSwitch" />
+            </StackLayout>
+
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="SettingsMenuViewApplicationSettingsBoxView"/>
+
+            <!-- ConfirmQuantityScreenInput -->
+            <StackLayout Style="{StaticResource SettingsItemLayoutStyle}" IsVisible="{Binding ServerSettingsVisible}">
+                <Label Text="Confirm Quantity Screen Input" Style="{StaticResource SettingsItemLabelStyle}" AutomationId="ServerSettingsServerSecureConnectionsLabel" />
+                <Switch IsToggled="{Binding ConfirmQuantityScreenInput}" HorizontalOptions="EndAndExpand" VerticalOptions="Center" AutomationId="ServerSettingsServerSecureConnectionsSwitch" />
+            </StackLayout>
+
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="SettingsMenuViewApplicationSettingsBoxView"/>
+
+            <!-- PickQuantityCountdown -->
+            <StackLayout Style="{StaticResource SettingsItemLayoutStyle}" IsVisible="{Binding ServerSettingsVisible}">
+                <Label Text="Pick Quantity Countdown" Style="{StaticResource SettingsItemLabelStyle}" AutomationId="ServerSettingsServerSecureConnectionsLabel" />
+                <Switch IsToggled="{Binding PickQuantityCountdown}" HorizontalOptions="EndAndExpand" VerticalOptions="Center" AutomationId="ServerSettingsServerSecureConnectionsSwitch" />
+            </StackLayout>
+
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="SettingsMenuViewApplicationSettingsBoxView"/>
+
+        </StackLayout>
+    </ScrollView>
+</hfmcl:CoreView>

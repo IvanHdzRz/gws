@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <!-- Workflow Friendly Names -->
+  <data name="WorkflowFriendlyName_OrderPicking">
+    <value>Order Picking</value>
+    <comment>This value is the name operators will hear for the "OrderPicking" workflow.</comment>
+  </data>
+  <!-- Vocab Words -->
+  <data name="VocabWord_EndOrder">
+    <value>end order</value>
+    <comment>System Vocabulary Word to end an order.</comment>
+  </data>
+  <data name="VocabWord_Overflow">
+    <value>overflow</value>
+    <comment>System Vocabulary Word to report when there is too much product for a task.</comment>
+  </data>
+  <data name="VocabWord_OrderStatus">
+    <value>order status</value>
+    <comment>System Vocabulary Word to request status of an order.</comment>
+  </data>
+  <!-- Order Picking Workflow -->
+  <data name="OrderPickingWorkflowActivity_Title">
+    <value>Order Picking</value>
+    <comment>Application screen title, workflow.</comment>
+  </data>
+  <data name="OrderPickingWorkflowActivity_OrderNumber">
+    <value>Order ID: </value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="OrderPickingWorkflowActivity_StockCode">
+    <value>Stock Code</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="OrderPickingWorkflowActivity_StockCodeEntryPlaceholder">
+    <value>Speak/Type/Scan</value>
+    <comment>Gray default text in entry box.</comment>
+  </data>
+  <data name="OrderPickingWorkflowActivity_QuantityEntryPlaceholder">
+    <value>Speak/Type</value>
+    <comment>Gray default text in entry box.</comment>
+  </data>
+  <data name="OrderPickingWorkflowActivity_Sequence">
+    <value>Pick Item {0} of {1}</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="OrderPickingWorkflowActivity_Location">
+    <value>LOCATION</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="OrderPickingWorkflowActivity_Details">
+    <value>DETAILS</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="OrderPickingWorkflowActivity_OrderedQuantity">
+    <value>Ordered Quantity</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="OrderPickingWorkflowActivity_LastDigits">
+    <value> (Last {0} Digits)</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="OrderPickingWorkflowActivity_PickedQuantity">
+    <value>Picked Quantity</value>
+    <comment>Application label text, for quantity of current order that has been selected.</comment>
+  </data>
+  <data name="OrderPickingWorkflowActivity_CancelButtonText">
+    <value>End Order</value>
+    <comment>Application button text.</comment>
+  </data>
+  <data name="OrderPickingWorkflowActivity_PriceLabel">
+    <value>Unit Price:</value>
+    <comment>Application label text, price of a single item.</comment>
+  </data>
+  <data name="OrderPickingWorkflowActivity_StagingLocation">
+    <value>Staging Location</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="OrderPickingWorkflowActivity_StagingLocationEntryPlaceholder">
+    <value>Speak/Type/Scan</value>
+    <comment>Gray default text in entry box.</comment>
+  </data>
+  <data name="OrderPickingWorkflowActivity_Container">
+    <value>Container</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="OrderPickingWorkflowActivity_OverflowButtonText">
+    <value>Overflow</value>
+    <comment>Application button text.</comment>
+  </data>
+  <!-- Order Picking Get Containers Workflow -->
+  <data name="OrderPickingGetContainersWorkflowActivity_Header">
+    <value>Get Containers</value>
+    <comment>Application screen header, intruction to operator.</comment>
+  </data>
+  <data name="OrderPickingGetContainersWorkflowActivity_InitialPromptSingular">
+    <value>Get containers for {0} order. Say next when complete.</value>
+    <comment>Spoken prompt, when picking for one order.</comment>
+  </data>
+  <data name="OrderPickingGetContainersWorkflowActivity_InitialPromptPlural">
+    <value>Get containers for {0} orders. Say next when complete.</value>
+    <comment>Spoken prompt, when picking for multiple orders.</comment>
+  </data>
+  <data name="OrderPickingGetContainersWorkflowActivity_Instructions">
+    <value> • Get containers for orders\n • Say or press Next to continue</value>
+    <comment>Application screen text, uses formating characters /n and  •</comment>
+  </data>
+  <!-- Order Picking Acknowledge Location Workflow -->
+  <data name="OrderPickingAcknowledgeLocationWorkflowActivity_Header">
+    <value>Item {0} of {1}</value>
+    <comment>Application screen header, current number of items remaining number of items.</comment>
+  </data>
+  <data name="OrderPickingAcknowledgeLocationWorkflowActivity_InitialPrompt">
+    <value>Location: {0}</value>
+    <comment>Spoken prompt, gives location.</comment>
+  </data>
+  <data name="OrderPickingAcknowledgeLocationWorkflowActivity_Instructions">
+    <value> • Go to location below\n • Say or press Next to pick the item</value>
+    <comment>Application screen text,  uses formating characters /n and  •</comment>
+  </data>
+  <!-- Order Picking Confirm No More Workflow -->
+  <data name="OrderPickingConfirmNoMoreWorkflowActivity_Header">
+    <value>End Order</value>
+    <comment>Application screen header, </comment>
+  </data>
+  <data name="OrderPickingConfirmNoMoreWorkflowActivity_SubHeader">
+    <value>Check your item order list</value>
+    <comment>Application screen subheader, </comment>
+  </data>
+  <data name="OrderPickingConfirmNoMoreWorkflowActivity_Body">
+    <value>Are you sure you want to end your order?</value>
+    <comment>Application screen text </comment>
+  </data>
+  <data name="OrderPickingConfirmNoMoreWorkflowActivity_InitialPrompt">
+    <value>End order, correct?</value>
+    <comment>Spoken prompt, confirming end of a unit of work.</comment>
+  </data>
+  <!-- Order Picking Confirm Skip Item Workflow -->
+  <data name="OrderPickingConfirmSkipProductWorkflowActivity_Header">
+    <value>Skip Item</value>
+    <comment>Application screen header, </comment>
+  </data>
+  <data name="OrderPickingConfirmSkipProductWorkflowActivity_Body">
+    <value>Skipped items will be added to the end of the order list. Are you sure you want to skip this item now?</value>
+    <comment>Application screen text</comment>
+  </data>
+  <data name="OrderPickingConfirmSkipProductWorkflowActivity_InitialPrompt">
+    <value>Skip Item, correct?</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="OrderPickingConfirmSkipProductWorkflowActivity_Instructions">
+    <value> • Speak or Press Yes to skip this item\n • Speak or press No to continue</value>
+    <comment>Application screen text, uses formating characters /n and  •</comment>
+  </data>
+  <!-- Order Picking Confirm Skip Enter Item Workflow -->
+  <data name="OrderPickingConfirmSkipEnterItemWorkflowActivity_Header">
+    <value>Skip Item</value>
+    <comment>Application screen header, </comment>
+  </data>
+  <data name="OrderPickingConfirmSkipEnterItemWorkflowActivity_Body">
+    <value>Skipped items will be added to the end of the order list. Are you sure you want to skip this item now?</value>
+    <comment>Application screen text, confirms skipping and item and explains wha the system will do.</comment>
+  </data>
+  <data name="OrderPickingConfirmSkipEnterItemWorkflowActivity_InitialPrompt">
+    <value>Skip Item, correct?</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="OrderPickingConfirmSkipEnterItemWorkflowActivity_Instructions">
+    <value> • Speak or Press Yes to skip this item\n • Speak or press No to continue</value>
+    <comment>Application screen text, uses formating characters /n and  •</comment>
+  </data>
+  <!-- Order Picking Enter Product Workflow -->
+  <data name="OrderPickingEnterProductWorkflowActivity_Header">
+    <value>Item {0} of {1}</value>
+    <comment>Application screen header, status information.</comment>
+  </data>
+  <data name="OrderPickingEnterProductWorkflowActivity_InitialPrompt">
+    <value>Location: {0}</value>
+    <comment>Spoken prompt, states area of work.</comment>
+  </data>
+  <data name="OrderPickingEnterProductWorkflowActivity_Placeholder">
+    <value>Product Identifier?</value>
+    <comment>Gray default text in entry box.</comment>
+  </data>
+  <data name="OrderPickingEnterProductWorkflowActivity_InfoPrompt">
+    <value>Location: {0}</value>
+    <comment>Spoken prompt, repeats area of work if operator requests it.</comment>
+  </data>
+  <data name="OrderPickingEnterProductWorkflowActivity_Instructions">
+    <value> • Locate item with stock code on box\n • Speak, scan or type the stock code</value>
+    <comment>Application screen text,  uses formating characters /n and  •</comment>
+  </data>
+  <!-- Order Picking Enter Quantity Workflow -->
+  <data name="OrderPickingEnterQuantityWorkflowActivity_Header">
+    <value>Put {0} in Container {1}</value>
+    <comment>Application screen header, intruction to operator.</comment>
+  </data>
+  <data name="OrderPickingEnterQuantityWorkflowActivity_InitialPrompt">
+    <value>Put {0} in Container {1}</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="OrderPickingEnterQuantityWorkflowActivity_ErrorPrompt">
+    <value>You picked the wrong quantity! Please try again. Put {0} in Order {1}</value>
+    <comment>Spoken prompt, for mistakes while selecting.</comment>
+  </data>
+  <data name="OrderPickingEnterQuantityWorkflowActivity_Instructions">
+    <value> • Pick the ordered quantity for item\n • Say or type picked quantity for item\n • Say Next</value>
+    <comment>Application screen text,  uses formating characters /n and  •</comment>
+  </data>
+  <!-- Order Picking Confirm Quanitity Workflow Activity -->
+  <data name="OrderPickingConfirmQuantityWorkflowActivity_Header">
+    <value>Confirm {0} in Container {1}</value>
+    <comment>Application screen header, confirmation.</comment>
+  </data>
+  <data name="OrderPickingConfirmQuantityWorkflowActivity_InitialPrompt">
+    <value>{0} in container {1}, correct?</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="OrderPickingConfirmQuantityWorkflowActivity_Instructions">
+    <value> • Say or press Yes to confirm quantity\n • Say or press No if it is wrong</value>
+    <comment>Application screen text, uses formating characters /n and  •</comment>
+  </data>
+  <!-- Order Picking Enter Substitute Product Workflow -->
+  <data name="OrderPickingEnterSubProductWorkflowActivity_Placeholder">
+    <value>Product Identifier?</value>
+    <comment>Gray default text in entry box.</comment>
+  </data>
+  <data name="OrderPickingEnterSubProductWorkflowActivity_SubstitutionInfoPrompt">
+    <value>{0}, location: {1}, substituting for {2}</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="OrderPickingEnterSubProductWorkflowActivity_SubstitutionsAvailablePrompt">
+    <value>Substitutions are available for this item. Locate {0}</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="OrderPickingEnterSubProductWorkflowActivity_SubstituteHeader">
+    <value>Substituting for: {0}</value>
+    <comment>Application screen header, informational.</comment>
+  </data>
+  <data name="OrderPickingEnterSubProductWorkflowActivity_Instructions">
+    <value> • Locate item with stock code on box\n • Speak, scan or type the stock code</value>
+    <comment>Application screen text, uses formating characters /n and  •</comment>
+  </data>
+  <!-- Order Picking Confirm No More Workflow -->
+  <data name="OrderPickingConfirmOverflowWorkflowActivity_Header">
+    <value>Confirm Overflow?</value>
+    <comment>Application screen header, </comment>
+  </data>
+  <data name="OrderPickingConfirmOverflowWorkflowActivity_InitialPrompt">
+    <value>Overflow for container {0} correct?</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="OrderPickingConfirmOverflowWorkflowActivity_Instructions">
+    <value> • Confirm to start new container for order</value>
+    <comment>Application screen text,  uses formating characters /n and  •</comment>
+  </data>
+  <!-- Order Picking Order Status Workflow Activity-->
+  <data name="OrderPickingOrderStatusWorkflowActivity_InitialPrompt">
+    <value>order status</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="OrderPickingOrderStatusWorkflowActivity_RequestedQuantity">
+    <value>Requested Quantity: {0}</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="OrderPickingOrderStatusWorkflowActivity_InfoPromptSingular">
+    <value>you have one pick remaining</value>
+    <comment>Spoken prompt, when only one pick remains.</comment>
+  </data>
+  <data name="OrderPickingOrderStatusWorkflowActivity_InfoPromptPlural">
+    <value>you have {0} picks remaining</value>
+    <comment>Spoken prompt, when more than one pick remains.</comment>
+  </data>
+  <!-- Order Picking Go To Staging Location Workflow -->
+  <data name="OrderPickingGoToStagingLocationWorkflowActivity_Header">
+    <value>Go To Staging Location</value>
+    <comment>Application screen header, instruction to operator.</comment>
+  </data>
+  <data name="OrderPickingGoToStagingLocationWorkflowActivity_InitialPrompt">
+    <value>Take completed orders to staging location.\nSay Next to continue.</value>
+    <comment>Spoken prompt, uses /n formatting character.</comment>
+  </data>
+  <data name="OrderPickingGoToStagingLocationWorkflowActivity_Instructions">
+    <value> • Take orders to staging location\n • Say or press Next to continue</value>
+    <comment>Application screen text, uses formating characters /n and  •</comment>
+  </data>
+  <!-- Order Picking Enter Staging Location Workflow -->
+  <data name="OrderPickingEnterStagingLocationWorkflowActivity_Header">
+    <value>Container {0} Location</value>
+    <comment>Application screen header, informational.</comment>
+  </data>
+  <data name="OrderPickingEnterStagingLocationWorkflowActivity_InitialPrompt">
+    <value>Enter container {0} staging location</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="OrderPickingEnterStagingLocationWorkflowActivity_Instructions">
+    <value> • Place the container in a staging location\n • Enter the staging location</value>
+    <comment>Application screen text,  uses formating characters /n and  •</comment>
+  </data>
+  <!-- Order Picking Confirm Staging Location Workflow -->
+  <data name="OrderPickingConfirmStagingLocationWorkflowActivity_Header">
+    <value>Confirm Staging Location</value>
+    <comment>Application screen header, confirmation.</comment>
+  </data>
+  <data name="OrderPickingConfirmStagingLocationWorkflowActivity_InitialPrompt">
+    <value>Container {0} in staging location {1}, correct?</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="OrderPickingConfirmStagingLocationWorkflowActivity_Instructions">
+    <value> • Confirm the staging location</value>
+    <comment>Application screen text, uses formating characters /n and  •</comment>
+  </data>
+  <!-- Order Picking All Done Workflow -->
+  <data name="OrderPickingAllDoneWorkflowActivity_Header">
+    <value>All Done</value>
+    <comment>Application screen header, </comment>
+  </data>
+  <data name="OrderPickingAllDoneWorkflowActivity_InitialPrompt">
+    <value>All Done. To continue say next.</value>
+    <comment>Spoken prompt</comment>
+  </data>
+</root>

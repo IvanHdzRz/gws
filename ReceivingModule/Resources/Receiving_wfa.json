@@ -1,0 +1,298 @@
+﻿[
+    {
+        "Name": "ReceivingWorkflowActivity",
+        "Default": "ReceivingProcessingWorkflowActivity",
+        "ReferencedEvents": [
+            {
+                "WfaReferenceName": "BaldEagleWorkflowActivity",
+                "Name": "TaskManagerWorkflowActivity::StartReceivingWorkflow",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "BaldEagleWorkflowActivityWithSignOff"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "BaldEagleWorkflowActivityWithSignOff",
+                "Name": "TaskManagerWorkflowActivity::StartReceivingWorkflow",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "ReceivingWorkflowActivity"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "BaldEagleWorkflowActivityWithSignOff",
+                "Name": "StartGuidedWorkOrderItems",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "ReceivingItemsWorkflowActivity"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "BaldEagleWorkflowActivityWithSignOff",
+                "Name": "StartGuidedWorkEnterHiQuantity",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "ReceivingEnterHiQuantityWorkflowActivity"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "BaldEagleWorkflowActivityWithSignOff",
+                "Name": "StartGuidedWorkEnterTiQuantity",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "ReceivingEnterTiQuantityWorkflowActivity"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "BaldEagleWorkflowActivityWithSignOff",
+                "Name": "StartGuidedWorkConfirmQuantity",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "ReceivingConfirmQuantityWorkflowActivity"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "BaldEagleWorkflowActivityWithSignOff",
+                "Name": "StartGuidedWorkPrintingLabel",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "ReceivingPrintLabelWorkflowActivity"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "BaldEagleWorkflowActivityWithSignOff",
+                "Name": "StartGuidedWorkApplyLabel",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "ReceivingApplyLabelWorkflowActivity"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "BaldEagleWorkflowActivityWithSignOff",
+                "Name": "StartGuidedWorkConfirmCondition",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "ReceivingConfirmConditionWorkflowActivity"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "BaldEagleWorkflowActivityWithSignOff",
+                "Name": "StartGuidedWorkReportDamage",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "ReceivingDamageWorkflowActivity"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "BaldEagleWorkflowActivityWithSignOff",
+                "Name": "StartGuidedWorkReceivingSummary",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "ReceivingSummaryWorkflowActivity"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "BaldEagleWorkflowActivityWithSignOff",
+                "Name": "StartGuidedWorkReceivingSummary",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "ReceivingSummaryWorkflowActivity"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "BaldEagleWorkflowActivityWithSignOff",
+                "Name": "StartGuidedWorkReceivingSummary",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "ReceivingSummaryWorkflowActivity"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "OperPrepCompositeWorkflowActivity",
+                "Name": "ReceivingReturnFromOperPrep",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "ReceivingProcessingReturnFromOperPrepWorkflowActivity"
+                        }
+                    }
+                ]
+            },
+            {
+                "WfaReferenceName": "NoiseSampleCompositeWorkflowActivityWithReturnActivity",
+                "Name": "ReceivingReturnFromOperPrep",
+                "Actions": [
+                    {
+                        "Type": "PushReplaceNavigation",
+                        "Params": {
+                            "Destination": "ReceivingProcessingReturnFromOperPrepWorkflowActivity"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "ReceivingProcessingWorkflowActivity",
+        "ControllerName": "Receiving.ReceivingGuidedWorkController"
+    },
+    {
+        "Name": "ReceivingProcessingReturnFromOperPrepWorkflowActivity",
+        "ControllerName": "Receiving.ReceivingGuidedWorkController",
+        "Params": {
+            "IsReturningFromOperPrep": true
+        }
+    },
+    {
+        "Name": "ReceivingItemsWorkflowActivity",
+        "ControllerName": "Receiving.ReceivingItemsController",
+        "ViewModelName": "Receiving.ReceivingItemsViewModel",
+        "ViewNames": [ "Receiving.ReceivingItemsView",  "Honeywell.Firebird.CoreLibrary.DigitEntryDialogueView", "Honeywell.Firebird.CoreLibrary.ValidatingScannerView", "Honeywell.Firebird.CoreLibrary.ValidatingBluetoothScannerView" ],
+        "Params": {
+            "ExpectedMaximumLength": 3,
+            "MinimumValidResponseLength": 3,
+            "MinWholeNumberDigits" : 3,
+            "MinDecimalDigits": 0,
+            "MaxDecimalDigits": 0,
+            "OverflowMenuItems": [
+                "VocabWord_Info",
+                "VocabWord_NoMore"
+            ]
+        }
+    },
+    {
+        "Name": "ReceivingEnterHiQuantityWorkflowActivity",
+        "ControllerName": "Receiving.ReceivingEnterHiQuantityController",
+        "ViewModelName": "Receiving.ReceivingEnterDigitsViewModel",
+        "ViewNames": [ "Receiving.ReceivingEnterHiQuantityView", "Honeywell.Firebird.CoreLibrary.DigitEntryDialogueView" ],
+        "Params": {
+            "ExpectedMaximumLength": 2,
+            "OverflowMenuItems": [
+                "VocabWord_Info"
+            ]
+        }
+    },
+    {
+        "Name": "ReceivingEnterTiQuantityWorkflowActivity",
+        "ControllerName": "Receiving.ReceivingEnterTiQuantityController",
+        "ViewModelName": "Receiving.ReceivingEnterDigitsViewModel",
+        "ViewNames": [ "Receiving.ReceivingEnterTiQuantityView", "Honeywell.Firebird.CoreLibrary.DigitEntryDialogueView" ],
+        "Params": {
+            "ExpectedMaximumLength": 2,
+            "OverflowMenuItems": [
+                "VocabWord_Info"
+            ]
+        }
+    },
+    {
+        "Name": "ReceivingConfirmQuantityWorkflowActivity",
+        "ControllerName": "Receiving.ReceivingConfirmQuantityController",
+        "ViewModelName": "Receiving.ReceivingBooleanConfirmationViewModel",
+        "ViewNames": [ "Receiving.ReceivingView", "Honeywell.Firebird.CoreLibrary.BooleanConfirmationDialogueView" ]
+    },
+    {
+        "Name": "ReceivingApplyLabelWorkflowActivity",
+        "ControllerName": "Receiving.ReceivingReadyController",
+        "ViewModelName": "Honeywell.Firebird.CoreLibrary.ReadyViewModel",
+        "ViewNames": [ "Honeywell.Firebird.CoreLibrary.ReadyView", "Honeywell.Firebird.CoreLibrary.ReadyDialogueView" ],
+        "Params": {
+            "DisableNavigationButton": true,
+            "DisableSwipeBackNavigation": true
+        }
+    },
+    {
+        "Name": "ReceivingSummaryWorkflowActivity",
+        "ControllerName": "Receiving.ReceivingSummaryController",
+        "ViewModelName": "Receiving.ReceivingSummaryViewModel",
+        "ViewNames": [ "Receiving.ReceivingSummaryView", "Honeywell.Firebird.CoreLibrary.SingleResponseDialogueView" ],
+        "Params": {
+            "PossibleResponses": [ "accept_entry_word", "next_entry_word" ]
+		}
+    },
+    {
+        "Name": "ReceivingPrintLabelWorkflowActivity",
+        "ControllerName": "Receiving.ReceivingPrintLabelController",
+        "ViewModelName": "Honeywell.Firebird.CoreLibrary.AbortableBackgroundFuncViewModel",
+        "ViewNames": [ "Honeywell.Firebird.CoreLibrary.BackgroundActivityView", "Honeywell.Firebird.CoreLibrary.SpeakOnCommandDialogueView" ],
+        "Params": {
+            "MicIconStateOverride": false,
+            "EnableMenuOption": false
+        }
+    },
+    {
+        "Name": "ReceivingDamageWorkflowActivity",
+        "ControllerName": "Receiving.ReceivingDamageListController",
+        "ViewModelName": "Honeywell.Firebird.CoreLibrary.SelectionViewModel",
+        "ViewNames": [ "Receiving.ReceivingDamageSelectView", "Honeywell.Firebird.CoreLibrary.SelectionDialogueView" ],
+        "Params": {
+            "PublishesAsOptionEvent": false,
+            "ShowIndex": true,
+            "RecognizeIndex": true,
+            "RecognizeNames": true,
+            "ProvideSelectionFeedback": true
+        }
+    },
+    {
+        "Name": "ReceivingConfirmConditionWorkflowActivity",
+        "ControllerName": "Receiving.ReceivingConfirmConditionController",
+        "ViewModelName": "Receiving.ReceivingConfirmConditionViewModel",
+        "ViewNames": [ "Receiving.ReceivingView", "Honeywell.Firebird.CoreLibrary.BooleanConfirmationDialogueView" ],
+        "Params": {
+            "DisableNavigationButton": true,
+            "DisableSwipeBackNavigation": true
+        }
+    }
+]

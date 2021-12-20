@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wpa81</AssetTargetFallback>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <NoWarn>NU1701</NoWarn>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Honeywell.GuidedWork" Version="1.4.0" />
+    <PackageReference Include="Honeywell.GuidedWork.Core" Version="1.4.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Remove="Resources\BasePickingExample_configuration.json" />
+    <None Remove="Resources\BasePickingExample_settings_wfa.json" />
+    <None Remove="Resources\BasePickingExample_wfa.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\BasePickingExample_configuration.json" />
+    <EmbeddedResource Include="Resources\BasePickingExample_settings_wfa.json" />
+    <EmbeddedResource Include="Resources\BasePickingExample_wfa.json" />
+  </ItemGroup>
+
+</Project>

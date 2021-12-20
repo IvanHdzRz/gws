@@ -1,0 +1,14 @@
+<Project>
+ <PropertyGroup>
+   <!--
+     CS1591: Disable missing XML comments.  We should still aim to provide
+             the comments but they can be overwhelming.
+   -->
+   <!--
+     1701,1702,1573,1712:
+     See https://developercommunity.visualstudio.com/content/problem/601387/assuming-assembly-reference-systemruntime-matches.html
+   -->
+   <NoWarn>$(NoWarn),1701,1702,1573,1591,1712</NoWarn> 
+</PropertyGroup>
+</Project>
+

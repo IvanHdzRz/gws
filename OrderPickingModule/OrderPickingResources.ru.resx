@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  <!-- Workflow Friendly Names -->
+  <data name="WorkflowFriendlyName_OrderPicking">
+    <value>Комплектация по заказу</value>
+  </data>
+
+  <!-- Vocab Words -->
+  <data name="VocabWord_EndOrder">
+    <value>завершить заказ</value>
+  </data>
+  <data name="VocabWord_Overflow">
+    <value>переполнение</value>
+  </data>
+  <data name="VocabWord_OrderStatus">
+      <value>статус заказа</value>
+      <comment>"Order status" command.</comment>
+  </data>
+
+  <!-- Order Picking Workflow -->
+  <data name="OrderPickingWorkflowActivity_Title">
+    <value>Комплектация по заказу</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_OrderNumber">
+    <value>Идентификатор заказа: </value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_StockCode">
+    <value>Складской код</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_StockCodeEntryPlaceholder">
+    <value>Говорить/ввести/сканировать</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_QuantityEntryPlaceholder">
+    <value>Говорить/ввести</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_Sequence">
+    <value>Комплектование элемента {0} из {1}</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_Location">
+    <value>МЕСТОПОЛОЖЕНИЕ</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_Details">
+    <value>СВЕДЕНИЯ</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_OrderedQuantity">
+    <value>Заказанное количество</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_LastDigits">
+    <value> (Последние {0} цифры)</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_PickedQuantity">
+    <value>Укомплектованное количество</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_CancelButtonText">
+    <value>Завершить заказ</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_PriceLabel">
+    <value>Цена за партию:</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_StagingLocation">
+    <value>Местоположение сосредоточения запасов</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_StagingLocationEntryPlaceholder">
+    <value>Говорить/ввести/сканировать</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_Container">
+    <value>Контейнер</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_OverflowButtonText">
+    <value>Переполнение</value>
+  </data>
+
+  <!-- Order Picking Get Containers Workflow -->
+  <data name="OrderPickingGetContainersWorkflowActivity_Header">
+    <value>Получить контейнеры</value>
+  </data>
+  <data name="OrderPickingGetContainersWorkflowActivity_InitialPromptSingular">
+    <value>Получить контейнеры для {0} заказа. Произнесите: "далее" после окончания.</value>
+  </data>
+  <data name="OrderPickingGetContainersWorkflowActivity_InitialPromptPlural">
+    <value>Получить контейнеры для {0} заказов. Произнесите: "далее" после окончания.</value>
+  </data>
+  <data name="OrderPickingGetContainersWorkflowActivity_Instructions">
+    <value> • Получить контейнеры для заказов • Произнесите или нажмите "Далее", чтобы продолжить</value>
+  </data>
+  
+  <!-- Order Picking Acknowledge Location Workflow -->
+  <data name="OrderPickingAcknowledgeLocationWorkflowActivity_Header">
+    <value>Элемент {0} из {1}</value>
+  </data>
+  <data name="OrderPickingAcknowledgeLocationWorkflowActivity_InitialPrompt">
+    <value>Местоположение: {0}</value>
+  </data>
+  <data name="OrderPickingAcknowledgeLocationWorkflowActivity_Instructions">
+    <value> • Перейдите в местоположение, указанное ниже\n • Произнесите или нажмите "Далее", чтобы взять элемент</value>
+  </data>
+
+  <!-- Order Picking Confirm No More Workflow -->
+  <data name="OrderPickingConfirmNoMoreWorkflowActivity_Header">
+    <value>Завершить заказ</value>
+  </data>
+  <data name="OrderPickingConfirmNoMoreWorkflowActivity_SubHeader">
+    <value>Проверьте список заказа элементов</value>
+  </data>
+  <data name="OrderPickingConfirmNoMoreWorkflowActivity_Body">
+    <value>Завершить заказ?</value>
+  </data>
+  <data name="OrderPickingConfirmNoMoreWorkflowActivity_InitialPrompt">
+    <value>Завершение заказа, верно?</value>
+  </data>
+  
+  <!-- Order Picking Confirm Skip Item Workflow -->
+  <data name="OrderPickingConfirmSkipProductWorkflowActivity_Header">
+    <value>Пропустить элемент</value>
+  </data>
+  <data name="OrderPickingConfirmSkipProductWorkflowActivity_Body">
+    <value>Пропущенные элементы будут добавлены в конец списка заказа. Пропустить этот элемент сейчас?</value>
+  </data>
+  <data name="OrderPickingConfirmSkipProductWorkflowActivity_InitialPrompt">
+    <value>Пропуск элемента, верно?</value>
+  </data>
+  <data name="OrderPickingConfirmSkipProductWorkflowActivity_Instructions">
+    <value> • Произнесите или нажмите "Да", чтобы пропустить этот элемент\n • Произнесите или нажмите "Нет", чтобы продолжить</value>
+  </data>
+  
+  <!-- Order Picking Confirm Skip Enter Item Workflow -->
+  <data name="OrderPickingConfirmSkipEnterItemWorkflowActivity_Header">
+    <value>Пропустить элемент</value>
+  </data>
+  <data name="OrderPickingConfirmSkipEnterItemWorkflowActivity_Body">
+    <value>Пропущенные элементы будут добавлены в конец списка заказа. Пропустить этот элемент сейчас?</value>
+  </data>
+  <data name="OrderPickingConfirmSkipEnterItemWorkflowActivity_InitialPrompt">
+    <value>Пропуск элемента, верно?</value>
+  </data>
+  <data name="OrderPickingConfirmSkipEnterItemWorkflowActivity_Instructions">
+    <value> • Произнесите или нажмите "Да", чтобы пропустить этот элемент\n • Произнесите или нажмите "Нет", чтобы продолжить</value>
+  </data>
+
+  <!-- Order Picking Enter Product Workflow -->
+  <data name="OrderPickingEnterProductWorkflowActivity_Header">
+    <value>Элемент {0} из {1}</value>
+  </data>
+  <data name="OrderPickingEnterProductWorkflowActivity_InitialPrompt">
+    <value>Местоположение: {0}</value>
+  </data>
+  <data name="OrderPickingEnterProductWorkflowActivity_Placeholder">
+    <value>Идентификатор товара?</value>
+  </data>
+  <data name="OrderPickingEnterProductWorkflowActivity_InfoPrompt">
+    <value>Местоположение: {0}</value>
+  </data>
+  <data name="OrderPickingEnterProductWorkflowActivity_Instructions">
+    <value> • Найдите элемент со складским кодом на коробке\n • Произнесите, отсканируйте или введите последние складской код</value>
+  </data>
+
+  <!-- Order Picking Enter Quantity Workflow -->
+  <data name="OrderPickingEnterQuantityWorkflowActivity_Header">
+    <value>Положить {0} в контейнер {1}</value>
+  </data>
+  <data name="OrderPickingEnterQuantityWorkflowActivity_InitialPrompt">
+    <value>Положить {0} в контейнер {1}</value>
+  </data>
+  <data name="OrderPickingEnterQuantityWorkflowActivity_ErrorPrompt">
+    <value>Вы укомплектовали неверное количество! Повторите попытку. Поместить {0} в заказ {1}</value>
+  </data>
+  <data name="OrderPickingEnterQuantityWorkflowActivity_ErrorMsg">
+    <value>Вы укомплектовали неверное количество! Повторите попытку.</value>
+  </data>
+  <data name="OrderPickingEnterQuantityWorkflowActivity_Placeholder">
+    <value>Какое количество элементов вы укомплектовали?</value>
+  </data>
+  <data name="OrderPickingEnterQuantityWorkflowActivity_Instructions">
+    <value> • Укомплектуйте заказанное количество элемента\n • Произнесите или введите укомплектованное количество элемента\n • Произнесите "Далее"</value>
+  </data>
+
+  <!-- Order Picking Confirm Quantity Workflow Activity -->
+  <data name="OrderPickingConfirmQuantityWorkflowActivity_Header">
+    <value>Подтвердить {0} в контейнере {1}</value>
+  </data>
+  <data name="OrderPickingConfirmQuantityWorkflowActivity_InitialPrompt">
+    <value>{0} в контейнере {1}, верно?</value>
+  </data>
+  <data name="OrderPickingConfirmQuantityWorkflowActivity_Instructions">
+    <value> • Произнесите или нажмите "Да" для подтверждения количества\n • Произнесите или нажмите "Нет", если значение неверное</value>
+  </data>
+
+  <!-- Order Picking Enter Substitute Product Workflow -->
+  <data name="OrderPickingEnterSubProductWorkflowActivity_Placeholder">
+    <value>Идентификатор товара?</value>
+  </data>
+  <data name="OrderPickingEnterSubProductWorkflowActivity_SubstitutionInfoPrompt">
+    <value>{0},  местоположение: {1}, замена для: {2}</value>
+  </data>
+  <data name="OrderPickingEnterSubProductWorkflowActivity_SubstitutionsAvailablePrompt">
+    <value>Для этого элемента имеется замена. Найдите {0}</value>
+  </data>
+  <data name="OrderPickingEnterSubProductWorkflowActivity_SubstituteHeader">
+    <value>Замена для: {0}</value>
+  </data>
+  <data name="OrderPickingEnterSubProductWorkflowActivity_Instructions">
+    <value> • Найдите элемент со складским кодом на коробке\n • Произнесите, отсканируйте или введите складской код</value>
+  </data>
+
+  <!-- Order Picking Confirm Overflow Workflow -->
+  <data name="OrderPickingConfirmOverflowWorkflowActivity_Header">
+    <value>Подтвердить переполнение?</value>
+  </data>
+  <data name="OrderPickingConfirmOverflowWorkflowActivity_InitialPrompt">
+    <value>Переполнение для контейнера {{0}, верно?</value>
+  </data>
+  <data name="OrderPickingConfirmOverflowWorkflowActivity_Instructions">
+    <value> • Подтвердите начало нового контейнера для заказа</value>
+  </data>
+
+  <!-- Order Picking Order Status Workflow Activity-->
+  <data name="OrderPickingOrderStatusWorkflowActivity_InitialPrompt">
+    <value>статус заказа</value>
+  </data>
+  <data name="OrderPickingOrderStatusWorkflowActivity_RequestedQuantity">
+    <value>Запрашиваемое количество: {0}</value>
+  </data>
+  <data name="OrderPickingOrderStatusWorkflowActivity_InfoPromptSingular">
+    <value>осталось укомлектовать один элемент</value>
+  </data>
+  <data name="OrderPickingOrderStatusWorkflowActivity_InfoPromptPlural">
+    <value>осталось укомплектовать {0}</value>
+  </data>
+
+    <!-- Order Picking Go To Staging Location Workflow -->
+  <data name="OrderPickingGoToStagingLocationWorkflowActivity_Header">
+    <value>Перейти в местоположение сосредоточения запасов</value>
+  </data>
+  <data name="OrderPickingGoToStagingLocationWorkflowActivity_InitialPrompt">
+    <value>Перенести готовые заказы в местоположение сосредоточения запасов.\nПроизнесите: "Далее", чтобы продолжить.</value>
+  </data>
+  <data name="OrderPickingGoToStagingLocationWorkflowActivity_Instructions">
+    <value> • Перенести заказы в местоположение сосредоточения запасов • Произнесите: "Далее", чтобы продолжить</value>
+  </data>
+    
+  <!-- Order Picking Enter Staging Location Workflow -->
+  <data name="OrderPickingEnterStagingLocationWorkflowActivity_Header">
+    <value>Местоположение контейнера {{0}</value>
+  </data>
+  <data name="OrderPickingEnterStagingLocationWorkflowActivity_InitialPrompt">
+    <value>Введите местоположение сосредоточения запасов контейнера {{0} </value>
+  </data>
+  <data name="OrderPickingEnterStagingLocationWorkflowActivity_Instructions">
+    <value> • Поместите контейнер в местоположение сосредоточения запасов • Введите местоположение сосредоточения запасов</value>
+  </data>
+
+  <!-- Order Picking Confirm Staging Location Workflow -->
+  <data name="OrderPickingConfirmStagingLocationWorkflowActivity_Header">
+    <value>Подтверждение местоположения сосредоточения запасов</value>
+  </data>
+  <data name="OrderPickingConfirmStagingLocationWorkflowActivity_InitialPrompt">
+    <value>Контейнер {0} находится в месте сосредоточения запасов {1}, верно?</value>
+  </data>
+  <data name="OrderPickingConfirmStagingLocationWorkflowActivity_Instructions">
+    <value> • Подтвердите местоположение сосредоточения запасов</value>
+  </data>
+
+  <!-- Order Picking All Done Workflow -->
+  <data name="OrderPickingAllDoneWorkflowActivity_Header">
+    <value>Все готово</value>
+  </data>
+  <data name="OrderPickingAllDoneWorkflowActivity_InitialPrompt">
+    <value>Все готово. Чтобы продолжить, произнесите "далее".</value>
+  </data>
+  
+</root>

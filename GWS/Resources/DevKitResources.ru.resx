@@ -1,0 +1,577 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:schema id="root">
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element minOccurs="0" name="value" type="xsd:string" ns1:Ordinal="1" />
+                <xs:element minOccurs="0" name="comment" type="xsd:string" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element minOccurs="0" name="value" type="xsd:string" ns1:Ordinal="1" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="VocabWord_GapScan"><value>сканирование с зазором</value></data>
+  <data name="TrainingCarouselWorkflowActivity_SkipButtonText"><value>пропустить</value></data>
+  <data name="VocabWord_Backup"><value>назад</value></data>
+  <data name="Error_WrongProduct"><value>Неверный элемент</value></data>
+  <data name="Error_WrongProductPrompt"><value>Неверный элемент. Повторите попытку.</value></data>
+  <data name="Error_NotUnique"><value>Не является уникальным, необходимо сканировать</value></data>
+  <data name="Error_NotUniquePrompt"><value>Не является уникальным, необходимо сканировать</value></data>
+  <data name="Error_StockRecordNotFound"><value>Запись данных склада не найдена: {0}</value></data>
+  <data name="Error_NotFound"><value>Элемент не найден</value></data>
+  <data name="Error_NotFoundWithResponse"><value>Элемент не найден: {0}</value></data>
+  <data name="Error_UnknownLocation"><value>Неизвестное местоположение</value></data>
+  <data name="Error_UnexpectedResponse"><value>Неожиданный ответ: {0}</value></data>
+  <data name="Error_WrongQuantity"><value>Неверное количество</value></data>
+  <data name="Error_NoLabelVersionFound"><value>Ни одного варианта этикетки не найдено</value></data>
+  <data name="Error_InvalidEntry_Short"><value>Повторить</value></data>
+  <data name="StockCodeLabel"><value>складской код:</value></data>
+  <data name="SOHLabel"><value>Остаток товаров:</value></data>
+  <data name="InTransitLabel"><value>    транспортировка:</value></data>
+  <data name="LastReceivedOnLabel"><value>дата последней записи</value></data>
+  <data name="LocationLabel"><value>местоположение:</value></data>
+  <data name="CasesLabel"><value>упаковок:</value></data>
+  <data name="OriginalLabel"><value>исходное:</value></data>
+  <data name="SinglesLabel"><value>без упаковки:</value></data>
+  <data name="SizeLabel"><value>размер:</value></data>
+  <data name="PriceLabel"><value>цена:</value></data>
+  <data name="CurrentProductLabel"><value>Текущий элемент</value></data>
+  <data name="NoImage"><value>Нет изображения</value></data>
+  <data name="EmbeddedDemo"><value>Встроенная демонстрация</value></data>
+  <data name="Server"><value>Сервер</value></data>
+  <data name="StockOnHandPrompt"><value>Остаток, {0}</value></data>
+  <data name="InTransitPrompt"><value>Транспортировка: {0}</value></data>
+  <data name="LastReceivedTodayPrompt"><value>Получено партий сегодня: {0}</value></data>
+  <data name="LastReceivedYesterdayPrompt"><value>Получено партий вчера: {0}</value></data>
+  <data name="LastReceivedDaysAgoPrompt"><value>{0} партий получено {1} дней назад</value></data>
+  <data name="LastReceivedPrompt"><value>{0} партий получено последними</value></data>
+  <data name="PlanogramGroupIDPrompt"><value>Идентификатор {0}</value></data>
+  <data name="RowPrompt"><value>Ряд {0}</value></data>
+  <data name="CasesPrompt"><value>{0} упаковок</value></data>
+  <data name="SinglesPrompt"><value>{0} товаров без упаковки</value></data>
+  <data name="LocationPrompt"><value>Местоположение: {0}</value></data>
+  <data name="AllDoneWorkflowActivity_Header"><value>Все готово</value></data>
+  <data name="AllDoneWorkflowActivity_InitialPrompt"><value>Все готово. Чтобы продолжить, произнесите "далее".</value></data>
+  <data name="SettingsMenuWorkflowActivity_GeneralSettings"><value>ОБЩИЕ НАСТРОЙКИ</value></data>
+  <data name="SettingsMenuWorkflowActivity_AboutApplication"><value>Сведения о приложении</value></data>
+  <data name="SettingsMenuWorkflowActivity_Legal"><value>Правовая информация</value></data>
+  <data name="SettingsMenuWorkflowActivity_PersonalSettings"><value>ЛИЧНЫЕ НАСТРОЙКИ</value></data>
+  <data name="SettingsMenuWorkflowActivity_VoiceAndAudioSettings"><value>Голосовые \u0026 аудионастройки</value></data>
+  <data name="SettingsMenuWorkflowActivity_ConnectivitySettings"><value>НАСТРОЙКИ ПОДКЛЮЧЕНИЯ</value></data>
+  <data name="SettingsMenuWorkflowActivity_ServerSettings"><value>Настройки сервера</value></data>
+  <data name="SettingsMenuWorkflowActivity_AcuitySettings"><value>Настройки Acuity</value></data>
+  <data name="SettingsMenuWorkflowActivity_HardwareSettings"><value>НАСТРОЙКИ ОБОРУДОВАНИЯ</value></data>
+  <data name="SettingsMenuWorkflowActivity_ScannerSettings"><value>Настройки сканера</value></data>
+  <data name="AcuitySettingsWorkflowActivity_AcuitySettingsLabel"><value>НАСТРОЙКИ ACUITY</value></data>
+  <data name="AcuitySettingsWorkflowActivity_AcuityEnabled"><value>Acuity включен</value></data>
+  <data name="AcuitySettingsWorkflowActivity_AcuitySecureConnections"><value>Безопасные подключения Acuity</value></data>
+  <data name="AcuitySettingsWorkflowActivity_AcuityHost"><value>Узел Acuity</value></data>
+  <data name="AcuitySettingsWorkflowActivity_AcuityPort"><value>Порт Acuity</value></data>
+  <data name="AuthenticateVoicePINWorkflowActivity_Abortable_ExceptionHeaderMsg"><value>Ошибка</value></data>
+  <data name="AuthenticateVoicePINWorkflowActivity_Abortable_FailedHeaderMsg"><value>Ошибка</value></data>
+  <data name="AuthenticateVoicePINWorkflowActivity_Abortable_StartedHeaderMsg"><value>Вход в...</value></data>
+  <data name="AuthenticateVoicePINWorkflowActivity_Abortable_ExceptionSubHeaderMsg"><value>Ошибка при входе на подключенный сервер розничной торговли</value></data>
+  <data name="AuthenticateVoicePINWorkflowActivity_Abortable_FailedSubHeaderMsg"><value>Не удалось войти.</value></data>
+  <data name="AuthenticateVoicePINWorkflowActivity_Abortable_StartedSubHeaderMsg"><value>минуту...</value></data>
+  <data name="CancelButtonText"><value>Больше нет</value></data>
+  <data name="SkipButtonText"><value>Пропустить элемент</value></data>
+  <data name="VocabWord_GlobalAnchorWord"><value>control</value></data>
+  <data name="GlobalAnchorWord"><value>Control</value></data>
+  <data name="RetrieveWorkersWorkflowActivity_Abortable_ExceptionSubHeaderMsg"><value>Ошибка при получении данных сотрудников с подключенного сервера розничной торговли</value></data>
+  <data name="DataServiceInitializerWorkflowActivity_Abortable_ExceptionSubHeaderMsg"><value>Ошибка при получении исходных данных с подключенного сервера розничной торговли</value></data>
+  <data name="TemplateRetrievalErrorBody"><value>Ошибка при получении шаблона с подключенного сервера розничной торговли</value></data>
+  <data name="ServerSettingsWorkflowActivity_ServerUnreachable"><value>Сервер розничной торговли недоступен, проверьте и обновите настройки сервера.</value></data>
+  <data name="lower_mic"><value>Уменьшите звук микрофона, чтобы продолжить</value></data>
+  <data name="SubmitButtonText"><value>Отправить</value></data>
+  <data name="NextButtonText"><value>Далее</value></data>
+  <data name="ReadyButtonText"><value>Готово</value></data>
+  <data name="PauseText"><value>Пауза</value></data>
+  <data name="ResumeText"><value>Возобновить</value></data>
+  <data name="StopText"><value>Стоп</value></data>
+  <data name="UpdateSitesText"><value>Обновить список склада</value></data>
+  <data name="NewWorkerText"><value>Новый сотрудник</value></data>
+  <data name="LoginButtonText"><value>Вход</value></data>
+  <data name="GotItButtonText"><value>Понятно</value></data>
+  <data name="RestartText"><value>Перезапуск</value></data>
+  <data name="SuccesfulScannerConnectionMsg"><value>Успешно подключено ко второму сканеру</value></data>
+  <data name="FailedScannerConnectionMsg"><value>Не удалось установить подключение ко второму сканеру</value></data>
+  <data name="SuccessfulScannerDisconnectionMsg"><value>Второй сканер отключен</value></data>
+  <data name="Error_InvalidEntry"><value>Минимальная длина: {0} цифр</value></data>
+  <data name="Error_Confirmation"><value>Неверно {0}.  Повторите попытку.</value></data>
+  <data name="Abortable_AbortHeaderMsg"><value>Отменено</value></data>
+  <data name="Abortable_CompletedHeaderMsg"><value>Завершено</value></data>
+  <data name="Abortable_FailedHeaderMsg"><value>Ошибка</value></data>
+  <data name="Abortable_StartedHeaderMsg"><value>Запущено</value></data>
+  <data name="Abortable_ExceptionHeaderMsg"><value>Отменено</value></data>
+  <data name="Abortable_AlternateBtnText"><value>ОК</value></data>
+  <data name="Abortable_AbortBtnText"><value>Отмена</value></data>
+  <data name="Abortable_AbortSubHeaderMsg"><value>Отменено</value></data>
+  <data name="Abortable_CompletedSubHeaderMsg"><value>Завершено</value></data>
+  <data name="Abortable_FailedSubHeaderMsg"><value>Ошибка</value></data>
+  <data name="Abortable_StartedSubHeaderMsg"><value>Запущено</value></data>
+  <data name="Abortable_ExceptionSubHeaderMsg"><value>Отменено</value></data>
+  <data name="Abortable_NoNetworkSubHeaderMsg"><value>Ожидание сети...</value></data>
+  <data name="Abortable_NoServerSubHeaderMsg"><value>Ожидание сервера...</value></data>
+  <data name="Abortable_PersistedRequestsSubHeaderMsg"><value>Ожидание загрузки данных. Осталось сообщений: {0}...</value></data>
+  <data name="SelectDialogue_PromptStart"><value>Произнесите один из следующих вариантов,,, </value></data>
+  <data name="SelectDialogue_PromptOption"><value>{0} — это {1},,, </value></data>
+  <data name="SelectDialogue_PromptAdditionalWords"><value>или произнесите,,, </value></data>
+  <data name="SelectDialogue_PromptAdditionalWordWOMore"><value>или {0}</value></data>
+  <data name="SelectDialogue_PromptAdditionalWordWMore"><value>{0}, </value></data>
+  <data name="SettingsText"><value>Настройки</value></data>
+  <data name="HomeText"><value>Главная страница</value></data>
+  <data name="VoiceHelpFeatureName"><value>Голосовая справка</value></data>
+  <data name="Header"><value /></data>
+  <data name="SubHeader"><value /></data>
+  <data name="InitialPrompt"><value /></data>
+  <data name="ButtonText"><value /></data>
+  <data name="Title"><value /></data>
+  <data name="Content"><value /></data>
+  <data name="Body"><value /></data>
+  <data name="StandbyWaitWorkflowActivity_NextButtonText"><value>Продолжить</value></data>
+  <data name="StandbyWaitWorkflowActivity_Header"><value>Произнесите "{0} {1}" для возобновления</value></data>
+  <data name="StandbyWaitWorkflowActivity_InitialPrompt"><value>Ожидание.</value></data>
+  <data name="BoomWaitWorkflowActivity_NextButtonText"><value>ОК</value></data>
+  <data name="BoomWaitWorkflowActivity_Header"><value>Режим ожидания</value></data>
+  <data name="BoomWaitWorkflowActivity_SubHeader"><value>Микрофон выключен</value></data>
+  <data name="BoomWaitWorkflowActivity_Content"><value>Микрофон выключен, опустите стойку микрофона вниз для возобновления</value></data>
+  <data name="BoomWaitWorkflowActivity_InitialPrompt"><value>Ожидание.</value></data>
+  <data name="UpdateTrainSelectWordWorkflowActivity_Header"><value>Коснитесь слова, что обновить обучение</value></data>
+  <data name="UpdateTrainSelectWordWorkflowActivity_InitialPrompt"><value>Выбрать слово</value></data>
+  <data name="LoginWorkflowActivity_InitialPrompt"><value>Выберите пользователя</value></data>
+  <data name="LoginWorkflowActivity_Header"><value>Приветствие</value></data>
+  <data name="LoginWorkflowActivity_SubHeader"><value>Давайте начнем</value></data>
+  <data name="LoginWorkflowActivity_Username"><value>Имя пользователя</value></data>
+  <data name="LoginWorkflowActivity_SelectUser"><value>Выбрать пользователя</value></data>
+  <data name="LoginWorkflowActivity_EnterPin"><value>Ввести PIN-код</value></data>
+  <data name="LoginWorkflowActivity_SecurityPin"><value>Защитный PIN-код</value></data>
+  <data name="EnterNewWorkerWorkflowActivity_Header"><value>Ввести имя</value></data>
+  <data name="EnterNewWorkerWorkflowActivity_Placeholder"><value>Тип</value></data>
+  <data name="EnterNewWorkerWorkflowActivity_EntryLabel"><value>Имя</value></data>
+  <data name="EnterNewWorkerWorkflowActivity_ErrorInvalidCharacter"><value>Неверно: не должно содержать {0}</value></data>
+  <data name="EnterNewWorkerWorkflowActivity_ErrorBlank"><value>Неверно: не может быть пустым</value></data>
+  <data name="EnterNewWorkerWorkflowActivity_ErrorInvalidEntry"><value>Неверно</value></data>
+  <data name="ManageTemplatesWorkflowActivity_ChooseWorkerText"><value>Выбрать сотрудника</value></data>
+  <data name="ManageTemplatesWorkflowActivity_NoWorkersText"><value>Не доступных рабочих</value></data>
+  <data name="ManageTemplatesWorkflowActivity_VoiceTemplateManagement"><value>УПРАВЛЕНИЕ ГОЛОСОВЫМИ ШАБЛОНАМИ</value></data>
+  <data name="ManageTemplatesWorkflowActivity_DeleteLocalTemplates"><value>УДАЛИТЬ ЛОКАЛЬНЫЕ ШАБЛОНЫ</value></data>
+  <data name="ManageTemplatesWorkflowActivity_DeleteWorkerText"><value>Удалить сотрудника</value></data>
+  <data name="ManageTemplatesWorkflowActivity_DeleteTemplatesText"><value>Удалить</value></data>
+  <data name="ConfirmDeleteWorkerWorkflowActivity_Header"><value>Удалить этого сотрудника?</value></data>
+  <data name="AboutApplicationWorkflowActivity_AboutApplicationLabel"><value>СВЕДЕНИЯ О ПРИЛОЖЕНИИ</value></data>
+  <data name="AboutApplicationWorkflowActivity_BranchLabel"><value>Филиал:</value></data>
+  <data name="AboutApplicationWorkflowActivity_BuildDateLabel"><value>Дата сборки:</value></data>
+  <data name="AboutApplicationWorkflowActivity_BuiltByLabel"><value>Выполнил:</value></data>
+  <data name="AboutApplicationWorkflowActivity_ConfigurationLabel"><value>Конфигурация:</value></data>
+  <data name="AboutApplicationWorkflowActivity_VersionLabel"><value>Версия:</value></data>
+  <data name="AboutApplicationWorkflowActivity_AssemblyInfoLabel"><value>СВЕДЕНИЯ О СБОРКЕ</value></data>
+  <data name="LegalWorkflowActivity_PatentInfoLabel"><value>ПАТЕНТНАЯ ИНФОРМАЦИЯ</value></data>
+  <data name="LegalWorkflowActivity_PatentInfoText"><value>Патентную информацию см. на сайте www.hsmpats.com</value></data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_TTSSettingsLabel"><value>ТЕКСТ ДЛЯ НАСТРОЕК РЕЧИ</value></data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_VoiceRecognitionSettingsLabel"><value>НАСТРОЙКИ РАСПОЗНАВАНИЯ ГОЛОСА</value></data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_VoiceRecognition"><value>Распознавание голоса</value></data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_PlayExample"><value>Воспроизвести пример</value></data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_TTSSpeedExample"><value>Это пример текста для настройки скорости речи</value></data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_TTSSpeedSetting"><value>Текст для настройки скорости речи:</value></data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_VoiceTemplateSettings"><value>НАСТРОЙКИ ГОЛОСОВОГО ШАБЛОНА</value></data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_DeleteLocalTemplates"><value>Удалить локальные шаблоны</value></data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_ManageTemplates"><value>Управление шаблонами</value></data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_MicrophoneSettingsLabel"><value>НАСТРОЙКИ МИКРОФОНА</value></data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_PauseOnMicRaise"><value>Пауза при поднятии микрофона</value></data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_PauseOnMicRaiseEnabled"><value>Переход в режим ожидания при поднятом микрофоне</value></data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_PauseOnMicRaiseDisabled"><value>Только выключать звук микрофона при поднятии</value></data>
+  <data name="ScannerSettingsWorkflowActivity_ScannerSymbologySettingsLabel"><value>НАСТРОЙКИ СИМВОЛОВ СКАНЕРА</value></data>
+  <data name="ScannerSettingsWorkflowActivity_ScannerSymbologySettings"><value>Настройки символов сканера</value></data>
+  <data name="ScannerSettingsWorkflowActivity_EditSymbologySettings"><value>Изменить настройки символов</value></data>
+  <data name="ScannerSettingsWorkflowActivity_SymbologyMenuName"><value>Настройки символов</value></data>
+  <data name="ScannerSettingsWorkflowActivity_SecondaryScannerSettingsLabel"><value>НАСТРОЙКИ ВТОРОГО СКАНЕРА</value></data>
+  <data name="ScannerSettingsWorkflowActivity_CurrentSecondaryScanner"><value>Текущий второй сканер</value></data>
+  <data name="ScannerSettingsWorkflowActivity_ChooseSecondaryScanner"><value>Выбрать второй сканер</value></data>
+  <data name="ScannerSettingsWorkflowActivity_NoSecondaryScanner"><value>-- Нет второго сканера --</value></data>
+  <data name="RetrieveWorkersWorkflowActivity_Abortable_ExceptionHeaderMsg"><value>Ошибка</value></data>
+  <data name="RetrieveWorkersWorkflowActivity_Abortable_FailedHeaderMsg"><value>Не доступных рабочих</value></data>
+  <data name="RetrieveWorkersWorkflowActivity_Abortable_StartedHeaderMsg"><value>Получение списка сотрудников...</value></data>
+  <data name="RetrieveWorkersWorkflowActivity_Abortable_FailedSubHeaderMsg"><value>Не доступных рабочих</value></data>
+  <data name="RetrieveWorkersWorkflowActivity_Abortable_StartedSubHeaderMsg"><value>Минуту...</value></data>
+  <data name="DataServiceInitializerWorkflowActivity_Abortable_CompletedHeaderMsg"><value>Завершено</value></data>
+  <data name="DataServiceInitializerWorkflowActivity_Abortable_StartedHeaderMsg"><value>Получение исходных данных...</value></data>
+  <data name="DataServiceInitializerWorkflowActivity_Abortable_ExceptionHeaderMsg"><value>Ошибка</value></data>
+  <data name="DataServiceInitializerWorkflowActivity_Abortable_CompletedSubHeaderMsg"><value>Получение данных завершено</value></data>
+  <data name="DataServiceInitializerWorkflowActivity_Abortable_StartedSubHeaderMsg"><value>минуту...</value></data>
+  <data name="RequestPermissionsWorkflowActivity_ButtonText"><value>Предоставить разрешения</value></data>
+  <data name="Text_OK"><value>ОК</value></data>
+  <data name="Text_PermissionsRequired"><value>Требуются разрешения</value></data>
+  <data name="Text_PermissionsRationale"><value>Чтобы использовать это приложение, требуется микрофон и доступ к хранилищу.</value></data>
+  <data name="Text_DeniedPermissionsRationale"><value>Предоставите требуемые разрешения для использования этого приложения.</value></data>
+  <data name="Text_DataLossAlertTitle"><value>Обнаружена потеря данных</value></data>
+  <data name="Text_DataLossAlertBody"><value>Обнаружена потеря данных. Проверьте настройки сети.</value></data>
+  <data name="FeaturesAtAGlance"><value>Краткий обзор функций</value></data>
+  <data name="WhatsNewInThisRelease"><value>Новое в данной версии</value></data>
+  <data name="DontShowAgain"><value>Больше не показывать</value></data>
+  <data name="QuickMuteFeatureName"><value>Быстрое отключение звука</value></data>
+  <data name="VoiceTrainingFeatureName"><value>Голосовое обучение</value></data>
+  <data name="QuickMute1"><value>После входа в систему поверните </value></data>
+  <data name="QuickMute2"><value>микрофон вверх для выключения звука </value></data>
+  <data name="QuickMute3"><value>и вниз </value></data>
+  <data name="QuickMute4"><value>для включения звука</value></data>
+  <data name="VoiceHelp1"><value>Сомневаетесь, что делать дальше? Произнесите </value></data>
+  <data name="VoiceHelp3"><value>в любое время для получения справки</value></data>
+  <data name="VoiceTraining1"><value>Для обеспечения максимальной производительности выполним поэтапно </value></data>
+  <data name="VoiceTraining2"><value>шумовую выборку. </value></data>
+  <data name="VoiceTraining3"><value> Если вы впервые делаете это, выполните один раз </value></data>
+  <data name="VoiceTraining4"><value>голосовое упражнение </value></data>
+  <data name="VoiceTraining5"><value>в течение нескольких минут для сбора уникальных голосовых шаблонов.</value></data>
+  <data name="VoiceHelpWorkflowActivity_Header"><value>Команды голосовой справки</value></data>
+  <data name="VoiceHelpWorkflowActivity_SubHeader"><value>То, о чем можно спросить:</value></data>
+  <data name="BluetoothScannerConnectionSucceeded"><value>Bluetooth-сканер успешно подключен</value></data>
+  <data name="BluetoothScannerConnectionFailed"><value>Не удалось выполнить подключение к Bluetooth-сканеру</value></data>
+  <data name="BluetoothScannerDisconnected"><value>Bluetooth-сканер отключен</value></data>
+  <data name="PleaseWait"><value>Подождите...</value></data>
+  <data name="RetrievingTemplates"><value>Получение шаблонов...</value></data>
+  <data name="TemplateRetrievalErrorTitle"><value>Ошибка</value></data>
+  <data name="NoiseSampleInfoText"><value>Необходимо выполнить, прежде чем продолжить</value></data>
+  <data name="SignOffConfirmationWorkflowActivity_Header"><value>Произнесите "да" или "нет", чтобы продолжить</value></data>
+  <data name="SignOffConfirmationWorkflowActivity_InitialPrompt"><value>Выйти. Продолжить?</value></data>
+  <data name="LegacyServer"><value>Устаревший сервер</value></data>
+  <data name="CycleCountRetrieveStockRecordWorkflowActivity_FailurePrompt"><value>Складе запись не найдена</value></data>
+  <data name="CycleCountRetrieveStockRecordWorkflowActivity_Abortable_CompletedHeaderMsg"><value>Получение акций запись...</value></data>
+  <data name="CycleCountRetrieveStockRecordWorkflowActivity_Abortable_FailedHeaderMsg"><value>Получение акций запись...</value></data>
+  <data name="CycleCountRetrieveStockRecordWorkflowActivity_Abortable_StartedHeaderMsg"><value>Получение акций запись...</value></data>
+  <data name="CycleCountRetrieveStockRecordWorkflowActivity_Abortable_ExceptionHeaderMsg"><value>Получение акций запись...</value></data>
+  <data name="CycleCountRetrieveStockRecordWorkflowActivity_Abortable_CompletedSubHeaderMsg"><value>Одну минуту...</value></data>
+  <data name="CycleCountRetrieveStockRecordWorkflowActivity_Abortable_FailedSubHeaderMsg"><value>Одну минуту...</value></data>
+  <data name="CycleCountRetrieveStockRecordWorkflowActivity_Abortable_StartedSubHeaderMsg"><value>Одну минуту...</value></data>
+  <data name="CycleCountRetrieveStockRecordWorkflowActivity_Abortable_ExceptionSubHeaderMsg"><value>Одну минуту...</value></data>
+  <data name="GapScanRetrieveStockRecordWorkflowActivity_RequestCreated"><value>Пункт просила</value></data>
+  <data name="GapScanRetrieveStockRecordWorkflowActivity_ErrorRequesting"><value>Ошибка запрашивающим элемент</value></data>
+  <data name="SettingsMenuWorkflowActivity_ApplicationSettings"><value>Параметры приложения</value></data>
+  <data name="SettingsMenuWorkflowActivity_ApplicationSettingsTitle"><value>ПАРАМЕТРЫ ПРИЛОЖЕНИЯ</value></data>
+  <data name="ServerSettingsWorkflowActivity_WorkflowSettingsLabel"><value>РЕЖИМ ШАБЛОН</value></data>
+  <data name="ServerSettingsWorkflowActivity_ServerSettingsLabel"><value>ШАБЛОН ПАРАМЕТРОВ СЕРВЕРА</value></data>
+  <data name="ServerSettingsWorkflowActivity_CurrentWorkflowFilter"><value>Текущий режим шаблона</value></data>
+  <data name="SettingsMenuWorkflowActivity_ChooseWorkflow"><value>Выбор рабочего процесса</value></data>
+  <data name="SettingsMenuWorkflowActivity_WorkflowSelection"><value>Выбор рабочего процесса</value></data>
+  <data name="ApplicationSettingsWorkflowActivity_LicensingStatusLabel"><value>Лицензированные статус</value></data>
+  <data name="ApplicationSettingsWorkflowActivity_LicensingStatus_CheckingStatus"><value>Проверка статуса лицензии...</value></data>
+  <data name="ApplicationSettingsWorkflowActivity_LicensingStatus_ApplicationLicensed"><value>Приложения лицензии</value></data>
+  <data name="ApplicationSettingsWorkflowActivity_LicensingStatus_ApplicationNotLicensed"><value>Приложение не имеет лицензии</value></data>
+  <data name="ApplicationSettingsWorkflowActivity_ApplicationSchemeSettingsLabel"><value>Параметры схемы приложения</value></data>
+  <data name="ApplicationSettingsWorkflowActivity_ChooseApplicationScheme"><value>Выбор схемы приложения</value></data>
+  <data name="ApplicationSettingsWorkflowActivity_CurrentApplicationScheme"><value>Текущая схема приложения</value></data>
+  <data name="FileBased"><value>Файл на основе</value></data>
+  <data name="FileBased_Info"><value>Лицензирование осуществляется с помощью файла в файловой системе, получение из шаблонов и сохранены в файловой системе и журналы хранятся в файловой системе.</value></data>
+  <data name="ServerBased"><value>Сервера</value></data>
+  <data name="ServerBased_Info"><value>Лицензирование осуществляется с помощью файла в файловой системе, извлекаются из и сохранены на сервере шаблон шаблоны и журналы хранятся в файловой системе.</value></data>
+  <data name="VoiceConsoleBased"><value>VoiceConsole</value></data>
+  <data name="VoiceConsoleBased_Info"><value>Лицензирование осуществляется через VoiceConsole, шаблоны извлекаются из и сохранены в VoiceConsole и журналы хранятся в файловой системе, а также отправляемые VoiceConsole, когда ведение журнала включено.</value></data>
+  <data name="MicroserviceBased"><value>Microservices</value></data>
+  <data name="MicroserviceBased_Info"><value>Лицензирование осуществляется через microservices, шаблоны извлекаются и сохраняются с помощью microservices и журналы хранятся в файловой системе.</value></data>
+  <data name="ApplicationSettingsWorkflowActivity_ApplicationServerSettingsLabel"><value>Параметры сервера приложений</value></data>
+  <data name="ApplicationSettingsWorkflowActivity_Host"><value>Хост</value></data>
+  <data name="ApplicationSettingsWorkflowActivity_Port"><value>Порт</value></data>
+  <data name="ApplicationSettingsWorkflowActivity_ServerSecureConnections"><value>Безопасные соединения сервера</value></data>
+  <data name="ApplicationSettingsWorkflowActivity_SiteId"><value>Идентификатор узла</value></data>
+  <data name="ServerSettingsWorkflowActivity_SiteSettingsLabel"><value /></data>
+  <data name="ServerSettingsWorkflowActivity_CheckingServerReachability"><value>Проверка подключения к серверу шаблон</value></data>
+  <data name="ServerSettingsWorkflowActivity_ServerReachable"><value>Успешно подключен к серверу шаблон</value></data>
+  <data name="HomeWorkflowActivity_LicensingStatus_CheckingStatus"><value>Проверка статуса лицензии...</value></data>
+  <data name="HomeWorkflowActivity_LicensingStatus_ApplicationLicensed"><value>Приложения лицензии</value></data>
+  <data name="HomeWorkflowActivity_LicensingStatus_ApplicationNotLicensed"><value>Приложение не имеет лицензии</value></data>
+  <data name="LicenseInitializerWorkflowActivity_Abortable_StartedHeaderMsg"><value>Проверка лицензии...</value></data>
+  <data name="LicenseInitializerWorkflowActivity_Abortable_StartedSubHeaderMsg"><value>Одну минуту...</value></data>
+  <data name="LicenseInitializerWorkflowActivity_Abortable_ExceptionHeaderMsg"><value>Ошибка проверки лицензии</value></data>
+  <data name="LicenseInitializerWorkflowActivity_Abortable_FailedHeaderMsg"><value>Приложение не имеет лицензии</value></data>
+  <data name="LicenseInitializerWorkflowActivity_Abortable_FailedSubHeaderMsg"><value>Проверка параметров лицензирования</value></data>
+  <data name="LicenseInitializerWorkflowActivity_Abortable_CompletedHeaderMsg"><value>Приложения лицензии</value></data>
+  <data name="LicenseInitializerWorkflowActivity_Abortable_CompletedSubHeaderMsg"><value>Проверка лицензии полной</value></data>
+  <data name="GuidedWork_SignIn_Header"><value>Добро пожаловать</value></data>
+  <data name="GuidedWork_SignIn_UserId_Label"><value>UserID</value></data>
+  <data name="GuidedWork_SignIn_Password_Label"><value>Пароль</value></data>
+  <data name="GuidedWork_SignIn_Login_Button_Label"><value>Логин</value></data>
+  <data name="GuidedWork_CancelButtonText"><value>Отмена</value></data>
+  <data name="SubmitProblemReportWorkflowActivity_CreatingReportHeader"><value>Создание отчета...</value></data>
+  <data name="SubmitProblemReportWorkflowActivity_GatheringInfoSubHeader"><value>Сбор сведений...</value></data>
+  <data name="SubmitProblemReportWorkflowActivity_CompressingFilesSubHeader"><value>Сжатие файлов...</value></data>
+  <data name="SubmitProblemReportWorkflowActivity_CompressionCanceledSubHeader"><value>Сжатие отменена.</value></data>
+  <data name="SubmitProblemReportWorkflowActivity_CompressionFailedSubHeader"><value>Ошибка сжатия.</value></data>
+  <data name="SubmitProblemReportWorkflowActivity_UploadingReportHeader"><value>Загрузка отчета...</value></data>
+  <data name="SubmitProblemReportWorkflowActivity_UploadingReportSubHeader"><value>Загрузка отчета сервер...</value></data>
+  <data name="SubmitProblemReportWorkflowActivity_ReportUploadedSubHeader"><value>Отчет передан на сервер.</value></data>
+  <data name="SubmitProblemReportWorkflowActivity_ReportSavedSubHeader"><value>Отчет, сохраненный в {0}</value></data>
+  <data name="SubmitProblemReportWorkflowActivity_ReportSavedDueToErrorSubHeader"><value>Ошибка загрузки отчета проблемы. Отчет, сохраненный локально для {0}</value></data>
+  <data name="SubmitProblemReportWorkflowActivity_SavingReportSubHeader"><value>Сохранение отчета...</value></data>
+  <data name="SubmitProblemReportWorkflowActivity_ContinueButtonText"><value>Продолжить</value></data>
+  <data name="SubmitProblemReportWorkflowActivity_CancelButtonText"><value>Отмена</value></data>
+  <data name="VocabWord_OrderStatus">
+      <value>статус заказа</value>
+      <comment>"Order status" command.</comment>
+  </data>
+
+  <data name="SignOnText">
+    <value>Войти</value>
+    <comment>Text to display in the flyout menu's current user section when no user is signed on, indicating that touching will take the user to a screen to sign on.</comment>
+  </data>
+  <data name="SignOnInitials">
+    <value>?</value>
+    <comment>Text to display in a small user initials circle when no user is signed on.</comment>
+  </data>
+  <data name="SignOffText">
+    <value>Выйти</value>
+    <comment>Text to display in the flyout menu's user action section when a user is signed on, indicating that touching will take the user to a screen to sign off.</comment>
+  </data>
+
+  <data name="WorkflowListWorkflowActivity_Header">
+    <value>Произнесите номер или коснитесь рабочего процесса для выбора</value>
+  </data>
+  <data name="WorkflowListWorkflowActivity_InitialPrompt">
+    <value>Выберите рабочий процесс</value>
+  </data>
+  
+  <data name="ServerSettingsWorkflowActivity_ChooseWorkflowFilter">
+    <value>Выбрать фильтр рабочего процесса</value>
+    <comment>"Choose Workflow Filter" label text.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_EmbeddedDemo">
+    <value>Встроенная демонстрация</value>
+    <comment>"Embedded Demo" text for workflow filter picker.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_Server">
+    <value>Сервер</value>
+    <comment>"Server" text for workflow filter picker.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_ServerSecureConnections">
+    <value>Безопасные подключения сервера</value>
+    <comment>Label text for HTTPS checkbox.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_ServerHost">
+    <value>Хост сервера</value>
+    <comment>Label for server host field.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_ServerPort">
+    <value>Порт сервера</value>
+    <comment>Label for server port field.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_SiteLabel">
+    <value>Объект</value>
+    <comment>Label for site settings section.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_SubmitButtonText">
+    <value>Готово</value>
+    <comment>Submit button text.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_SitePickerTitle">
+    <value>Выбрать объект</value>
+    <comment>Label for site picker.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_LoadingSites">
+    <value>Загрузка объектов...</value>
+    <comment>Message displayed while retrieving site list from server.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_SitesUnavailable">
+    <value>Объекты в настоящее время недоступны.</value>
+    <comment>Message displayed if site list is unavailable and cannot be retrieved.</comment>
+  </data>
+  <data name="NoiseSampleDisableVoiceRecognitionAlertTitleText">
+    <value>Отключить распознавание голоса?</value>
+    <comment>A summary of a question to the user whether or not voice recognition should be disabled.</comment>
+  </data>
+  <data name="NoiseSampleDisableVoiceRecognitionAlertMessageText">
+    <value>Если продолжить, приложение отключит распознавание голоса до тех пор, пока вы не включите его в меню настроек голоса и звука.</value>
+    <comment>Details of a question to the user whether or not voice recognition should be disabled.</comment>
+  </data>
+  <data name="NoiseSampleDisableVoiceRecognitionAlertAcceptText">
+    <value>Продолжить</value>
+    <comment>The text on the button that disables voice recognition.</comment>
+  </data>
+  <data name="NoiseSampleDisableVoiceRecognitionAlertCancelText">
+    <value>Отмена</value>
+    <comment>The text on the button that returns to the noise sample feature.</comment>
+  </data>
+
+  <data name="SignOffFromFlyoutConfirmationWorkflowActivity_Header">
+    <value>Произнесите "да" или "нет", чтобы продолжить</value>
+  </data>
+  <data name="SignOffFromFlyoutConfirmationWorkflowActivity_InitialPrompt">
+    <value>Выход. Продолжить?</value>
+  </data>
+  
+  <data name="PercentComplete"><value>{0} % завершения</value></data>
+  <data name="VoiceTrainingProgressFormat"><value>{1} из {2} слов</value></data>
+  <data name="TitleMessage_Enrollment"><value>ПОСТАНОВКА ГОЛОСА</value></data>
+  <data name="TitleMessage_NoiseSample"><value>ОБРАЗЕЦ ФОНОВОЙ ШУМ</value></data>
+  <data name="VoiceTrainingInstructionsPage1Header"><value>Добро пожаловать!</value></data>
+  <data name="VoiceTrainingInstructionsPage1Body"><value>Прежде чем начать, вы обязаны голос, обучение, который принимает примерно {0} минут для завершения.</value></data>
+  <data name="VoiceTrainingInstructionsPage1Body_LessThanAMinute"><value>Прежде чем начать, вы обязаны голос обучения, который должен быть меньше чем за минуту для завершения.</value></data>
+  <data name="VoiceTrainingInstructionsPage1Body_AboutAMinute"><value>Прежде чем начать, вы обязаны голос обучения, который должен занять около минуты для завершения.</value></data>
+  <data name="VoiceTrainingInstructionsPage2Header"><value>Повторение</value></data>
+  <data name="VoiceTrainingInstructionsPage2Body"><value>В процессе обучения, вы будете говорить ряд слов, которые могут повторять или случайном порядке.</value></data>
+  <data name="VoiceTrainingInstructionsPage3Header"><value>Постановка голоса</value></data>
+  <data name="VoiceTrainingInstructionsPage3Body"><value>Постановка голоса лучше всего работает в среде, где вы работаете.</value></data>
+  <data name="VoiceTrainingInstructionsPage4Header"><value>Образец фоновой шум</value></data>
+  <data name="VoiceTrainingInstructionsPage4Body"><value>Системе необходимо попробовать фоновый шум, поэтому он может распознавать ваш голос в вашей среде.</value></data>
+  <data name="VoiceTrainingInstructionsFinalPageFooter"><value>Нажмите Готово для начала.</value></data>
+  <data name="NoiseSampleAdjustingBackgroundNoiseDescription"><value>Регулировка для фонового шума</value></data>
+  <data name="OperPrepWordsInstructions"><value>Пожалуйста, говорите следующие слова:</value></data>
+  <data name="VoiceTrainingComplete"><value>Обучение полный голос</value></data>
+
+  <data name="ReportProblem">
+    <value>сообщить о проблеме</value>
+    <comment>"Report Problem" overflow menu item.</comment>
+  </data>
+  <data name="ReportProblemWorkflowActivity_Header">
+    <value>Сообщить о проблеме</value>
+    <comment>Header on "Report Problem" page.</comment>
+  </data>
+  <data name="ReportProblemWorkflowActivity_NoteLabel">
+    <value>Опишите проблему:</value>
+    <comment>Label for problem description text entry on Report Problem page.</comment>
+  </data>
+  <data name="ReportProblemWorkflowActivity_ButtonText">
+    <value>Отправить</value>
+    <comment>Text for "submit" button on Report Problem page.</comment>
+  </data>
+<data name="alpha_a"><value>A</value></data>
+  <data name="alpha_b"><value>B</value></data>
+  <data name="alpha_c"><value>C</value></data>
+  <data name="alpha_d"><value>D</value></data>
+  <data name="alpha_e"><value>E</value></data>
+  <data name="alpha_f"><value>F</value></data>
+  <data name="alpha_g"><value>G</value></data>
+  <data name="alpha_h"><value>H</value></data>
+  <data name="alpha_i"><value>Я</value></data>
+  <data name="alpha_j"><value>J</value></data>
+  <data name="alpha_k"><value>K</value></data>
+  <data name="alpha_l"><value>L</value></data>
+  <data name="alpha_m"><value>M</value></data>
+  <data name="alpha_n"><value>N</value></data>
+  <data name="alpha_o"><value>O</value></data>
+  <data name="alpha_p"><value>P</value></data>
+  <data name="alpha_q"><value>Q</value></data>
+  <data name="alpha_r"><value>R</value></data>
+  <data name="alpha_s"><value>S</value></data>
+  <data name="alpha_t"><value>T</value></data>
+  <data name="alpha_u"><value>U</value></data>
+  <data name="alpha_v"><value>V</value></data>
+  <data name="alpha_w"><value>W</value></data>
+  <data name="alpha_x"><value>X</value></data>
+  <data name="alpha_y"><value>Y</value></data>
+  <data name="alpha_z"><value>Z</value></data>
+  <data name="phonetic_a"><value>Альфа</value></data>
+  <data name="phonetic_b"><value>Браво</value></data>
+  <data name="phonetic_c"><value>Чарли</value></data>
+  <data name="phonetic_d"><value>Дельта</value></data>
+  <data name="phonetic_e"><value>Эхо</value></data>
+  <data name="phonetic_f"><value>Фокстрот</value></data>
+  <data name="phonetic_g"><value>Гольф</value></data>
+  <data name="phonetic_h"><value>Отель</value></data>
+  <data name="phonetic_i"><value>Индия</value></data>
+  <data name="phonetic_j"><value>Джульетта</value></data>
+  <data name="phonetic_k"><value>Кило</value></data>
+  <data name="phonetic_l"><value>Лима</value></data>
+  <data name="phonetic_m"><value>Майк</value></data>
+  <data name="phonetic_n"><value>Ноябрь</value></data>
+  <data name="phonetic_o"><value>Оскар</value></data>
+  <data name="phonetic_p"><value>Папа</value></data>
+  <data name="phonetic_q"><value>Квебек</value></data>
+  <data name="phonetic_r"><value>Ромео</value></data>
+  <data name="phonetic_s"><value>Сьерра</value></data>
+  <data name="phonetic_t"><value>Танго</value></data>
+  <data name="phonetic_u"><value>форма</value></data>
+  <data name="phonetic_v"><value>Виктор</value></data>
+  <data name="phonetic_w"><value>виски</value></data>
+  <data name="phonetic_x"><value>x ray</value></data>
+  <data name="phonetic_y"><value>Янки</value></data>
+  <data name="phonetic_z"><value>зулусский</value></data>
+  <data name="VocabWord_NoMore"><value>больше нет</value></data>
+  <data name="noise_sample_please_keep_quiet_instruction"><value>Пожалуйста, сохраняйте тишину несколько секунд</value></data>
+  <data name="noise_sample_no_speech_detected_warning"><value>Я вас не слышу, говорите немного громче</value></data>
+  <data name="noise_sample_first_utterance_prompt"><value>Произнесите: {0}</value></data>
+  <data name="noise_sample_first_utterance"><value>0</value></data>
+  <data name="noise_sample_second_utterance"><value>1</value></data>
+  <data name="noise_sample_third_utterance"><value>2</value></data>
+  <data name="noise_sample_warning_too_long"><value>Слишком длинная выборка шумового сигнала</value></data>
+  <data name="noise_sample_completed"><value>Выборка шумового сигнала завершена</value></data>
+  <data name="noise_sample_paused"><value>Выборка шумового сигнала приостановлена</value></data>
+  <data name="noise_sample_failed"><value>Не удалось выполнить выборку шумового сигнала</value></data>
+  <data name="training_please_say_following_words"><value>Пожалуйста, произнесите следующие слова</value></data>
+  <data name="training_wait_for_template_creation"><value>Выполняется создание голосовых шаблонов.  Подождите.</value></data>
+  <data name="finished_creating_voice_templates"><value>Выполняется создание голосовых шаблонов.</value></data>
+  <data name="training_interrupted"><value>Обучение прервано</value></data>
+  <data name="training_timed_out"><value>Время обучения истекло</value></data>
+  <data name="training_failed"><value>Ошибка в процессе обучения</value></data>
+  <data name="training_stopped"><value>Обучение остановлено</value></data>
+  <data name="training_pause_display_between_words"><value>...</value></data>
+  <data name="number_0"><value>0</value></data>
+  <data name="number_1"><value>1</value></data>
+  <data name="number_2"><value>2</value></data>
+  <data name="number_3"><value>3</value></data>
+  <data name="number_4"><value>4</value></data>
+  <data name="number_5"><value>5</value></data>
+  <data name="number_6"><value>6</value></data>
+  <data name="number_7"><value>7</value></data>
+  <data name="number_8"><value>8</value></data>
+  <data name="number_9"><value>9</value></data>
+  <data name="phonetic_0"><value>Ноль</value></data>
+  <data name="phonetic_1"><value>Один</value></data>
+  <data name="phonetic_2"><value>Два</value></data>
+  <data name="phonetic_3"><value>Три</value></data>
+  <data name="phonetic_4"><value>Четыре</value></data>
+  <data name="phonetic_5"><value>Пять</value></data>
+  <data name="phonetic_6"><value>Шесть</value></data>
+  <data name="phonetic_7"><value>Семь</value></data>
+  <data name="phonetic_8"><value>Восемь</value></data>
+  <data name="phonetic_9"><value>Девять</value></data>
+  <data name="phonetic_decimal"><value>Точки</value></data>
+  <data name="prompt_separator_then"><value> Затем: </value></data>
+  <data name="prompt_separator_or"><value> Или: </value></data>
+  <data name="prompt_separator_if_required"><value> Если необходимо: </value></data>
+  <data name="whole_number_separator"><value>.</value></data>
+  <data name="whole_number_separator_phonetic"><value>точка</value></data>
+  <data name="symbol_dash"><value>-</value></data>
+  <data name="phonetic_dash"><value>тире</value></data>
+  <data name="confirmation_of_spoken_value"><value>Вы произнесли {0}. Верно ли это?</value></data>
+  <data name="pick_from_list_help_only_1_option"><value>Единственный вариант — {0}</value></data>
+  <data name="pick_from_list_help_multiple_options"><value>Варианты: {0} и {1}</value></data>
+  <data name="pick_from_list_confirmation_prompt"><value>Вы выбрали {0}. Верно ли это?</value></data>
+  <data name="digit_entry_say_digits"><value>Произнесите {0} цифр(ы).</value></data>
+  <data name="digit_entry_say_between_digits"><value>Произнесите от {0} до {1} цифр.</value></data>
+  <data name="default_help_no_help_available"><value>Справка недоступна</value></data>
+  <data name="default_help_only_1_word"><value>Произнесите {0}.</value></data>
+  <data name="default_help_multiple_words"><value>Произнесите {0} или {1}.</value></data>
+  <data name="yes"><value>да</value></data>
+  <data name="no"><value>нет</value></data>
+  <data name="accept_entry_word"><value>готово</value></data>
+  <data name="next_entry_word"><value>далее</value></data>
+  <data name="digits_word"><value>цифры</value></data>
+  <data name="VocabWord_Help"><value>справка</value></data>
+  <data name="VocabWord_SayAgain"><value>произнесите снова</value></data>
+  <data name="VocabWord_StandBy"><value>ожидание</value></data>
+  <data name="VocabWord_NoiseSample"><value>шумовая выборка</value></data>
+  <data name="VocabWord_Continue"><value>продолжить</value></data>
+  <data name="VocabWord_SignOff"><value>выйти</value></data>
+  <data name="VocabWord_Yes"><value>да</value></data>
+  <data name="VocabWord_No"><value>нет</value></data>
+  <data name="VocabWord_UpdateTrain"><value>обновление обучения</value></data>
+  <data name="VocabWord_Info"><value>сведения</value></data>
+  <data name="VocabWord_Option"><value>параметры</value></data>
+  <data name="OverflowMenuItem_ReportProblem"><value>сообщить о проблеме</value></data>
+  <data name="AffirmativeButtonText"><value>Да</value></data>
+  <data name="NegativeButtonText"><value>Нет</value></data>
+  </root>

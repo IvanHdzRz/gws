@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright (C) 2017 Honeywell International Inc. All rights reserved. -->
+<hfmcl:CoreView
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:guidedwork="clr-namespace:GuidedWork;assembly=GuidedWork"
+    xmlns:hfmcl="clr-namespace:Honeywell.Firebird.CoreLibrary;assembly=Honeywell.GuidedWork.XF"
+    xmlns:i18n="clr-namespace:Honeywell.Firebird.CoreLibrary.Localization.Xaml;assembly=Honeywell.GuidedWork.XF"
+    x:Class="Receiving.ReceivingView">
+
+    <Grid RowSpacing="0" VerticalOptions="Fill">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="65*" />
+        </Grid.RowDefinitions>
+        
+        <StackLayout VerticalOptions="FillAndExpand" Spacing="0" Padding="10,5,10,0" Grid.Row="0">
+
+            <Label Text="{Binding ProductName}" Style="{StaticResource NameLabelStyle}" AutomationId="ReceivingProductNameLabel" />
+
+            <StackLayout Orientation="Horizontal" Padding="0,10,0,0" HorizontalOptions="Fill" VerticalOptions="FillAndExpand" >
+                <Grid VerticalOptions="FillAndExpand">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                  <Image Source="{Binding ProductImage}" Grid.Row="0" Grid.Column="0" HeightRequest="120" WidthRequest="300" HorizontalOptions="Center" AutomationId="ReceivingProductImage" />
+                  <StackLayout Spacing="0" Grid.Row="0" Grid.Column="1" VerticalOptions="Center">
+                        <Label Text="{i18n:Translate RemainingQuantity}" Style="{StaticResource EntryBoldLabelStyle}" HorizontalOptions="Center" AutomationId="ReceivingOrderedQuantityLabel" />
+                        <Label Text="{Binding RemainingQuantity}" Style="{StaticResource QuantityLabelStyle}" HorizontalOptions="Center" AutomationId="ReceivingRemainingQuantityLabel" />
+                    </StackLayout>
+
+                    
+                </Grid>
+            </StackLayout>
+
+        </StackLayout>
+
+      <StackLayout x:Name="HiQuantityEntryStackLayout" Grid.Row="1" Padding="10,5,10,0" VerticalOptions="FillAndExpand">
+
+        <Grid>
+          <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+          </Grid.RowDefinitions>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+          </Grid.ColumnDefinitions>
+
+          <Label Text="{Binding HiLabel}" Grid.Row="0" Grid.Column="0" Style="{StaticResource EntryBoldLabelStyle}" AutomationId="HiQuantityReceivingPickedQuantityLabel" />
+
+          <hfmcl:UserEntrySubview x:Name="HiQuantityEntrySubview" Grid.Row="0" Grid.Column="1"
+                  Placeholder="{i18n:Translate QuantityEntryPlaceholder}"
+                  SubmitResponseCommand="{Binding ValidationModel.SubmitResponseCommand}"
+                  FontSize="14"
+                  ErrorMessageFontSize="10"
+                  BorderWidth="2"
+                  ShowUnderline="False"
+                  IsEnabled="False"
+                  AutomationId="HiQuantityReceivingQuantityEntrySub" />
+
+        </Grid>
+      </StackLayout>
+      <StackLayout x:Name="TiQuantityEntryStackLayout" Grid.Row="2" Padding="10,5,10,0" VerticalOptions="FillAndExpand">
+
+        <Grid>
+          <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+          </Grid.RowDefinitions>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+          </Grid.ColumnDefinitions>
+
+          <Label Text="{Binding TiLabel}" Grid.Row="0" Grid.Column="0" Style="{StaticResource EntryBoldLabelStyle}" AutomationId="TiQuantityReceivingPickedQuantityLabel" />
+
+          <hfmcl:UserEntrySubview x:Name="TiQuantityEntrySubview" Grid.Row="0" Grid.Column="1"
+                  Placeholder="{i18n:Translate QuantityEntryPlaceholder}"
+                  SubmitResponseCommand="{Binding ValidationModel.SubmitResponseCommand}"
+                  FontSize="14"
+                  ErrorMessageFontSize="10"
+                  BorderWidth="2"
+                  ShowUnderline="False"
+                  IsEnabled="False"
+                  AutomationId="TiQuantityReceivingQuantityEntrySub" />
+        </Grid>
+      </StackLayout>
+      <StackLayout x:Name="TotalQuantityEntryStackLayout" Grid.Row="3" Padding="10,5,10,0" VerticalOptions="FillAndExpand">
+
+        <Grid>
+          <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+          </Grid.RowDefinitions>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+          </Grid.ColumnDefinitions>
+
+          <Label Text="{Binding TotalLabel}" Grid.Row="0" Grid.Column="0" Style="{StaticResource EntryBoldLabelStyle}" AutomationId="TotalQuantityReceivingPickedQuantityLabel" />
+
+          <hfmcl:UserEntrySubview x:Name="TotalQuantityEntrySubview" Grid.Row="0" Grid.Column="1"
+                  Placeholder="{i18n:Translate QuantityEntryPlaceholder}"
+                  SubmitResponseCommand="{Binding ValidationModel.SubmitResponseCommand}"
+                  FontSize="14"
+                  ErrorMessageFontSize="10"
+                  BorderWidth="2"
+                  ShowUnderline="False"
+                  IsEnabled="False"
+                  AutomationId="TotalQuantityReceivingQuantityEntrySub" />
+        </Grid>
+      </StackLayout>
+
+      <Grid x:Name="ButtonGrid" VerticalOptions="End" Grid.Row="4" Padding="10,5,10,10">
+          <Grid.RowDefinitions>
+              <RowDefinition Height="Auto" />
+          </Grid.RowDefinitions>
+      </Grid>
+
+    </Grid>
+
+</hfmcl:CoreView>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hfmcl:CoreView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:hfmcl="clr-namespace:Honeywell.Firebird.CoreLibrary;assembly=Honeywell.GuidedWork.XF"
+             xmlns:i18n="clr-namespace:Honeywell.Firebird.CoreLibrary.Localization.Xaml;assembly=Honeywell.GuidedWork.XF"
+             x:Class="LApp.LAppSettingsView">
+
+    <ScrollView>
+        <StackLayout VerticalOptions="Fill" Spacing="0" BackgroundColor="{x:Static hfmcl:ColorResources.HoneywellWhite}">
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="LAppSettingsViewBoxView" />
+
+            <!-- WORKFLOW SETTINGS -->
+            <StackLayout Style="{StaticResource SectionTitleLayoutStyle}">
+                <Label Text="{i18n:Translate WorkflowSettingsLabel, Converter={StaticResource StringCaseConverter}, ConverterParameter=U}"
+                       Style="{StaticResource SectionTitleLabelStyle}"
+                       AutomationId="SettingsWorkflowSettingsLabel" />
+            </StackLayout>
+
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="LAppSettingsViewSelectWorkflowFilterBoxView" />
+
+            <!--- Select Workflow Filter -->
+            <StackLayout Style="{StaticResource SettingsItemVerticalLayoutStyle}" IsVisible="{Binding WorkflowFilterSettingsVisible}">
+                <Label Text="{i18n:Translate CurrentWorkflowFilter}" Style="{StaticResource SettingsItemLabelStyle}" AutomationId="SettingsCurrentWorkflowFilterLabel" />
+                <StackLayout Style="{StaticResource EntryBorderStyle}">
+                    <StackLayout Style="{StaticResource EntryLayoutStyle}">
+                        <hfmcl:CustomPicker Title="{i18n:Translate ChooseWorkflowFilter}"
+                            ItemsSource="{Binding WorkflowFilterChoices}"
+                            SelectedItem="{Binding SelectedWorkflowFilter}"
+                            x:Name="WorkflowFilterPicker"
+                            FontFamily="HoneywellSans-Book"
+                            AutomationId="SettingsWorkflowPicker" />
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="LAppSettingsViewLAppSettingsBoxView"/>
+
+            <!-- LApp SETTINGS -->
+            <StackLayout Style="{StaticResource SectionTitleLayoutStyle}" IsVisible="{Binding ServerSettingsVisible}">
+                <Label Text="{i18n:Translate LAppSettingsLabel, Converter={StaticResource StringCaseConverter}, ConverterParameter=U}"
+                       Style="{StaticResource SectionTitleLabelStyle}" 
+                       AutomationId="LAppSettingsLabel" />
+            </StackLayout>
+
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="LAppSettingsViewLAppHostBoxView"/>
+
+            <!-- LApp Host -->
+            <StackLayout Style="{StaticResource SettingsItemVerticalLayoutStyle}" IsVisible="{Binding ServerSettingsVisible}">
+                <Label Text="{i18n:Translate Host}" Style="{StaticResource SettingsItemLabelStyle}" AutomationId="HostLabel" />
+                <hfmcl:UserEntrySubview
+                        Text="{Binding Host}"
+                        x:Name="HostEntry"
+                        BorderWidth="2"
+                        ShowUnderline="False"
+                        Keyboard="Text"
+                        AutomationId="Host" />
+            </StackLayout>
+
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="LAppSettingsViewLAppPortBoxView"/>
+
+            <!-- LApp Port -->
+            <StackLayout Style="{StaticResource SettingsItemVerticalLayoutStyle}" IsVisible="{Binding ServerSettingsVisible}">
+                <Label Text="{i18n:Translate Port}" Style="{StaticResource SettingsItemLabelStyle}" AutomationId="PortLabel" />
+                <hfmcl:UserEntrySubview
+                        Text="{Binding Port}"
+                        x:Name="PortEntry"
+                        BorderWidth="2"
+                        ShowUnderline="False"
+                        Keyboard="Text"
+                        AutomationId="Port" />
+            </StackLayout>
+
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="LAppSettingsViewLAppCompanyDatabaseBoxView"/>
+
+            <!-- LApp Company Database -->
+            <StackLayout Style="{StaticResource SettingsItemVerticalLayoutStyle}" IsVisible="{Binding ServerSettingsVisible}">
+                <Label Text="{i18n:Translate CompanyDB}" Style="{StaticResource SettingsItemLabelStyle}" AutomationId="CompanyDBLabel" />
+                <hfmcl:UserEntrySubview
+                        Text="{Binding CompanyDB}"
+                        x:Name="CompanyDBEntry"
+                        BorderWidth="2"
+                        ShowUnderline="False"
+                        Keyboard="Text"
+                        AutomationId="CompanyDB"
+                />
+            </StackLayout>
+
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="LAppSettingsViewEndBoxView" />
+
+        </StackLayout>
+    </ScrollView>
+</hfmcl:CoreView>

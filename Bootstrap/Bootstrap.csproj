@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wpa81</AssetTargetFallback>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+    
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType />
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1451" />
+    <PackageReference Include="Honeywell.GuidedWork" Version="1.4.0.0" />
+    <PackageReference Include="Honeywell.GuidedWork.DemoDataModule" Version="1.4.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BasePickingExample\BasePickingExample.csproj" />
+    <ProjectReference Include="..\GWS\GWS.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\AppBuildInfo.cs">
+      <Link>Properties\AppBuildInfo.cs</Link>
+    </Compile>
+  </ItemGroup>
+</Project>

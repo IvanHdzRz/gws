@@ -1,0 +1,481 @@
+﻿[
+  {
+    "Name": "OrderPickingWorkflowActivity",
+    "Default": "OrderPickingProcessingWorkflowActivity",
+    "ReferencedEvents": [
+      {
+        "WfaReferenceName": "BaldEagleWorkflowActivity",
+        "Name": "TaskManagerWorkflowActivity::StartOrderPickingWorkflow",
+        "Actions": [
+          {
+            "Type": "PushReplaceNavigation",
+            "Params": {
+              "Destination": "OrderPickingWorkflowActivity"
+            }
+          }
+        ]
+      },
+      {
+        "WfaReferenceName": "BaldEagleWorkflowActivity",
+        "Name": "StartGuidedWorkGetContainers",
+        "Actions": [
+          {
+            "Type": "PushReplaceNavigation",
+            "Params": {
+              "Destination": "OrderPickingGetContainersWorkflowActivity"
+            }
+          }
+        ]
+      },
+      {
+        "WfaReferenceName": "BaldEagleWorkflowActivity",
+        "Name": "StartGuidedWorkAcknowledgeLocation",
+        "Actions": [
+          {
+            "Type": "PushReplaceNavigation",
+            "Params": {
+              "Destination": "OrderPickingAcknowledgeLocationWorkflowActivity"
+            }
+          }
+        ]
+      },
+      {
+        "WfaReferenceName": "BaldEagleWorkflowActivity",
+        "Name": "StartGuidedWorkConfirmNoMoreWork",
+        "Actions": [
+          {
+            "Type": "PushReplaceNavigation",
+            "Params": {
+              "Destination": "OrderPickingConfirmNoMoreWorkflowActivity"
+            }
+          }
+        ]
+      },
+      {
+        "WfaReferenceName": "BaldEagleWorkflowActivity",
+        "Name": "StartGuidedWorkConfirmSkipProduct",
+        "Actions": [
+          {
+            "Type": "PushReplaceNavigation",
+            "Params": {
+              "Destination": "OrderPickingConfirmSkipProductWorkflowActivity"
+            }
+          }
+        ]
+      },
+      {
+        "WfaReferenceName": "BaldEagleWorkflowActivity",
+        "Name": "StartGuidedWorkEnterProduct",
+        "Actions": [
+          {
+            "Type": "PushReplaceNavigation",
+            "Params": {
+              "Destination": "OrderPickingEnterProductWorkflowActivity"
+            }
+          }
+        ]
+      },
+      {
+        "WfaReferenceName": "BaldEagleWorkflowActivity",
+        "Name": "StartGuidedWorkEnterQuantity",
+        "Actions": [
+          {
+            "Type": "PushReplaceNavigation",
+            "Params": {
+              "Destination": "OrderPickingEnterQuantityWorkflowActivity"
+            }
+          }
+        ]
+      },
+      {
+        "WfaReferenceName": "BaldEagleWorkflowActivity",
+        "Name": "StartGuidedWorkConfirmQuantity",
+        "Actions": [
+          {
+            "Type": "PushReplaceNavigation",
+            "Params": {
+              "Destination": "OrderPickingConfirmQuantityWorkflowActivity"
+            }
+          }
+        ]
+      },
+      {
+        "WfaReferenceName": "BaldEagleWorkflowActivity",
+        "Name": "StartGuidedWorkEnterSubProduct",
+        "Actions": [
+          {
+            "Type": "PushReplaceNavigation",
+            "Params": {
+              "Destination": "OrderPickingEnterSubProductWorkflowActivity"
+            }
+          }
+        ]
+      },
+      {
+        "WfaReferenceName": "BaldEagleWorkflowActivity",
+        "Name": "StartGuidedWorkConfirmOverflow",
+        "Actions": [
+          {
+            "Type": "PushReplaceNavigation",
+            "Params": {
+              "Destination": "OrderPickingConfirmOverflowWorkflowActivity"
+            }
+          }
+        ]
+      },
+      {
+        "WfaReferenceName": "BaldEagleWorkflowActivity",
+        "Name": "StartGuidedWorkOrderStatus",
+        "Actions": [
+          {
+            "Type": "PushReplaceNavigation",
+            "Params": {
+              "Destination": "OrderPickingOrderStatusWorkflowActivity"
+            }
+          }
+        ]
+      },
+      {
+        "WfaReferenceName": "BaldEagleWorkflowActivity",
+        "Name": "StartGuidedWorkAllDone",
+        "Actions": [
+          {
+            "Type": "PushReplaceNavigation",
+            "Params": {
+              "Destination": "OrderPickingAllDoneWorkflowActivity"
+            }
+          }
+        ]
+      },
+      {
+        "WfaReferenceName": "BaldEagleWorkflowActivity",
+        "Name": "StartGuidedWorkGoToStaging",
+        "Actions": [
+          {
+            "Type": "PushReplaceNavigation",
+            "Params": {
+              "Destination": "OrderPickingGoToStagingLocationWorkflowActivity"
+            }
+          }
+        ]
+      },
+      {
+        "WfaReferenceName": "BaldEagleWorkflowActivity",
+        "Name": "StartGuidedWorkEnterStagingLocation",
+        "Actions": [
+          {
+            "Type": "PushReplaceNavigation",
+            "Params": {
+              "Destination": "OrderPickingEnterStagingLocationWorkflowActivity"
+            }
+          }
+        ]
+      },
+      {
+        "WfaReferenceName": "BaldEagleWorkflowActivity",
+        "Name": "StartGuidedWorkConfirmStagingLocation",
+        "Actions": [
+          {
+            "Type": "PushReplaceNavigation",
+            "Params": {
+              "Destination": "OrderPickingConfirmStagingLocationWorkflowActivity"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "OrderPickingProcessingWorkflowActivity",
+    "ControllerName": "OrderPicking.OrderPickingGuidedWorkController"
+  },
+  {
+    "Name": "OrderPickingGetContainersWorkflowActivity",
+    "ControllerName": "OrderPicking.OrderPickingGetContainersController",
+    "ViewModelName": "Honeywell.Firebird.CoreLibrary.SingleResponseViewModel",
+    "ViewNames": [ "OrderPicking.OrderPickingReadyView", "Honeywell.Firebird.CoreLibrary.SingleResponseDialogueView" ],
+    "Params": {
+      "InactiveGlobalPhrases": [ [ "VocabWord_OrderStatus" ] ],
+      "InactiveOverflowMenuItems": [ "VocabWord_OrderStatus" ],
+      "UserVocab": [ "VocabWord_NoMore" ]
+    }
+  },
+  {
+    "Name": "OrderPickingAcknowledgeLocationWorkflowActivity",
+    "ControllerName": "OrderPicking.OrderPickingAcknowledgeLocationController",
+    "ViewModelName": "OrderPicking.OrderPickingAcknowledgeLocationViewModel",
+    "ViewNames": [ "OrderPicking.OrderPickingView", "Honeywell.Firebird.CoreLibrary.SingleResponseDialogueView" ],
+    "Params": {
+      "PublishesAsOptionEvent": true
+    }
+  },
+  {
+    "Name": "OrderPickingConfirmNoMoreWorkflowActivity",
+    "ControllerName": "OrderPicking.OrderPickingConfirmNoMoreController",
+    "ViewModelName": "Honeywell.Firebird.CoreLibrary.BooleanConfirmationViewModel",
+    "ViewNames": [ "Honeywell.Firebird.CoreLibrary.BooleanConfirmationView", "Honeywell.Firebird.CoreLibrary.BooleanConfirmationDialogueView" ],
+    "Params": {
+      "InactiveGlobalPhrases": [ [ "VocabWord_Info" ] ],
+      "InactiveOverflowMenuItems": [ "VocabWord_Info" ],
+      "BackgroundImage": "end_order_icon"
+    }
+  },
+  {
+    "Name": "OrderPickingConfirmSkipProductWorkflowActivity",
+    "ControllerName": "OrderPicking.OrderPickingBooleanConfirmationController",
+    "ViewModelName": "OrderPicking.OrderPickingBooleanConfirmationViewModel",
+    "ViewNames": [ "Honeywell.Firebird.CoreLibrary.BooleanConfirmationView", "Honeywell.Firebird.CoreLibrary.BooleanConfirmationDialogueView" ],
+    "Params": {
+      "InactiveGlobalPhrases": [ [ "VocabWord_Info" ] ],
+      "InactiveOverflowMenuItems": [ "VocabWord_Info" ],
+      "BackgroundImage": "skip_item_icon"
+    }
+  },
+  {
+    "Name": "OrderPickingEnterProductWorkflowActivity",
+    "ControllerName": "OrderPicking.OrderPickingEnterProductController",
+    "ViewModelName": "OrderPicking.OrderPickingEnterDigitsViewModel",
+    "ViewNames": [
+      "OrderPicking.OrderPickingEnterProductView",
+      "Honeywell.Firebird.CoreLibrary.DigitEntryDialogueView",
+      "Honeywell.Firebird.CoreLibrary.ValidatingScannerView",
+      "Honeywell.Firebird.CoreLibrary.ValidatingBluetoothScannerView"
+    ],
+    "Params": {
+      "UserVocab": [ "VocabWord_SkipProduct", "VocabWord_OrderStatus" ]
+    }
+  },
+  {
+    "Name": "OrderPickingEnterSubProductWorkflowActivity",
+    "ControllerName": "OrderPicking.OrderPickingEnterSubProductController",
+    "ViewModelName": "OrderPicking.OrderPickingEnterDigitsViewModel",
+    "ViewNames": [
+      "OrderPicking.OrderPickingEnterProductView",
+      "Honeywell.Firebird.CoreLibrary.DigitEntryDialogueView",
+      "Honeywell.Firebird.CoreLibrary.ValidatingScannerView",
+      "Honeywell.Firebird.CoreLibrary.ValidatingBluetoothScannerView"
+    ],
+    "Params": {
+      "UserVocab": [ "VocabWord_OrderStatus" ]
+    }
+  },
+  {
+    "Name": "OrderPickingEnterQuantityWorkflowActivity",
+    "ControllerName": "OrderPicking.OrderPickingEnterQuantityController",
+    "ViewModelName": "OrderPicking.OrderPickingEnterDigitsViewModel",
+    "ViewNames": [ "OrderPicking.OrderPickingEnterQuantityView", "Honeywell.Firebird.CoreLibrary.DigitEntryDialogueView" ],
+    "Params": {
+      "ExpectedMaximumLength": 3,
+      "UserVocab": [ "VocabWord_Overflow", "VocabWord_OrderStatus" ]
+    }
+  },
+  {
+    "Name": "OrderPickingConfirmQuantityWorkflowActivity",
+    "ControllerName": "OrderPicking.OrderPickingConfirmQuantityController",
+    "ViewModelName": "OrderPicking.OrderPickingBooleanConfirmationViewModel",
+    "ViewNames": [ "OrderPicking.OrderPickingConfirmQuantityView", "Honeywell.Firebird.CoreLibrary.BooleanConfirmationDialogueView" ],
+    "Params": {
+      "InactiveGlobalPhrases": [ [ "VocabWord_Info" ] ],
+      "InactiveOverflowMenuItems": [ "VocabWord_Info" ]
+    }
+  },
+  {
+    "Name": "OrderPickingAcknowledgeSubstitutionWorkflowActivity",
+    "ControllerName": "OrderPicking.OrderPickingAcknowledgeSubstitutionController",
+    "ViewModelName": "OrderPicking.OrderPickingAcknowledgeSubstitutionViewModel",
+    "ViewNames": [ "OrderPicking.OrderPickingAcknowledgeSubstitutionView", "Honeywell.Firebird.CoreLibrary.SingleResponseDialogueView" ],
+    "Params": {
+      "PossibleResponses": [ "accept_entry_word", "next_entry_word" ],
+      "InactiveGlobalPhrases": [ [ "VocabWord_Info" ] ],
+      "InactiveOverflowMenuItems": [ "VocabWord_Info", "VocabWord_OrderStatus" ]
+    }
+  },
+  {
+    "Name": "OrderPickingConfirmOverflowWorkflowActivity",
+    "ControllerName": "OrderPicking.OrderPickingConfirmOverflowController",
+    "ViewModelName": "OrderPicking.OrderPickingConfirmOverflowViewModel",
+    "ViewNames": [ "OrderPicking.OrderPickingConfirmationView", "Honeywell.Firebird.CoreLibrary.BooleanConfirmationDialogueView" ]
+  },
+  {
+    "Name": "OrderPickingGoToStagingLocationWorkflowActivity",
+    "ControllerName": "OrderPicking.OrderPickingReadyController",
+    "ViewModelName": "Honeywell.Firebird.CoreLibrary.ReadyViewModel",
+    "ViewNames": [ "OrderPicking.OrderPickingReadyView", "Honeywell.Firebird.CoreLibrary.ReadyDialogueView" ],
+    "Params": {
+      "InactiveGlobalPhrases": [
+        [ "VocabWord_OrderStatus" ],
+        [ "VocabWord_GlobalAnchorWord", "VocabWord_Backup" ]
+      ],
+      "InactiveOverflowMenuItems": [ "VocabWord_OrderStatus", "VocabWord_Backup" ],
+      "DisableNavigationButton": true,
+      "DisableSwipeBackNavigation": true
+    }
+  },
+  {
+    "Name": "OrderPickingEnterStagingLocationWorkflowActivity",
+    "ControllerName": "OrderPicking.OrderPickingEnterStagingLocationController",
+    "ViewModelName": "OrderPicking.OrderPickingEnterStagingLocationViewModel",
+    "ViewNames": [
+      "OrderPicking.OrderPickingStagingLocationView",
+      "Honeywell.Firebird.CoreLibrary.DigitEntryDialogueView",
+      "Honeywell.Firebird.CoreLibrary.ValidatingScannerView",
+      "Honeywell.Firebird.CoreLibrary.ValidatingBluetoothScannerView"
+    ],
+    "Params": {
+      "InactiveGlobalPhrases": [
+        [ "VocabWord_OrderStatus" ],
+        [ "VocabWord_GlobalAnchorWord", "VocabWord_Backup" ]
+      ],
+      "InactiveOverflowMenuItems": [ "VocabWord_OrderStatus", "VocabWord_Backup" ],
+      "DisableNavigationButton": true,
+      "DisableSwipeBackNavigation": true
+    }
+  },
+  {
+    "Name": "OrderPickingConfirmStagingLocationWorkflowActivity",
+    "ControllerName": "OrderPicking.OrderPickingConfirmStagingLocationController",
+    "ViewModelName": "OrderPicking.OrderPickingConfirmStagingLocationViewModel",
+    "ViewNames": [ "OrderPicking.OrderPickingStagingLocationView", "Honeywell.Firebird.CoreLibrary.BooleanConfirmationDialogueView" ],
+    "Params": {
+      "InactiveGlobalPhrases": [ [ "VocabWord_OrderStatus" ] ],
+      "InactiveOverflowMenuItems": [ "VocabWord_OrderStatus" ]
+    }
+  },
+  {
+    "Name": "OrderPickingOrderStatusWorkflowActivity",
+    "ControllerName": "OrderPicking.OrderPickingOrderStatusController",
+    "ViewModelName": "OrderPicking.OrderPickingOrderStatusViewModel",
+    "ViewNames": [ "OrderPicking.OrderPickingOrderStatusView", "Honeywell.Firebird.CoreLibrary.SingleResponseDialogueView" ],
+    "Params": {
+      "PossibleResponses": [ "VocabWord_Continue" ],
+      "InactiveGlobalPhrases": [ [ "VocabWord_OrderStatus" ] ],
+      "InactiveOverflowMenuItems": [ "VocabWord_OrderStatus" ]
+    }
+  },
+  {
+    "Name": "OrderPickingAllDoneWorkflowActivity",
+    "ControllerName": "OrderPicking.OrderPickingAllDoneController",
+    "ViewModelName": "Honeywell.Firebird.CoreLibrary.ReadyViewModel",
+    "ViewNames": [ "Honeywell.Firebird.CoreLibrary.ReadyView", "Honeywell.Firebird.CoreLibrary.ReadyDialogueView" ],
+    "Params": {
+      "BackgroundImage": "DefaultImage.png"
+    }
+  },
+  {
+    "Name": "StartInterleavedGapScanWorkflowActivity",
+    "ControllerName": "GapScan.GapScanStartInterleavedGapScanController"
+  },
+  {
+    "Name": "GapScanWorkflowActivity",
+    "Default": "GapScanEnterProductWorkflowActivity",
+    "Events": [
+      {
+        "Name": "GapScanEnterProductWorkflowActivity::UserEntryEntered",
+        "Actions": [
+          {
+            "Type": "PushReplaceNavigation",
+            "Params": {
+              "Destination": "GapScanRetrieveStockRecordWorkflowActivity"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "GapScanEnterProductWorkflowActivity::Cancel",
+        "Actions": [
+          {
+            "Type": "PopNavigation"
+          }
+        ]
+      },
+      {
+        "Name": "GapScanRetrieveStockRecordWorkflowActivity::Failed",
+        "Actions": [
+          {
+            "Type": "PushReplaceNavigation",
+            "Params": {
+              "Destination": "GapScanSetInvalidShelfLabelWorkflowActivity"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "GapScanSetInvalidShelfLabelWorkflowActivity::Completed",
+        "Actions": [
+          {
+            "Type": "PushReplaceNavigation",
+            "Params": {
+              "Destination": "GapScanEnterProductWorkflowActivity"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "GapScanRetrieveStockRecordWorkflowActivity::Exception",
+        "Actions": [
+          {
+            "Type": "PopNavigation"
+          }
+        ]
+      },
+      {
+        "Name": "GapScanRetrieveStockRecordWorkflowActivity::Aborted",
+        "Actions": [
+          {
+            "Type": "PopNavigation"
+          }
+        ]
+      },
+      {
+        "Name": "GapScanRetrieveStockRecordWorkflowActivity::CompletedSingle",
+        "Actions": [
+          {
+            "Type": "PopNavigation"
+          }
+        ]
+      },
+      {
+        "Name": "GapScanRetrieveStockRecordWorkflowActivity::CompletedMultiple",
+        "Actions": [
+          {
+            "Type": "PushReplaceNavigation",
+            "Params": {
+              "Destination": "GapScanEnterProductWorkflowActivity"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "GapScanEnterProductWorkflowActivity",
+    "ControllerName": "GapScan.GapScanEnterProductController",
+    "ViewModelName": "GapScan.GapScanEnterProductViewModel",
+    "ViewNames": [ "GapScan.GapScanEnterProductView", "Honeywell.Firebird.CoreLibrary.ConfirmReadyDialogueView", "Honeywell.Firebird.CoreLibrary.ValidatingScannerView", "Honeywell.Firebird.CoreLibrary.ValidatingBluetoothScannerView" ],
+    "Params": {
+      "UserVocab": [ "VocabWord_NoMore" ],
+      "InactiveGlobalPhrases": [
+        [ "VocabWord_Info" ],
+        [ "VocabWord_GapScan" ],
+        [ "VocabWord_OrderStatus" ]
+      ],
+      "InactiveOverflowMenuItems": [ "VocabWord_Info", "VocabWord_GapScan", "VocabWord_OrderStatus" ]
+    }
+  },
+  {
+    "Name": "GapScanRetrieveStockRecordWorkflowActivity",
+    "ControllerName": "GapScan.GapScanRetrieveStockRecordController",
+    "ViewModelName": "Honeywell.Firebird.CoreLibrary.AbortableBackgroundFuncViewModel",
+    "ViewNames": [ "Honeywell.Firebird.CoreLibrary.BackgroundActivityView", "Honeywell.Firebird.CoreLibrary.SpeakOnCommandDialogueView" ],
+    "Params": {
+      "MicIconStateOverride": false,
+      "EnableMenuOption": false,
+      "AutomaticFillRequest": true,
+      "Interleaved": true
+    }
+  },
+  {
+    "Name": "GapScanSetInvalidShelfLabelWorkflowActivity",
+    "ControllerName": "GapScan.GapScanSetInvalidShelfLabelController"
+  }
+]

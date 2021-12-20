@@ -1,0 +1,12 @@
+﻿//////////////////////////////////////////////////////////////////////////////
+//    Copyright (C) 2020 Honeywell International Inc. All rights reserved.
+//////////////////////////////////////////////////////////////////////////////
+
+namespace SimpleApp
+{
+    using Honeywell.Firebird.CoreLibrary;
+
+    public interface ISimpleAppConfigRepository : IServerConfigRepository
+    {
+    }
+}

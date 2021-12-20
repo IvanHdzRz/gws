@@ -1,0 +1,2347 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  <data name="VocabWord_Backup">
+    <value>terug</value>
+    <comment>"back up" spoken command word.</comment>
+  </data>
+  
+  <data name="Error_WrongProduct">
+    <value>Verkeerde item</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="Error_WrongProductPrompt">
+    <value>Verkeerde item. Probeer het opnieuw.</value>
+    <comment>Spoken prompt </comment>
+  </data>
+  <data name="Error_NotUnique">
+    <value>Niet uniek, moet scannen</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="Error_NotUniquePrompt">
+    <value>Niet uniek, moet scannen</value>
+    <comment>Spoken prompt </comment>
+  </data>
+  <data name="Error_StockRecordNotFound">
+    <value>Niet gevonden voorraadrecord: {0}</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="Error_NotFound">
+    <value>Item niet gevonden</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="Error_NotFoundWithResponse">
+    <value>Niet gevonden item: {0}</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="Error_UnknownLocation">
+    <value>Onbekende locatie</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="Error_UnexpectedResponse">
+    <value>Onverwacht antwoord: {0}</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="Error_WrongQuantity">
+    <value>Verkeerde hoeveelheid</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="Error_NoLabelVersionFound">
+    <value>Geen labelversie gevonden</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="Error_InvalidEntry_Short">
+    <value>Herhaal</value>
+    <comment>Spoken prompt used when user speaks/enters too few digits.</comment>
+  </data>
+  
+  <data name="StockCodeLabel">
+    <value>voorraadcode:</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SOHLabel">
+    <value>OV:</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="InTransitLabel">
+    <value>    op transport:</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="LastReceivedOnLabel">
+    <value>laatst vastgelegd op</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="LocationLabel">
+    <value>locatie:</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="CasesLabel">
+    <value>dozen:</value>
+    <comment>Application screen label for the number of cases.</comment>
+  </data>
+  <data name="OriginalLabel">
+    <value>origineel:</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SinglesLabel">
+    <value>enkele stuks:</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SizeLabel">
+    <value>grootte:</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="PriceLabel">
+    <value>prijs:</value>
+    <comment>Application screen label preceding a numeric price.</comment>
+  </data>
+  <data name="CurrentProductLabel">
+    <value>Huidig item:</value>
+    <comment>Application screen label for the current item.</comment>
+  </data>
+  <data name="NoImage">
+    <value>Geen afbeelding</value>
+    <comment>Label displayed if no image is found.</comment>
+  </data>
+  
+  <data name="EmbeddedDemo">
+    <value>Ingesloten demo</value>
+    <comment>Dropdown list text item</comment>
+  </data>
+  <data name="Server">
+    <value>Server</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="LegacyServer">
+    <value>Oude server</value>
+    <comment>A dropdown list item</comment>
+  </data>
+  
+  <data name="StockOnHandPrompt">
+    <value>op voorraad, {0}</value>
+    <comment>Prompt spoken to inform operator of how much of an item is available.</comment>
+  </data>
+  <data name="InTransitPrompt">
+    <value>{0} op transport</value>
+    <comment>Spoken prompt stating the number in transit.</comment>
+  </data>
+  <data name="LastReceivedTodayPrompt">
+    <value>{0} stuks ontvangen vandaag</value>
+    <comment>Spoken prompt saying the number of units received today.</comment>
+  </data>
+  <data name="LastReceivedYesterdayPrompt">
+    <value>{0} stuks ontvangen gisteren</value>
+    <comment>Spoken prompt saying the number of units received yesterday.</comment>
+  </data>
+  <data name="LastReceivedDaysAgoPrompt">
+    <value>{0} stuks ontvangen {1} dagen geleden</value>
+    <comment>Spoken prompt saying the number of units received and the number of days before when they were received.</comment>
+  </data>
+  <data name="LastReceivedPrompt">
+    <value>{0} stuks laatst ontvangen</value>
+    <comment>Spoken prompt saying the number of units received.</comment>
+  </data>
+  <data name="PlanogramGroupIDPrompt">
+    <value>Id {0}</value>
+    <comment>Spoken prompt, stating the identification number (ID#).</comment>
+  </data>
+  <data name="RowPrompt">
+    <value>Rij {0}</value>
+    <comment>Spoken prompt, stating the row and number thereof.</comment>
+  </data>
+  <data name="CasesPrompt">
+    <value>{0} dozen</value>
+    <comment>Spoken prompt stating the number of cases.</comment>
+  </data>
+  <data name="SinglesPrompt">
+    <value>{0} enkele stuks</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="LocationPrompt">
+    <value>Locatie: {0}</value>
+    <comment>Spoken prompt stating the location. </comment>
+  </data>
+  
+  <data name="AllDoneWorkflowActivity_Header">
+    <value>Helemaal gereed</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="AllDoneWorkflowActivity_InitialPrompt">
+    <value>Helemaal gereed. Zeg "volgende" om door te gaan.</value>
+    <comment>Spoken prompt at end of a work assignment.</comment>
+  </data>
+  
+  <data name="SettingsMenuWorkflowActivity_ApplicationSettings">
+    <value>Instellingen app</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_ApplicationSettingsTitle">
+    <value>INSTELLINGEN APP</value>
+    <comment>Application screen title</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_GeneralSettings">
+    <value>ALGEMENE INSTELLINGEN</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_AboutApplication">
+    <value>Over de app</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_Legal">
+    <value>Juridisch</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_PersonalSettings">
+    <value>PERSOONLIJKE INSTELLINGEN</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_VoiceAndAudioSettings">
+    <value>Stem \u0026 Audio-instellingen</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_ConnectivitySettings">
+    <value>INSTELLINGEN CONNECTIVITEIT</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_ServerSettings">
+    <value>Instellingen sjabloonserver</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_WorkflowSettingsLabel">
+    <value>SJABLOONMODUS</value>
+    <comment>"Workflow settings" label text.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_ServerSettingsLabel">
+    <value>INSTELLINGEN SJABLOONSERVER</value>
+    <comment>"Server settings" label text.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_CurrentWorkflowFilter">
+    <value>Huidige sjabloonmodus</value>
+    <comment>"Current workflow filter" label text.</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_ChooseWorkflow">
+    <value>Kies werkstroom</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_WorkflowSelection">
+    <value>Selectie werkstroom</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_AcuitySettings">
+    <value>Instellingen Acuity</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_HardwareSettings">
+    <value>INSTELLINGEN HARDWARE</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_ScannerSettings">
+    <value>Instellingen scanner</value>
+    <comment>Application screen label</comment>
+  </data>
+  
+  <data name="ApplicationSettingsWorkflowActivity_LicensingStatusLabel">
+    <value>Licentiestatus</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_LicensingStatus_CheckingStatus">
+    <value>Licentiestatus controleren...</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_LicensingStatus_ApplicationLicensed">
+    <value>App gelicentieerd</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_LicensingStatus_ApplicationNotLicensed">
+    <value>App niet gelicentieerd</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="HomeWorkflowActivity_LicensingStatus_ApplicationLicenseCheckFailed">
+    <value>Licentiecontrole mislukt. Controleer instellingen licentieverlening</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_ApplicationSchemeSettingsLabel">
+    <value>Instellingen app-schema</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_ChooseApplicationScheme">
+    <value>Kies app-schema</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_CurrentApplicationScheme">
+    <value>Huidige app-schema</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_AutomaticReleaseLeaseLabel">
+    <value>Automatisch lease vrijgeven als introductiescherm wordt weergegeven</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="FileBased">
+    <value>Op bestandsbasis</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_FileBasedConfigSettingsLabel">
+    <value>Configuratie-instellingen op bestandsbasis</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="FileBasedCustomerName">
+    <value>Klantnaam:</value>
+    <comment>Customer name label</comment>
+  </data>
+  <data name="FileBasedExpiration">
+    <value>Vervaldatum:</value>
+    <comment>Expiration date label</comment>
+  </data>
+  <data name="FileBasedDateFormat">
+    <value>JJJJ-MM-DD</value>
+    <comment>Expiration date format label</comment>
+  </data>
+  <data name="FileBased_Info">
+    <value>Licentieverlening wordt gedaan met een bestand op het bestandssysteem, sjablonen worden opgehaald van en opgeslagen in het bestandssysteem en logbestanden worden opgeslagen in het bestandssysteem.</value>
+    <comment>Text explaining when licensing and voice templates are done on the device.</comment>
+  </data>
+  <data name="ServerBased">
+    <value>Server</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ServerBased_Info">
+    <value>Licentieverlening wordt gedaan met een bestand op het bestandssysteem, sjablonen worden opgehaald van en opgeslagen op de sjabloonserver en logbestanden worden opgeslagen in het bestandssysteem.</value>
+    <comment>Application screen label, explaining licensing.</comment>
+  </data>
+  <data name="VoiceConsoleBased">
+    <value>VoiceConsole</value>
+    <comment>Text in a listing</comment>
+  </data>
+  <data name="VoiceConsoleBased_Info">
+    <value>Licentieverlening wordt gedaan via VoiceConsole, sjablonen worden opgehaald van en opgeslagen in VoiceConsole en logbestanden worden opgeslagen in het bestandssysteem en verzonden naar VoiceConsole als Gegevens vastleggen is ingeschakeld.</value>
+    <comment>Message in the Application Settings menu.</comment>
+  </data>
+  <data name="MicroserviceBased">
+    <value>Microservices</value>
+    <comment>Text in a listing</comment>
+  </data>
+  <data name="MicroserviceBased_Info">
+    <value>Licentieverlening wordt gedaan via microservices, sjablonen worden opgehaald en opgeslagen met behulp van microservices en logboeken worden in het bestandssysteem opgeslagen.</value>
+    <comment>Text explaining microservices.</comment>
+  </data>
+  <data name="NoLicenseBased">
+    <value>Geen licentie</value>
+    <comment>Text in a listing</comment>
+  </data>
+  <data name="NoLicenseBased_Info">
+    <value>Er is geen licentie in gebruik. Misschien zijn sommige geavanceerde functies niet beschikbaar. Sjablonen worden opgehaald van de server waarmee u verbonden bent</value>
+    <comment>Text explaining no licensing.</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_ApplicationServerSettingsLabel">
+    <value>Instellingen app-server</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_MicroservicesConfigSettingsLabel">
+    <value>Configuratie-instellingen microservices</value>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_Host">
+    <value>Host</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_Port">
+    <value>Poort</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_ServerSecureConnections">
+    <value>Beveiligde verbindingen server</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_SiteId">
+    <value>Locatie-id</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_MicroservicesConfigCustomerNameLabel">
+    <value>Klantnaam: </value>
+  </data>
+  
+  <data name="AcuitySettingsWorkflowActivity_AcuitySettingsLabel">
+    <value>INSTELLINGEN ACUITY</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="AcuitySettingsWorkflowActivity_AcuityEnabled">
+    <value>Acuity ingeschakeld</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="AcuitySettingsWorkflowActivity_AcuitySecureConnections">
+    <value>Beveiligde verbindingen Acuity</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="AcuitySettingsWorkflowActivity_AcuityHost">
+    <value>Acuity-host</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="AcuitySettingsWorkflowActivity_AcuityPort">
+    <value>Acuity-poort</value>
+    <comment>Application screen label</comment>
+  </data>
+  
+  <data name="AuthenticateVoicePINWorkflowActivity_Abortable_ExceptionHeaderMsg">
+    <value>Fout</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="AuthenticateVoicePINWorkflowActivity_Abortable_FailedHeaderMsg">
+    <value>Fout</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="AuthenticateVoicePINWorkflowActivity_Abortable_StartedHeaderMsg">
+    <value>Aanmelden...</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="AuthenticateVoicePINWorkflowActivity_Abortable_ExceptionSubHeaderMsg">
+    <value>Fout tijdens aanmelding op verbonden detailhandelserver</value>
+    <comment>Application screen subheader</comment>
+  </data>
+  <data name="AuthenticateVoicePINWorkflowActivity_Abortable_FailedSubHeaderMsg">
+    <value>Aanmelden mislukt.</value>
+    <comment>Application screen subheader</comment>
+  </data>
+  <data name="AuthenticateVoicePINWorkflowActivity_Abortable_StartedSubHeaderMsg">
+    <value>een ogenblik graag...</value>
+    <comment>Application screen subheader</comment>
+  </data>
+  
+  <data name="CancelButtonText">
+    <value>dat is het</value>
+    <comment>"Cancel" button text.</comment>
+  </data>
+  <data name="SkipButtonText">
+    <value>Item overslaan</value>
+    <comment>"Skip" button text.</comment>
+  </data>
+  <data name="TrainingCarouselWorkflowActivity_SkipButtonText">
+    <value>Overslaan</value>
+    <comment>Application button text.</comment>
+  </data>
+  <data name="VocabWord_GlobalAnchorWord">
+    <value>besturing</value>
+    <comment>The word spoken before speaking a global command word.</comment>
+  </data>
+  <data name="GlobalAnchorWord">
+    <value>Besturing</value>
+    <comment>The correct (i.e. non-phonetic) spelling of VocabWord_GlobalAnchorWord.</comment>
+  </data>
+  <data name="RetrieveWorkersWorkflowActivity_Abortable_ExceptionSubHeaderMsg">
+    <value>Fout tijdens ophalen arbeidskrachten van verbonden detailhandelserver</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="DataServiceInitializerWorkflowActivity_Abortable_ExceptionSubHeaderMsg">
+    <value>Fout tijdens ophalen eerste gegevens van server</value>
+    <comment>Application screen subheader</comment>
+  </data>
+  <data name="TemplateRetrievalErrorBody">
+    <value>Fout tijdens ophalen sjablonen van server.</value>
+    <comment>Body for template retrieval error message.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_SiteSettingsLabel">
+    <value />
+    <comment>"Site Settings" label text.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_CheckingServerReachability">
+    <value>Verbinding met sjabloonserver wordt gecontroleerd</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_ServerReachable">
+    <value>Er is verbinding gemaakt met de sjabloonserver</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_ServerUnreachable">
+    <value>De sjabloonserver is onbereikbaar, controleer de serverinstellingen en werk ze bij.</value>
+    <comment>Message displayed if the configured server is unresponsive.</comment>
+  </data>
+  <data name="lower_mic">
+    <value>Zet de microfoon lager om door te gaan</value>
+    <comment>Spoken prompt instructing the user to lower their microphone to continue.</comment>
+  </data>
+  
+  
+  <data name="SubmitButtonText">
+    <value>Verzenden</value>
+    <comment>"Submit" button text.</comment>
+  </data>
+  <data name="NextButtonText">
+    <value>Volgende</value>
+    <comment>"Next" button text.</comment>
+  </data>
+  <data name="ReadyButtonText">
+    <value>Gereed</value>
+    <comment>"Ready" button text.</comment>
+  </data>
+  <data name="PauseText">
+    <value>Pauze</value>
+    <comment>"Pause" button text.</comment>
+  </data>
+  <data name="ResumeText">
+    <value>Hervatten</value>
+    <comment>"Resume" button text.</comment>
+  </data>
+  <data name="StopText">
+    <value>Stoppen</value>
+    <comment>"Stop" button text.</comment>
+  </data>
+  <data name="UpdateSitesText">
+    <value>Locatielijst bijwerken</value>
+    <comment>"Update site list" button text.</comment>
+  </data>
+  <data name="NewWorkerText">
+    <value>Nieuwe arbeidskracht</value>
+    <comment>"New worker" button text.</comment>
+  </data>
+  <data name="LoginButtonText">
+    <value>Aanmelden</value>
+    <comment>"Login" button text.</comment>
+  </data>
+  <data name="GotItButtonText">
+    <value>Begrepen</value>
+    <comment>"Got it" button text.</comment>
+  </data>
+  <data name="RestartText">
+    <value>Herstarten</value>
+    <comment>"Restart" button text.</comment>
+  </data>
+  <data name="CameraButtonText">
+    <value>Camera</value>
+    <comment>"Camera" button text.</comment>
+  </data>
+  <data name="SelectButtonText">
+    <value>Selecteren</value>
+    <comment>"Select" button text.</comment>
+  </data>
+  
+  <data name="SuccesfulScannerConnectionMsg">
+    <value>Verbinding met secundaire scanner gemaakt</value>
+    <comment>Message displayed when a secondary scanner connects.</comment>
+  </data>
+  <data name="FailedScannerConnectionMsg">
+    <value>Kan geen verbinding maken met secundaire scanner</value>
+    <comment>Message displayed when a secondary scanner connection fails.</comment>
+  </data>
+  <data name="SuccessfulScannerDisconnectionMsg">
+    <value>Verbinding met secundaire scanner verbroken</value>
+    <comment>Message displayed when a secondary scanner disconnects.</comment>
+  </data>
+  <data name="BackgroundActivity_Header_Default">
+    <value>Verwerken...</value>
+    <comment>Default message displayed on the spinner during a background activity.</comment>
+  </data>
+  
+  <data name="Error_InvalidEntry">
+    <value>Minimumlengte: {0} cijfers</value>
+    <comment>Spoken prompt used when user speaks/enters too few digits.</comment>
+  </data>
+  <data name="Error_Confirmation">
+    <value>{0} verkeerd. Probeer het opnieuw.</value>
+    <comment>Spoken prompt used when user speaks/enters an incorrect sequence of digits.</comment>
+  </data>
+   <data name="Error_Contacting_Host">
+    <value>Fout tijdens contact opnemen met host</value>
+    <comment>The message spoken/displayed when a request has errored or timed out.</comment>
+  </data>
+  <data name="Error_Invalid_Host">
+    <value>Ongeldige host
+</value>
+    <comment>The message spoken/displayed when an invalid host value is provided in the application settings.</comment>
+  </data>
+  
+  <data name="Abortable_AbortHeaderMsg">
+    <value>Geannuleerd</value>
+    <comment>Header text displayed when a user aborts the blocking operation.</comment>
+  </data>
+  <data name="Abortable_CompletedHeaderMsg">
+    <value>Voltooid</value>
+    <comment>Header text displayed when the blocking operation completes.</comment>
+  </data>
+  <data name="Abortable_FailedHeaderMsg">
+    <value>Mislukt</value>
+    <comment>Header text displayed when the blocking operation completes, but fails.</comment>
+  </data>
+  <data name="Abortable_StartedHeaderMsg">
+    <value>Gestart</value>
+    <comment>Header text displayed when the blocking operation is started.</comment>
+  </data>
+  <data name="Abortable_ExceptionHeaderMsg">
+    <value>Geannuleerd</value>
+    <comment>Header text displayed when the blocking operation fails to complete.</comment>
+  </data>
+  <data name="Abortable_AlternateBtnText">
+    <value>OK</value>
+    <comment>The text displayed on the button when the blocking operation completes or fails, and autoforwarding is disabled.</comment>
+  </data>
+  <data name="Abortable_AbortBtnText">
+    <value>Annuleren</value>
+    <comment>Text displayed on button that cancels the blocking operation.</comment>
+  </data>
+  <data name="Abortable_AbortSubHeaderMsg">
+    <value>Geannuleerd</value>
+    <comment>Subheader text displayed below the header when the user aborts the blocking operation.</comment>
+  </data>
+  <data name="Abortable_CompletedSubHeaderMsg">
+    <value>Voltooid</value>
+    <comment>The text displayed below the header when the blocking operation completes.</comment>
+    <comment>Subheader text displayed below the header when the blocking operation completes.</comment>
+  </data>
+  <data name="Abortable_FailedSubHeaderMsg">
+    <value>Mislukt</value>
+    <comment>Subheader text displayed below the header when the blocking operation completes, but fails.</comment>
+  </data>
+  <data name="Abortable_StartedSubHeaderMsg">
+    <value>Gestart</value>
+    <comment>Subheader text displayed below the header text, when the blocking operation is started.</comment>
+  </data>
+  <data name="Abortable_ExceptionSubHeaderMsg">
+    <value>Geannuleerd</value>
+    <comment>Subheader text displayed below the header when the blocking operation fails to complete.</comment>
+  </data>
+  <data name="Abortable_NoNetworkSubHeaderMsg">
+    <value>Wachten op netwerk...</value>
+    <comment>Subheader text displayed below the header when the blocking network operation can't proceed due to a lack of network connectivity.</comment>
+  </data>
+  <data name="Abortable_NoServerSubHeaderMsg">
+    <value>Wachten op server...</value>
+    <comment>Subheader text displayed below the header when the blocking network operation can't proceed due to an unresponsive server.</comment>
+  </data>
+  <data name="Abortable_PersistedRequestsSubHeaderMsg">
+    <value>Wachten tot gegevens zijn geüpload. {0} berichten resterend...</value>
+    <comment>Subheader text displayed below the header when the blocking network operation can't proceed until previously enqueued operations are executed.</comment>
+  </data>
+  
+  <data name="SelectDialogue_PromptStart">
+    <value>Zeg een van de volgende opties,,, </value>
+    <comment>Spoken prompt for the beginning of selection.</comment>
+  </data>
+  <data name="SelectDialogue_PromptOption">
+    <value>{0} is {1},,, </value>
+    <comment>The number and name of a selection dialogue option.</comment>
+  </data>
+  <data name="SelectDialogue_PromptAdditionalWords">
+    <value>of zeg,,, </value>
+    <comment>Beginning of a prompt that lists the additional commands available for a selection dialogue.</comment>
+  </data>
+  <data name="SelectDialogue_PromptAdditionalWordWOMore">
+    <value>of {0}</value>
+    <comment>Used at before the the last word of a list of additional commands available at a selection dialogue. Speaks the last command in the list. For example "or say,,, help, retrain, OR repeat"</comment>
+  </data>
+  <data name="SelectDialogue_PromptAdditionalWordWMore">
+    <value>{0}, </value>
+    <comment>Spoken prompt for each additional command available at a selection dialogue.</comment>
+  </data>
+  
+  <data name="HomeWorkflowActivity_LicensingStatus_CheckingStatus">
+    <value>Licentiestatus controleren...</value>
+    <comment>Text shown when the application is checking to make sure it is licensed.</comment>
+  </data>
+  <data name="HomeWorkflowActivity_LicensingStatus_ReleasingLease">
+    <value>Vrijgeven licentie...</value>
+    <comment>Text shown if lease is being released.</comment>
+  </data>
+  <data name="HomeWorkflowActivity_LicensingStatus_ApplicationLicensed">
+    <value>App gelicentieerd</value>
+    <comment>Text shown if application is licensed.</comment>
+  </data>
+  <data name="HomeWorkflowActivity_LicensingStatus_ApplicationNotLicensed">
+    <value>App niet gelicentieerd</value>
+    <comment>Text shown if aplication license if invalid or absent.</comment>
+  </data>
+  <data name="HomeWorkflowActivity_ReleaseLeaseMenuItemText">
+    <value>Lease vrijgeven</value>
+  </data>
+  
+  <data name="MicroserviceLicensing_NoLease">
+    <value>App heeft geen lease</value>
+  </data>
+  <data name="MicroserviceLicensing_ReleaseLeaseError">
+    <value>Fout tijdens contact opnemen met licentieserver</value>
+  </data>
+  <data name="MicroserviceLicensing_ErrorSeeLogs">
+    <value>Fout tijdens ophalen lease, zie logbestand voor meer informatie</value>
+  </data>
+  <data name="MicroserviceLicensing_ErrorClockSync">
+    <value>Tijden licentieserver/apparaat komen niet overeen</value>
+  </data>
+  <data name="MicroserviceLicensing_ErrorExpiredLease">
+    <value>Lease is verlopen</value>
+  </data>
+  
+  <data name="SettingsText">
+    <value>Instellingen</value>
+    <comment>Text to display on "Settings" flyout menu option.</comment>
+  </data>
+  <data name="LanguageText">
+    <value>Taal</value>
+    <comment>Text to display on "Language" flyout menu option.</comment>
+  </data>
+  <data name="HomeText">
+    <value>Introductie</value>
+    <comment>Text to display on "Home" flyout menu option.</comment>
+  </data>
+  <data name="VoiceHelpFeatureName">
+    <value>Help Stem</value>
+    <comment>Text to display on "Voice Help" flyout menu option.</comment>
+  </data>
+  
+  <data name="Header">
+    <value />
+    <comment>Header text, default value, does not have to be used.</comment>
+  </data>
+  <data name="SubHeader">
+    <value />
+    <comment>Subheader text.</comment>
+  </data>
+  <data name="InitialPrompt">
+    <value />
+    <comment>Prompt spoken on starting the WFA, default value, does not have to be used.</comment>
+  </data>
+  <data name="ButtonText">
+    <value />
+    <comment>Button text, default text, does not need translated.</comment>
+  </data>
+  <data name="Title">
+    <value />
+    <comment>Navigation bar text, does not need translated.</comment>
+  </data>
+  <data name="Content">
+    <value />
+    <comment>Content text, default text, does not need translated.</comment>
+  </data>
+  <data name="Body">
+    <value />
+    <comment>Body text, default text, does not need translated.</comment>
+  </data>
+  
+  <data name="StandbyWaitWorkflowActivity_NextButtonText">
+    <value>Doorgaan</value>
+    <comment>"Continue" button text.</comment>
+  </data>
+  <data name="StandbyWaitWorkflowActivity_Header">
+    <value>Zeg "{0} {1}" om te hervatten</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="StandbyWaitWorkflowActivity_InitialPrompt">
+    <value>Stand-by.</value>
+    <comment>Prompt spoken when a workflow is suspended.</comment>
+  </data>
+  
+  <data name="BoomWaitWorkflowActivity_NextButtonText">
+    <value>OK</value>
+    <comment>"OK" button text.</comment>
+  </data>
+  <data name="BoomWaitWorkflowActivity_Header">
+    <value>Stand-bymodus</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="BoomWaitWorkflowActivity_SubHeader">
+    <value>Microfoon is gedempt</value>
+    <comment>Application screen subheader</comment>
+  </data>
+  <data name="BoomWaitWorkflowActivity_Content">
+    <value>Microfoon is momenteel gedempt, draai de microfoonarm omlaag om te hervatten</value>
+    <comment>Text notifying that user is muted and explaining how to unmute and resume application.</comment>
+  </data>
+  <data name="BoomWaitWorkflowActivity_InitialPrompt">
+    <value>Stand-by.</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  
+  <data name="UpdateTrainSelectWordWorkflowActivity_Header">
+    <value>Tik op een woord om de training bij te werken</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="UpdateTrainSelectWordWorkflowActivity_InitialPrompt">
+    <value>Selecteer woord</value>
+    <comment>Prompt spoken when operator decides to retrain a command word.</comment>
+  </data>
+  
+  <data name="LoginWorkflowActivity_InitialPrompt">
+    <value>Selecteer een gebruiker</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="LoginWorkflowActivity_Header">
+    <value>Welkom</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="LoginWorkflowActivity_SubHeader">
+    <value>Laten we u op weg helpen</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="LoginWorkflowActivity_Username">
+    <value>Gebruikersnaam</value>
+    <comment>Label for username field.</comment>
+  </data>
+  <data name="LoginWorkflowActivity_SelectUser">
+    <value>Selecteer gebruiker</value>
+    <comment>Label for user picker.</comment>
+  </data>
+  <data name="LoginWorkflowActivity_EnterPin">
+    <value>Voer pincode in</value>
+    <comment>Gray, default, placeholder text in entry box, for personal identification number (PIN) field.</comment>
+  </data>
+  <data name="LoginWorkflowActivity_SecurityPin">
+    <value>Beveiligingspincode</value>
+    <comment>Label for personal identification number (PIN) field.</comment>
+  </data>
+  
+  <data name="EnterNewWorkerWorkflowActivity_Header">
+    <value>Voer naam in</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="EnterNewWorkerWorkflowActivity_Placeholder">
+    <value>Type</value>
+    <comment>Gray, default, placeholder text in entry box, for name field.</comment>
+  </data>
+  <data name="EnterNewWorkerWorkflowActivity_EntryLabel">
+    <value>Naam</value>
+    <comment>Label for name field.</comment>
+  </data>
+  <data name="EnterNewWorkerWorkflowActivity_ErrorInvalidCharacter">
+    <value>Ongeldige invoer: mag geen {0} bevatten</value>
+    <comment>Message displayed when an entered name contains invalid characters.</comment>
+  </data>
+  <data name="EnterNewWorkerWorkflowActivity_ErrorBlank">
+    <value>Ongeldige invoer: mag niet leeg zijn</value>
+    <comment>Message displayed when the user tries to proceed without entering a name.</comment>
+  </data>
+  <data name="EnterNewWorkerWorkflowActivity_ErrorInvalidEntry">
+    <value>Ongeldige invoer</value>
+    <comment>Message displayed when an entered name is invalid for any reason without a specific error message.</comment>
+  </data>
+  
+  <data name="ManageTemplatesWorkflowActivity_ChooseWorkerText">
+    <value>Kies een arbeidskracht</value>
+    <comment>Label for worker dropdown list.</comment>
+  </data>
+  <data name="ManageTemplatesWorkflowActivity_NoWorkersText">
+    <value>Geen arbeidskrachten beschikbaar</value>
+    <comment>Message displayed if no workers exist.</comment>
+  </data>
+  <data name="ManageTemplatesWorkflowActivity_VoiceTemplateManagement">
+    <value>BEHEER STEMSJABLOON</value>
+    <comment>"Voice template management" label.</comment>
+  </data>
+  <data name="ManageTemplatesWorkflowActivity_DeleteLocalTemplates">
+    <value>LOKALE SJABLONEN VERWIJDEREN</value>
+    <comment>"Delete local templates" label.</comment>
+  </data>
+  <data name="ManageTemplatesWorkflowActivity_DeleteWorkerText">
+    <value>Arbeidskracht verwijderen</value>
+    <comment>"Delete worker" button text.</comment>
+  </data>
+  <data name="ManageTemplatesWorkflowActivity_DeleteTemplatesText">
+    <value>Verwijderen</value>
+    <comment>"Delete template" button text.</comment>
+  </data>
+  
+  <data name="ConfirmDeleteWorkerWorkflowActivity_Header">
+    <value>Deze arbeidskracht verwijderen?</value>
+    <comment>Application screen header</comment>
+  </data>
+  
+  <data name="AboutApplicationWorkflowActivity_AboutApplicationLabel">
+    <value>OVER DE APP</value>
+    <comment>"About Application" label text.</comment>
+  </data>
+  <data name="AboutApplicationWorkflowActivity_AboutSdkLabel">
+    <value>OVER SDK
+</value>
+    <comment>"About SDK" label text.</comment>
+  </data>
+  <data name="AboutApplicationWorkflowActivity_BranchLabel">
+    <value>Filiaal:</value>
+    <comment>Git branch label text.</comment>
+  </data>
+  <data name="AboutApplicationWorkflowActivity_BuildDateLabel">
+    <value>Build-datum:</value>
+    <comment>Build date label text.</comment>
+  </data>
+  <data name="AboutApplicationWorkflowActivity_BuiltByLabel">
+    <value>Gebouwd door:</value>
+    <comment>"Built by" label text.</comment>
+  </data>
+  <data name="AboutApplicationWorkflowActivity_DeviceIdentifierLabel">
+    <value>Apparaat-id:</value>
+    <comment>"Device Identifier" label text.</comment>
+  </data>
+  <data name="AboutApplicationWorkflowActivity_ConfigurationLabel">
+    <value>Configuratie:</value>
+    <comment>"Configuration" label text.</comment>
+  </data>
+  <data name="AboutApplicationWorkflowActivity_VersionLabel">
+    <value>Versie:</value>
+    <comment>"Version" label text.</comment>
+  </data>
+  <data name="AboutApplicationWorkflowActivity_AssemblyInfoLabel">
+    <value>INFORMATIE SAMENSTELLING</value>
+    <comment>"Assembly Information" label text.</comment>
+  </data>
+  
+  <data name="LegalWorkflowActivity_PatentInfoLabel">
+    <value>PATENTINFORMATIE</value>
+    <comment>"Patent information" label text.</comment>
+  </data>
+  <data name="LegalWorkflowActivity_PatentInfoText">
+    <value>Zie www.hsmpats.com voor patentinformatie</value>
+    <comment>Instructions on finding patent information.</comment>
+  </data>
+  
+  <data name="VoiceAndAudioSettingsWorkflowActivity_TTSSettingsLabel">
+    <value>INSTELLINGEN TEKST-NAAR-SPRAAK</value>
+    <comment>"Text to speech settings" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_VoiceRecognitionSettingsLabel">
+    <value>INSTELLINGEN SPRAAKHERKENNING</value>
+    <comment>"Voice recognition settings" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_VoiceRecognition">
+    <value>Spraakherkenning</value>
+    <comment>"Voice recognition" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_PickUpAndGo">
+    <value>Ophalen en wegwezen</value>
+    <comment>"Pick Up and Go" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_PlayExample">
+    <value>Voorbeeld afspelen</value>
+    <comment>"Play Example" button text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_TTSSpeedExample">
+    <value>Dit is een voorbeeld van de huidige snelheidsinstelling voor tekst-naar-spraak</value>
+    <comment>The prompt to speak when the "Play Example" button is pressed.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_TTSSpeedSetting">
+    <value>Snelheidsinstelling tekst-naar-spraak:</value>
+    <comment>"Text to Speech Speed Setting" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_VoiceTemplateSettings">
+    <value>INSTELLINGEN STEMSJABLOON</value>
+    <comment>"Voice Template Settings" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_DeleteLocalTemplates">
+    <value>Lokale sjablonen verwijderen</value>
+    <comment>"Delete Local Templates" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_ManageTemplates">
+    <value>Sjablonen beheren</value>
+    <comment>"Manage Local Templates" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_MicrophoneSettingsLabel">
+    <value>MICROFOONINSTELLINGEN</value>
+    <comment>"Microphone Settings" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_PauseOnMicRaise">
+    <value>Pauzeren bij omhoog zetten microfoon</value>
+    <comment>"Pause on mic raise" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_PauseOnMicRaiseEnabled">
+    <value>In stand-by gaan wanneer microfoon omhoog wordt gezet</value>
+    <comment>Text displayed when "pause on mic raise" is set to enabled.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_PauseOnMicRaiseDisabled">
+    <value>Microfoon alleen dempen bij omhoog zetten</value>
+    <comment>Text displayed when "pause on mic raise" is set to disabled.</comment>
+  </data>
+  
+  <data name="ScannerSettingsWorkflowActivity_UseZebraDataWedge">
+    <value>DataWedge gebruiken (EMDK wordt gebruikt als it uit is, bij wijziging moet de applicatie worden herstart)</value>
+    <comment>"Use Data Wedge" label text.</comment>
+  </data>
+  <data name="ScannerSettingsWorkflowActivity_ZebraScannerSettingsLabel">
+    <value>INSTELLINGEN ZEBRASCANNER</value>
+    <comment>"Zebra Scanner Settings" label text.</comment>
+  </data>
+  <data name="ScannerSettingsWorkflowActivity_ScannerSymbologySettingsLabel">
+    <value>INSTELLINGEN SCANNERSYMBOLEN</value>
+    <comment>"Scanner Symbology Settings" label text.</comment>
+  </data>
+  <data name="ScannerSettingsWorkflowActivity_ScannerSymbologySettings">
+    <value>Instellingen scannersymbolen vrijgeven</value>
+    <comment>"Onboard Scanner Symbology Settings" label text.</comment>
+  </data>
+  <data name="ScannerSettingsWorkflowActivity_EditSymbologySettings">
+    <value>Instellingen symbolen bewerken</value>
+    <comment>"Edit Symbology Settings" label text.</comment>
+  </data>
+  <data name="ScannerSettingsWorkflowActivity_SymbologyMenuName">
+    <value>Instellingen symbolen</value>
+    <comment>The name to display for the settings.</comment>
+  </data>
+  <data name="ScannerSettingsWorkflowActivity_SecondaryScannerSettingsLabel">
+    <value>INSTELLINGEN SECUNDAIRE SCANNER</value>
+    <comment>"Secondary Scanner Settings" label text.</comment>
+  </data>
+  <data name="ScannerSettingsWorkflowActivity_CurrentSecondaryScanner">
+    <value>Huidige secundaire scanner</value>
+    <comment>"Current Secondary Scanner" label text.</comment>
+  </data>
+  <data name="ScannerSettingsWorkflowActivity_ChooseSecondaryScanner">
+    <value>Kies secundaire scanner</value>
+    <comment>Label for secondary scanner picker.</comment>
+  </data>
+  <data name="ScannerSettingsWorkflowActivity_NoSecondaryScanner">
+    <value>-- Geen secundaire scanner --</value>
+    <comment>Default item text for secondary scanner picker.</comment>
+  </data>
+  
+  
+  <data name="RetrieveWorkersWorkflowActivity_Abortable_ExceptionHeaderMsg">
+    <value>Fout</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="RetrieveWorkersWorkflowActivity_Abortable_FailedHeaderMsg">
+    <value>Geen arbeidskrachten beschikbaar</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="RetrieveWorkersWorkflowActivity_Abortable_StartedHeaderMsg">
+    <value>Arbeidskrachten ophalen...</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="RetrieveWorkersWorkflowActivity_Abortable_FailedSubHeaderMsg">
+    <value>Geen arbeidskrachten beschikbaar</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="RetrieveWorkersWorkflowActivity_Abortable_StartedSubHeaderMsg">
+    <value>Een ogenblik graag...</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  
+  <data name="LicenseInitializerWorkflowActivity_Abortable_StartedHeaderMsg">
+    <value>Licentie controleren...</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="LicenseInitializerWorkflowActivity_Abortable_StartedSubHeaderMsg">
+    <value>Een ogenblik graag...</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="LicenseInitializerWorkflowActivity_Abortable_ExceptionHeaderMsg">
+    <value>Fout tijdens controleren licentie</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="LicenseInitializerWorkflowActivity_Abortable_FailedHeaderMsg">
+    <value>App niet gelicentieerd</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="LicenseInitializerWorkflowActivity_Abortable_FailedSubHeaderMsg">
+    <value>Controleer instellingen licentieverlening</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="LicenseInitializerWorkflowActivity_Abortable_CompletedHeaderMsg">
+    <value>App gelicentieerd</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="LicenseInitializerWorkflowActivity_Abortable_CompletedSubHeaderMsg">
+    <value>Licentiecontrole voltooid</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  
+  <data name="DataServiceInitializerWorkflowActivity_Abortable_CompletedHeaderMsg">
+    <value>Voltooid</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="DataServiceInitializerWorkflowActivity_Abortable_StartedHeaderMsg">
+    <value>Eerste gegevens ophalen...</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="DataServiceInitializerWorkflowActivity_Abortable_ExceptionHeaderMsg">
+    <value>Fout</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="DataServiceInitializerWorkflowActivity_Abortable_CompletedSubHeaderMsg">
+    <value>Ophalen gegevens voltooid</value>
+    <comment>Application screen subheader</comment>
+  </data>
+  <data name="DataServiceInitializerWorkflowActivity_Abortable_StartedSubHeaderMsg">
+    <value>een ogenblik graag...</value>
+    <comment>Application screen subheader</comment>
+  </data>
+  
+  <data name="RequestPermissionsWorkflowActivity_ButtonText">
+    <value>Toestemmingen verlenen</value>
+    <comment>Application button text.</comment>
+  </data>
+  <data name="Text_OK">
+    <value>OK</value>
+    <comment>Confirmation button text for modal alerts.</comment>
+  </data>
+  <data name="Text_PermissionsRequired">
+    <value>Toestemmingen vereist</value>
+    <comment>Title text of permissions request alert.</comment>
+  </data>
+  <data name="Text_PermissionsRationale">
+    <value>Er is toegang tot de microfoon, camera en opslagruimte vereist om deze app te gebruiken.</value>
+    <comment>Message explaining the need for required permissions for the application to function.</comment>
+  </data>
+  <data name="Text_DeniedPermissionsRationale">
+    <value>Verleen de toestemmingen die zijn aangevraagd om deze app te gebruiken.</value>
+    <comment>Message text requesting that the user grant required permissions.</comment>
+  </data>
+  
+  <data name="Text_DataLossAlertTitle">
+    <value>Gegevensverlies gedetecteerd</value>
+    <comment>Title text for data loss alert.</comment>
+  </data>
+  <data name="Text_DataLossAlertBody">
+    <value>Er is gegevensverlies gedetecteerd. Controleer uw netwerkinstellingen.</value>
+    <comment>Body text for data loss alert.</comment>
+  </data>
+  
+  <data name="VoiceHelpWorkflowActivity_Header">
+    <value>Opdrachten Help Stem</value>
+    <comment>Application screen header.</comment>
+  </data>
+  <data name="VoiceHelpWorkflowActivity_SubHeader">
+    <value>Een aantal dingen die u me kunt vragen:</value>
+    <comment>Application screen subheader.</comment>
+  </data>
+  
+  <data name="BluetoothScannerConnectionSucceeded">
+    <value>Bluetooth-scanner is verbonden</value>
+    <comment>Text displayed when a Bluetooth scanner successfully connects.</comment>
+  </data>
+  <data name="BluetoothScannerConnectionFailed">
+    <value>Verbinding met Bluetooth-scanner mislukt</value>
+    <comment>Text displayed when a Bluetooth scanner connection fails.</comment>
+  </data>
+  <data name="BluetoothScannerDisconnected">
+    <value>Verbinding met Bluetooth-scanner verbroken</value>
+    <comment>Text displayed when a Bluetooth scanner disconnects.</comment>
+  </data>
+  
+  <data name="PleaseWait">
+    <value>Een ogenblik geduld...</value>
+    <comment>"Please wait" text for template retrieval screen.</comment>
+  </data>
+  <data name="RetrievingTemplates">
+    <value>Sjablonen ophalen...</value>
+    <comment>"Retrieving Templates" text.</comment>
+  </data>
+  <data name="TemplateRetrievalErrorTitle">
+    <value>Fout</value>
+    <comment>Title for template retrieval error message.</comment>
+  </data>
+  <data name="NoiseSampleInfoText">
+    <value>Moet voltooid zijn om door te kunnen gaan</value>
+    <comment>Message indicating that a noise sample must be completed before continuing.</comment>
+  </data>
+  <data name="RetrievingData">
+    <value>Gegevens van server ophalen...</value>
+    <comment>Default "Please wait" text for server communications.</comment>
+  </data>
+  
+  <data name="SignOffConfirmationWorkflowActivity_Header">
+    <value>Zeg "ja" of "nee" om door te gaan</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="SignOffConfirmationWorkflowActivity_InitialPrompt">
+    <value>Afmelden. Weet u het zeker?</value>
+    <comment>Prompt spoken to confirm sign off.</comment>
+  </data>
+  
+  <data name="GuidedWork_SignIn_Header">
+    <value>Welkom</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="GuidedWork_SignIn_UserId_Label">
+    <value>Gebruikers-id</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="GuidedWork_SignIn_Password_Label">
+    <value>Wachtwoord</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="GuidedWork_SignIn_Login_Button_Label">
+    <value>Aanmelden</value>
+    <comment>Application button text.</comment>
+  </data>
+  <data name="GuidedWork_CancelButtonText">
+    <value>Annuleren</value>
+    <comment>Application button text.</comment>
+  </data>
+  <data name="GuidedWork_CancelableProgressDialogCancelText">
+    <value>Tikken om te annuleren.</value>
+    <comment>Cancel text for cancelable progress dialogs.</comment>
+  </data>
+  <data name="GuidedWork_NoMoreButtonText">
+    <value>dat is het</value>
+  </data>
+  
+  <data name="SubmitProblemReportWorkflowActivity_CreatingReportHeader">
+    <value>Rapport maken...</value>
+    <comment>Header displayed during all steps of report generation.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_GatheringInfoSubHeader">
+    <value>Info verzamelen...</value>
+    <comment>Subheader displayed while gathering info for problem report.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_CompressingFilesSubHeader">
+    <value>Bestanden comprimeren...</value>
+    <comment>Subheader displayed while zipping the problem report.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_CompressionCanceledSubHeader">
+    <value>Comprimeren geannuleerd.</value>
+    <comment>Subheader displayed if Cancel button is pressed while zipping the problem report.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_CompressionFailedSubHeader">
+    <value>Comprimeren mislukt.</value>
+    <comment>Subheader displayed if compression fails.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_UploadingReportHeader">
+    <value>Rapport uploaden...</value>
+    <comment>Header displayed while uploading problem report zip.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_UploadingReportSubHeader">
+    <value>Rapport uploaden naar server...</value>
+    <comment>Subheader displayed while uploading problem report zip.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_ReportUploadedSubHeader">
+    <value>Rapport is geüpload naar de server.</value>
+    <comment>Subheader displayed when problem report is finished uploading.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_ReportSavedSubHeader">
+    <value>Rapport opgeslagen in {0}</value>
+    <comment>Subheader displayed when problem report is saved locally (embedded mode).</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_ReportSavedDueToErrorSubHeader">
+    <value>Fout bij opladen probleemrapport. Rapport lokaal opgeslagen in {0}</value>
+    <comment>Subheader displayed when problem report fails to upload.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_SavingReportSubHeader">
+    <value>Rapport opslaan...</value>
+    <comment>Subheader displayed when user cancels report upload.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_ContinueButtonText">
+    <value>Doorgaan</value>
+    <comment>Text displayed when operation is finished or canceled.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_CancelButtonText">
+    <value>Annuleren</value>
+    <comment>Application button text displayed when operation can be canceled.</comment>
+  </data>
+  <data name="MenuItemDialogue_NoMoreNotAllowed">
+    <value>geen items geselecteerd, niet meer toegestaan op dit moment</value>
+  </data>
+  <data name="MenuItemView_NoItemsSelected">
+    <value>Geen items geselecteerd</value>
+  </data>
+  <data name="MenuItemView_SearchPlaceholder">
+    <value>Tekst zoeken</value>
+  </data>
+  <data name="MenuItemDialogue_GenericTryAgain">
+    <value>{0}, probeer het opnieuw</value>
+  </data>
+  <data name="MenuItemDialogue_InvalidIndex">
+    <value>onbekende index {0}, probeer het opnieuw</value>
+  </data>
+  <data name="MenuItemDialogue_ListItemDeselected">
+    <value>{0} verwijderd</value>
+  </data>
+  <data name="MenuItemDialogue_ListItemSelected">
+    <value>{0}</value>
+  </data>
+  <data name="MenuItemDialogue_ConfirmMultiple_Display">
+    <value>U hebt {0} geselecteerd, correct?</value>
+  </data>
+  <data name="MenuItemDialogue_ConfirmMultiple_Prompt">
+    <value>U hebt {0} en {1} geselecteerd, correct?</value>
+  </data>
+  <data name="MenuItemDialogue_SelectionTypeBoth_MainHelpNoKeyWord">
+    <value>zeg sleutelwaarde of zeg het item, of zeg {0} als u de lijst wilt laten voorlezen, </value>
+  </data>
+  <data name="MenuItemDialogue_SelectionTypeBoth_MainHelpWithKeyWord">
+    <value>zeg {0}, gevolgd door de sleutelwaarde, of zeg het item, of zeg {1} als u de lijst wilt laten voorlezen, </value>
+  </data>
+  <data name="MenuItemDialogue_SelectionTypeIndexOnly_MainHelpNoKeyWord">
+    <value>zeg sleutelwaarde of zeg het item, </value>
+  </data>
+  <data name="MenuItemDialogue_SelectionTypeIndexOnly_MainHelpWithKeyWord">
+    <value>zeg {0}, gevolgd door de sleutelwaarde, of zeg het item, </value>
+  </data>
+  <data name="PhotoCaptureDialogue_NoMoreNotAllowed">
+    <value>U moet ten minste één foto nemen</value>
+  </data>
+  <data name="PhotoCaptureDialogue_PhotoInProgress">
+    <value>U moet de camera of galerie sluiten</value>
+  </data>
+  <data name="PhotoCapture_CameraNotAvailableTitle">
+    <value>Geen camera</value>
+  </data>
+  <data name="PhotoCapture_CameraNotAvailableMessage">
+    <value>:( Geen camera beschikbaar.</value>
+  </data>
+  <data name="PhotoCapture_PhotosNotSupportedTitle">
+    <value>Geen ondersteuning voor foto's</value>
+  </data>
+  <data name="PhotoCapture_PhotosNotSupportedMessage">
+    <value>:( Geen toestemming verleend voor foto's.</value>
+  </data>
+  <data name="PhotoCapture_PermissionDeniedTitle">
+    <value>Toestemming geweigerd</value>
+  </data>
+  <data name="PhotoCapture_CameraPermissionDeniedMessage">
+    <value>Kan geen foto's nemen.</value>
+  </data>
+  <data name="PhotoCapture_PhotosPermissionDeniedMessage">
+    <value>Kan geen toegang krijgen tot foto's</value>
+  </data>
+  <data name="PhotoCapture_ExceptionTitle">
+    <value>Fout</value>
+  </data>
+  <data name="PhotoCapture_CameraExceptionMessage">
+    <value>Kan camera niet openen</value>
+  </data>
+  <data name="PhotoCapture_PhotosExceptionMessage">
+    <value>Kan fotogalerie niet openen</value>
+  </data>
+  
+  <data name="EntryPlaceholder_VoiceDisabled" xml:space="preserve">
+    <value>Scannen/typen</value></data>
+  <data name="EntryPlaceholder_VoiceEnabled" xml:space="preserve">
+    <value>Spreken/scannen/typen</value></data>
+  
+  <data name="AudioCapture_StartRecording" xml:space="preserve">
+    <value>Start opname</value>
+  </data>
+  <data name="AudioCapture_StopRecording" xml:space="preserve">
+    <value>Stop opname</value>
+  </data>
+  <data name="AudioCapture_AnotherNote_Prompt" xml:space="preserve">
+    <value>Nog een opmerking</value>
+  </data>
+  <data name="AudioCapture_AnotherNote_Vocab" xml:space="preserve">
+    <value>nog een opmerking</value>
+  </data>
+  
+  <data name="VoiceNotes_Voice">
+    <value>Stem</value>
+    <comment>Used as the header for the voice recording tab</comment>
+  </data>
+  <data name="VoiceNotes_Text">
+    <value>Tekst</value>
+    <comment>Used as the header for the text entry tab</comment>
+  </data>
+  
+  <data name="RecordMemo_Prompt" xml:space="preserve">
+    <value>zeg "gereed" om te beginnen met opnemen</value>
+  </data>
+  <data name="ReviewMemos_Prompt" xml:space="preserve">
+    <value>zeg "gereed" om het huidige memo af te spelen, "volgende" om het volgende memo af te spelen, of "dat is het" als u klaar bent met memo's bekijken</value>
+  </data>
+  <data name="RecordMemo_RecogDisabled_Header" xml:space="preserve">
+    <value>Memo's kan niet starten met opnemen als spraakherkenning is uitgeschakeld
+</value>
+    <comment>The header text shown on-screen when trying to record a memo with voice recognition disabled.</comment>
+  </data>
+  <data name="RecordMemo_RecogDisabled_Prompt" xml:space="preserve">
+    <value>memo's kan niet starten met opnemen als spraakherkenning is uitgeschakeld
+</value>
+    <comment>The prompt to speak when trying to record a memo with voice recognition disabled.</comment>
+  </data>
+  <data name="ReviewNotes_Prompt" xml:space="preserve">
+    <value>zeg "gereed" om de actie opmerking af te spelen, "volgende" om de volgende opmerking af te spelen of "dat is het" als u klaar bent met opmerkingen doornemen
+</value>
+  </data>
+  <data name="Transcription_Placeholder" xml:space="preserve">
+    <value>Transcriptie</value>
+    <comment>Placeholder for the transcription editor when there is no transcription present.</comment>
+  </data>  
+  <data name="VocabWord_OrderStatus">
+    <value>bestelstatus</value>
+    <comment>System Vocabulary Word to request status of an order.</comment>
+  </data>
+  <data name="SignOnText">
+    <value>Aanmelden</value>
+    <comment>Text to display in the flyout menu's current user section when no user is signed on, indicating that touching will take the user to a screen to sign on.</comment>
+  </data>
+  <data name="SignOnInitials">
+    <value>?</value>
+    <comment>Text to display in a small user initials circle when no user is signed on.</comment>
+  </data>
+  <data name="SignOffText">
+    <value>Afmelden</value>
+    <comment>Text to display in the flyout menu's user action section when a user is signed on, indicating that touching will take the user to a screen to sign off.</comment>
+  </data>
+  <data name="UpdateTrainSelectWordWorkflowActivity_VocabSet">
+    <value>Selecteer woordenlijstset</value>
+    <comment>Picker label</comment>
+  </data>
+  <data name="UpdateTrainSelectWordWorkflowActivity_SelectVocabSet">
+    <value>Selecteer woordenlijstset</value>
+    <comment>Picker menu label</comment>
+  </data>
+  <data name="UpdateTrainSelectWordWorkflowActivity_VocabSet_Current">
+    <value>Huidig</value>
+    <comment>Drop down option</comment>
+  </data>
+  <data name="UpdateTrainSelectWordWorkflowActivity_VocabSet_All">
+    <value>Alles</value>
+    <comment>Drop down option</comment>
+  </data>
+  <data name="UpdateTrainSelectWordWorkflowActivity_VocabSet_Untrained">
+    <value>Niet-getraind</value>
+    <comment>Drop down option</comment>
+  </data>
+  <data name="WorkflowListWorkflowActivity_Header">
+    <value>Zeg een nummer of tik op een werkstroom die u wilt selecteren</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="WorkflowListWorkflowActivity_InitialPrompt">
+    <value>Selecteer een werkstroom</value>
+    <comment>Spoken prompt after intial login.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_ToastDialogs">
+    <value>Transcribeert door de app gesproken prompts op het scherm</value>
+    <comment>Title for the setting which adds closed captioning style captions to each screen.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_DisableToastDialogs">
+    <value>Stem vastleggen op het scherm is uitgeschakeld</value>
+    <comment>This tells the application NOT TO draw captions on screen.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_EnableToastDialogs">
+    <value>Stem vastleggen op het scherm is ingeschakeld.</value>
+    <comment>This tells the application to draw captions on screen.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_ChooseWorkflowFilter">
+    <value>Werkstroomfilter kiezen</value>
+    <comment>"Choose Workflow Filter" label text.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_EmbeddedDemo">
+    <value>Ingesloten demo</value>
+    <comment>"Embedded Demo" text for workflow filter picker.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_Server">
+    <value>Server</value>
+    <comment>"Server" text for workflow filter picker.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_ServerSecureConnections">
+    <value>Beveiligde verbindingen server</value>
+    <comment>Label text for HTTPS checkbox.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_ServerHost">
+    <value>Serverhost</value>
+    <comment>Label for server host field.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_ServerPort">
+    <value>Serverpoort</value>
+    <comment>Label for server port field.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_SiteLabel">
+    <value>Locatie</value>
+    <comment>Label for site settings section.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_SubmitButtonText">
+    <value>Gereed</value>
+    <comment>Submit button text.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_SitePickerTitle">
+    <value>Locatie kiezen</value>
+    <comment>Label for site picker.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_LoadingSites">
+    <value>Locaties laden...</value>
+    <comment>Message displayed while retrieving site list from server.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_SitesUnavailable">
+    <value>Locaties zijn momenteel niet beschikbaar.</value>
+    <comment>Message displayed if site list is unavailable and cannot be retrieved.</comment>
+  </data>
+  <data name="NoiseSampleDisableVoiceRecognitionAlertTitleText">
+    <value>Spraakherkenning uitschakelen?</value>
+    <comment>A summary of a question to the user whether or not voice recognition should be disabled.</comment>
+  </data>
+  <data name="NoiseSampleDisableVoiceRecognitionAlertMessageText">
+    <value>Als u doorgaat, schakelt de app spraakherkenning uit tot u deze inschakelt in het instellingsmenu Spraak en audio.</value>
+    <comment>Details of a question to the user whether or not voice recognition should be disabled.</comment>
+  </data>
+  <data name="NoiseSampleDisableVoiceRecognitionAlertAcceptText">
+    <value>Doorgaan</value>
+    <comment>"Continue" button text that disables voice recognition.</comment>
+  </data>
+  <data name="NoiseSampleDisableVoiceRecognitionAlertCancelText">
+    <value>Annuleren</value>
+    <comment>"Cancel" button text that returns to the noise sample feature.</comment>
+  </data>
+  <data name="SignOffFromFlyoutConfirmationWorkflowActivity_Header">
+    <value>Zeg "ja" of "nee" om door te gaan</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="SignOffFromFlyoutConfirmationWorkflowActivity_InitialPrompt">
+    <value>Afmelden. Weet u het zeker?</value>
+    <comment>Prompt spoken to confirm sign off.</comment>
+  </data>
+  <data name="PercentComplete">
+    <value>{0}% voltooid</value>
+    <comment>The generic text used to label the current completion percentage of a process.</comment>
+  </data>
+  <data name="VoiceTrainingProgressFormat">
+    <value>{1} van {2} woorden</value>
+    <comment>Label text shown on-screen during voice training, first number {1} displays the number of words already trained.   Second number {2} displays the total that need trained.</comment>
+  </data>
+  <data name="TitleMessage_Enrollment">
+    <value>STEMTRAINING</value>
+    <comment>Title text displayed during Voice Training / Enrollment Training.</comment>
+  </data>
+  <data name="TitleMessage_NoiseSample">
+    <value>TEST ACHTERGRONDGELUID</value>
+    <comment>Title Text displayed during a background noise sample.</comment>
+  </data>
+  <data name="VoiceTraining_BackupTemplatesUsed_Warning">
+    <value>Waarschuwing:\nEr is een fout opgetreden tijdens het ophalen van stemsjablonen.\nDit kan de reden zijn waarom u wordt gevraagd om te trainen.</value>
+    <comment>The warning to display to the user when backup templates are being used due to a connection problem with the server.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage1Header">
+    <value>Welkom</value>
+    <comment>The header text shown on-screen prior to voice training during the first page of instructions.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage1Body">
+    <value>Voordat u begint, moet u de stemtraining doen die u in ongeveer {0} minuten kunt voltooien.</value>
+    <comment>The body text shown on-screen before voice training on the first page of instructions.   Displayed when there is more than a minute of estimated training time.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage1Body_LessThanAMinute">
+    <value>Voordat u begint, moet u de stemtraining doen die u in minder dan een minuut kunt voltooien.</value>
+    <comment>The body text shown on-screen before voice training on the first page of instructions.   Displayed when there is less than one minute of estimated training time.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage1Body_AboutAMinute">
+    <value>Voordat u begint, moet u de stemtraining doen die u in ongeveer een minuut kunt voltooien.</value>
+    <comment>The body text shown on-screen before voice training on the first page of instructions.  Displayed when there is about one minute of estimated training time.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage2Header">
+    <value>Herhaling</value>
+    <comment>The header text shown on-screen prior to voice training during the second page of instructions.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage2Body">
+    <value>Tijdens de training zegt u een reeks woorden die herhaald of in een willekeurige volgorde herhaald kunnen worden.</value>
+    <comment>The body text shown on-screen prior to voice training during the second page of instructions.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage3Header">
+    <value>Stemtraining</value>
+    <comment>The header text shown on-screen prior to voice training during the third page of instructions.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage3Body">
+    <value>Stemtraining werkt het best in de omgeving waar u werkt.</value>
+    <comment>The body text shown on-screen prior to voice training during the third page of instructions.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage4Header">
+    <value>Test achtergrondgeluid</value>
+    <comment>The header text shown on-screen prior to voice training during the fourth page of instructions.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage4Body">
+    <value>Het systeem moet een test van het achtergrondgeluid uitvoeren, zodat het uw stem in die omgeving kan herkennen.</value>
+    <comment>The body text shown on-screen prior to voice training during the fourth page of instructions.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsFinalPageFooter">
+    <value>Tik op Gereed om te beginnen.</value>
+    <comment>The footer text shown on-screen prior to voice training during the final page of instructions.</comment>
+  </data>
+  <data name="NoiseSampleAdjustingBackgroundNoiseDescription">
+    <value>Aanpassen aan achtergrondgeluid</value>
+    <comment>One-line description about why the user needs to do the noise sample procedure, displayed during the procedure.</comment>
+  </data>
+  <data name="OperPrepWordsInstructions">
+    <value>Zeg de volgende woorden:</value>
+    <comment>One-line instructions to user about speaking words for voice training.  Encompasses both plural and singular, e.g., "Take a break" and "ready".</comment>
+  </data>
+  <data name="VoiceTrainingComplete">
+    <value>Stemtraining voltooid</value>
+    <comment>Text shown on screen when voice-template training is complete.   Shown at same time that device is speaking the value for key "finished_creating_voice_templates".</comment>
+  </data>
+  <data name="ReportProblem">
+    <value>probleem rapporteren</value>
+    <comment>"Report Problem" overflow menu item.</comment>
+  </data>
+  <data name="ReportProblemWorkflowActivity_Header">
+    <value>Probleem rapporteren</value>
+    <comment>Header on "Report Problem" page.</comment>
+  </data>
+  <data name="ReportProblemWorkflowActivity_NoteLabel">
+    <value>Beschrijf het probleem:</value>
+    <comment>Label text explaining what to fill in on Report Problem page.</comment>
+  </data>
+  <data name="ReportProblemWorkflowActivity_ButtonText">
+    <value>Verzenden</value>
+    <comment>Text for "submit" button on Report Problem page.</comment>
+  </data>
+  <data name="DialogueRunnerUnknownError">
+    <value>Fout in spraakdialoog, rapporteer het probleem. Gebruik het scherm om het huidige werk te voltooien en door te gaan</value>
+    <comment>Spoken to user when current voice input dialogue encounters unexpected error and shuts down.</comment>
+  </data>
+
+  
+  <data name="LanguagesMenuWorkflowActivity_RestartRequiredTitle">
+    <value>Herstarten vereist</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_RestartRequiredMessage">
+    <value>De toepassing moet worden herstart, voordat taalwijzigingen volledig van kracht worden.</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_DeviceDefault">
+    <value>Standaardwaarde apparaat - {0}</value>
+    <comment>Displays the devices default locale such as English or German</comment>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoNotAvailableTitle">
+    <value>Ophalen en wegwezen niet beschikbaar</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoNotAvailableMessage">
+    <value>Ophalen en wegwezen is niet beschikbaar voor {0}, het wordt uitgeschakeld.</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoAvailableTitle">
+    <value>Ophalen en wegwezen beschikbaar</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoAvailableMessage">
+    <value>Ophalen en wegwezen beschikbaar voor {0}.</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_EnablePickUpAndGo_Text">
+    <value>Ophalen en wegwezen inschakelen</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_DisablePickUpAndGo_Text">
+    <value>Ophalen en wegwezen uitschakelen</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_NewPickUpAndGoVersionAvailableTitle">
+    <value>Er is een nieuwe versie van Pick Up and Go beschikbaar</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_NewPickUpAndGoVersionAvailableMessage">
+    <value>Er is een nieuwe versie in het {0} van Pick Up and Go beschikbaar om te downloaden. Wilt u het downloaden?</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_DownloadNewVersion_Text">
+    <value>Nieuwe versie downloaden</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_UseCurrentVersion_Text">
+    <value>Huidige versie gebruiken</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_InvalidLanguage_Title">
+    <value>Een of meer ongeldige taalnamen</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_InvalidLanguage_Message">
+    <value>Deze taalnamen zijn niet geldig: {0}</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoAvailableToDownload_Title">
+    <value>Pick Up and Go-download beschikbaar</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoAvailableToDownload_Message">
+    <value>Pick Up and Go-model in het {0} is niet gedownload. Wilt u het nu downloaden?</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoAvailableToDownload_OkText">
+    <value>Downloaden</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoAvailableToDownload_CancelText">
+    <value>Annuleren</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoDownloading_Text">
+    <value>Pick Up and Go downloaden in het {0}</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoDownloaded_Text">
+    <value>Pick Up and Go in het {0} gedownload (versie: {1})</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoNotDownloaded_Title">
+    <value>Pick Up and Go in het {0} niet gedownload</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoNotDownloaded_Text">
+    <value>{1}. Pick Up and Go wordt uitgeschakeld.</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoNotDownloadedFallBack_Text">
+    <value>{1}. De bestaande versie op het apparaat wordt gebruikt.</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_ModelNotFound_Message">
+    <value>Model niet gevonden</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoDisabled_Text">
+    <value>Pick Up and Go uitgeschakeld</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_NoNetworkConnection_Title">
+    <value>Geen netwerkverbinding</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_NoNetworkConnection_Message">
+    <value>Er is geen verbinding met het netwerk, kan het Pick Up and Go-model in het {0} niet downloaden. Pick Up and Go wordt uitgeschakeld.</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_NoNetworkConnectionFallBack_Message">
+    <value>Er is geen verbinding met het netwerk, kan het Pick Up and Go-model in het {0} niet downloaden. De bestaande versie op het apparaat wordt gebruikt.</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_UpdatingAvailablePickUpAndGoModels_Message">
+    <value>Beschikbare Pick Up and Go-modellen worden bijgewerkt.</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_DeviceOffline_ToastMessage">
+    <value>Apparaat is offline. U kunt geen nieuwe taalmodellen downloaden.</value>
+  </data>
+
+  
+  <data name="Android_Foreground_Notification_Title">
+    <value>Status apparaat</value>
+    <comment>A short title for the notification that is used to keep the application in the foreground. Must fit on one line of a notification for small devices, using a large font.</comment>
+  </data>
+  <data name="Android_Foreground_Notification_Summary">
+    <value>Blijft op voorgrond</value>
+    <comment>A short summary for the notification that is used to keep the application in the foreground, where the parameter is the name of the application. Must fit on one line of a notification for small devices.</comment>
+  </data>
+  <data name="Android_Foreground_Notification_Text">
+    <value>Houd de app {0} op de voorgrond, zodat u het kunt gebruiken als het scherm uit is of terwijl er een andere toepassing op de voorgrond is.</value>
+    <comment>Text that explains why the application is kept in the foreground, where the parameter is the name of the application.  Can use a larger amount of space.</comment>
+  </data>
+  <data name="Android_Foreground_Notification_Channel_Name">
+    <value>Voorgrondmodus</value>
+    <comment>A category name for notifications, per https://developer.android.com/training/notify-user/channels . Should be less than or equal to 40 characters</comment>
+  </data>
+  <data name="Android_Foreground_Notification_Channel_Description">
+    <value>Om te kunnen bedienen als de toepassing op de achtergrond is of als het scherm uit staat.</value>
+    <comment>Tne description of the foreground notification channel/category, per https://developer.android.com/training/notify-user/channels . Should be less than or equal to 300 characters. </comment>
+  </data>
+    
+<data name="alpha_a">
+    <value>A</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_b">
+    <value>B</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_c">
+    <value>C</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_d">
+    <value>D</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_e">
+    <value>E</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_f">
+    <value>F</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_g">
+    <value>G</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_h">
+    <value>H</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_i">
+    <value>I</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_j">
+    <value>J</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_k">
+    <value>K</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_l">
+    <value>L</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_m">
+    <value>M</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_n">
+    <value>N</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_o">
+    <value>O</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_p">
+    <value>P</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_q">
+    <value>Q</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_r">
+    <value>R</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_s">
+    <value>S</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_t">
+    <value>T</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_u">
+    <value>U</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_v">
+    <value>V</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_w">
+    <value>W</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_x">
+    <value>X</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_y">
+    <value>Y</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_z">
+    <value>Z</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="phonetic_a">
+    <value>anna</value>
+    <comment>The phonetic word for the letter "a"</comment>
+  </data>
+  <data name="phonetic_b">
+    <value>bernard</value>
+    <comment>The phonetic word for the letter "b"</comment>
+  </data>
+  <data name="phonetic_c">
+    <value>cornelis</value>
+    <comment>The phonetic word for the letter "c"</comment>
+  </data>
+  <data name="phonetic_d">
+    <value>dirk</value>
+    <comment>The phonetic word for the letter "d"</comment>
+  </data>
+  <data name="phonetic_e">
+    <value>eduard</value>
+    <comment>The phonetic word for the letter "e"</comment>
+  </data>
+  <data name="phonetic_f">
+    <value>ferdinand</value>
+    <comment>The phonetic word for the letter "f"</comment>
+  </data>
+  <data name="phonetic_g">
+    <value>gerard</value>
+    <comment>The phonetic word for the letter "g"</comment>
+  </data>
+  <data name="phonetic_h">
+    <value>hendrik</value>
+    <comment>The phonetic word for the letter "h"</comment>
+  </data>
+  <data name="phonetic_i">
+    <value>izaak</value>
+    <comment>The phonetic word for the letter "i"</comment>
+  </data>
+  <data name="phonetic_j">
+    <value>jan</value>
+    <comment>The phonetic word for the letter "j"</comment>
+  </data>
+  <data name="phonetic_k">
+    <value>karel</value>
+    <comment>The phonetic word for the letter "k"</comment>
+  </data>
+  <data name="phonetic_l">
+    <value>lodewijk</value>
+    <comment>The phonetic word for the letter "l"</comment>
+  </data>
+  <data name="phonetic_m">
+    <value>maria</value>
+    <comment>The phonetic word for the letter "m"</comment>
+  </data>
+  <data name="phonetic_n">
+    <value>nico</value>
+    <comment>The phonetic word for the letter "n"</comment>
+  </data>
+  <data name="phonetic_o">
+    <value>otto</value>
+    <comment>The phonetic word for the letter "o"</comment>
+  </data>
+  <data name="phonetic_p">
+    <value>pieter</value>
+    <comment>The phonetic word for the letter "p"</comment>
+  </data>
+  <data name="phonetic_q">
+    <value>quotiënt</value>
+    <comment>The phonetic word for the letter "q"</comment>
+  </data>
+  <data name="phonetic_r">
+    <value>rudolf</value>
+    <comment>The phonetic word for the letter "r"</comment>
+  </data>
+  <data name="phonetic_s">
+    <value>simon</value>
+    <comment>The phonetic word for the letter "s"</comment>
+  </data>
+  <data name="phonetic_t">
+    <value>tinus</value>
+    <comment>The phonetic word for the letter "t"</comment>
+  </data>
+  <data name="phonetic_u">
+    <value>utrecht</value>
+    <comment>The phonetic word for the letter "u"</comment>
+  </data>
+  <data name="phonetic_v">
+    <value>victor</value>
+    <comment>The phonetic word for the letter "v"</comment>
+  </data>
+  <data name="phonetic_w">
+    <value>willem</value>
+    <comment>The phonetic word for the letter "w"</comment>
+  </data>
+  <data name="phonetic_x">
+    <value>xantippe</value>
+    <comment>The phonetic word for the letter "x"</comment>
+  </data>
+  <data name="phonetic_y">
+    <value>ypsilon</value>
+    <comment>The phonetic word for the letter "y"</comment>
+  </data>
+  <data name="phonetic_z">
+    <value>zaandam</value>
+    <comment>The phonetic word for the letter "z"</comment>
+  </data>
+  
+  <data name="VocabWord_NoMore">
+    <value>dat is het</value>
+    <comment>"no more"  spoken command word.</comment>
+  </data>
+  
+  
+  <data name="noise_sample_please_keep_quiet_instruction">
+    <value>Blijf een paar seconden stil</value>
+    <comment>Spoken prompt intructing the user to keep quiet for a noise sample.</comment>
+  </data>
+  <data name="noise_sample_no_speech_detected_warning">
+    <value>Ik heb u niet kunnen verstaan, kunt u luider spreken?</value>
+    <comment>Spoken prompt used if no speech is detected during noise sample.</comment>
+  </data>
+  <data name="noise_sample_first_utterance_prompt">
+    <value>Zeg: {0}</value>
+    <comment>Spoken prompt instructing the user to speak during noise sample.</comment>
+  </data>
+  <data name="noise_sample_first_utterance">
+    <value>0</value>
+    <comment>First utterance to be spoken during noise sample.</comment>
+  </data>
+  <data name="noise_sample_second_utterance">
+    <value>1</value>
+    <comment>Second utterance to be spoken during noise sample.</comment>
+  </data>
+  <data name="noise_sample_third_utterance">
+    <value>2</value>
+    <comment>Third utterance to be spoken during noise sample.</comment>
+  </data>
+  <data name="noise_sample_warning_too_long">
+    <value>Geluidstest voor spreken was te lang</value>
+    <comment>Spoken prompt used if speech detected during noise sample was too long.</comment>
+  </data>
+  <data name="noise_sample_completed">
+    <value>Geluidstest is voltooid</value>
+    <comment>Spoken prompt used when a noise sample completes successfully.</comment>
+  </data>
+  <data name="noise_sample_paused">
+    <value>Geluidstest gepauzeerd</value>
+    <comment>Spoken prompt used when a noise sample is paused.</comment>
+  </data>
+  <data name="noise_sample_failed">
+    <value>Geluidstest mislukt</value>
+    <comment>Spoken prompt used when a noise sample has failed.</comment>
+  </data>
+  <data name="training_please_say_following_words">
+    <value>Zeg de volgende woorden</value>
+    <comment>Prompt spoken/onscreen text when instructing the user to speak words for training.</comment>
+  </data>
+  <data name="training_wait_for_template_creation">
+    <value>Stemsjablonen worden gemaakt. Een ogenblik geduld.</value>
+    <comment>Prompt spoken/onscreen text while waiting for voice templates to be created.</comment>
+  </data>
+  <data name="finished_creating_voice_templates">
+    <value>Stemsjablonen zijn voltooid.</value>
+    <comment>Spoken prompt used when voice templates have been created.</comment>
+  </data>
+  <data name="training_interrupted">
+    <value>Training onderbroken</value>
+    <comment>Prompt spoken/onscreen text when training is interrupted.</comment>
+  </data>
+  <data name="training_timed_out">
+    <value>Time-out training</value>
+    <comment>Prompt spoken/onscreen text when training times out while waiting for the user to speak.</comment>
+  </data>
+  <data name="training_failed">
+    <value>Training mislukt</value>
+    <comment>Prompt spoken/onscreen text when training fails.</comment>
+  </data>
+  <data name="training_stopped">
+    <value>Training gestopt</value>
+    <comment>Prompt spoken/onscreen text when training is stopped.</comment>
+  </data>
+  <data name="training_pause_display_between_words">
+    <value>...</value>
+    <comment>Text displayed on screen during the pause between words in training.</comment>
+  </data>
+  <data name="number_0">
+    <value>0</value>
+    <comment>The digit 0.</comment>
+  </data>
+  <data name="number_1">
+    <value>1</value>
+    <comment>The digit 1.</comment>
+  </data>
+  <data name="number_2">
+    <value>2</value>
+    <comment>The digit 2.</comment>
+  </data>
+  <data name="number_3">
+    <value>3</value>
+    <comment>The digit 3.</comment>
+  </data>
+  <data name="number_4">
+    <value>4</value>
+    <comment>The digit 4.</comment>
+  </data>
+  <data name="number_5">
+    <value>5</value>
+    <comment>The digit 5.</comment>
+  </data>
+  <data name="number_6">
+    <value>6</value>
+    <comment>The digit 6.</comment>
+  </data>
+  <data name="number_7">
+    <value>7</value>
+    <comment>The digit 7.</comment>
+  </data>
+  <data name="number_8">
+    <value>8</value>
+    <comment>The digit 8.</comment>
+  </data>
+  <data name="number_9">
+    <value>9</value>
+    <comment>The digit 9.</comment>
+  </data>
+  <data name="phonetic_0">
+    <value>Nul</value>
+    <comment>The phonetic word for 0.</comment>
+  </data>
+  <data name="phonetic_1">
+    <value>Een</value>
+    <comment>The phonetic word for 1.</comment>
+  </data>
+  <data name="phonetic_2">
+    <value>Twee</value>
+    <comment>The phonetic word for 2.</comment>
+  </data>
+  <data name="phonetic_3">
+    <value>Drie</value>
+    <comment>The phonetic word for 3.</comment>
+  </data>
+  <data name="phonetic_4">
+    <value>Vier</value>
+    <comment>The phonetic word for 4.</comment>
+  </data>
+  <data name="phonetic_5">
+    <value>Vijf</value>
+    <comment>The phonetic word for 5.</comment>
+  </data>
+  <data name="phonetic_6">
+    <value>Zes</value>
+    <comment>The phonetic word for 6.</comment>
+  </data>
+  <data name="phonetic_7">
+    <value>Zeven</value>
+    <comment>The phonetic word for 7.</comment>
+  </data>
+  <data name="phonetic_8">
+    <value>Acht</value>
+    <comment>The phonetic word for 8.</comment>
+  </data>
+  <data name="phonetic_9">
+    <value>Negen</value>
+    <comment>The phonetic word for 9.</comment>
+  </data>
+  <data name="phonetic_decimal">
+    <value>Komma</value>
+    <comment>The phonetic word for a decimal point</comment>
+  </data>
+  <data name="prompt_separator_then">
+    <value> Dan: </value>
+    <comment>"Then: "</comment>
+  </data>
+  <data name="prompt_separator_or">
+    <value> Of: </value>
+    <comment>"Or: "</comment>
+  </data>
+  <data name="prompt_separator_if_required">
+    <value> Indien vereist: </value>
+    <comment>"If required: "</comment>
+  </data>
+  <data name="whole_number_separator">
+    <value>.</value>
+    <comment>This culture's symbol for the decimal mark.</comment>
+  </data>
+  <data name="whole_number_separator_phonetic">
+    <value>komma</value>
+    <comment>The phonetic word for this culture's decimal mark.</comment>
+  </data>
+  <data name="symbol_dash">
+    <value>-</value>
+    <comment>This culture's symbol for the hyphen mark.</comment>
+  </data>
+  <data name="phonetic_dash">
+    <value>streepje</value>
+    <comment>The phonetic word for this culture's hyphen mark.</comment>
+  </data>
+  <data name="confirmation_of_spoken_value">
+    <value>{0}, correct?</value>
+    <comment>Spoken prompt asking user for confirmation of a spoken value.</comment>
+  </data>
+  <data name="confirmation_of_spoken_value_and_anchor">
+    <value> {0}, {1}, correct?</value>
+    <comment>A spoken prompt asking the user to confirm their spoken value and anchor</comment>
+  </data>
+  <data name="pick_from_list_help_only_1_option">
+    <value>De enige mogelijkheid is {0}</value>
+    <comment>The help prompt spoken when the user is presented a list with only one option.</comment>
+  </data>
+  <data name="pick_from_list_help_multiple_options">
+    <value>De mogelijkheden zijn: {0} en {1}</value>
+    <comment>The help prompt spoken when the user is presented with a list of two options.</comment>
+  </data>
+  <data name="pick_from_list_confirmation_prompt">
+    <value>U hebt {0} geselecteerd. Isdat correct?</value>
+    <comment>Prompt user for confirmation of a list selection.</comment>
+  </data>
+  <data name="digit_entry_say_digits">
+    <value>Zeg {0} cijfers.</value>
+    <comment>Spoken prompt asking the user to speak a certain number of digits.</comment>
+  </data>
+  <data name="digit_entry_say_between_digits">
+    <value>Zeg tussen {0} en {1} cijfers.</value>
+    <comment>Spoken prompt asking the user to speak within a certain range of digits.</comment>
+  </data>
+  <data name="value_entry_say_characters">
+    <value>Zeg {0} tekens</value>
+    <comment>Spoken prompt asking the user to speak a certain number of characters.</comment>
+  </data>
+  <data name="value_entry_say_between_characters">
+    <value>Zeg tussen {0} en {1} tekens.</value>
+    <comment>Spoken prompt asking the user to speak within a certain range of characters.</comment>
+  </data>
+  <data name="digit_entry_long_value_help">
+    <value>zeg getallen, pauzeer om de laatst gesproken groep te horen, zeg "nee" om de laatst gesproken groep af te wijzen, zeg "gereed" om de invoer te voltooien. </value>
+    <comment>Main help prompt for long value entry dialogue</comment>
+  </data>
+  <data name="value_entry_long_value_help_characters">
+    <value>zeg tekens, pauzeer om de laatst gesproken groep te horen, zeg "nee" om de laatst gesproken groep af te wijzen, zeg "gereed" om de invoer te voltooien. </value>
+    <comment>Main help prompt for long value entry dialogue</comment>
+  </data>
+  <data name="default_help_no_help_available">
+    <value>Geen Help beschikbaar</value>
+    <comment>Spoken prompt used when no help prompt exists for this WFA.</comment>
+  </data>
+  <data name="default_help_only_1_word">
+    <value>Zeg {0}.</value>
+    <comment>Spoken prompt asking the user to speak a word.</comment>
+  </data>
+  <data name="default_help_multiple_words">
+    <value>Zeg {0} of {1}.</value>
+    <comment>Spoken prompt asking the user to speak one of two words.</comment>
+  </data>
+  <data name="default_help_multiple_words_and_anchors">
+    <value>gevolgd door {0} of {1}</value>
+    <comment>Spoken after default_help_multiple_words, when the user must say an anchor word after their input</comment>
+  </data>
+  <data name="yes">
+    <value>ja</value>
+    <comment>"Yes"</comment>
+  </data>
+  <data name="no">
+    <value>nee</value>
+    <comment>"No" command word</comment>
+  </data>
+  <data name="accept_entry_word">
+    <value>gereed</value>
+    <comment>"Ready" command word.</comment>
+  </data>
+  <data name="next_entry_word">
+    <value>volgende</value>
+    <comment>"Next" command word</comment>
+  </data>
+  <data name="digits_word">
+    <value>cijfers</value>
+    <comment>"Digits" command word</comment>
+  </data>
+  
+    <data name="Validation_GetValue_MinAndMax">
+    <value>U hebt {0} ingevoerd, de waarde moet tussen {1} en {2} liggen, probeer het opnieuw</value>
+    <comment>Text displayed or spoken when get digits is not in specified range</comment>
+  </data>
+  <data name="Validation_GetValue_Min">
+    <value>U hebt {0} ingevoerd, de waarde moet groter dan of gelijk aan {1} zijn, probeer het opnieuw</value>
+    <comment>Text displayed or spoken when get digits entry is less than min value</comment>
+  </data>
+  <data name="Validation_GetValue_Max">
+    <value>U hebt {0} ingevoerd, de waarde moet kleiner dan of gelijk aan {1} zijn, probeer het opnieuw</value>
+    <comment>Text displayed or spoken when get digits entry is greater than max value</comment>
+  </data>
+  <data name="Validation_GetValue_NotNumeric">
+    <value>{0} is geen numerieke waarde, probeer het opnieuw</value>
+    <comment>Text displayed or spoken when get digits entry is expected to be numeric</comment>
+  </data>
+  <data name="Validation_GetValue_MinLength">
+    <value>{0} verkeerd, voer in totaal ten minste {1} tekens in</value>
+    <comment>Test displayed when the the digit entry doesn't have enough digits</comment>
+  </data>
+  <data name="Validation_GetValue_MaxLength">
+    <value>{0} verkeerd, voer in totaal maximaal {1} tekens in</value>
+    <comment>Test displayed when the the digit entry doesn't have enough digits</comment>
+  </data>
+  <data name="Validation_GetDigits_InsufficientWholeNumbers">
+    <value>{0} verkeerd, voer ten minste {1} cijfers in voor de komma</value>
+    <comment>Test displayed when the the digit entry doesn't have enough digits before the decimal place</comment>
+  </data>
+  <data name="Validation_GetDigits_ExcessiveWholeNumbers">
+    <value>{0} verkeerd, voer niet meer dan {1} cijfers in voor de komma</value>
+    <comment>Test displayed when the the digit entry has too many digits before the decimal place</comment>
+  </data>
+  <data name="Validation_GetDigits_InsufficientPrecision">
+    <value>{0} verkeerd, voer ten minste {1} cijfers in achter de komma</value>
+    <comment>Test displayed when the the digit entry doesn't have enough digits after the decimal place</comment>
+  </data>
+  <data name="Validation_GetDigits_ExcessivePrecision">
+    <value>{0} verkeerd, voer niet meer dan {1} cijfers in achter de komma</value>
+    <comment>Test displayed when the the digit entry has too many digits after the decimal place</comment>
+  </data>
+  <data name="Validation_GetValue_InvalidCharacters">
+    <value>{0} verkeerd, ongeldige tekens</value>
+    <comment>Text displayed when the the value entry has invalid characters</comment>
+  </data>
+  <data name="Validation_General_UnexpectedValue">
+    <value>{0} verkeerd, probeer het opnieuw</value>
+    <comment>Text displayed or spoken when entry is not one of expected values</comment>
+  </data>
+
+  <data name="DateEntryDialogue_Day_Prompt">
+    <value>Dag?</value>
+  </data>
+  <data name="DateEntryDialogue_Month_Prompt">
+    <value>Maand?</value>
+  </data>
+  <data name="DateEntryDialogue_Year_Prompt">
+    <value>Jaar?</value>
+  </data>
+  <data name="DateDialogue_Invalid_Prompt">
+    <value>Ongeldige datum voor maand {0}, dag {1} en jaar {2}</value>
+  </data>
+  <data name="DateDialogue_BiggerThanMax_Prompt">
+    <value>Ongeldige maand {0}, dag {1} en jaar {2}, voer een datum in vóór maand {3}, dag {4} en jaar {5}.</value>
+  </data>
+  <data name="DateDialogue_SmallerThanMin_Prompt">
+    <value>Ongeldige maand {0}, dag {1} en jaar {2}, voer een datum in op of na maand {3}, dag {4} en jaar {5}.</value>
+  </data>
+  <data name="DateEntryDialogue_StartEntryM_Prompt">
+    <value>Zeg 2 cijfers voor de maand, </value>
+  </data>
+  <data name="DateEntryDialogue_StartEntryD_Prompt">
+    <value>Zeg 2 cijfers voor de dag, </value>
+  </data>
+  <data name="DateEntryDialogue_StartEntryY_Prompt">
+    <value>Zeg 2 cijfers voor het jaar, </value>
+  </data>
+  <data name="DateEntryDialogue_Confirmation_Prompt">
+    <value>maand {0}, dag {1} en jaar {2}</value>
+  </data>
+   
+  <data name="VocabWord_Help">
+    <value>help</value>
+    <comment>Global "help" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_SayAgain">
+    <value>zeg het opnieuw</value>
+    <comment>"Say again" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_StandBy">
+    <value>Stand-by</value>
+    <comment>Global "standby"  spoken command word.</comment>
+  </data>
+  <data name="VocabWord_NoiseSample">
+    <value>geluidstest</value>
+    <comment>Global "noise sample" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_Continue">
+    <value>doorgaan</value>
+    <comment>"Continue" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_SignOff">
+    <value>afmelden</value>
+    <comment>Global "sign off" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_Yes">
+    <value>ja</value>
+    <comment>"Yes" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_No">
+    <value>nee</value>
+    <comment>"No" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_UpdateTrain">
+    <value>training bijwerken</value>
+    <comment>Global "update train"  spoken command word.</comment>
+  </data>
+  <data name="VocabWord_Info">
+    <value>info</value>
+    <comment>"info" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_Option">
+    <value>opties</value>
+    <comment>"Option" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_Negative">
+    <value>negatief</value>
+    <comment>"negative" spoken word for negative numeric values.</comment>
+  </data>
+  <data name="VocabWord_Cancel">
+    <value>annuleren</value>
+    <comment>"cancel" spoken word for cancelling entries.</comment>
+  </data>
+  
+  <data name="OverflowMenuItem_ReportProblem">
+    <value>probleem rapporteren</value>
+    <comment>Global "report problem" overflow menu item.</comment>
+  </data>
+  
+  <data name="AffirmativeButtonText">
+    <value>Ja</value>
+    <comment>"Yes" button text.</comment>
+  </data>
+  <data name="NegativeButtonText">
+    <value>Nee</value>
+    <comment>"No" button text.</comment>
+  </data>
+  
+  <data name="Generic_Additional_Cmd_Background_Header">
+    <value>Verwerkingsopdracht</value>
+  </data>
+  <data name="Generic_SelectOperatorTeam_Header">
+    <value>Operatorteams selecteren</value>
+  </data>
+  <data name="Generic_SelectOperatorTeam_Prompt">
+    <value>selecteer operatorteam</value>
+  </data>
+  <data name="Generic_SignOn_Failed_EntrysBlank">
+    <value>Gebruikersnaam en wachtwoord zijn verplicht</value>
+  </data>
+  <data name="Generic_SignOn_Header">
+    <value>Operator selecteren</value>
+  </data>
+  <data name="VoiceCentric_Header" xml:space="preserve">
+    <value>Voicegerichte invoer</value>
+  </data>
+  <data name="VoiceCentric_Label" xml:space="preserve">
+    <value>Voicegerichte waarde</value>
+  </data>
+</root>

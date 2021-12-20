@@ -1,0 +1,11 @@
+﻿//////////////////////////////////////////////////////////////////////////////
+//    Copyright (C) 2016 Honeywell International Inc. All rights reserved.
+//////////////////////////////////////////////////////////////////////////////
+
+namespace WarehousePicking
+{
+    public abstract class VersionedDTO : BaseDTO
+    {
+        public int Version { get; set; }
+    }
+}

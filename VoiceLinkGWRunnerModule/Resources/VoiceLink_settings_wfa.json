@@ -1,0 +1,55 @@
+﻿[
+  {
+    "Name": "VoiceLinkSettingsWorkflowActivityComp",
+    "Default": "VoiceLinkSettingsWorkflowActivity",
+    "ReferencedEvents": [
+      {
+        "WfaReferenceName": "SettingsWorkflowActivity",
+        "Name": "SettingsMenuWorkflowActivity::VoiceLinkSettings",
+        "Actions": [
+          {
+            "Type": "PushNavigation",
+            "Params": {
+              "Destination": "VoiceLinkSettingsWorkflowActivityComp"
+            }
+          }
+        ]
+      }
+    ],
+    "Events": [
+      {
+        "Name": "VoiceLinkSettingsWorkflowActivity::VoiceConsoleSettings",
+        "Actions": [
+          {
+            "Type": "PushNavigation",
+            "Params": {
+              "Destination": "VoiceConsoleSettingsWorkflowActivity"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "VoiceLinkSettingsWorkflowActivity",
+    "ControllerName": "VoiceLink.VoiceLinkServerSettingsController",
+    "ViewModelName": "VoiceLink.VoiceLinkServerSettingsViewModel",
+    "ViewNames": [ "VoiceLink.VoiceLinkServerSettingsView" ],
+    "Params": {
+      "EnableMenuOption": false,
+      "MicIconStateOverride": false,
+      "InactiveGlobalWords": [ "VocabWord_GlobalAnchorWord VocabWord_StandBy" ]
+    }
+  },
+  {
+    "Name": "VoiceConsoleSettingsWorkflowActivity",
+    "ControllerName": "VoiceConsoleComm.VoiceConsoleServerSettingsController",
+    "ViewModelName": "VoiceConsoleComm.VoiceConsoleServerSettingsViewModel",
+    "ViewNames": [ "VoiceConsoleComm.VoiceConsoleServerSettingsView" ],
+    "Params": {
+      "EnableMenuOption": false,
+      "MicIconStateOverride": false,
+      "InactiveGlobalWords": [ "VocabWord_GlobalAnchorWord VocabWord_StandBy" ]
+    }
+  }
+]

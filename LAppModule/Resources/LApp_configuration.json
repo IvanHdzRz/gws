@@ -1,0 +1,10 @@
+﻿{
+    "WorkflowConfiguration" :
+    {
+        "WorkflowName": "LApp",
+        "WorkflowFriendlyName": "WorkflowFriendlyName_LApp",
+        "WorkflowModelName": "LAppModel",
+        "WorkflowFiltersForSelecting": [ "EmbeddedDemo", "MicroServices" ],
+        "AdditionalWorkflowsToLoad": [ "GuidedWorkRunner" ] 
+    }
+}

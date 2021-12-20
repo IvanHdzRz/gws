@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hfmcl:CoreView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:hfmcl="clr-namespace:Honeywell.Firebird.CoreLibrary;assembly=Honeywell.GuidedWork.XF"
+             xmlns:i18n="clr-namespace:Honeywell.Firebird.CoreLibrary.Localization.Xaml;assembly=Honeywell.GuidedWork.XF"
+             x:Class="BasePickingExample.BasePickingExampleSettingsView">
+
+
+    <ScrollView>
+        <StackLayout VerticalOptions="Fill" Spacing="0" BackgroundColor="{x:Static hfmcl:ColorResources.HoneywellWhite}">
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="BasePickingExampleSettingsViewBoxView" />
+
+            <!-- WORKFLOW SETTINGS -->
+            <StackLayout Style="{StaticResource SectionTitleLayoutStyle}">
+                <Label Text="{i18n:Translate WorkflowSettingsLabel, Converter={StaticResource StringCaseConverter}, ConverterParameter=U}"
+                       Style="{StaticResource SectionTitleLabelStyle}"
+                       AutomationId="SettingsWorkflowSettingsLabel" />
+            </StackLayout>
+
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="BasePickingExampleSettingsViewSelectWorkflowFilterBoxView" />
+
+            <!-- BasePickingExample SETTINGS -->
+            <StackLayout Style="{StaticResource SectionTitleLayoutStyle}">
+                <Label Text="{i18n:Translate BasePickingExampleSettingsLabel, Converter={StaticResource StringCaseConverter}, ConverterParameter=U}"
+                       Style="{StaticResource SectionTitleLabelStyle}" 
+                       AutomationId="BasePickingExampleSettingsLabel" />
+            </StackLayout>
+
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="BasePickingExampleSettingsViewBasePickingExampleHostBoxView"/>
+
+            <!-- Server Use Secure Connections -->
+           <StackLayout Style="{StaticResource SettingsItemLayoutStyle}">
+               <Label Text="{i18n:Translate ServerSecureConnections}" Style="{StaticResource SettingsItemLabelStyle}" AutomationId="SettingsServerSecureConnectionsLabel" />
+               <Switch IsToggled="{Binding ServerSecureConnections}" HorizontalOptions="EndAndExpand" VerticalOptions="Center" AutomationId="SettingsServerSecureConnectionsSwitch" />
+           </StackLayout>
+
+           <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="BasePickingExampleSettingsViewBasePickingExampleHostBoxView"/>
+
+            <!-- BasePickingExample Host -->
+            <StackLayout Style="{StaticResource SettingsItemVerticalLayoutStyle}">
+                <Label Text="{i18n:Translate Host}" Style="{StaticResource SettingsItemLabelStyle}" AutomationId="HostLabel" />
+                <hfmcl:UserEntrySubview
+                        Text="{Binding Host}"
+                        x:Name="HostEntry"
+                        BorderWidth="2"
+                        ShowUnderline="False"
+                        Keyboard="Text"
+                        AutomationId="Host" />
+            </StackLayout>
+
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="BasePickingExampleSettingsViewBasePickingExamplePortBoxView"/>
+
+            <!-- BasePickingExample Port -->
+            <StackLayout Style="{StaticResource SettingsItemVerticalLayoutStyle}">
+                <Label Text="{i18n:Translate Port}" Style="{StaticResource SettingsItemLabelStyle}" AutomationId="PortLabel" />
+                <hfmcl:UserEntrySubview
+                        Text="{Binding Port}"
+                        x:Name="PortEntry"
+                        BorderWidth="2"
+                        ShowUnderline="False"
+                        Keyboard="Numeric"
+                        AutomationId="Port" />
+            </StackLayout>
+
+            <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="BasePickingExampleSettingsViewEndBoxView" />
+
+        </StackLayout>
+    </ScrollView>
+</hfmcl:CoreView>

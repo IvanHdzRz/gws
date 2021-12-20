@@ -1,0 +1,3 @@
+"NSMicrophoneUsageDescription"="Diese Anwendung nutzt das Mikrofon um Ihre Sprache in Kommandos umzusetzen";
+"NSCameraUsageDescription"="Diese Anwendung benötigt Zugriff auf die Kamera um Fotos aufzunehmen";
+"NSPhotoLibraryUsageDescription"="Diese Anwendung benötigt Zugriff auf die Fotos";

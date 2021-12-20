@@ -1,0 +1,9 @@
+﻿{
+  "WorkflowConfiguration": {
+    "WorkflowName": "SimpleApp",
+    "WorkflowFriendlyName": "WorkflowFriendlyName_SimpleApp",
+    "WorkflowModelName": "SimpleAppModel",
+    "WorkflowFiltersForSelecting": [ "EmbeddedDemo", "VoiceConsole" ],
+    "AdditionalWorkflowsToLoad": [ "GuidedWorkRunner" ]
+  }
+}

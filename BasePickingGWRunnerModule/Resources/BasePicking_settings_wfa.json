@@ -1,0 +1,55 @@
+﻿[
+  {
+    "Name": "BasePickingSettingsWorkflowActivityComp",
+    "Default": "BasePickingSettingsWorkflowActivity",
+    "ReferencedEvents": [
+      {
+        "WfaReferenceName": "SettingsWorkflowActivity",
+        "Name": "SettingsMenuWorkflowActivity::BasePickingSettings",
+        "Actions": [
+          {
+            "Type": "PushNavigation",
+            "Params": {
+              "Destination": "BasePickingSettingsWorkflowActivityComp"
+            }
+          }
+        ]
+      }
+    ],
+    "Events": [
+      {
+        "Name": "ConfigurationSettings",
+        "Actions": [
+          {
+            "Type": "PushNavigation",
+            "Params": {
+              "Destination": "BasePickingConfigurationSettingsWorkflowActivity"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "BasePickingSettingsWorkflowActivity",
+    "ControllerName": "BasePicking.BasePickingServerSettingsController",
+    "ViewModelName": "BasePicking.BasePickingServerSettingsViewModel",
+    "ViewNames": [ "BasePicking.BasePickingServerSettingsView" ],
+    "Params": {
+      "EnableMenuOption": false,
+      "MicIconStateOverride": false,
+      "InactiveGlobalWords": [ "VocabWord_GlobalAnchorWord VocabWord_StandBy" ]
+    }
+  },
+  {
+    "Name": "BasePickingConfigurationSettingsWorkflowActivity",
+    "ControllerName": "BasePicking.BasePickingConfigurationSettingsController",
+    "ViewModelName": "BasePicking.BasePickingConfigurationSettingsViewModel",
+    "ViewNames": [ "BasePicking.BasePickingConfigurationSettingsView" ],
+    "Params": {
+      "EnableMenuOption": false,
+      "MicIconStateOverride": false,
+      "InactiveGlobalWords": [ "VocabWord_GlobalAnchorWord VocabWord_StandBy" ]
+    }
+  }
+]

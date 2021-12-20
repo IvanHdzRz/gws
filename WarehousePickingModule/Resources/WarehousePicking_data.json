@@ -1,0 +1,308 @@
+﻿{
+  "fetchOrders": {
+    "assignments": {
+      "assignment": [
+        {
+          "@xsi.type": "walmart-pick",
+          "id": 2001,
+          "version": 1,
+          "sequence": 1,
+          "aisle": "M01",
+          "slotId": "129",
+          "subCenterId": 1,
+          "checkDigit": "291",
+          "pickQuantity": 4,
+          "pickedQuantity": 0,
+          "lastPickedQuantity": 0,
+          "shortedIndicator": false,
+          "tripId": "1022",
+          "storeNumber": "5070",
+          "doorNumber": "17",
+          "checkPattern": "123",
+          "routeNumber": "1993",
+          "workerId": 1,
+          "status": 0,
+          "product": {
+            "id": 1001,
+            "version": 0,
+            "productIdentifier": "076808006889",
+            "name": "Barilla Pasta Variety Pack",
+            "description": "Barilla Pasta Variety Pack"
+          },
+          "location": {
+            "id": 160,
+            "version": 0,
+            "descriptiveText": "Aisle:M01->Slot:129",
+            "definitionId": 9,
+            "descriptors": [
+              {
+                "id": 600,
+                "version": 0,
+                "name": "Aisle",
+                "value": "M01",
+                "descOrder": 1
+              },
+              {
+                "id": 601,
+                "version": 0,
+                "name": "Slot",
+                "value": "129",
+                "descOrder": 2
+              }
+            ]
+          }
+        },
+        {
+          "@xsi.type": "walmart-pick",
+          "id": 2002,
+          "version": 1,
+          "sequence": 2,
+          "aisle": "M01",
+          "slotId": "751",
+          "subCenterId": 1,
+          "checkDigit": "517",
+          "pickQuantity": 3,
+          "pickedQuantity": 0,
+          "lastPickedQuantity": 0,
+          "shortedIndicator": false,
+          "tripId": "1021",
+          "storeNumber": "5070",
+          "doorNumber": "17",
+          "checkPattern": "123",
+          "routeNumber": "1993",
+          "workerId": 1,
+          "status": 0,
+          "product": {
+            "id": 1002,
+            "version": 0,
+            "productIdentifier": "078742002781",
+            "name": "Daily Chef Spaghetti Pantry Pack",
+            "description": "Daily Chef Spaghetti Pantry Pack"
+          },
+          "location": {
+            "id": 161,
+            "version": 0,
+            "descriptiveText": "Aisle:M01->Slot:751",
+            "definitionId": 9,
+            "descriptors": [
+              {
+                "id": 602,
+                "version": 0,
+                "name": "Aisle",
+                "value": "M01",
+                "descOrder": 1
+              },
+              {
+                "id": 603,
+                "version": 0,
+                "name": "Slot",
+                "value": "751",
+                "descOrder": 2
+              }
+            ]
+          }
+        },
+        {
+          "@xsi.type": "walmart-pick",
+          "id": 2003,
+          "version": 1,
+          "sequence": 3,
+          "aisle": "M02",
+          "slotId": "145",
+          "subCenterId": 1,
+          "checkDigit": "451",
+          "pickQuantity": 1,
+          "pickedQuantity": 0,
+          "lastPickedQuantity": 0,
+          "shortedIndicator": false,
+          "tripId": "1021",
+          "storeNumber": "5070",
+          "doorNumber": "17",
+          "checkPattern": "123",
+          "routeNumber": "1993",
+          "workerId": 1,
+          "status": 0,
+          "product": {
+            "id": 1003,
+            "version": 0,
+            "productIdentifier": "021000025879",
+            "name": "Kraft Easy Mac Cups",
+            "description": "Kraft Easy Mac Cups"
+          },
+          "location": {
+            "id": 162,
+            "version": 0,
+            "descriptiveText": "Aisle:M02->Slot:145",
+            "definitionId": 9,
+            "descriptors": [
+              {
+                "id": 604,
+                "version": 0,
+                "name": "Aisle",
+                "value": "M02",
+                "descOrder": 1
+              },
+              {
+                "id": 605,
+                "version": 0,
+                "name": "Slot",
+                "value": "145",
+                "descOrder": 2
+              }
+            ]
+          }
+        },
+        {
+          "@xsi.type": "walmart-pick",
+          "id": 2004,
+          "version": 1,
+          "sequence": 3,
+          "aisle": "M02",
+          "slotId": "332",
+          "subCenterId": 1,
+          "checkDigit": "323",
+          "pickQuantity": 10,
+          "pickedQuantity": 0,
+          "lastPickedQuantity": 0,
+          "shortedIndicator": false,
+          "tripId": "1021",
+          "storeNumber": "5070",
+          "doorNumber": "17",
+          "checkPattern": "123",
+          "routeNumber": "1993",
+          "workerId": 1,
+          "status": 0,
+          "product": {
+            "id": 1004,
+            "version": 0,
+            "productIdentifier": "070662030332",
+            "name": "Chicken Flavor Ramen Noodle Soup",
+            "description": "Chicken Flavor Ramen Noodle Soup"
+          },
+          "location": {
+            "id": 163,
+            "version": 0,
+            "descriptiveText": "Aisle:M02->Slot:332",
+            "definitionId": 9,
+            "descriptors": [
+              {
+                "id": 606,
+                "version": 0,
+                "name": "Aisle",
+                "value": "M02",
+                "descOrder": 1
+              },
+              {
+                "id": 607,
+                "version": 0,
+                "name": "Slot",
+                "value": "332",
+                "descOrder": 2
+              }
+            ]
+          }
+        },
+        {
+          "@xsi.type": "walmart-pick",
+          "id": 2005,
+          "version": 1,
+          "sequence": 3,
+          "aisle": "M03",
+          "slotId": "920",
+          "subCenterId": 1,
+          "checkDigit": "209",
+          "pickQuantity": 5,
+          "pickedQuantity": 0,
+          "lastPickedQuantity": 0,
+          "shortedIndicator": false,
+          "tripId": "1021",
+          "storeNumber": "5070",
+          "doorNumber": "17",
+          "checkPattern": "123",
+          "routeNumber": "1993",
+          "workerId": 1,
+          "status": 0,
+          "product": {
+            "id": 1005,
+            "version": 0,
+            "productIdentifier": "041000402920",
+            "name": "Lipton Iced Tea Brew",
+            "description": "Lipton Iced Tea Brew"
+          },
+          "location": {
+            "id": 164,
+            "version": 0,
+            "descriptiveText": "Aisle:M03->Slot:920",
+            "definitionId": 9,
+            "descriptors": [
+              {
+                "id": 608,
+                "version": 0,
+                "name": "Aisle",
+                "value": "M03",
+                "descOrder": 1
+              },
+              {
+                "id": 609,
+                "version": 0,
+                "name": "Slot",
+                "value": "920",
+                "descOrder": 2
+              }
+            ]
+          }
+        },
+        {
+          "@xsi.type": "walmart-pick",
+          "id": 2006,
+          "version": 1,
+          "sequence": 3,
+          "aisle": "M04",
+          "slotId": "254",
+          "subCenterId": 1,
+          "checkDigit": "542",
+          "pickQuantity": 4,
+          "pickedQuantity": 0,
+          "lastPickedQuantity": 0,
+          "shortedIndicator": false,
+          "tripId": "1021",
+          "storeNumber": "5070",
+          "doorNumber": "17",
+          "checkPattern": "123",
+          "routeNumber": "1993",
+          "workerId": 1,
+          "status": 0,
+          "product": {
+            "id": 1006,
+            "version": 0,
+            "productIdentifier": "043000057254",
+            "name": "Maxwell House House Blend",
+            "description": "Maxwell House House Blend"
+          },
+          "location": {
+            "id": 165,
+            "version": 0,
+            "descriptiveText": "Aisle:M04->Slot:254",
+            "definitionId": 9,
+            "descriptors": [
+              {
+                "id": 610,
+                "version": 0,
+                "name": "Aisle",
+                "value": "M04",
+                "descOrder": 1
+              },
+              {
+                "id": 611,
+                "version": 0,
+                "name": "Slot",
+                "value": "254",
+                "descOrder": 2
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

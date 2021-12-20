@@ -1,0 +1,3 @@
+﻿"NSMicrophoneUsageDescription" = "Deze applicatie gebruikt de microfoon om spraak in commando’s om te zetten";
+"NSCameraUsageDescription" = "Deze applicatie gebruikt de camera om foto’s te maken";
+"NSPhotoLibraryUsageDescription" = "Deze applicatie heeft toegang nodig tot de foto’s";

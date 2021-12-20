@@ -1,0 +1,10 @@
+{
+    "WorkflowConfiguration" :
+    {
+        "WorkflowName": "Receiving",
+        "WorkflowFriendlyName": "WorkflowFriendlyName_Receiving",
+        "WorkflowModelName": "ReceivingModel",
+        "WorkflowFiltersForSelecting": [ "EmbeddedDemo", "MicroServices" ],
+        "AdditionalWorkflowsToLoad": [ "GuidedWorkRunner" ]
+    }
+}

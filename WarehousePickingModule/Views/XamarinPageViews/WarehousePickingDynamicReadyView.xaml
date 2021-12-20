@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- (C) Copyright by Honeywell, Inc. 2014.  All rights reserved. -->
+<hfmcl:CoreView xmlns="http://xamarin.com/schemas/2014/forms"
+                     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                     xmlns:guidedwork="clr-namespace:GuidedWork;assembly=GuidedWork"
+                     xmlns:hfmcl="clr-namespace:Honeywell.Firebird.CoreLibrary;assembly=Honeywell.GuidedWork.XF"
+                     xmlns:i18n="clr-namespace:Honeywell.Firebird.CoreLibrary.Localization.Xaml;assembly=Honeywell.GuidedWork.XF"
+                     x:Class="WarehousePicking.WarehousePickingDynamicReadyView">
+
+  <StackLayout Padding="10, 20, 10, 10">
+    <Label
+      Text="{i18n:Translate Header}"
+      Style="{StaticResource LargeHeaderLabelStyle}"
+      AutomationId="ReadyHeaderLabel" />
+
+    <StackLayout Orientation="Horizontal" Spacing="0">
+      <Label Text="{i18n:Translate LabelPrinter}" Style="{StaticResource EntryBoldLabelStyle}" AutomationId="WarehousePickingLabelPrinterLabel" />
+      <Label Text="{Binding LabelPrinter}" LineBreakMode="NoWrap" Style="{StaticResource ProductInfoLabelStyle}" AutomationId="WarehousePickingLabelPrinterID" />
+    </StackLayout>    
+    
+    <StackLayout Orientation="Horizontal" Spacing="0">
+      <Label Text="{i18n:Translate CheckDigit}" Style="{StaticResource EntryBoldLabelStyle}" AutomationId="WarehousePickingReadyLabel" />
+      <Label Text="{i18n:Translate CheckDigit_Pattern}" LineBreakMode="NoWrap" Style="{StaticResource ProductInfoLabelStyle}" AutomationId="WarehousePickingPatternLabel" />
+    </StackLayout>
+
+    <StackLayout Orientation="Horizontal" Spacing="0">
+      <Label Text="{i18n:Translate StandardTime}" Style="{StaticResource EntryBoldLabelStyle}" AutomationId="WarehousePickingStandardTimeLabel" />
+      <Label Text="{i18n:Translate StandardTime_Time}" LineBreakMode="NoWrap" Style="{StaticResource ProductInfoLabelStyle}" AutomationId="WarehouseStandardTimeDataLabel" />
+    </StackLayout>
+
+    <StackLayout Orientation="Horizontal" Spacing="0">
+      <Label Text="{i18n:Translate Stats}" Style="{StaticResource EntryBoldLabelStyle}" AutomationId="WarehousePickingStandardTimeLabel" />
+      <Label Text="{Binding TotalCases}" LineBreakMode="NoWrap" Style="{StaticResource ProductInfoLabelStyle}" AutomationId="WarehouseStandardTimeDataLabel" />
+    </StackLayout>    
+
+    <Button Text="{i18n:Translate ReadyButtonText, Converter={StaticResource StringCaseConverter}, ConverterParameter=U}"
+            Command="{Binding ReadyCommand}"
+            VerticalOptions="EndAndExpand"
+            Style="{StaticResource PrimaryButtonStyle}"
+            AutomationId="ReadyButton" />
+  </StackLayout>
+</hfmcl:CoreView>
+

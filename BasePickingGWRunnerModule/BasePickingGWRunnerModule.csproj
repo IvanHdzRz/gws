@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wpa81</AssetTargetFallback>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BasePickingModule\BasePickingModule.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\BasePicking_configuration.json" />
+    <None Remove="Resources\BasePicking_wfa.json" />
+    <None Remove="Resources\BasePicking_settings_wfa.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\BasePicking_configuration.json" />
+    <EmbeddedResource Include="Resources\BasePicking_wfa.json" />
+    <EmbeddedResource Include="Resources\BasePicking_settings_wfa.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Honeywell.GuidedWork" Version="1.4.0.0" />
+  </ItemGroup>
+</Project>

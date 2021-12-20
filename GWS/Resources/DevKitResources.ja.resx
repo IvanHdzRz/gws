@@ -1,0 +1,2342 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  <data name="VocabWord_Backup">
+    <value>戻る</value>
+    <comment>"back up" spoken command word.</comment>
+  </data>
+  
+  <data name="Error_WrongProduct">
+    <value>間違ったアイテム</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="Error_WrongProductPrompt">
+    <value>間違ったアイテムです。もう一度。</value>
+    <comment>Spoken prompt </comment>
+  </data>
+  <data name="Error_NotUnique">
+    <value>固有ではありません。スキャンの必要があります</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="Error_NotUniquePrompt">
+    <value>固有ではありません。スキャンの必要があります</value>
+    <comment>Spoken prompt </comment>
+  </data>
+  <data name="Error_StockRecordNotFound">
+    <value>ストックレコードが見つかりません: {0}</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="Error_NotFound">
+    <value>アイテムが見つかりません</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="Error_NotFoundWithResponse">
+    <value>アイテムが見つかりません: {0}</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="Error_UnknownLocation">
+    <value>不明なロケーション</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="Error_UnexpectedResponse">
+    <value>予期しない応答: {0}</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="Error_WrongQuantity">
+    <value>間違った数量</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="Error_NoLabelVersionFound">
+    <value>ラベルバージョンが見つかりませんでした</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="Error_InvalidEntry_Short">
+    <value>繰り返す</value>
+    <comment>Spoken prompt used when user speaks/enters too few digits.</comment>
+  </data>
+  
+  <data name="StockCodeLabel">
+    <value>ストックコード:</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SOHLabel">
+    <value>SOH:</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="InTransitLabel">
+    <value>    トランジット中:</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="LastReceivedOnLabel">
+    <value>最終入庫日</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="LocationLabel">
+    <value>ロケーション:</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="CasesLabel">
+    <value>ケース:</value>
+    <comment>Application screen label for the number of cases.</comment>
+  </data>
+  <data name="OriginalLabel">
+    <value>オリジナル:</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SinglesLabel">
+    <value>シングル:</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SizeLabel">
+    <value>サイズ:</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="PriceLabel">
+    <value>価格:</value>
+    <comment>Application screen label preceding a numeric price.</comment>
+  </data>
+  <data name="CurrentProductLabel">
+    <value>現在のアイテム:</value>
+    <comment>Application screen label for the current item.</comment>
+  </data>
+  <data name="NoImage">
+    <value>画像なし</value>
+    <comment>Label displayed if no image is found.</comment>
+  </data>
+  
+  <data name="EmbeddedDemo">
+    <value>組み込みデモ</value>
+    <comment>Dropdown list text item</comment>
+  </data>
+  <data name="Server">
+    <value>サーバ</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="LegacyServer">
+    <value>レガシーサーバ</value>
+    <comment>A dropdown list item</comment>
+  </data>
+  
+  <data name="StockOnHandPrompt">
+    <value>在庫、{0}</value>
+    <comment>Prompt spoken to inform operator of how much of an item is available.</comment>
+  </data>
+  <data name="InTransitPrompt">
+    <value>{0} 個輸送途中</value>
+    <comment>Spoken prompt stating the number in transit.</comment>
+  </data>
+  <data name="LastReceivedTodayPrompt">
+    <value>今日 {0} ユニット入庫</value>
+    <comment>Spoken prompt saying the number of units received today.</comment>
+  </data>
+  <data name="LastReceivedYesterdayPrompt">
+    <value>昨日 {0} ユニット入庫</value>
+    <comment>Spoken prompt saying the number of units received yesterday.</comment>
+  </data>
+  <data name="LastReceivedDaysAgoPrompt">
+    <value>{1} 日前 {0} ユニット入庫</value>
+    <comment>Spoken prompt saying the number of units received and the number of days before when they were received.</comment>
+  </data>
+  <data name="LastReceivedPrompt">
+    <value>前回 {0} ユニット入庫</value>
+    <comment>Spoken prompt saying the number of units received.</comment>
+  </data>
+  <data name="PlanogramGroupIDPrompt">
+    <value>ID {0}</value>
+    <comment>Spoken prompt, stating the identification number (ID#).</comment>
+  </data>
+  <data name="RowPrompt">
+    <value>行 {0}</value>
+    <comment>Spoken prompt, stating the row and number thereof.</comment>
+  </data>
+  <data name="CasesPrompt">
+    <value>ケース {0} 個</value>
+    <comment>Spoken prompt stating the number of cases.</comment>
+  </data>
+  <data name="SinglesPrompt">
+    <value>シングル {0} 個</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="LocationPrompt">
+    <value>ロケーション: {0}</value>
+    <comment>Spoken prompt stating the location. </comment>
+  </data>
+  
+  <data name="AllDoneWorkflowActivity_Header">
+    <value>すべて完了</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="AllDoneWorkflowActivity_InitialPrompt">
+    <value>すべて完了。続行するには、次へと言ってください。</value>
+    <comment>Spoken prompt at end of a work assignment.</comment>
+  </data>
+  
+  <data name="SettingsMenuWorkflowActivity_ApplicationSettings">
+    <value>アプリケーション設定</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_ApplicationSettingsTitle">
+    <value>アプリケーション設定</value>
+    <comment>Application screen title</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_GeneralSettings">
+    <value>一般設定</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_AboutApplication">
+    <value>アプリケーションについて</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_Legal">
+    <value>法的条件</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_PersonalSettings">
+    <value>個人設定</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_VoiceAndAudioSettings">
+    <value>音声およびオーディオ設定</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_ConnectivitySettings">
+    <value>接続設定</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_ServerSettings">
+    <value>テンプレートサーバ設定</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_WorkflowSettingsLabel">
+    <value>テンプレートモード</value>
+    <comment>"Workflow settings" label text.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_ServerSettingsLabel">
+    <value>テンプレートサーバ設定</value>
+    <comment>"Server settings" label text.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_CurrentWorkflowFilter">
+    <value>現在のテンプレートモード</value>
+    <comment>"Current workflow filter" label text.</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_ChooseWorkflow">
+    <value>ワークフローを選択</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_WorkflowSelection">
+    <value>ワークフロー選択</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_AcuitySettings">
+    <value>Acuity設定</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_HardwareSettings">
+    <value>ハードウェア設定</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_ScannerSettings">
+    <value>スキャナ設定</value>
+    <comment>Application screen label</comment>
+  </data>
+  
+  <data name="ApplicationSettingsWorkflowActivity_LicensingStatusLabel">
+    <value>ライセンスのステータス</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_LicensingStatus_CheckingStatus">
+    <value>ライセンスのステータスを確認しています...</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_LicensingStatus_ApplicationLicensed">
+    <value>アプリケーションはライセンスされました</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_LicensingStatus_ApplicationNotLicensed">
+    <value>アプリケーションはライセンスされませんでした</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="HomeWorkflowActivity_LicensingStatus_ApplicationLicenseCheckFailed">
+    <value>ライセンスチェックに失敗しました。アプリケーション設定を確認してください。</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_ApplicationSchemeSettingsLabel">
+    <value>アプリケーションスキーム設定</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_ChooseApplicationScheme">
+    <value>アプリケーションスキームを選択</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_CurrentApplicationScheme">
+    <value>現在のアプリケーションスキーム</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_AutomaticReleaseLeaseLabel">
+    <value>ホーム画面で自動的にリースを解放</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="FileBased">
+    <value>ファイルベース</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_FileBasedConfigSettingsLabel">
+    <value>ファイルベースコンフィギュレーション設定</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="FileBasedCustomerName">
+    <value>顧客名:</value>
+    <comment>Customer name label</comment>
+  </data>
+  <data name="FileBasedExpiration">
+    <value>終了日付:</value>
+    <comment>Expiration date label</comment>
+  </data>
+  <data name="FileBasedDateFormat">
+    <value>YYYY-MM-DD</value>
+    <comment>Expiration date format label</comment>
+  </data>
+  <data name="FileBased_Info">
+    <value>ライセンシングはファイルシステム上のファイルで行われ、テンプレートはファイルシステムから取得およびファイルシステムに保存され、ログはファイルシステムに保存されます。</value>
+    <comment>Text explaining when licensing and voice templates are done on the device.</comment>
+  </data>
+  <data name="ServerBased">
+    <value>サーバ</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ServerBased_Info">
+    <value>ライセンシングはファイルシステム上のファイルで行われ、テンプレートはテンプレートサーバから取得およびテンプレートサーバに保存され、ログはファイルシステムに保存されます。</value>
+    <comment>Application screen label, explaining licensing.</comment>
+  </data>
+  <data name="VoiceConsoleBased">
+    <value>VoiceConsole</value>
+    <comment>Text in a listing</comment>
+  </data>
+  <data name="VoiceConsoleBased_Info">
+    <value>ライセンシングはVoiceConsoleを介して行われ、テンプレートはVoiceConsoleから取得およびVoiceConsoleに保存され、ログはファイルシステムに保存されるとともにログ記録が有効に設定されている場合VoiceConsoleにも送信されます。</value>
+    <comment>Message in the Application Settings menu.</comment>
+  </data>
+  <data name="MicroserviceBased">
+    <value>マイクロサービス</value>
+    <comment>Text in a listing</comment>
+  </data>
+  <data name="MicroserviceBased_Info">
+    <value>ライセンシングはマイクロサービスを介して行われ、テンプレートはマイクロサービスを使って取得および保存され、ログはファイルシステムに保存されます。</value>
+    <comment>Text explaining microservices.</comment>
+  </data>
+  <data name="NoLicenseBased">
+    <value>ライセンスがありません</value>
+    <comment>Text in a listing</comment>
+  </data>
+  <data name="NoLicenseBased_Info">
+    <value>ライセンスが使用されず、一部の詳細機能は使えないことがあります。 テンプレートは現在の接続先のサーバーから取得されます</value>
+    <comment>Text explaining no licensing.</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_ApplicationServerSettingsLabel">
+    <value>アプリケーションサーバ設定</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_MicroservicesConfigSettingsLabel">
+    <value>マイクロサービスコンフィギュレーション設定</value>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_Host">
+    <value>ホスト</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_Port">
+    <value>ポート</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_ServerSecureConnections">
+    <value>サーバへの安全な接続</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_SiteId">
+    <value>サイトID</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ApplicationSettingsWorkflowActivity_MicroservicesConfigCustomerNameLabel">
+    <value>顧客名: </value>
+  </data>
+  
+  <data name="AcuitySettingsWorkflowActivity_AcuitySettingsLabel">
+    <value>ACUITY設定</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="AcuitySettingsWorkflowActivity_AcuityEnabled">
+    <value>Acuity有効</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="AcuitySettingsWorkflowActivity_AcuitySecureConnections">
+    <value>Acuityセキュア接続</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="AcuitySettingsWorkflowActivity_AcuityHost">
+    <value>Acuityホスト</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="AcuitySettingsWorkflowActivity_AcuityPort">
+    <value>Acuityポート</value>
+    <comment>Application screen label</comment>
+  </data>
+  
+  <data name="AuthenticateVoicePINWorkflowActivity_Abortable_ExceptionHeaderMsg">
+    <value>エラー</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="AuthenticateVoicePINWorkflowActivity_Abortable_FailedHeaderMsg">
+    <value>エラー</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="AuthenticateVoicePINWorkflowActivity_Abortable_StartedHeaderMsg">
+    <value>ログインしています...</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="AuthenticateVoicePINWorkflowActivity_Abortable_ExceptionSubHeaderMsg">
+    <value>コネクテッドリテールサーバへのログインでエラーが発生しました</value>
+    <comment>Application screen subheader</comment>
+  </data>
+  <data name="AuthenticateVoicePINWorkflowActivity_Abortable_FailedSubHeaderMsg">
+    <value>ログインに失敗しました。</value>
+    <comment>Application screen subheader</comment>
+  </data>
+  <data name="AuthenticateVoicePINWorkflowActivity_Abortable_StartedSubHeaderMsg">
+    <value>お待ちください...</value>
+    <comment>Application screen subheader</comment>
+  </data>
+  
+  <data name="CancelButtonText">
+    <value>以上</value>
+    <comment>"Cancel" button text.</comment>
+  </data>
+  <data name="SkipButtonText">
+    <value>アイテムをスキップ</value>
+    <comment>"Skip" button text.</comment>
+  </data>
+  <data name="TrainingCarouselWorkflowActivity_SkipButtonText">
+    <value>スキップ</value>
+    <comment>Application button text.</comment>
+  </data>
+  <data name="VocabWord_GlobalAnchorWord">
+    <value>コントロール</value>
+    <comment>The word spoken before speaking a global command word.</comment>
+  </data>
+  <data name="GlobalAnchorWord">
+    <value>コントロール</value>
+    <comment>The correct (i.e. non-phonetic) spelling of VocabWord_GlobalAnchorWord.</comment>
+  </data>
+  <data name="RetrieveWorkersWorkflowActivity_Abortable_ExceptionSubHeaderMsg">
+    <value>コネクテッドリテールサーバから作業員を取得する際にエラーが発生しました</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="DataServiceInitializerWorkflowActivity_Abortable_ExceptionSubHeaderMsg">
+    <value>サーバから初期データを取得する際にエラーが発生しました</value>
+    <comment>Application screen subheader</comment>
+  </data>
+  <data name="TemplateRetrievalErrorBody">
+    <value>サーバからテンプレートを取得する際にエラーが発生しました。</value>
+    <comment>Body for template retrieval error message.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_SiteSettingsLabel">
+    <value />
+    <comment>"Site Settings" label text.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_CheckingServerReachability">
+    <value>テンプレートサーバへの接続をチェックしています</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_ServerReachable">
+    <value>テンプレートサーバに正しく接続しました</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_ServerUnreachable">
+    <value>テンプレートサーバに接続できない場合、サーバ設定をチェックし更新してください。</value>
+    <comment>Message displayed if the configured server is unresponsive.</comment>
+  </data>
+  <data name="lower_mic">
+    <value>続行するにはマイクを下げてください</value>
+    <comment>Spoken prompt instructing the user to lower their microphone to continue.</comment>
+  </data>
+  
+  
+  <data name="SubmitButtonText">
+    <value>送信</value>
+    <comment>"Submit" button text.</comment>
+  </data>
+  <data name="NextButtonText">
+    <value>次へ</value>
+    <comment>"Next" button text.</comment>
+  </data>
+  <data name="ReadyButtonText">
+    <value>OK</value>
+    <comment>"Ready" button text.</comment>
+  </data>
+  <data name="PauseText">
+    <value>一時停止</value>
+    <comment>"Pause" button text.</comment>
+  </data>
+  <data name="ResumeText">
+    <value>再開</value>
+    <comment>"Resume" button text.</comment>
+  </data>
+  <data name="StopText">
+    <value>停止</value>
+    <comment>"Stop" button text.</comment>
+  </data>
+  <data name="UpdateSitesText">
+    <value>サイトリスト更新</value>
+    <comment>"Update site list" button text.</comment>
+  </data>
+  <data name="NewWorkerText">
+    <value>新しい作業員</value>
+    <comment>"New worker" button text.</comment>
+  </data>
+  <data name="LoginButtonText">
+    <value>ログイン</value>
+    <comment>"Login" button text.</comment>
+  </data>
+  <data name="GotItButtonText">
+    <value>了解</value>
+    <comment>"Got it" button text.</comment>
+  </data>
+  <data name="RestartText">
+    <value>再開</value>
+    <comment>"Restart" button text.</comment>
+  </data>
+  <data name="CameraButtonText">
+    <value>カメラ</value>
+    <comment>"Camera" button text.</comment>
+  </data>
+  <data name="SelectButtonText">
+    <value>選択</value>
+    <comment>"Select" button text.</comment>
+  </data>
+  
+  <data name="SuccesfulScannerConnectionMsg">
+    <value>セカンダリスキャナに接続しました</value>
+    <comment>Message displayed when a secondary scanner connects.</comment>
+  </data>
+  <data name="FailedScannerConnectionMsg">
+    <value>セカンダリスキャナへの接続に失敗しました</value>
+    <comment>Message displayed when a secondary scanner connection fails.</comment>
+  </data>
+  <data name="SuccessfulScannerDisconnectionMsg">
+    <value>セカンダリスキャナが切断されました</value>
+    <comment>Message displayed when a secondary scanner disconnects.</comment>
+  </data>
+  <data name="BackgroundActivity_Header_Default">
+    <value>処理中...</value>
+    <comment>Default message displayed on the spinner during a background activity.</comment>
+  </data>
+  
+  <data name="Error_InvalidEntry">
+    <value>最小長: {0} 桁</value>
+    <comment>Spoken prompt used when user speaks/enters too few digits.</comment>
+  </data>
+  <data name="Error_Confirmation">
+    <value>間違った {0} です。もう一度。</value>
+    <comment>Spoken prompt used when user speaks/enters an incorrect sequence of digits.</comment>
+  </data>
+   <data name="Error_Contacting_Host">
+    <value>ホストへの接続エラー</value>
+    <comment>The message spoken/displayed when a request has errored or timed out.</comment>
+  </data>
+  <data name="Error_Invalid_Host">
+    <value>無効なホスト</value>
+    <comment>The message spoken/displayed when an invalid host value is provided in the application settings.</comment>
+  </data>
+  
+  <data name="Abortable_AbortHeaderMsg">
+    <value>キャンセルされました</value>
+    <comment>Header text displayed when a user aborts the blocking operation.</comment>
+  </data>
+  <data name="Abortable_CompletedHeaderMsg">
+    <value>完了しました</value>
+    <comment>Header text displayed when the blocking operation completes.</comment>
+  </data>
+  <data name="Abortable_FailedHeaderMsg">
+    <value>失敗しました</value>
+    <comment>Header text displayed when the blocking operation completes, but fails.</comment>
+  </data>
+  <data name="Abortable_StartedHeaderMsg">
+    <value>開始しました</value>
+    <comment>Header text displayed when the blocking operation is started.</comment>
+  </data>
+  <data name="Abortable_ExceptionHeaderMsg">
+    <value>キャンセルされました</value>
+    <comment>Header text displayed when the blocking operation fails to complete.</comment>
+  </data>
+  <data name="Abortable_AlternateBtnText">
+    <value>OK</value>
+    <comment>The text displayed on the button when the blocking operation completes or fails, and autoforwarding is disabled.</comment>
+  </data>
+  <data name="Abortable_AbortBtnText">
+    <value>キャンセル</value>
+    <comment>Text displayed on button that cancels the blocking operation.</comment>
+  </data>
+  <data name="Abortable_AbortSubHeaderMsg">
+    <value>キャンセルされました</value>
+    <comment>Subheader text displayed below the header when the user aborts the blocking operation.</comment>
+  </data>
+  <data name="Abortable_CompletedSubHeaderMsg">
+    <value>完了しました</value>
+    <comment>The text displayed below the header when the blocking operation completes.</comment>
+    <comment>Subheader text displayed below the header when the blocking operation completes.</comment>
+  </data>
+  <data name="Abortable_FailedSubHeaderMsg">
+    <value>失敗しました</value>
+    <comment>Subheader text displayed below the header when the blocking operation completes, but fails.</comment>
+  </data>
+  <data name="Abortable_StartedSubHeaderMsg">
+    <value>開始しました</value>
+    <comment>Subheader text displayed below the header text, when the blocking operation is started.</comment>
+  </data>
+  <data name="Abortable_ExceptionSubHeaderMsg">
+    <value>キャンセルされました</value>
+    <comment>Subheader text displayed below the header when the blocking operation fails to complete.</comment>
+  </data>
+  <data name="Abortable_NoNetworkSubHeaderMsg">
+    <value>ネットワークを待っています...</value>
+    <comment>Subheader text displayed below the header when the blocking network operation can't proceed due to a lack of network connectivity.</comment>
+  </data>
+  <data name="Abortable_NoServerSubHeaderMsg">
+    <value>サーバーを待っています...</value>
+    <comment>Subheader text displayed below the header when the blocking network operation can't proceed due to an unresponsive server.</comment>
+  </data>
+  <data name="Abortable_PersistedRequestsSubHeaderMsg">
+    <value>データアップロードを待っています。{0} 個のメッセージが残っています...</value>
+    <comment>Subheader text displayed below the header when the blocking network operation can't proceed until previously enqueued operations are executed.</comment>
+  </data>
+  
+  <data name="SelectDialogue_PromptStart">
+    <value>次のオプションのいずれかを言ってください,,, </value>
+    <comment>Spoken prompt for the beginning of selection.</comment>
+  </data>
+  <data name="SelectDialogue_PromptOption">
+    <value>{0} は {1},,, </value>
+    <comment>The number and name of a selection dialogue option.</comment>
+  </data>
+  <data name="SelectDialogue_PromptAdditionalWords">
+    <value>または,,, </value>
+    <comment>Beginning of a prompt that lists the additional commands available for a selection dialogue.</comment>
+  </data>
+  <data name="SelectDialogue_PromptAdditionalWordWOMore">
+    <value>または {0} と言ってください</value>
+    <comment>Used at before the the last word of a list of additional commands available at a selection dialogue. Speaks the last command in the list. For example "or say,,, help, retrain, OR repeat"</comment>
+  </data>
+  <data name="SelectDialogue_PromptAdditionalWordWMore">
+    <value>{0}, </value>
+    <comment>Spoken prompt for each additional command available at a selection dialogue.</comment>
+  </data>
+  
+  <data name="HomeWorkflowActivity_LicensingStatus_CheckingStatus">
+    <value>ライセンスのステータスを確認しています...</value>
+    <comment>Text shown when the application is checking to make sure it is licensed.</comment>
+  </data>
+  <data name="HomeWorkflowActivity_LicensingStatus_ReleasingLease">
+    <value>リースを解放しています...</value>
+    <comment>Text shown if lease is being released.</comment>
+  </data>
+  <data name="HomeWorkflowActivity_LicensingStatus_ApplicationLicensed">
+    <value>アプリケーションはライセンスされました</value>
+    <comment>Text shown if application is licensed.</comment>
+  </data>
+  <data name="HomeWorkflowActivity_LicensingStatus_ApplicationNotLicensed">
+    <value>アプリケーションはライセンスされませんでした</value>
+    <comment>Text shown if aplication license if invalid or absent.</comment>
+  </data>
+  <data name="HomeWorkflowActivity_ReleaseLeaseMenuItemText">
+    <value>リースを解放</value>
+  </data>
+  
+  <data name="MicroserviceLicensing_NoLease">
+    <value>アプリケーションにはリースがありません</value>
+  </data>
+  <data name="MicroserviceLicensing_ReleaseLeaseError">
+    <value>ライセンスサーバへの接続エラーです</value>
+  </data>
+  <data name="MicroserviceLicensing_ErrorSeeLogs">
+    <value>リースの取得エラー、詳細はログを参照してください</value>
+  </data>
+  <data name="MicroserviceLicensing_ErrorClockSync">
+    <value>ライセンスサーバとデバイスの時間不一致</value>
+  </data>
+  <data name="MicroserviceLicensing_ErrorExpiredLease">
+    <value>リース期限が終了しました</value>
+  </data>
+  
+  <data name="SettingsText">
+    <value>設定</value>
+    <comment>Text to display on "Settings" flyout menu option.</comment>
+  </data>
+  <data name="LanguageText">
+    <value>言語</value>
+    <comment>Text to display on "Language" flyout menu option.</comment>
+  </data>
+  <data name="HomeText">
+    <value>ホーム</value>
+    <comment>Text to display on "Home" flyout menu option.</comment>
+  </data>
+  <data name="VoiceHelpFeatureName">
+    <value>音声ヘルプ</value>
+    <comment>Text to display on "Voice Help" flyout menu option.</comment>
+  </data>
+  
+  <data name="Header">
+    <value />
+    <comment>Header text, default value, does not have to be used.</comment>
+  </data>
+  <data name="SubHeader">
+    <value />
+    <comment>Subheader text.</comment>
+  </data>
+  <data name="InitialPrompt">
+    <value />
+    <comment>Prompt spoken on starting the WFA, default value, does not have to be used.</comment>
+  </data>
+  <data name="ButtonText">
+    <value />
+    <comment>Button text, default text, does not need translated.</comment>
+  </data>
+  <data name="Title">
+    <value />
+    <comment>Navigation bar text, does not need translated.</comment>
+  </data>
+  <data name="Content">
+    <value />
+    <comment>Content text, default text, does not need translated.</comment>
+  </data>
+  <data name="Body">
+    <value />
+    <comment>Body text, default text, does not need translated.</comment>
+  </data>
+  
+  <data name="StandbyWaitWorkflowActivity_NextButtonText">
+    <value>続行</value>
+    <comment>"Continue" button text.</comment>
+  </data>
+  <data name="StandbyWaitWorkflowActivity_Header">
+    <value>再開するには "{0} {1}" と言ってください</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="StandbyWaitWorkflowActivity_InitialPrompt">
+    <value>スタンバイしています。</value>
+    <comment>Prompt spoken when a workflow is suspended.</comment>
+  </data>
+  
+  <data name="BoomWaitWorkflowActivity_NextButtonText">
+    <value>OK</value>
+    <comment>"OK" button text.</comment>
+  </data>
+  <data name="BoomWaitWorkflowActivity_Header">
+    <value>スタンバイモード</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="BoomWaitWorkflowActivity_SubHeader">
+    <value>マイクは消音になっています</value>
+    <comment>Application screen subheader</comment>
+  </data>
+  <data name="BoomWaitWorkflowActivity_Content">
+    <value>マイクは現在消音になっています。マイクのブームを下げて再開してください</value>
+    <comment>Text notifying that user is muted and explaining how to unmute and resume application.</comment>
+  </data>
+  <data name="BoomWaitWorkflowActivity_InitialPrompt">
+    <value>スタンバイしています。</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  
+  <data name="UpdateTrainSelectWordWorkflowActivity_Header">
+    <value>単語をタップして更新トレーニング</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="UpdateTrainSelectWordWorkflowActivity_InitialPrompt">
+    <value>単語を選択</value>
+    <comment>Prompt spoken when operator decides to retrain a command word.</comment>
+  </data>
+  
+  <data name="LoginWorkflowActivity_InitialPrompt">
+    <value>ユーザを選択</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="LoginWorkflowActivity_Header">
+    <value>ようこそ</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="LoginWorkflowActivity_SubHeader">
+    <value>始めましょう</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="LoginWorkflowActivity_Username">
+    <value>ユーザ名</value>
+    <comment>Label for username field.</comment>
+  </data>
+  <data name="LoginWorkflowActivity_SelectUser">
+    <value>ユーザを選択</value>
+    <comment>Label for user picker.</comment>
+  </data>
+  <data name="LoginWorkflowActivity_EnterPin">
+    <value>PINを入力</value>
+    <comment>Gray, default, placeholder text in entry box, for personal identification number (PIN) field.</comment>
+  </data>
+  <data name="LoginWorkflowActivity_SecurityPin">
+    <value>セキュリティPIN</value>
+    <comment>Label for personal identification number (PIN) field.</comment>
+  </data>
+  
+  <data name="EnterNewWorkerWorkflowActivity_Header">
+    <value>お名前を入力してください</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="EnterNewWorkerWorkflowActivity_Placeholder">
+    <value>タイプ</value>
+    <comment>Gray, default, placeholder text in entry box, for name field.</comment>
+  </data>
+  <data name="EnterNewWorkerWorkflowActivity_EntryLabel">
+    <value>名前</value>
+    <comment>Label for name field.</comment>
+  </data>
+  <data name="EnterNewWorkerWorkflowActivity_ErrorInvalidCharacter">
+    <value>無効なエントリ： {0} を含めることはできません</value>
+    <comment>Message displayed when an entered name contains invalid characters.</comment>
+  </data>
+  <data name="EnterNewWorkerWorkflowActivity_ErrorBlank">
+    <value>無効なエントリ: 空白にすることはできません</value>
+    <comment>Message displayed when the user tries to proceed without entering a name.</comment>
+  </data>
+  <data name="EnterNewWorkerWorkflowActivity_ErrorInvalidEntry">
+    <value>無効なエントリ</value>
+    <comment>Message displayed when an entered name is invalid for any reason without a specific error message.</comment>
+  </data>
+  
+  <data name="ManageTemplatesWorkflowActivity_ChooseWorkerText">
+    <value>作業員を選択</value>
+    <comment>Label for worker dropdown list.</comment>
+  </data>
+  <data name="ManageTemplatesWorkflowActivity_NoWorkersText">
+    <value>作業可能な作業員がいません</value>
+    <comment>Message displayed if no workers exist.</comment>
+  </data>
+  <data name="ManageTemplatesWorkflowActivity_VoiceTemplateManagement">
+    <value>音声テンプレートの管理</value>
+    <comment>"Voice template management" label.</comment>
+  </data>
+  <data name="ManageTemplatesWorkflowActivity_DeleteLocalTemplates">
+    <value>ローカルテンプレートを削除</value>
+    <comment>"Delete local templates" label.</comment>
+  </data>
+  <data name="ManageTemplatesWorkflowActivity_DeleteWorkerText">
+    <value>作業員を削除</value>
+    <comment>"Delete worker" button text.</comment>
+  </data>
+  <data name="ManageTemplatesWorkflowActivity_DeleteTemplatesText">
+    <value>削除</value>
+    <comment>"Delete template" button text.</comment>
+  </data>
+  
+  <data name="ConfirmDeleteWorkerWorkflowActivity_Header">
+    <value>この作業員を削除しますか？</value>
+    <comment>Application screen header</comment>
+  </data>
+  
+  <data name="AboutApplicationWorkflowActivity_AboutApplicationLabel">
+    <value>アプリケーションについて</value>
+    <comment>"About Application" label text.</comment>
+  </data>
+  <data name="AboutApplicationWorkflowActivity_AboutSdkLabel">
+    <value>SDKについて</value>
+    <comment>"About SDK" label text.</comment>
+  </data>
+  <data name="AboutApplicationWorkflowActivity_BranchLabel">
+    <value>ブランチ:</value>
+    <comment>Git branch label text.</comment>
+  </data>
+  <data name="AboutApplicationWorkflowActivity_BuildDateLabel">
+    <value>ビルド日:</value>
+    <comment>Build date label text.</comment>
+  </data>
+  <data name="AboutApplicationWorkflowActivity_BuiltByLabel">
+    <value>ビルド担当:</value>
+    <comment>"Built by" label text.</comment>
+  </data>
+  <data name="AboutApplicationWorkflowActivity_DeviceIdentifierLabel">
+    <value>端末ID：</value>
+    <comment>"Device Identifier" label text.</comment>
+  </data>
+  <data name="AboutApplicationWorkflowActivity_ConfigurationLabel">
+    <value>コンフィギュレーション:</value>
+    <comment>"Configuration" label text.</comment>
+  </data>
+  <data name="AboutApplicationWorkflowActivity_VersionLabel">
+    <value>バージョン:</value>
+    <comment>"Version" label text.</comment>
+  </data>
+  <data name="AboutApplicationWorkflowActivity_AssemblyInfoLabel">
+    <value>アセンブリ情報</value>
+    <comment>"Assembly Information" label text.</comment>
+  </data>
+  
+  <data name="LegalWorkflowActivity_PatentInfoLabel">
+    <value>特許情報</value>
+    <comment>"Patent information" label text.</comment>
+  </data>
+  <data name="LegalWorkflowActivity_PatentInfoText">
+    <value>特許に関する情報については、www.hsmpats.com を参照してください</value>
+    <comment>Instructions on finding patent information.</comment>
+  </data>
+  
+  <data name="VoiceAndAudioSettingsWorkflowActivity_TTSSettingsLabel">
+    <value>音声合成設定</value>
+    <comment>"Text to speech settings" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_VoiceRecognitionSettingsLabel">
+    <value>音声認識設定</value>
+    <comment>"Voice recognition settings" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_VoiceRecognition">
+    <value>音声認識</value>
+    <comment>"Voice recognition" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_PickUpAndGo">
+    <value>ピックアップアンドゴー</value>
+    <comment>"Pick Up and Go" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_PlayExample">
+    <value>サンプル再生</value>
+    <comment>"Play Example" button text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_TTSSpeedExample">
+    <value>これは現在の音声合成速度設定のサンプルです</value>
+    <comment>The prompt to speak when the "Play Example" button is pressed.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_TTSSpeedSetting">
+    <value>音声合成速度設定:</value>
+    <comment>"Text to Speech Speed Setting" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_VoiceTemplateSettings">
+    <value>音声テンプレート設定</value>
+    <comment>"Voice Template Settings" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_DeleteLocalTemplates">
+    <value>ローカルテンプレートを削除</value>
+    <comment>"Delete Local Templates" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_ManageTemplates">
+    <value>テンプレートの管理</value>
+    <comment>"Manage Local Templates" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_MicrophoneSettingsLabel">
+    <value>マイク設定</value>
+    <comment>"Microphone Settings" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_PauseOnMicRaise">
+    <value>マイクを上げて一時停止</value>
+    <comment>"Pause on mic raise" label text.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_PauseOnMicRaiseEnabled">
+    <value>マイクを上げるとスタンバイモードに入ります</value>
+    <comment>Text displayed when "pause on mic raise" is set to enabled.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_PauseOnMicRaiseDisabled">
+    <value>マイクを上げると消音になるのみです</value>
+    <comment>Text displayed when "pause on mic raise" is set to disabled.</comment>
+  </data>
+  
+  <data name="ScannerSettingsWorkflowActivity_UseZebraDataWedge">
+    <value>Data Wedgeを使用（オフの場合EMDKが使用されます。変更後アプリケーションの再起動が必要です。）</value>
+    <comment>"Use Data Wedge" label text.</comment>
+  </data>
+  <data name="ScannerSettingsWorkflowActivity_ZebraScannerSettingsLabel">
+    <value>ZEBRAスキャナ設定</value>
+    <comment>"Zebra Scanner Settings" label text.</comment>
+  </data>
+  <data name="ScannerSettingsWorkflowActivity_ScannerSymbologySettingsLabel">
+    <value>スキャナシンボロジー設定</value>
+    <comment>"Scanner Symbology Settings" label text.</comment>
+  </data>
+  <data name="ScannerSettingsWorkflowActivity_ScannerSymbologySettings">
+    <value>オンボードスキャナシンボロジー設定</value>
+    <comment>"Onboard Scanner Symbology Settings" label text.</comment>
+  </data>
+  <data name="ScannerSettingsWorkflowActivity_EditSymbologySettings">
+    <value>シンボロジー設定の編集</value>
+    <comment>"Edit Symbology Settings" label text.</comment>
+  </data>
+  <data name="ScannerSettingsWorkflowActivity_SymbologyMenuName">
+    <value>シンボロジー設定</value>
+    <comment>The name to display for the settings.</comment>
+  </data>
+  <data name="ScannerSettingsWorkflowActivity_SecondaryScannerSettingsLabel">
+    <value>セカンダリスキャナ設定</value>
+    <comment>"Secondary Scanner Settings" label text.</comment>
+  </data>
+  <data name="ScannerSettingsWorkflowActivity_CurrentSecondaryScanner">
+    <value>現在のセカンダリスキャナ</value>
+    <comment>"Current Secondary Scanner" label text.</comment>
+  </data>
+  <data name="ScannerSettingsWorkflowActivity_ChooseSecondaryScanner">
+    <value>セカンダリスキャナを選択</value>
+    <comment>Label for secondary scanner picker.</comment>
+  </data>
+  <data name="ScannerSettingsWorkflowActivity_NoSecondaryScanner">
+    <value>-- セカンダリスキャナなし --</value>
+    <comment>Default item text for secondary scanner picker.</comment>
+  </data>
+  
+  
+  <data name="RetrieveWorkersWorkflowActivity_Abortable_ExceptionHeaderMsg">
+    <value>エラー</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="RetrieveWorkersWorkflowActivity_Abortable_FailedHeaderMsg">
+    <value>作業可能な作業員がいません</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="RetrieveWorkersWorkflowActivity_Abortable_StartedHeaderMsg">
+    <value>作業員を取得しています...</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="RetrieveWorkersWorkflowActivity_Abortable_FailedSubHeaderMsg">
+    <value>作業可能な作業員がいません</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="RetrieveWorkersWorkflowActivity_Abortable_StartedSubHeaderMsg">
+    <value>お待ちください...</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  
+  <data name="LicenseInitializerWorkflowActivity_Abortable_StartedHeaderMsg">
+    <value>ライセンスをチェックしています...</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="LicenseInitializerWorkflowActivity_Abortable_StartedSubHeaderMsg">
+    <value>お待ちください...</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="LicenseInitializerWorkflowActivity_Abortable_ExceptionHeaderMsg">
+    <value>ライセンスのチェックでエラーが発生しました</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="LicenseInitializerWorkflowActivity_Abortable_FailedHeaderMsg">
+    <value>アプリケーションはライセンスされませんでした</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="LicenseInitializerWorkflowActivity_Abortable_FailedSubHeaderMsg">
+    <value>ライセンス設定をチェックしてください</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  <data name="LicenseInitializerWorkflowActivity_Abortable_CompletedHeaderMsg">
+    <value>アプリケーションはライセンスされました</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="LicenseInitializerWorkflowActivity_Abortable_CompletedSubHeaderMsg">
+    <value>ライセンスチェック完了</value>
+    <comment>Application screen sub-header</comment>
+  </data>
+  
+  <data name="DataServiceInitializerWorkflowActivity_Abortable_CompletedHeaderMsg">
+    <value>完了</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="DataServiceInitializerWorkflowActivity_Abortable_StartedHeaderMsg">
+    <value>初期データを取得しています...</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="DataServiceInitializerWorkflowActivity_Abortable_ExceptionHeaderMsg">
+    <value>エラー</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="DataServiceInitializerWorkflowActivity_Abortable_CompletedSubHeaderMsg">
+    <value>データ取得が完了しました</value>
+    <comment>Application screen subheader</comment>
+  </data>
+  <data name="DataServiceInitializerWorkflowActivity_Abortable_StartedSubHeaderMsg">
+    <value>お待ちください...</value>
+    <comment>Application screen subheader</comment>
+  </data>
+  
+  <data name="RequestPermissionsWorkflowActivity_ButtonText">
+    <value>権限を付与</value>
+    <comment>Application button text.</comment>
+  </data>
+  <data name="Text_OK">
+    <value>OK</value>
+    <comment>Confirmation button text for modal alerts.</comment>
+  </data>
+  <data name="Text_PermissionsRequired">
+    <value>権限が必要です</value>
+    <comment>Title text of permissions request alert.</comment>
+  </data>
+  <data name="Text_PermissionsRationale">
+    <value>このアプリケーションを使用するには、マイク、カメラ、ストレージへのアクセスが必要です。</value>
+    <comment>Message explaining the need for required permissions for the application to function.</comment>
+  </data>
+  <data name="Text_DeniedPermissionsRationale">
+    <value>このアプリケーションを使用するには要求された権限を付与してください。</value>
+    <comment>Message text requesting that the user grant required permissions.</comment>
+  </data>
+  
+  <data name="Text_DataLossAlertTitle">
+    <value>データ損失が検知されました</value>
+    <comment>Title text for data loss alert.</comment>
+  </data>
+  <data name="Text_DataLossAlertBody">
+    <value>データ損失が検知されました。ネットワーク設定を確認してください。</value>
+    <comment>Body text for data loss alert.</comment>
+  </data>
+  
+  <data name="VoiceHelpWorkflowActivity_Header">
+    <value>音声ヘルプコマンド</value>
+    <comment>Application screen header.</comment>
+  </data>
+  <data name="VoiceHelpWorkflowActivity_SubHeader">
+    <value>内容：</value>
+    <comment>Application screen subheader.</comment>
+  </data>
+  
+  <data name="BluetoothScannerConnectionSucceeded">
+    <value>Bluetoothスキャナが正しく接続されました</value>
+    <comment>Text displayed when a Bluetooth scanner successfully connects.</comment>
+  </data>
+  <data name="BluetoothScannerConnectionFailed">
+    <value>Bluetoothスキャナの接続に失敗しました</value>
+    <comment>Text displayed when a Bluetooth scanner connection fails.</comment>
+  </data>
+  <data name="BluetoothScannerDisconnected">
+    <value>Bluetoothスキャナが切断されました</value>
+    <comment>Text displayed when a Bluetooth scanner disconnects.</comment>
+  </data>
+  
+  <data name="PleaseWait">
+    <value>お待ちください...</value>
+    <comment>"Please wait" text for template retrieval screen.</comment>
+  </data>
+  <data name="RetrievingTemplates">
+    <value>テンプレートを取得しています...</value>
+    <comment>"Retrieving Templates" text.</comment>
+  </data>
+  <data name="TemplateRetrievalErrorTitle">
+    <value>エラー</value>
+    <comment>Title for template retrieval error message.</comment>
+  </data>
+  <data name="NoiseSampleInfoText">
+    <value>続行する前にこれを完了する必要があります</value>
+    <comment>Message indicating that a noise sample must be completed before continuing.</comment>
+  </data>
+  <data name="RetrievingData">
+    <value>サーバからデータを取得しています...</value>
+    <comment>Default "Please wait" text for server communications.</comment>
+  </data>
+  
+  <data name="SignOffConfirmationWorkflowActivity_Header">
+    <value>続行するには「はい」または「いいえ」と言ってください</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="SignOffConfirmationWorkflowActivity_InitialPrompt">
+    <value>サインオフします。よろしいですか？</value>
+    <comment>Prompt spoken to confirm sign off.</comment>
+  </data>
+  
+  <data name="GuidedWork_SignIn_Header">
+    <value>ようこそ</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="GuidedWork_SignIn_UserId_Label">
+    <value>ユーザID</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="GuidedWork_SignIn_Password_Label">
+    <value>パスワード</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="GuidedWork_SignIn_Login_Button_Label">
+    <value>ログイン</value>
+    <comment>Application button text.</comment>
+  </data>
+  <data name="GuidedWork_CancelButtonText">
+    <value>キャンセル</value>
+    <comment>Application button text.</comment>
+  </data>
+  <data name="GuidedWork_CancelableProgressDialogCancelText">
+    <value>キャンセルするにはタップします。</value>
+    <comment>Cancel text for cancelable progress dialogs.</comment>
+  </data>
+  <data name="GuidedWork_NoMoreButtonText">
+    <value>以上</value>
+  </data>
+  
+  <data name="SubmitProblemReportWorkflowActivity_CreatingReportHeader">
+    <value>レポートを作成しています...</value>
+    <comment>Header displayed during all steps of report generation.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_GatheringInfoSubHeader">
+    <value>情報を収集しています...</value>
+    <comment>Subheader displayed while gathering info for problem report.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_CompressingFilesSubHeader">
+    <value>ファイルを圧縮しています...</value>
+    <comment>Subheader displayed while zipping the problem report.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_CompressionCanceledSubHeader">
+    <value>圧縮はキャンセルされました。</value>
+    <comment>Subheader displayed if Cancel button is pressed while zipping the problem report.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_CompressionFailedSubHeader">
+    <value>圧縮に失敗しました。</value>
+    <comment>Subheader displayed if compression fails.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_UploadingReportHeader">
+    <value>レポートをアップロードしています...</value>
+    <comment>Header displayed while uploading problem report zip.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_UploadingReportSubHeader">
+    <value>レポートをサーバにアップロードしています...</value>
+    <comment>Subheader displayed while uploading problem report zip.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_ReportUploadedSubHeader">
+    <value>レポートはサーバにアップロードされました。</value>
+    <comment>Subheader displayed when problem report is finished uploading.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_ReportSavedSubHeader">
+    <value>レポートは {0} に保存されました</value>
+    <comment>Subheader displayed when problem report is saved locally (embedded mode).</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_ReportSavedDueToErrorSubHeader">
+    <value>問題レポートのアップロードでエラーが発生しました。レポートはローカルの {0} に保存されました</value>
+    <comment>Subheader displayed when problem report fails to upload.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_SavingReportSubHeader">
+    <value>レポートを保存しています...</value>
+    <comment>Subheader displayed when user cancels report upload.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_ContinueButtonText">
+    <value>続行</value>
+    <comment>Text displayed when operation is finished or canceled.</comment>
+  </data>
+  <data name="SubmitProblemReportWorkflowActivity_CancelButtonText">
+    <value>キャンセル</value>
+    <comment>Application button text displayed when operation can be canceled.</comment>
+  </data>
+  <data name="MenuItemDialogue_NoMoreNotAllowed">
+    <value>アイテムが選択されていないので「以上」は使えません</value>
+  </data>
+  <data name="MenuItemView_NoItemsSelected">
+    <value>アイテムが選択されませんでした</value>
+  </data>
+  <data name="MenuItemView_SearchPlaceholder">
+    <value>テキスト検索</value>
+  </data>
+  <data name="MenuItemDialogue_GenericTryAgain">
+    <value>{0}、もう一度</value>
+  </data>
+  <data name="MenuItemDialogue_InvalidIndex">
+    <value>不明なインデックス {0}、もう一度</value>
+  </data>
+  <data name="MenuItemDialogue_ListItemDeselected">
+    <value>{0} が削除されました</value>
+  </data>
+  <data name="MenuItemDialogue_ListItemSelected">
+    <value>{0}</value>
+  </data>
+  <data name="MenuItemDialogue_ConfirmMultiple_Display">
+    <value>選択したのは: {0} です。正しいですか？</value>
+  </data>
+  <data name="MenuItemDialogue_ConfirmMultiple_Prompt">
+    <value>選択したのは: {0} と  {1} です。正しいですか？</value>
+  </data>
+  <data name="MenuItemDialogue_SelectionTypeBoth_MainHelpNoKeyWord">
+    <value>キー値を言うか、またはアイテムを言ってください。リストを聞くには  {0} と言ってください </value>
+  </data>
+  <data name="MenuItemDialogue_SelectionTypeBoth_MainHelpWithKeyWord">
+    <value>{0} の後にキー値を言うか、またはアイテムを言ってください。リストを聞くには  {1} と言ってください </value>
+  </data>
+  <data name="MenuItemDialogue_SelectionTypeIndexOnly_MainHelpNoKeyWord">
+    <value>キー値を言うか、またはアイテムを言ってください </value>
+  </data>
+  <data name="MenuItemDialogue_SelectionTypeIndexOnly_MainHelpWithKeyWord">
+    <value>{0} の後にキー値を言うか、またはアイテムを言ってください </value>
+  </data>
+  <data name="PhotoCaptureDialogue_NoMoreNotAllowed">
+    <value>1枚以上の写真を撮る必要があります</value>
+  </data>
+  <data name="PhotoCaptureDialogue_PhotoInProgress">
+    <value>カメラまたはギャラリーを閉じる必要があります</value>
+  </data>
+  <data name="PhotoCapture_CameraNotAvailableTitle">
+    <value>カメラがありません</value>
+  </data>
+  <data name="PhotoCapture_CameraNotAvailableMessage">
+    <value>:( カメラがありません。</value>
+  </data>
+  <data name="PhotoCapture_PhotosNotSupportedTitle">
+    <value>写真はサポートされていません</value>
+  </data>
+  <data name="PhotoCapture_PhotosNotSupportedMessage">
+    <value>:( 写真に対する権限がありません。</value>
+  </data>
+  <data name="PhotoCapture_PermissionDeniedTitle">
+    <value>権限がありません</value>
+  </data>
+  <data name="PhotoCapture_CameraPermissionDeniedMessage">
+    <value>写真を撮ることができません。</value>
+  </data>
+  <data name="PhotoCapture_PhotosPermissionDeniedMessage">
+    <value>写真にアクセスできません</value>
+  </data>
+  <data name="PhotoCapture_ExceptionTitle">
+    <value>エラー</value>
+  </data>
+  <data name="PhotoCapture_CameraExceptionMessage">
+    <value>カメラを開くことができません</value>
+  </data>
+  <data name="PhotoCapture_PhotosExceptionMessage">
+    <value>写真ギャラリーを開くことができません</value>
+  </data>
+  
+  <data name="EntryPlaceholder_VoiceDisabled" xml:space="preserve">
+    <value>スキャン/キー入力</value></data>
+  <data name="EntryPlaceholder_VoiceEnabled" xml:space="preserve">
+    <value>話す/スキャン/キー入力</value></data>
+  
+  <data name="AudioCapture_StartRecording" xml:space="preserve">
+    <value>録音開始</value>
+  </data>
+  <data name="AudioCapture_StopRecording" xml:space="preserve">
+    <value>録音終了</value>
+  </data>
+  <data name="AudioCapture_AnotherNote_Prompt" xml:space="preserve">
+    <value>ノート追加</value>
+  </data>
+  <data name="AudioCapture_AnotherNote_Vocab" xml:space="preserve">
+    <value>ノート追加</value>
+  </data>
+  
+  <data name="VoiceNotes_Voice">
+    <value>音声</value>
+    <comment>Used as the header for the voice recording tab</comment>
+  </data>
+  <data name="VoiceNotes_Text">
+    <value>テキスト</value>
+    <comment>Used as the header for the text entry tab</comment>
+  </data>
+  
+  <data name="RecordMemo_Prompt" xml:space="preserve">
+    <value>録音を開始するにはOKと言ってください</value>
+  </data>
+  <data name="ReviewMemos_Prompt" xml:space="preserve">
+    <value>現在のメモを再生するには「OK」、次のメモを再生するには「次へ」、メモのレビューが終了したら「以上」と言ってください</value>
+  </data>
+  <data name="RecordMemo_RecogDisabled_Header" xml:space="preserve">
+    <value>音声認識が無効な場合メモの録音を開始できません</value>
+    <comment>The header text shown on-screen when trying to record a memo with voice recognition disabled.</comment>
+  </data>
+  <data name="RecordMemo_RecogDisabled_Prompt" xml:space="preserve">
+    <value>音声認識が無効な場合メモの録音を開始できません</value>
+    <comment>The prompt to speak when trying to record a memo with voice recognition disabled.</comment>
+  </data>
+  <data name="ReviewNotes_Prompt" xml:space="preserve">
+    <value>現在の備考を再生するには「OK」、次の備考を再生するには「次へ」、備考のレビューが終了したら「以上」と言ってください</value>
+  </data>
+  <data name="Transcription_Placeholder" xml:space="preserve">
+    <value>文字起こし</value>
+    <comment>Placeholder for the transcription editor when there is no transcription present.</comment>
+  </data>  
+  <data name="VocabWord_OrderStatus">
+    <value>オーダーステータス</value>
+    <comment>System Vocabulary Word to request status of an order.</comment>
+  </data>
+  <data name="SignOnText">
+    <value>サインオン</value>
+    <comment>Text to display in the flyout menu's current user section when no user is signed on, indicating that touching will take the user to a screen to sign on.</comment>
+  </data>
+  <data name="SignOnInitials">
+    <value>?</value>
+    <comment>Text to display in a small user initials circle when no user is signed on.</comment>
+  </data>
+  <data name="SignOffText">
+    <value>サインオフ</value>
+    <comment>Text to display in the flyout menu's user action section when a user is signed on, indicating that touching will take the user to a screen to sign off.</comment>
+  </data>
+  <data name="UpdateTrainSelectWordWorkflowActivity_VocabSet">
+    <value>ボキャブラリーセットを選択</value>
+    <comment>Picker label</comment>
+  </data>
+  <data name="UpdateTrainSelectWordWorkflowActivity_SelectVocabSet">
+    <value>ボキャブラリーセットを選択</value>
+    <comment>Picker menu label</comment>
+  </data>
+  <data name="UpdateTrainSelectWordWorkflowActivity_VocabSet_Current">
+    <value>現在</value>
+    <comment>Drop down option</comment>
+  </data>
+  <data name="UpdateTrainSelectWordWorkflowActivity_VocabSet_All">
+    <value>すべて</value>
+    <comment>Drop down option</comment>
+  </data>
+  <data name="UpdateTrainSelectWordWorkflowActivity_VocabSet_Untrained">
+    <value>トレーニング未完</value>
+    <comment>Drop down option</comment>
+  </data>
+  <data name="WorkflowListWorkflowActivity_Header">
+    <value>番号を言うかワークフローをタップして選択</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="WorkflowListWorkflowActivity_InitialPrompt">
+    <value>ワークフローを選択</value>
+    <comment>Spoken prompt after intial login.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_ToastDialogs">
+    <value>アプリの読み上げるプロンプトを画面に表示</value>
+    <comment>Title for the setting which adds closed captioning style captions to each screen.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_DisableToastDialogs">
+    <value>画面上のキャプション表示は無効です</value>
+    <comment>This tells the application NOT TO draw captions on screen.</comment>
+  </data>
+  <data name="VoiceAndAudioSettingsWorkflowActivity_EnableToastDialogs">
+    <value>画面上のキャプション表示は有効です</value>
+    <comment>This tells the application to draw captions on screen.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_ChooseWorkflowFilter">
+    <value>ワークフローフィルタ選択</value>
+    <comment>"Choose Workflow Filter" label text.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_EmbeddedDemo">
+    <value>組み込みデモ</value>
+    <comment>"Embedded Demo" text for workflow filter picker.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_Server">
+    <value>サーバ</value>
+    <comment>"Server" text for workflow filter picker.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_ServerSecureConnections">
+    <value>サーバへの安全な接続</value>
+    <comment>Label text for HTTPS checkbox.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_ServerHost">
+    <value>サーバホスト</value>
+    <comment>Label for server host field.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_ServerPort">
+    <value>サーバポート</value>
+    <comment>Label for server port field.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_SiteLabel">
+    <value>サイト</value>
+    <comment>Label for site settings section.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_SubmitButtonText">
+    <value>終了</value>
+    <comment>Submit button text.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_SitePickerTitle">
+    <value>サイトを選択</value>
+    <comment>Label for site picker.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_LoadingSites">
+    <value>サイトを読み込んでいます...</value>
+    <comment>Message displayed while retrieving site list from server.</comment>
+  </data>
+  <data name="ServerSettingsWorkflowActivity_SitesUnavailable">
+    <value>サイトは現在使用できません。</value>
+    <comment>Message displayed if site list is unavailable and cannot be retrieved.</comment>
+  </data>
+  <data name="NoiseSampleDisableVoiceRecognitionAlertTitleText">
+    <value>音声認識を無効にしますか？</value>
+    <comment>A summary of a question to the user whether or not voice recognition should be disabled.</comment>
+  </data>
+  <data name="NoiseSampleDisableVoiceRecognitionAlertMessageText">
+    <value>続行すると、音声およびオーディオ設定メニューで再度有効にされるまでアプリケーションは音声認識を無効にします。</value>
+    <comment>Details of a question to the user whether or not voice recognition should be disabled.</comment>
+  </data>
+  <data name="NoiseSampleDisableVoiceRecognitionAlertAcceptText">
+    <value>続行</value>
+    <comment>"Continue" button text that disables voice recognition.</comment>
+  </data>
+  <data name="NoiseSampleDisableVoiceRecognitionAlertCancelText">
+    <value>キャンセル</value>
+    <comment>"Cancel" button text that returns to the noise sample feature.</comment>
+  </data>
+  <data name="SignOffFromFlyoutConfirmationWorkflowActivity_Header">
+    <value>続行するには「はい」または「いいえ」と言ってください</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="SignOffFromFlyoutConfirmationWorkflowActivity_InitialPrompt">
+    <value>サインオフします。よろしいですか？</value>
+    <comment>Prompt spoken to confirm sign off.</comment>
+  </data>
+  <data name="PercentComplete">
+    <value> {0}% 完了</value>
+    <comment>The generic text used to label the current completion percentage of a process.</comment>
+  </data>
+  <data name="VoiceTrainingProgressFormat">
+    <value>単語 {1} / {2} </value>
+    <comment>Label text shown on-screen during voice training, first number {1} displays the number of words already trained.   Second number {2} displays the total that need trained.</comment>
+  </data>
+  <data name="TitleMessage_Enrollment">
+    <value>音声トレーニング</value>
+    <comment>Title text displayed during Voice Training / Enrollment Training.</comment>
+  </data>
+  <data name="TitleMessage_NoiseSample">
+    <value>周囲雑音サンプル</value>
+    <comment>Title Text displayed during a background noise sample.</comment>
+  </data>
+  <data name="VoiceTraining_BackupTemplatesUsed_Warning">
+    <value>警告:\n音声テンプレートの取得でエラーが発生しました。\nトレーニングを指示するプロンプトはこれが理由かもしれません</value>
+    <comment>The warning to display to the user when backup templates are being used due to a connection problem with the server.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage1Header">
+    <value>ようこそ！</value>
+    <comment>The header text shown on-screen prior to voice training during the first page of instructions.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage1Body">
+    <value>始める前にまず音声トレーニングを行う必要があります。これには約 {0} 分で完了できます。</value>
+    <comment>The body text shown on-screen before voice training on the first page of instructions.   Displayed when there is more than a minute of estimated training time.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage1Body_LessThanAMinute">
+    <value>始める前にまず音声トレーニングを行う必要があります。これは1分以内で完了できます。</value>
+    <comment>The body text shown on-screen before voice training on the first page of instructions.   Displayed when there is less than one minute of estimated training time.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage1Body_AboutAMinute">
+    <value>始める前にまず音声トレーニングを行う必要があります。これは約1分で完了できます。</value>
+    <comment>The body text shown on-screen before voice training on the first page of instructions.  Displayed when there is about one minute of estimated training time.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage2Header">
+    <value>繰り返し</value>
+    <comment>The header text shown on-screen prior to voice training during the second page of instructions.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage2Body">
+    <value>トレーニング中、一連の単語を読み上げて頂きますが、繰り返しや順序が前後することがあります。</value>
+    <comment>The body text shown on-screen prior to voice training during the second page of instructions.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage3Header">
+    <value>音声トレーニング</value>
+    <comment>The header text shown on-screen prior to voice training during the third page of instructions.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage3Body">
+    <value>音声トレーニングは実際に作業を行う環境で行って頂くのがベストです。</value>
+    <comment>The body text shown on-screen prior to voice training during the third page of instructions.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage4Header">
+    <value>周囲雑音サンプル</value>
+    <comment>The header text shown on-screen prior to voice training during the fourth page of instructions.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsPage4Body">
+    <value>作業環境でのユーザの声を認識するため、システムは周囲雑音サンプルを取る必要があります。</value>
+    <comment>The body text shown on-screen prior to voice training during the fourth page of instructions.</comment>
+  </data>
+  <data name="VoiceTrainingInstructionsFinalPageFooter">
+    <value>開始するにはOKをタップしてください。</value>
+    <comment>The footer text shown on-screen prior to voice training during the final page of instructions.</comment>
+  </data>
+  <data name="NoiseSampleAdjustingBackgroundNoiseDescription">
+    <value>周囲雑音調整</value>
+    <comment>One-line description about why the user needs to do the noise sample procedure, displayed during the procedure.</comment>
+  </data>
+  <data name="OperPrepWordsInstructions">
+    <value>次の言葉を言ってください:</value>
+    <comment>One-line instructions to user about speaking words for voice training.  Encompasses both plural and singular, e.g., "Take a break" and "ready".</comment>
+  </data>
+  <data name="VoiceTrainingComplete">
+    <value>音声トレーニング完了</value>
+    <comment>Text shown on screen when voice-template training is complete.   Shown at same time that device is speaking the value for key "finished_creating_voice_templates".</comment>
+  </data>
+  <data name="ReportProblem">
+    <value>問題の報告</value>
+    <comment>"Report Problem" overflow menu item.</comment>
+  </data>
+  <data name="ReportProblemWorkflowActivity_Header">
+    <value>問題の報告</value>
+    <comment>Header on "Report Problem" page.</comment>
+  </data>
+  <data name="ReportProblemWorkflowActivity_NoteLabel">
+    <value>問題を説明してください:</value>
+    <comment>Label text explaining what to fill in on Report Problem page.</comment>
+  </data>
+  <data name="ReportProblemWorkflowActivity_ButtonText">
+    <value>送信</value>
+    <comment>Text for "submit" button on Report Problem page.</comment>
+  </data>
+  <data name="DialogueRunnerUnknownError">
+    <value>音声ダイアログにエラーが発生しました。問題を報告してください。画面を使って現在の作業を完了し、続行してください</value>
+    <comment>Spoken to user when current voice input dialogue encounters unexpected error and shuts down.</comment>
+  </data>
+
+  
+  <data name="LanguagesMenuWorkflowActivity_RestartRequiredTitle">
+    <value>再起動が必要です</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_RestartRequiredMessage">
+    <value>言語の変更を反映するにはアプリケーションを再起動しなければなりません</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_DeviceDefault">
+    <value>端末の規定 - {0}</value>
+    <comment>Displays the devices default locale such as English or German</comment>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoNotAvailableTitle">
+    <value>ピックアップアンドゴーは使用できません</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoNotAvailableMessage">
+    <value>ピックアップアンドゴーは {0} には使用できません。これは無効になります。</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoAvailableTitle">
+    <value>ピックアップアンドゴーが使用できます</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoAvailableMessage">
+    <value>ピックアップアンドゴーが {0} で使用できます</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_EnablePickUpAndGo_Text">
+    <value>ピックアップアンドゴーを有効にする</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_DisablePickUpAndGo_Text">
+    <value>ピックアップアンドゴーを無効にする</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_NewPickUpAndGoVersionAvailableTitle">
+    <value>新しいバージョンのPick Up and Goがあります</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_NewPickUpAndGoVersionAvailableMessage">
+    <value>新しいバージョンの Pick Up and Go が {0} 向けにダウンロードできます。 ダウンロードしますか？</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_DownloadNewVersion_Text">
+    <value>新しいバージョンをダウンロードする</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_UseCurrentVersion_Text">
+    <value>現在のバージョンを使用する</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_InvalidLanguage_Title">
+    <value>無効な言語名</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_InvalidLanguage_Message">
+    <value>これらの言語名は有効ではありません：{0}</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoAvailableToDownload_Title">
+    <value>Pick Up and Goがダウンロードできます</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoAvailableToDownload_Message">
+    <value>{0} 版のPick Up and Go model モデルがダウンロードされていません。  今すぐダウンロードしますか？</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoAvailableToDownload_OkText">
+    <value>ダウンロード</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoAvailableToDownload_CancelText">
+    <value>キャンセル</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoDownloading_Text">
+    <value>{0} 版のPick Up and Goをダウンロードしています</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoDownloaded_Text">
+    <value>{0} 版のPick Up and Goがダウンロードされました（バージョン：{1}）</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoNotDownloaded_Title">
+    <value>{0} 版のPick Up and Goがダウンロードされませんでした</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoNotDownloaded_Text">
+    <value>{1}。Pick Up and Goは無効になります。</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoNotDownloadedFallBack_Text">
+    <value>{1}。デバイス上にあるバージョンを使用します。</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_ModelNotFound_Message">
+    <value>モデルが見つかりませんでした</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_PickUpAndGoDisabled_Text">
+    <value>Pick Up and Goは無効です</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_NoNetworkConnection_Title">
+    <value>ネットワーク接続がありません</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_NoNetworkConnection_Message">
+    <value>ネットワーク接続がありません。{0} 版のPick Up and Goモデルがダウンロードできません。 Pick Up and Goは無効になります。</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_NoNetworkConnectionFallBack_Message">
+    <value>ネットワーク接続がありません。 {0} 版のPick Up and Goモデルがダウンロードできません。 デバイス上にあるバージョンを使用します。</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_UpdatingAvailablePickUpAndGoModels_Message">
+    <value>利用可能なPick Up and Goモデルを更新しています。</value>
+  </data>
+  <data name="LanguagesMenuWorkflowActivity_DeviceOffline_ToastMessage">
+    <value>端末はオフラインです。 新しい言語モデルはダウンロードできません。</value>
+  </data>
+
+  
+  <data name="Android_Foreground_Notification_Title">
+    <value>アプリケーションステータス</value>
+    <comment>A short title for the notification that is used to keep the application in the foreground. Must fit on one line of a notification for small devices, using a large font.</comment>
+  </data>
+  <data name="Android_Foreground_Notification_Summary">
+    <value>フォアグラウンド維持</value>
+    <comment>A short summary for the notification that is used to keep the application in the foreground, where the parameter is the name of the application. Must fit on one line of a notification for small devices.</comment>
+  </data>
+  <data name="Android_Foreground_Notification_Text">
+    <value>{0} アプリケーションをフォアグラウンドに維持することにより、画面がオフ、または別のアプリケーションがフォアグラウンドにあるときにも使用することができます。</value>
+    <comment>Text that explains why the application is kept in the foreground, where the parameter is the name of the application.  Can use a larger amount of space.</comment>
+  </data>
+  <data name="Android_Foreground_Notification_Channel_Name">
+    <value>フォアグラウンドモード</value>
+    <comment>A category name for notifications, per https://developer.android.com/training/notify-user/channels . Should be less than or equal to 40 characters</comment>
+  </data>
+  <data name="Android_Foreground_Notification_Channel_Description">
+    <value>アプリケーションがバックグラウンドにあるとき、または画面がオフの場合も操作が可能になります。</value>
+    <comment>Tne description of the foreground notification channel/category, per https://developer.android.com/training/notify-user/channels . Should be less than or equal to 300 characters. </comment>
+  </data>
+    
+<data name="alpha_a">
+    <value>A</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_b">
+    <value>B</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_c">
+    <value>C</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_d">
+    <value>D</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_e">
+    <value>E</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_f">
+    <value>F</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_g">
+    <value>G</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_h">
+    <value>H</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_i">
+    <value>I</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_j">
+    <value>J</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_k">
+    <value>K</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_l">
+    <value>L</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_m">
+    <value>M</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_n">
+    <value>N</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_o">
+    <value>O</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_p">
+    <value>P</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_q">
+    <value>Q</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_r">
+    <value>R</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_s">
+    <value>S</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_t">
+    <value>T</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_u">
+    <value>U</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_v">
+    <value>V</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_w">
+    <value>W</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_x">
+    <value>X</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_y">
+    <value>Y</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="alpha_z">
+    <value>Z</value>
+    <comment>Displayed during voice training of alphabetic characters</comment>
+  </data>
+  <data name="phonetic_a">
+    <value>アルファ</value>
+    <comment>The phonetic word for the letter "a"</comment>
+  </data>
+  <data name="phonetic_b">
+    <value>ブラボー</value>
+    <comment>The phonetic word for the letter "b"</comment>
+  </data>
+  <data name="phonetic_c">
+    <value>チャーリー</value>
+    <comment>The phonetic word for the letter "c"</comment>
+  </data>
+  <data name="phonetic_d">
+    <value>デルタ</value>
+    <comment>The phonetic word for the letter "d"</comment>
+  </data>
+  <data name="phonetic_e">
+    <value>エコー</value>
+    <comment>The phonetic word for the letter "e"</comment>
+  </data>
+  <data name="phonetic_f">
+    <value>フォックス</value>
+    <comment>The phonetic word for the letter "f"</comment>
+  </data>
+  <data name="phonetic_g">
+    <value>ゴルフ</value>
+    <comment>The phonetic word for the letter "g"</comment>
+  </data>
+  <data name="phonetic_h">
+    <value>ホテル</value>
+    <comment>The phonetic word for the letter "h"</comment>
+  </data>
+  <data name="phonetic_i">
+    <value>インド</value>
+    <comment>The phonetic word for the letter "i"</comment>
+  </data>
+  <data name="phonetic_j">
+    <value>ジュリエット</value>
+    <comment>The phonetic word for the letter "j"</comment>
+  </data>
+  <data name="phonetic_k">
+    <value>キロ</value>
+    <comment>The phonetic word for the letter "k"</comment>
+  </data>
+  <data name="phonetic_l">
+    <value>リマ</value>
+    <comment>The phonetic word for the letter "l"</comment>
+  </data>
+  <data name="phonetic_m">
+    <value>マイク</value>
+    <comment>The phonetic word for the letter "m"</comment>
+  </data>
+  <data name="phonetic_n">
+    <value>ノベンバー</value>
+    <comment>The phonetic word for the letter "n"</comment>
+  </data>
+  <data name="phonetic_o">
+    <value>オスカー</value>
+    <comment>The phonetic word for the letter "o"</comment>
+  </data>
+  <data name="phonetic_p">
+    <value>パパ</value>
+    <comment>The phonetic word for the letter "p"</comment>
+  </data>
+  <data name="phonetic_q">
+    <value>ケベック</value>
+    <comment>The phonetic word for the letter "q"</comment>
+  </data>
+  <data name="phonetic_r">
+    <value>ロメオ</value>
+    <comment>The phonetic word for the letter "r"</comment>
+  </data>
+  <data name="phonetic_s">
+    <value>シエラ</value>
+    <comment>The phonetic word for the letter "s"</comment>
+  </data>
+  <data name="phonetic_t">
+    <value>タンゴ</value>
+    <comment>The phonetic word for the letter "t"</comment>
+  </data>
+  <data name="phonetic_u">
+    <value>ユニフォーム</value>
+    <comment>The phonetic word for the letter "u"</comment>
+  </data>
+  <data name="phonetic_v">
+    <value>ヴィクター</value>
+    <comment>The phonetic word for the letter "v"</comment>
+  </data>
+  <data name="phonetic_w">
+    <value>ウィスキー</value>
+    <comment>The phonetic word for the letter "w"</comment>
+  </data>
+  <data name="phonetic_x">
+    <value>エックス</value>
+    <comment>The phonetic word for the letter "x"</comment>
+  </data>
+  <data name="phonetic_y">
+    <value>ヤンキー</value>
+    <comment>The phonetic word for the letter "y"</comment>
+  </data>
+  <data name="phonetic_z">
+    <value>ズールー</value>
+    <comment>The phonetic word for the letter "z"</comment>
+  </data>
+  
+  <data name="VocabWord_NoMore">
+    <value>以上</value>
+    <comment>"no more"  spoken command word.</comment>
+  </data>
+  
+  
+  <data name="noise_sample_please_keep_quiet_instruction">
+    <value>数秒間声を出さないでいてください</value>
+    <comment>Spoken prompt intructing the user to keep quiet for a noise sample.</comment>
+  </data>
+  <data name="noise_sample_no_speech_detected_warning">
+    <value>聞こえませんでした、もう少し大きな声で話してください</value>
+    <comment>Spoken prompt used if no speech is detected during noise sample.</comment>
+  </data>
+  <data name="noise_sample_first_utterance_prompt">
+    <value> {0} と言ってください</value>
+    <comment>Spoken prompt instructing the user to speak during noise sample.</comment>
+  </data>
+  <data name="noise_sample_first_utterance">
+    <value>0</value>
+    <comment>First utterance to be spoken during noise sample.</comment>
+  </data>
+  <data name="noise_sample_second_utterance">
+    <value>1</value>
+    <comment>Second utterance to be spoken during noise sample.</comment>
+  </data>
+  <data name="noise_sample_third_utterance">
+    <value>2</value>
+    <comment>Third utterance to be spoken during noise sample.</comment>
+  </data>
+  <data name="noise_sample_warning_too_long">
+    <value>雑音サンプルが長すぎました</value>
+    <comment>Spoken prompt used if speech detected during noise sample was too long.</comment>
+  </data>
+  <data name="noise_sample_completed">
+    <value>雑音のサンプルが終了しました</value>
+    <comment>Spoken prompt used when a noise sample completes successfully.</comment>
+  </data>
+  <data name="noise_sample_paused">
+    <value>雑音のサンプルが一時停止しました</value>
+    <comment>Spoken prompt used when a noise sample is paused.</comment>
+  </data>
+  <data name="noise_sample_failed">
+    <value>雑音のサンプルが失敗しました</value>
+    <comment>Spoken prompt used when a noise sample has failed.</comment>
+  </data>
+  <data name="training_please_say_following_words">
+    <value>次の言葉を言ってください</value>
+    <comment>Prompt spoken/onscreen text when instructing the user to speak words for training.</comment>
+  </data>
+  <data name="training_wait_for_template_creation">
+    <value>音声テンプレートを作成しています。お待ちください</value>
+    <comment>Prompt spoken/onscreen text while waiting for voice templates to be created.</comment>
+  </data>
+  <data name="finished_creating_voice_templates">
+    <value>音声テンプレートが作成されました。</value>
+    <comment>Spoken prompt used when voice templates have been created.</comment>
+  </data>
+  <data name="training_interrupted">
+    <value>トレーニングが中断されました</value>
+    <comment>Prompt spoken/onscreen text when training is interrupted.</comment>
+  </data>
+  <data name="training_timed_out">
+    <value>トレーニングがタイムアウトしました</value>
+    <comment>Prompt spoken/onscreen text when training times out while waiting for the user to speak.</comment>
+  </data>
+  <data name="training_failed">
+    <value>トレーニングが失敗しました</value>
+    <comment>Prompt spoken/onscreen text when training fails.</comment>
+  </data>
+  <data name="training_stopped">
+    <value>トレーニングが停止されました</value>
+    <comment>Prompt spoken/onscreen text when training is stopped.</comment>
+  </data>
+  <data name="training_pause_display_between_words">
+    <value>...</value>
+    <comment>Text displayed on screen during the pause between words in training.</comment>
+  </data>
+  <data name="number_0">
+    <value>0</value>
+    <comment>The digit 0.</comment>
+  </data>
+  <data name="number_1">
+    <value>1</value>
+    <comment>The digit 1.</comment>
+  </data>
+  <data name="number_2">
+    <value>2</value>
+    <comment>The digit 2.</comment>
+  </data>
+  <data name="number_3">
+    <value>3</value>
+    <comment>The digit 3.</comment>
+  </data>
+  <data name="number_4">
+    <value>4</value>
+    <comment>The digit 4.</comment>
+  </data>
+  <data name="number_5">
+    <value>5</value>
+    <comment>The digit 5.</comment>
+  </data>
+  <data name="number_6">
+    <value>6</value>
+    <comment>The digit 6.</comment>
+  </data>
+  <data name="number_7">
+    <value>7</value>
+    <comment>The digit 7.</comment>
+  </data>
+  <data name="number_8">
+    <value>8</value>
+    <comment>The digit 8.</comment>
+  </data>
+  <data name="number_9">
+    <value>9</value>
+    <comment>The digit 9.</comment>
+  </data>
+  <data name="phonetic_0">
+    <value>ゼロ</value>
+    <comment>The phonetic word for 0.</comment>
+  </data>
+  <data name="phonetic_1">
+    <value>いち</value>
+    <comment>The phonetic word for 1.</comment>
+  </data>
+  <data name="phonetic_2">
+    <value>に</value>
+    <comment>The phonetic word for 2.</comment>
+  </data>
+  <data name="phonetic_3">
+    <value>さん</value>
+    <comment>The phonetic word for 3.</comment>
+  </data>
+  <data name="phonetic_4">
+    <value>よん</value>
+    <comment>The phonetic word for 4.</comment>
+  </data>
+  <data name="phonetic_5">
+    <value>ご</value>
+    <comment>The phonetic word for 5.</comment>
+  </data>
+  <data name="phonetic_6">
+    <value>ろく</value>
+    <comment>The phonetic word for 6.</comment>
+  </data>
+  <data name="phonetic_7">
+    <value>なな</value>
+    <comment>The phonetic word for 7.</comment>
+  </data>
+  <data name="phonetic_8">
+    <value>はち</value>
+    <comment>The phonetic word for 8.</comment>
+  </data>
+  <data name="phonetic_9">
+    <value>きゅう</value>
+    <comment>The phonetic word for 9.</comment>
+  </data>
+  <data name="phonetic_decimal">
+    <value>てん</value>
+    <comment>The phonetic word for a decimal point</comment>
+  </data>
+  <data name="prompt_separator_then">
+    <value> 次に： </value>
+    <comment>"Then: "</comment>
+  </data>
+  <data name="prompt_separator_or">
+    <value> または： </value>
+    <comment>"Or: "</comment>
+  </data>
+  <data name="prompt_separator_if_required">
+    <value> 必要な場合： </value>
+    <comment>"If required: "</comment>
+  </data>
+  <data name="whole_number_separator">
+    <value>.</value>
+    <comment>This culture's symbol for the decimal mark.</comment>
+  </data>
+  <data name="whole_number_separator_phonetic">
+    <value>てん</value>
+    <comment>The phonetic word for this culture's decimal mark.</comment>
+  </data>
+  <data name="symbol_dash">
+    <value>-</value>
+    <comment>This culture's symbol for the hyphen mark.</comment>
+  </data>
+  <data name="phonetic_dash">
+    <value>ダッシュ</value>
+    <comment>The phonetic word for this culture's hyphen mark.</comment>
+  </data>
+  <data name="confirmation_of_spoken_value">
+    <value>{0}、いいですか？</value>
+    <comment>Spoken prompt asking user for confirmation of a spoken value.</comment>
+  </data>
+  <data name="confirmation_of_spoken_value_and_anchor">
+    <value> {0}、{1}、いいですか？</value>
+    <comment>A spoken prompt asking the user to confirm their spoken value and anchor</comment>
+  </data>
+  <data name="pick_from_list_help_only_1_option">
+    <value>オプションは {0} のみです</value>
+    <comment>The help prompt spoken when the user is presented a list with only one option.</comment>
+  </data>
+  <data name="pick_from_list_help_multiple_options">
+    <value>オプションは： {0} と {1} です</value>
+    <comment>The help prompt spoken when the user is presented with a list of two options.</comment>
+  </data>
+  <data name="pick_from_list_confirmation_prompt">
+    <value>{0} を選択しました。いいですか？</value>
+    <comment>Prompt user for confirmation of a list selection.</comment>
+  </data>
+  <data name="digit_entry_say_digits">
+    <value>{0} 桁の数字を言ってください</value>
+    <comment>Spoken prompt asking the user to speak a certain number of digits.</comment>
+  </data>
+  <data name="digit_entry_say_between_digits">
+    <value>{0} から {1} 桁の数字を言ってください</value>
+    <comment>Spoken prompt asking the user to speak within a certain range of digits.</comment>
+  </data>
+  <data name="value_entry_say_characters">
+    <value>{0} 個の文字を言ってください</value>
+    <comment>Spoken prompt asking the user to speak a certain number of characters.</comment>
+  </data>
+  <data name="value_entry_say_between_characters">
+    <value>{0} から {1} 個の文字を言ってください</value>
+    <comment>Spoken prompt asking the user to speak within a certain range of characters.</comment>
+  </data>
+  <data name="digit_entry_long_value_help">
+    <value>数字を言ってください。最後に言ったグループを聴くには少し待ってください。最後に言ったグループを拒否するには「いいえ」と言ってください。入力を完了するには「OK」と言ってください。 </value>
+    <comment>Main help prompt for long value entry dialogue</comment>
+  </data>
+  <data name="value_entry_long_value_help_characters">
+    <value>文字を言ってください。最後に言ったグループを聴くには少し待ってください。最後に言ったグループを拒否するには「いいえ」と言ってください。入力を完了するには「OK」と言ってください。 </value>
+    <comment>Main help prompt for long value entry dialogue</comment>
+  </data>
+  <data name="default_help_no_help_available">
+    <value>ヘルプ情報はありません</value>
+    <comment>Spoken prompt used when no help prompt exists for this WFA.</comment>
+  </data>
+  <data name="default_help_only_1_word">
+    <value>{0} と言ってください。</value>
+    <comment>Spoken prompt asking the user to speak a word.</comment>
+  </data>
+  <data name="default_help_multiple_words">
+    <value>{0} または {1} と言ってください 。</value>
+    <comment>Spoken prompt asking the user to speak one of two words.</comment>
+  </data>
+  <data name="default_help_multiple_words_and_anchors">
+    <value>その後に {0}、または {1}</value>
+    <comment>Spoken after default_help_multiple_words, when the user must say an anchor word after their input</comment>
+  </data>
+  <data name="yes">
+    <value>はい</value>
+    <comment>"Yes"</comment>
+  </data>
+  <data name="no">
+    <value>いいえ</value>
+    <comment>"No" command word</comment>
+  </data>
+  <data name="accept_entry_word">
+    <value>OK</value>
+    <comment>"Ready" command word.</comment>
+  </data>
+  <data name="next_entry_word">
+    <value>次へ</value>
+    <comment>"Next" command word</comment>
+  </data>
+  <data name="digits_word">
+    <value>数字</value>
+    <comment>"Digits" command word</comment>
+  </data>
+  
+    <data name="Validation_GetValue_MinAndMax">
+    <value>{0} と入力しましたが、値は {1} と {2} の間でなければなりません。もう一度</value>
+    <comment>Text displayed or spoken when get digits is not in specified range</comment>
+  </data>
+  <data name="Validation_GetValue_Min">
+    <value>{0} と入力しましたが、値は {1} と等しいか、より大きくなければなりません。もう一度</value>
+    <comment>Text displayed or spoken when get digits entry is less than min value</comment>
+  </data>
+  <data name="Validation_GetValue_Max">
+    <value>{0} と入力しましたが、値は {1} と等しいか、より小さくなければなりません。もう一度</value>
+    <comment>Text displayed or spoken when get digits entry is greater than max value</comment>
+  </data>
+  <data name="Validation_GetValue_NotNumeric">
+    <value>{0} は数値ではありません。もう一度</value>
+    <comment>Text displayed or spoken when get digits entry is expected to be numeric</comment>
+  </data>
+  <data name="Validation_GetValue_MinLength">
+    <value>間違った {0} です。合計 {1} 文字以上を入力してください</value>
+    <comment>Test displayed when the the digit entry doesn't have enough digits</comment>
+  </data>
+  <data name="Validation_GetValue_MaxLength">
+    <value>間違った {0} です。合計 {1} 文字以下を入力してください</value>
+    <comment>Test displayed when the the digit entry doesn't have enough digits</comment>
+  </data>
+  <data name="Validation_GetDigits_InsufficientWholeNumbers">
+    <value>間違った {0} です。小数点の前に少なくとも {1} 桁を入力してください</value>
+    <comment>Test displayed when the the digit entry doesn't have enough digits before the decimal place</comment>
+  </data>
+  <data name="Validation_GetDigits_ExcessiveWholeNumbers">
+    <value>間違った {0} です。小数点の前に {0} 桁より多く入力しないでください</value>
+    <comment>Test displayed when the the digit entry has too many digits before the decimal place</comment>
+  </data>
+  <data name="Validation_GetDigits_InsufficientPrecision">
+    <value>間違った {0} です。小数点の後に少なくとも {1} 桁を入力してください</value>
+    <comment>Test displayed when the the digit entry doesn't have enough digits after the decimal place</comment>
+  </data>
+  <data name="Validation_GetDigits_ExcessivePrecision">
+    <value>間違った {0} です。小数点の後に {0} 桁より多く入力しないでください</value>
+    <comment>Test displayed when the the digit entry has too many digits after the decimal place</comment>
+  </data>
+  <data name="Validation_GetValue_InvalidCharacters">
+    <value>間違った {0} です。無効な文字です</value>
+    <comment>Text displayed when the the value entry has invalid characters</comment>
+  </data>
+  <data name="Validation_General_UnexpectedValue">
+    <value>間違った {0} です。もう一度</value>
+    <comment>Text displayed or spoken when entry is not one of expected values</comment>
+  </data>
+
+  <data name="DateEntryDialogue_Day_Prompt">
+    <value>日付は？</value>
+  </data>
+  <data name="DateEntryDialogue_Month_Prompt">
+    <value>月は？</value>
+  </data>
+  <data name="DateEntryDialogue_Year_Prompt">
+    <value>年は？</value>
+  </data>
+  <data name="DateDialogue_Invalid_Prompt">
+    <value>{2} 年、\{0}月、\{1} 日の日付が間違っています</value>
+  </data>
+  <data name="DateDialogue_BiggerThanMax_Prompt">
+    <value>{2} 年、{0} 月、{1} 日、が間違っています。 {5} 年、{3} 月、{4} 日以前の日付を入力してください。</value>
+  </data>
+  <data name="DateDialogue_SmallerThanMin_Prompt">
+    <value>{2} 年、{0} 月、{1} 日、が間違っています。 {5} 年、{3} 月、{4} 日以降の日付を入力してください。</value>
+  </data>
+  <data name="DateEntryDialogue_StartEntryM_Prompt">
+    <value>月を 2 桁で言ってください。 </value>
+  </data>
+  <data name="DateEntryDialogue_StartEntryD_Prompt">
+    <value>日を 2 桁で言ってください。 </value>
+  </data>
+  <data name="DateEntryDialogue_StartEntryY_Prompt">
+    <value>年を 2 桁で言ってください。 </value>
+  </data>
+  <data name="DateEntryDialogue_Confirmation_Prompt">
+    <value>{2} 年、{0} 月、{1} 日</value>
+  </data>
+   
+  <data name="VocabWord_Help">
+    <value>ヘルプ</value>
+    <comment>Global "help" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_SayAgain">
+    <value>もう一度</value>
+    <comment>"Say again" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_StandBy">
+    <value>スタンバイ</value>
+    <comment>Global "standby"  spoken command word.</comment>
+  </data>
+  <data name="VocabWord_NoiseSample">
+    <value>雑音サンプル</value>
+    <comment>Global "noise sample" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_Continue">
+    <value>続行</value>
+    <comment>"Continue" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_SignOff">
+    <value>サインオフ</value>
+    <comment>Global "sign off" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_Yes">
+    <value>はい</value>
+    <comment>"Yes" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_No">
+    <value>いいえ</value>
+    <comment>"No" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_UpdateTrain">
+    <value>更新トレーニング</value>
+    <comment>Global "update train"  spoken command word.</comment>
+  </data>
+  <data name="VocabWord_Info">
+    <value>インフォ</value>
+    <comment>"info" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_Option">
+    <value>オプション</value>
+    <comment>"Option" spoken command word.</comment>
+  </data>
+  <data name="VocabWord_Negative">
+    <value>マイナス</value>
+    <comment>"negative" spoken word for negative numeric values.</comment>
+  </data>
+  <data name="VocabWord_Cancel">
+    <value>キャンセル</value>
+    <comment>"cancel" spoken word for cancelling entries.</comment>
+  </data>
+  
+  <data name="OverflowMenuItem_ReportProblem">
+    <value>問題の報告</value>
+    <comment>Global "report problem" overflow menu item.</comment>
+  </data>
+  
+  <data name="AffirmativeButtonText">
+    <value>はい</value>
+    <comment>"Yes" button text.</comment>
+  </data>
+  <data name="NegativeButtonText">
+    <value>いいえ</value>
+    <comment>"No" button text.</comment>
+  </data>
+  
+  <data name="Generic_Additional_Cmd_Background_Header">
+    <value>コマンドを処理しています</value>
+  </data>
+  <data name="Generic_SelectOperatorTeam_Header">
+    <value>作業員チームを選択</value>
+  </data>
+  <data name="Generic_SelectOperatorTeam_Prompt">
+    <value>作業員チームを選択</value>
+  </data>
+  <data name="Generic_SignOn_Failed_EntrysBlank">
+    <value>ユーザ名とパスワードが必要です</value>
+  </data>
+  <data name="Generic_SignOn_Header">
+    <value>作業員を選択</value>
+  </data>
+  <data name="VoiceCentric_Header" xml:space="preserve">
+    <value>音声中心入力</value>
+  </data>
+  <data name="VoiceCentric_Label" xml:space="preserve">
+    <value>音声中心値</value>
+  </data>
+</root>

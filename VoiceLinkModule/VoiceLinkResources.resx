@@ -1,0 +1,994 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="VoiceLink_ConfirmPick_Header" xml:space="preserve">
+    <value>Pick Item</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_ConfirmPick_Prompt" xml:space="preserve">
+    <value>{0} Aisle {1} slot {2}</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_EndOfAssigment_GetNextAssignmentButtonText" xml:space="preserve">
+    <value>Next Assignment</value>
+    <comment>"Next Assignment" button text.</comment>
+  </data>
+  <data name="VoiceLink_EndOfAssigment_Header" xml:space="preserve">
+    <value>End of Assignment</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_EndOfAssigment_Prompt" xml:space="preserve">
+    <value>Assignment complete.  Get next assignment or sign off.</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_EndOfAssigment_SignoffButtonText" xml:space="preserve">
+    <value>Sign Off</value>
+    <comment>"Sign Off" button text.</comment>
+  </data>
+  <data name="VoiceLink_ConfirmPick_CheckDigit" xml:space="preserve">
+    <value>Check Digit</value>
+  </data>
+  <data name="VoiceLink_PickPrompt_CheckDigit_Header" xml:space="preserve">
+    <value>Pick Product</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_Selection_ProductDetails_SerialNumber_Label" xml:space="preserve">
+    <value>Serial Number</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="VoiceLink_SelectRegionNone_Header" xml:space="preserve">
+    <value>No Regions Available</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_SelectRegionNone_Prompt" xml:space="preserve">
+    <value>No Regions Available</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_SelectRegionSingle_Header" xml:space="preserve">
+    <value>Region</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_SelectRegionSingle_Prompt" xml:space="preserve">
+    <value>Region {0}</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_SelectRegion_Header" xml:space="preserve">
+    <value>Select Region</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_SelectRegion_Prompt" xml:space="preserve">
+    <value>Select Region</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_SignOn_Header" xml:space="preserve">
+    <value>VoiceLink Sample Sign On</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="WorkflowFriendlyName_VoiceLink" xml:space="preserve">
+    <value>VoiceLink Sample</value>
+    <comment>Value in a dropdown list.</comment>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_VoiceLinkSettings" xml:space="preserve">
+    <value>VoiceLink Sample Settings</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="VoiceLinkSettingsWorkflowActivity_CurrentWorkflowFilter" xml:space="preserve">
+    <value>Current Workflow Filter</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="VoiceLinkSettingsWorkflowActivity_Host" xml:space="preserve">
+    <value>Host</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="VoiceLinkSettingsWorkflowActivity_Port" xml:space="preserve">
+    <value>Port</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="VoiceLinkSettingsWorkflowActivity_ODRPort" xml:space="preserve">
+    <value>ODR Port</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="VoiceLinkSettingsWorkflowActivity_SiteName" xml:space="preserve">
+    <value>Site Name</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="VoiceLinkSettingsWorkflowActivity_VoiceLinkSettingsLabel" xml:space="preserve">
+    <value>VoiceLink Sample Settings</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="VoiceLinkSettingsWorkflowActivity_WorkflowSettingsLabel" xml:space="preserve">
+    <value>Workflow Settings</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="VoiceLink_InitialData_Failed_BreakTypes" xml:space="preserve">
+    <value>Failed to retrieve break types</value>
+  </data>
+  <data name="VoiceLink_InitialData_Failed_Config" xml:space="preserve">
+    <value>Failed to send configuration</value>
+  </data>
+  <data name="VoiceLink_InitialData_Failed_Unexpected" xml:space="preserve">
+    <value>Unexpected error during initial data request: {0}</value>
+  </data>
+  <data name="VoiceLink_SignOn_Failed_Config" xml:space="preserve">
+    <value>Failed to send configuration</value>
+    <comment>Text shown for an error</comment>
+  </data>
+  <data name="VoiceLink_SelectFunction_Failed_NotImplemented" xml:space="preserve">
+    <value>Function {0} not implemented, select a different function</value>
+  </data>
+  <data name="VoiceLink_SelectFunction_Header" xml:space="preserve">
+    <value>Select Function</value>
+    <comment>Application screen header</comment>
+  </data>  
+  <data name="VoiceLink_SelectFunction_Prompt" xml:space="preserve">
+    <value>Select Function</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_SelectFunctionSingle_Header" xml:space="preserve">
+    <value>Function</value>
+    <comment>Screen Header</comment>
+  </data>
+  <data name="VoiceLink_SelectFunctionSingle_Prompt" xml:space="preserve">
+    <value>Function {0}</value>
+    <comment>Prompt of current function</comment>
+  </data>
+  <data name="VoiceLink_SignOn_Failed_NoValidFunctions" xml:space="preserve">
+    <value>Not authorized for any supported functions. Notify your supervisor</value>
+    <comment>Text shown for an error</comment>
+  </data>
+  <data name="VoiceLink_SignOn_Failed_Required" xml:space="preserve">
+    <value>Username and Password are required</value>
+    <comment>Text shown for an error</comment>
+  </data>
+  <data name="VoiceLink_SignOn_Failed_RetrieveFunctions" xml:space="preserve">
+    <value>Failed to retrieve functions</value>
+    <comment>Text shown for an error</comment>
+  </data>
+  <data name="VoiceLink_SignOn_Failed_Unexpected" xml:space="preserve">
+    <value>Unexpected error during sign on: {0}</value>
+    <comment>Text shown for an error</comment>
+  </data>
+  <data name="VoiceLink_GetValidRegions_Failed_NoRegions" xml:space="preserve">
+    <value>No regions available</value>
+  </data>
+  <data name="VoiceLink_GetValidRegions_Failed_RegionPermissions" xml:space="preserve">
+    <value>Failed to retrieve region permissions</value>
+  </data>
+  <data name="VoiceLink_BackgroundActivity_Header_InitialData" xml:space="preserve">
+    <value>Retrieving Initial Data</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_BackgroundActivity_Header_RetrieveAssignment" xml:space="preserve">
+    <value>Retrieving Assignment</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_BackgroundActivity_Header_RetrieveWorkId" xml:space="preserve">
+    <value>Retrieving Work ID</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_BackgroundActivity_Header_RetrieveRegions" xml:space="preserve">
+    <value>Retrieving Regions</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_BackgroundActivity_Header_SignOn" xml:space="preserve">
+    <value>Signing On</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_BackgroundActivity_Header_RetrieveFunctions" xml:space="preserve">
+    <value>Retrieving Functions</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_BackgroundActivity_Header_StartFunction" xml:space="preserve">
+    <value>Starting {0}</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_ValidateRegions_Failed_NoAuthRegions" xml:space="preserve">
+    <value>Not authorized for any regions</value>
+    <comment>Text shown for an error</comment>
+  </data>
+  <data name="VoiceLink_ValidateRegions_Failed_WorkInAnotherFunction" xml:space="preserve">
+    <value>Work exists in another function</value>
+    <comment>Text shown for an error</comment>
+  </data>
+  <data name="VoiceLink_GetValidRegions_Success_InProgressWork" xml:space="preserve">
+    <value>Work already exists in region</value>
+  </data>
+  <data name="VoiceLink_PerformGetPicks_Failed_RetrievePicks" xml:space="preserve">
+    <value>Failed to retrieve picks</value>
+  </data>
+  <data name="VoiceLink_StartSelection_Failed_RegionConfig" xml:space="preserve">
+    <value>Failed to retrieve region configurations</value>
+    <comment>Text shown for an error</comment>
+  </data>
+  <data name="VoiceLink_BackgroundActivity_Header_ValidateRegions" xml:space="preserve">
+    <value>Validating Regions</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_PerformGetAssignments_Failed" xml:space="preserve">
+    <value>Failed to retrieve assignments</value>
+  </data>
+  <data name="VoiceLink_CheckAssignment_Failed_NoRegionMatch" xml:space="preserve">
+    <value>Assignment received does not match any current region profile</value>
+  </data>
+  <data name="VoiceLink_GetValidRegions_Success_AnotherFunction" xml:space="preserve">
+    <value>Work already exists in another function</value>
+  </data>
+  <data name="VoiceLink_BackgroundActivity_Header_RetrieveNextAssignment" xml:space="preserve">
+    <value>Retrieving Next Assignment</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="Prompt_Selection_Picking_Shorts" xml:space="preserve">
+    <value>Picking shorts</value>
+  </data>
+  <data name="Prompt_Selection_Picking_Skips_Shorts" xml:space="preserve">
+    <value>Picking skips and shorts</value>
+  </data>
+  <data name="BeginAssignment_Prompt" xml:space="preserve">
+    <value>ID &lt;spell&gt;{0}&lt;/spell&gt;, say ready</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="BeginAssignment_Prompt_Chase" xml:space="preserve">
+    <value>Chase assignment, ID &lt;spell&gt;{0}&lt;/spell&gt;, say ready</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="BeginAssignment_Prompt_Chase_Goaltime_Multi" xml:space="preserve">
+    <value>Chase assignment, ID &lt;spell&gt;{0}&lt;/spell&gt;, has a goal time of {1} minutes, say ready</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="BeginAssignment_Prompt_Chase_Goaltime_Single" xml:space="preserve">
+    <value>Chase assignment, ID &lt;spell&gt;{0}&lt;/spell&gt;, has a goal time of {1} minute, say ready</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="BeginAssignment_Prompt_Chase_Position" xml:space="preserve">
+    <value>Chase assignment, position {0}, ID &lt;spell&gt;{1}&lt;/spell&gt;, say ready</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="BeginAssignment_Prompt_Chase_Position_Goaltime_Multi" xml:space="preserve">
+    <value>Chase assignment, position {0}, ID &lt;spell&gt;{1}&lt;/spell&gt;, has a goal time of {2} minutes, say ready</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="BeginAssignment_Prompt_Chase_Position_Goaltime_Single" xml:space="preserve">
+    <value>Chase assignment, position {0}, ID &lt;spell&gt;{1}&lt;/spell&gt;, has a goal time of {2} minute, say ready</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="BeginAssignment_Prompt_Goaltime_Multi" xml:space="preserve">
+    <value>ID &lt;spell&gt;{0}&lt;/spell&gt;, has a goal time of {1} minutes, say ready</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="BeginAssignment_Prompt_Goaltime_Single" xml:space="preserve">
+    <value>ID &lt;spell&gt;{0}&lt;/spell&gt;, has a goal time of {1} minute, say ready</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="BeginAssignment_Prompt_Position" xml:space="preserve">
+    <value>Position {0}, ID &lt;spell&gt;{1}&lt;/spell&gt;, say ready</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="BeginAssignment_Prompt_Position_Goaltime_Multi" xml:space="preserve">
+    <value>Position {0}, ID &lt;spell&gt;{1}&lt;/spell&gt;, has a goal time of {2} minutes, say ready</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="BeginAssignment_Prompt_Position_Goaltime_Single" xml:space="preserve">
+    <value>Position {0}, ID &lt;spell&gt;{1}&lt;/spell&gt;, has a goal time of {2} minute, say ready</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="BeginAssignment_Prompt_BaseSummary" xml:space="preserve">
+    <value>{0}, aisle {1}, {2}, slot {3}, {4}, quantity {6}, say or press ready</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="BeginAssignment_Prompt_BaseSummary_ID" xml:space="preserve">
+    <value>{0}, aisle {1}, {2}, slot {3}, {4}, ID &lt;spell&gt;{5}&lt;/spell&gt;, quantity {6}, say or press ready</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="BeginAssignment_Prompt_BaseSummary_ID_NoAisle" xml:space="preserve">
+    <value>{0},{2}, slot {3}, {4}, ID &lt;spell&gt;{5}&lt;/spell&gt;, quantity {6}, say or press ready</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="BeginAssignment_Prompt_BaseSummary_ID_NoPostaisle" xml:space="preserve">
+    <value>{0}, aisle {1}, slot {3}, {4}, ID &lt;spell&gt;{5}&lt;/spell&gt;, quantity {6}, say or press ready</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="BeginAssignment_Prompt_BaseSummary_ID_NoPreaisle" xml:space="preserve">
+    <value>Aisle {1}, {2}, slot {3}, {4}, ID &lt;spell&gt;{5}&lt;/spell&gt;, quantity {6}, say or press ready</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="BeginAssignment_Prompt_BaseSummary_ID_NoPreaisle_NoAisle" xml:space="preserve">
+    <value>{2}, slot {3}, {4}, ID &lt;spell&gt;{5}&lt;/spell&gt;, quantity {6}, say or press ready</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="BeginAssignment_Prompt_BaseSummary_ID_NoPreaisle_NoAisle_NoPoseaisle" xml:space="preserve">
+    <value>Slot {3}, {4}, ID &lt;spell&gt;{5}&lt;/spell&gt;, quantity {6}, say or press ready</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="BeginAssignment_Prompt_BaseSummary_NoAisle" xml:space="preserve">
+    <value>{0},{2}, slot {3}, {4}, quantity {6}, say or press ready</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="BeginAssignment_Prompt_BaseSummary_NoPostaisle" xml:space="preserve">
+    <value>{0}, aisle {1}, slot {3}, {4}, quantity {6}, say or press ready</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="BeginAssignment_Prompt_BaseSummary_NoPreaisle" xml:space="preserve">
+    <value>Aisle {1}, {2}, slot {3}, {4}, quantity {6}, say or press ready</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="BeginAssignment_Prompt_BaseSummary_NoPreaisle_NoAisle" xml:space="preserve">
+    <value>{2}, slot {3}, {4}, quantity {6}, say or press ready</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="BeginAssignment_Prompt_BaseSummary_NoPreaisle_NoAisle_NoPoseaisle" xml:space="preserve">
+    <value>Slot {3}, {4}, quantity {6}, say or press ready</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_AskToDisplayBaseItemSummary_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+    <comment>"Cancel" button text.</comment>
+  </data>
+  <data name="VoiceLink_AskToDisplayBaseItemSummary_Button_Ready" xml:space="preserve">
+    <value>Ready</value>
+    <comment>"Ready" button text.</comment>
+  </data>
+  <data name="VoiceLink_AskToDisplayBaseItemSummary_Header" xml:space="preserve">
+    <value>Display Base Summary</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_AskToDisplayBaseItemSummary_Prompt" xml:space="preserve">
+    <value>Base summary?</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_AssignmentSummary_Header" xml:space="preserve">
+    <value>Assignment Summary</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_DisplayBaseItemSummary_Header" xml:space="preserve">
+    <value>Base Item Summary</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_PickBaseItemsQuery_Header" xml:space="preserve">
+    <value>Pick Base Items</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_PickBaseItemsQuery_Prompt" xml:space="preserve">
+    <value>Pick base items?</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_Aisle_Header" xml:space="preserve">
+    <value>Aisle</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_Aisle_Prompt" xml:space="preserve">
+    <value>Aisle {0}</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_PostAisle_Header" xml:space="preserve">
+    <value>PostAisle Direction</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_PostAisle_Prompt" xml:space="preserve">
+    <value>{0}</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_PreAisle_Header" xml:space="preserve">
+    <value>PreAisle Direction</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_PreAisle_Prompt" xml:space="preserve">
+    <value>{0}</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_BackgroundActivity_Header_PickPrompt" xml:space="preserve">
+    <value>Initializing Pick Data</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_Selection_NewContainer_Failed" xml:space="preserve">
+    <value>Failed to update container information</value>
+  </data>
+  <data name="VoiceLink_Selection_NewContainer_Header" xml:space="preserve">
+    <value>New Container</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_Selection_NewContainer_Prompt" xml:space="preserve">
+    <value>New Container ID? Position {0}</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_Selection_NewContainer_Prompt_ID" xml:space="preserve">
+    <value>New Container ID?</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_Selection_OpenContainer_NoContainers" xml:space="preserve">
+    <value>No containers returned from host</value>
+  </data>
+  <data name="VoiceLink_Selection_OpenContainer_Open_Last" xml:space="preserve">
+    <value>Open {0}</value>
+  </data>
+  <data name="VoiceLink_Selection_OpenContainer_Open_Last_Multiple" xml:space="preserve">
+    <value>Open {0} Position {1}</value>
+  </data>
+  <data name="PickPrompt_Pick_Prompt" xml:space="preserve">
+    <value>ID {0}</value>
+  </data>
+  <data name="PickPrompt_Multiple_Slot_Only" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="PickPrompt_Single_Pick_Quantity" xml:space="preserve">
+    <value>{0} Pick {1} {2} {3} {4} {5}</value>
+  </data>
+  <data name="PickPrompt_Single_Slot_Only" xml:space="preserve">
+    <value>{0} {1} {2} {3} {4}</value>
+  </data>
+  <data name="VoiceLink_Selection_CaseLabelCheckDigit_Wrong" xml:space="preserve">
+    <value>Wrong {0}, try again</value>
+  </data>
+  <data name="PickPrompt_EnterQuantity_Failed" xml:space="preserve">
+    <value>Quantity not set</value>
+  </data>
+  <data name="PickPrompt_EnterQuantity_Partial" xml:space="preserve">
+    <value>Quantity?</value>
+  </data>
+  <data name="PickPrompt_Single_EnterQuantity_Quantity" xml:space="preserve">
+    <value>Quantity?</value>
+  </data>
+  <data name="PickPrompt_EnterQuantity_Short" xml:space="preserve">
+    <value>How many did you pick?</value>
+  </data>
+  <data name="PickPrompt_Multiple_EnterQuantity_Quantity" xml:space="preserve">
+    <value>Pick {0} {1} {2} {3} {4}</value>
+  </data>
+  <data name="VoiceLink_Selection_Put_Prompt_For_Container" xml:space="preserve">
+    <value>Container?</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_Selection_Put_Prompt_For_Container_Multiple" xml:space="preserve">
+    <value>Put {0} in {1}</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_Selection_Put_Prompt_Wrong_Container" xml:space="preserve">
+    <value>Wrong {0}. Try again.</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_Selection_Verify_Entered_Quantity_Greater" xml:space="preserve">
+    <value>You said {0} only asked for {1}. Try again.</value>
+  </data>
+  <data name="VoiceLink_Selection_Verify_Entered_Quantity_Negative" xml:space="preserve">
+    <value>You must enter a quantity greater than or equal to zero.</value>
+  </data>
+  <data name="VoiceLink_Selection_Verify_Entered_Quantity_Zero_Partial" xml:space="preserve">
+    <value>You must enter a quantity greater than zero for a partial.</value>
+  </data>
+  <data name="VoiceLink_Selection_TransmitPicks_Header" xml:space="preserve">
+    <value>Transmitting Picks</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_Selection_TransmitPick_Failed_Unknown" xml:space="preserve">
+    <value>Unknown error transmitting picks.</value>
+    <comment>Text shown for an error</comment>
+  </data>
+  <data name="VoiceLink_Selection_NewContainer_NotAllowed" xml:space="preserve">
+    <value>New container not allowed when picks have a target container</value>
+  </data>
+  <data name="VoiceLink_CloseContainer_NotAllowed" xml:space="preserve">
+    <value>Close container not allowed</value>
+  </data>
+  <data name="VoiceLink_CloseContainer_NotAllowed_MultipleAssignments" xml:space="preserve">
+    <value>Close container not allowed when picking multiple assignments</value>
+  </data>
+  <data name="VoiceLink_CloseContainer_NotAllowed_OnlyContainer" xml:space="preserve">
+    <value>Can't close the only container</value>
+  </data>
+  <data name="VoiceLink_CloseContainer_NotAllowed_TargetContainers" xml:space="preserve">
+    <value>Close container not allowed when picks have a target container</value>
+  </data>
+  <data name="VoiceLink_CloseContainer_AlreadyClosed" xml:space="preserve">
+    <value>{0} is already closed. Try again</value>
+  </data>
+  <data name="VoiceLink_CLoseContainer_Header" xml:space="preserve">
+    <value>Closing Container</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_CloseContainer_NotValid" xml:space="preserve">
+    <value>{0} not valid try again</value>
+  </data>
+  <data name="VoiceLink_BackgroundActivity_Header_CompletingPicking" xml:space="preserve">
+    <value>Completing Picking</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_Selection_PickRemaining_Prompt" xml:space="preserve">
+    <value>Shorts are reported</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_Selection_PickRemaining_Prompt_Shorts" xml:space="preserve">
+    <value>Going back for shorts</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_Selection_PickRemaining_Prompt_Shorts_Skips" xml:space="preserve">
+    <value>Going back for skips and shorts</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_Selection_PickRemaining_Prompt_Skips" xml:space="preserve">
+    <value>Going back for skips</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_Selection_ProductDetails_Aisle_Label" xml:space="preserve">
+    <value>Aisle</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="VoiceLink_Selection_ProductDetails_Details_Label" xml:space="preserve">
+    <value>Details</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="VoiceLink_Selection_ProductDetails_Location_Label" xml:space="preserve">
+    <value>Location</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="VoiceLink_Selection_ProductDetails_Slot_Label" xml:space="preserve">
+    <value>Slot</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="VoiceLink_ButtonText_No" xml:space="preserve">
+    <value>No</value>
+    <comment>"No" button text.</comment>
+  </data>
+  <data name="VoiceLink_ButtonText_Yes" xml:space="preserve">
+    <value>Yes</value>
+    <comment>"Yes" button text.</comment>
+  </data>
+  <data name="VoiceLink_PickPrompt_CaseLabel_Header" xml:space="preserve">
+    <value>Case Label</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_PickPrompt_CaseLabel_Label" xml:space="preserve">
+    <value>Case label</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="VoiceLink_PickPrompt_CaseLabel_Prompt" xml:space="preserve">
+    <value>Case Label?</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_PickPrompt_CheckDigit_IdenticalShortProduct_Header" xml:space="preserve">
+    <value>Identical Short Product</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_PickPrompt_CheckDigit_IdenticalShortProduct_Prompt" xml:space="preserve">
+    <value>Identical Product verification and check digits. Is this a short product?</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_PickPrompt_CheckDigit_Label" xml:space="preserve">
+    <value>Check Digit</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="VoiceLink_PickPrompt_CheckDigit_ShortProduct_Header" xml:space="preserve">
+    <value>Short Product</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_PickPrompt_CheckDigit_ShortProduct_Prompt" xml:space="preserve">
+    <value>Is this a short product?</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_PickPrompt_CheckDigit_WrongPoduct" xml:space="preserve">
+    <value>You must speak the product ID. Try Again.</value>
+  </data>
+  <data name="VoiceLink_PickPrompt_CheckDigit_Wrong_Header" xml:space="preserve">
+    <value>Wrong Check Digit</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_PickPrompt_CheckDigit_Wrong_Prompt" xml:space="preserve">
+    <value>Wrong {0}. Try again.</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_PickPrompt_ReopenContainer_Header" xml:space="preserve">
+    <value>Reopen {0}</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_BackgroundActivity_Header_CompletingAssignment" xml:space="preserve">
+    <value>Completing Assignment</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_CloseContainer_CloseNotAllowed_Header" xml:space="preserve">
+    <value>Close Not Allowed</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_CloseContainer_Container_Header" xml:space="preserve">
+    <value>Container to Close</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_CloseContainer_Container_Label" xml:space="preserve">
+    <value>Container</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="VoiceLink_CloseContainer_Container_Prompt" xml:space="preserve">
+    <value>Container?</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_NewContainer_ConfirmCloseCurrentContainer_Header" xml:space="preserve">
+    <value>Confirm Close Current Container</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_NewContainer_ConfirmCloseCurrentContainer_Prompt" xml:space="preserve">
+    <value>Close current container?</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_NewContainer_ConfirmNewContainer_Header" xml:space="preserve">
+    <value>Confirm New Container</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_NewContainer_ConfirmNewContainer_Prompt" xml:space="preserve">
+    <value>New container, correct?</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_OpenContainer_NewContainer_Header" xml:space="preserve">
+    <value>Container to Open</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_OpenContainer_NewContainer_Label" xml:space="preserve">
+    <value>Container</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="VoiceLink_OpenContainer_Open_Header" xml:space="preserve">
+    <value>Open Container</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_PickPrompt_ConfirmQuantity_Header" xml:space="preserve">
+    <value>Confirm Quantity</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_PickPrompt_ConfirmQuantity_Prompt" xml:space="preserve">
+    <value>{0}, correct?</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_PickPrompt_ConfirmShort_Header" xml:space="preserve">
+    <value>Confirm Short</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_PickPrompt_ConfirmShort_Prompt" xml:space="preserve">
+    <value>You said {0} asked for {1}. Is this a short product?</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_PickPrompt_EnterQuantity_Header" xml:space="preserve">
+    <value>Enter Quantity</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_PickPrompt_EnterQuantity_Label" xml:space="preserve">
+    <value>Quantity</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="VoiceLink_PickPrompt_Put_Header" xml:space="preserve">
+    <value>Container</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_PickPrompt_Put_Label" xml:space="preserve">
+    <value>Container</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="VoiceLink_Selection_Assignment_Complete_Header" xml:space="preserve">
+    <value>Assignment Complete</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_Selection_Assignment_Complete_Prompt" xml:space="preserve">
+    <value>Assignment complete.  For next assignment, say or press ready</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_Selection_Assignment_Pass_Prompt" xml:space="preserve">
+    <value>Assignment passed.  For next assignment, say or press ready</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_Selection_Picking_Complete_Prompt" xml:space="preserve">
+    <value>Picking complete</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_Selection_PickRemaining_Header" xml:space="preserve">
+    <value>Pick Remaining</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_GetAssignment_Manaual_EnterWorkId_Header" xml:space="preserve">
+    <value>Enter Work ID</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_GetAssignment_Manaual_EnterWorkId_Label" xml:space="preserve">
+    <value>Work ID?</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="VoiceLink_GetAssignment_Manaual_MultiMatches_Header" xml:space="preserve">
+    <value>Select Work ID</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_GetAssignment_Manaual_MultiMatches_Prompt" xml:space="preserve">
+    <value>Select Work ID</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_GetAssignment_Manaual_MultiMatches_InitialPrompt" xml:space="preserve">
+    <value>Multiple matches found for {0}</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_Selection_Picking_Complete_Header" xml:space="preserve">
+    <value>Picking Complete</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_Selection_Picking_Checking_Shorts_And_Skips_Header" xml:space="preserve">
+    <value>Checking Shorts and Skips...</value>
+  </data>
+  <data name="VoiceLink_Selection_Going_Back_For_Skips_Header" xml:space="preserve">
+    <value>Going back for Skips</value>
+  </data>
+  <data name="VoiceLink_Overflow_Partial" xml:space="preserve">
+    <value>partial</value>
+    <comment>Dropdown menu option</comment>
+  </data>
+  <data name="VoiceLink_Overflow_ShortProduct" xml:space="preserve">
+    <value>short product</value>
+    <comment>Dropdown menu option</comment>
+  </data>
+  <data name="VoiceLink_Overflow_SkipAisle" xml:space="preserve">
+    <value>skip aisle</value>
+  </data>
+  <data name="VoiceLink_Overflow_SkipSlot" xml:space="preserve">
+    <value>skip slot</value>
+    <comment>Dropdown menu option</comment>
+  </data>
+  <data name="VoiceLink_Generic_Not_Available" xml:space="preserve">
+    <value>{0} not available</value>
+  </data>
+  <data name="VoiceLink_Additional_Cmd_Background_Header" xml:space="preserve">
+    <value>Processing Command</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_Generic_Confirm_Prompt" xml:space="preserve">
+    <value>{0}, correct?</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_ChangeFunction_Not_Allowed_Prompt" xml:space="preserve">
+    <value>Change function not allowed</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_Additional_Cmd_Item_Number" xml:space="preserve">
+    <value>item number</value>
+    <comment>Command word</comment>
+  </data>
+  <data name="VoiceLink_Additional_Cmd_Description" xml:space="preserve">
+    <value>description</value>
+    <comment>Command word</comment>
+  </data>
+  <data name="VoiceLink_Additional_Cmd_Change_Function" xml:space="preserve">
+    <value>change function</value>
+    <comment>Command word</comment>
+  </data>
+  <data name="VoiceLink_Additional_Cmd_Change_Region" xml:space="preserve">
+    <value>change region</value>
+    <comment>Command word</comment>
+  </data>
+  <data name="VoiceLink_Additional_Cmd_Repeat_Last_Pick" xml:space="preserve">
+    <value>repeat last pick</value>
+  </data>
+  <data name="VoiceLink_Additional_Cmd_Pass_Assignment" xml:space="preserve">
+    <value>pass assignment</value>
+  </data>
+  <data name="VoiceLink_Signoff_Not_Allowed_Prompt" xml:space="preserve">
+    <value>Sign off not allowed.</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="VoiceLink_SignOn_Failed_VoiceConsole_Not_Licensed" xml:space="preserve">
+    <value>VoiceConsole License Failure</value>
+    <comment>Text shown for an error</comment>
+  </data>
+  <data name="VoiceLink_BackgroundActivity_Header_RetrievingOperators" xml:space="preserve">
+    <value>Retrieving Operators</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="VoiceLink_RetrieveOperators_Failed_VoiceConsole_NoOperatorsAvailable" xml:space="preserve">
+    <value>No Operators Available</value>
+  </data>
+  <data name="VoiceLink_GetAssignment_Manaual_EnterWorkIdLenAll_Label" xml:space="preserve">
+    <value>All</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="VoiceLink_GetAssignment_Manaual_EnterWorkIdLen_Label" xml:space="preserve">
+    <value>Partial work ID length:</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="VoiceLinkSettingsWorkflowActivity_ServerSecureConnections" xml:space="preserve">
+    <value>Server Secure Connections</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="VoiceLink_SignOn_Failed_VC_Communications" xml:space="preserve">
+    <value>Error communicating with VoiceConsole</value>
+    <comment>Error message displayed when there are errors communicating with VoiceConsole</comment>
+  </data>
+  <data name="VoiceLink_SkipAisle_NotAllowed" xml:space="preserve">
+    <value>Skip aisle not allowed</value>
+  </data>
+  <data name="VoiceLink_SkipAisle_LastAisle" xml:space="preserve">
+    <value>Last aisle to be picked, you must pick it now</value>
+  </data>
+  <data name="VoiceLink_SkipAisle_Confirm_Prompt" xml:space="preserve">
+    <value>Skip aisle, correct?</value>
+  </data>
+  <data name="VoiceLink_Repeat_Last_Pick_Prompt" xml:space="preserve">
+    <value>last pick was aisle {0}, slot {1}, picked {2} of {3}</value>
+  </data>
+  <data name="VoiceLink_Repeat_Last_Pick_Prompt_No_Aisle" xml:space="preserve">
+    <value>last pick was slot {0}, picked {1} of {2}</value>
+  </data>
+  <data name="VoiceLink_Not_Currently_Supported" xml:space="preserve">
+    <value>{0} command is not currently supported</value>
+  </data>
+  <data name="VoiceLink_PassAssignment_Not_Allowed_Prompt" xml:space="preserve">
+    <value>Pass assignment not allowed</value>
+  </data>
+  <data name="VoiceLink_Error_Contacting_Host_Prompt" xml:space="preserve">
+    <value>Error contacting host</value>
+  </data>
+  <data name="VoiceLink_Error_Socket_Timeout" xml:space="preserve">
+    <value>Socket Timeout</value>
+  </data>
+  <data name="VoiceLink_Say_Ready_Try_Again_Prompt" xml:space="preserve">
+    <value>{0}, to try again say ready</value>
+  </data>
+  <data name="VoiceLink_Say_Ready_Sign_Off_Prompt" xml:space="preserve">
+    <value>{0}, to sign off say ready</value>
+  </data>
+  <data name="VoiceLink_Say_Ready_Prompt" xml:space="preserve">
+    <value>{0}, say ready</value>
+  </data>
+  <data name="VoiceLink_Say_Ready_Continue_Prompt" xml:space="preserve">
+    <value>{0}, to continue say ready</value>
+  </data>
+  <data name="VoiceLink_Server_Message_Header" xml:space="preserve">
+    <value>Server Message</value>
+  </data>
+  <data name="VoiceLink_Loading_Header" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="VoiceLink_Signing_Off_Header" xml:space="preserve">
+    <value>Signing off...</value>
+  </data>
+  <data name="VoiceLink_BackgroundActivity_Header_Loading_Regions" xml:space="preserve">
+    <value>Loading Regions...</value>
+  </data>
+  <data name="VoiceLink_BackgroundActivity_Header_Loading_Region_Config" xml:space="preserve">
+    <value>Loading Region config...</value>
+  </data>
+  <data name="VoiceLink_BackgroundActivity_Header_Retrieving_Picks" xml:space="preserve">
+    <value>Retrieving picks...</value>
+  </data>
+  <data name="VoiceLink_BackgroundActivity_Header_Retrieving_Assignments" xml:space="preserve">
+    <value>Retrieving assignments...</value>
+  </data>
+  <data name="VoiceLink_BackgroundActivity_Header_Opening_Container" xml:space="preserve">
+    <value>Opening container...</value>
+  </data>
+  <data name="VoiceLink_BackgroundActivity_Header_Closing_Container" xml:space="preserve">
+    <value>Closing container...</value>
+  </data>
+  <data name="VoiceLink_BackgroundActivity_Header_Loading_Functions" xml:space="preserve">
+    <value>Loading Functions...</value>
+  </data>
+  <data name="VoiceLink_BackgroundActivity_Header_Transmitting_Picks" xml:space="preserve">
+    <value>Transmitting Picks...</value>
+  </data>
+  <data name="VoiceLink_BackgroundActivity_Header_Verifying_Replen" xml:space="preserve">
+    <value>Verifying Replenishment...</value>
+  </data>
+  <data name="VoiceLink_BackgroundActivity_Header_Loading_BreakTypes" xml:space="preserve">
+    <value>Loading BreakTypes...</value>
+  </data>
+  <data name="VoiceLink_BackgroundActivity_Header_Loading_Config" xml:space="preserve">
+    <value>Loading Config...</value>
+  </data>
+  <data name="VoiceLink_Xmit_InvalidResponse" xml:space="preserve">
+    <value>Invalid response from server. Please contact your supervisor.</value>
+  </data>
+</root>

@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <!-- Vocab Words -->
+  <data name="VocabWord_Crushed">
+    <value>Crushed</value>
+    <comment>The vocab word for describing damage type of crushed for a product</comment>
+  </data>
+  <data name="VocabWord_Good">
+    <value>good</value>
+    <comment>The vocab word for indicationg that a product is in good condition/undamaged</comment>
+  </data>
+  <data name="VocabWord_Damaged">
+    <value>damaged</value>
+    <comment>The vocab word for indicationg that a product is damaged</comment>
+  </data>
+  <data name="VocabWord_Leaking">
+    <value>Leaking</value>
+    <comment>The vocab word for describing damage type of leaking for a product</comment>
+  </data>
+  <data name="VocabWord_Missing">
+    <value>Missing</value>
+    <comment>The vocab word for describing damage type of missing for a product</comment>
+  </data>
+  <data name="VocabWord_Dry">
+    <value>Dry</value>
+    <comment>The vocab word for selecting the subcenter for dry products</comment>
+  </data>
+  <data name="VocabWord_Produce">
+    <value>Produce</value>
+    <comment>The vocab word for selecting the subcenter for produce products</comment>
+  </data>
+  <data name="VocabWord_Freezer">
+    <value>Freezer</value>
+    <comment>The vocab word for selecting the subcenter for freezer products</comment>
+  </data>
+  <!-- Workflow Friendly Names -->
+  <data name="WorkflowFriendlyName_Receiving">
+    <value>Receiving</value>
+    <comment>This value is the name operators will hear for the "Receiving" workflow.</comment>
+  </data>
+  <!-- Receiving Workflow -->
+  <data name="ReceivingWorkflowActivity_Title">
+    <value>Receiving</value>
+    <comment>Application screen title, workflow.</comment>
+  </data>
+  <data name="Receiving_ProductDescription">
+    <value>Product Description</value>
+    <comment>Column label for the description of the product</comment>
+  </data>
+  <data name="Receiving_Qty">
+    <value>Quantity</value>
+    <comment>Column label for the quantity of the product</comment>
+  </data>
+  <!-- Receiving Enter Hi Quantity Workflow -->
+  <data name="ReceivingEnterHiQuantityWorkflowActivity_InitialPrompt">
+    <value>Enter Hi</value>
+    <comment>Spoken prompt, height of pallet in number of layers of containers.</comment>
+  </data>
+  <data name="ReceivingEnterHiQuantityWorkflowActivity_RemainingQuantity">
+    <value>Remaining Quantity</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ReceivingEnterHiQuantityWorkflowActivity_ReceivedQuantity">
+    <value>Received Quantity</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ReceivingEnterHiQuantityWorkflowActivity_HiLabel">
+    <value>Hi Quantity</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ReceivingEnterHiQuantityWorkflowActivity_TiLabel">
+    <value>Ti Quantity</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ReceivingEnterHiQuantityWorkflowActivity_TotalLabel">
+    <value>Total Quantity</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ReceivingEnterHiQuantityWorkflowActivity_QuantityEntryPlaceholder">
+    <value>Speak/Type</value>
+    <comment>Gray default text in entry box.</comment>
+  </data>
+  <!-- Receiving Enter Ti Quantity Workflow -->
+  <data name="ReceivingEnterTiQuantityWorkflowActivity_InitialPrompt">
+    <value>Enter Tie</value>
+    <comment>Spoken prompt, asking for number of containers per pallet layer.</comment>
+  </data>
+  <data name="ReceivingEnterTiQuantityWorkflowActivity_RemainingQuantity">
+    <value>Remaining Quantity</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ReceivingEnterTiQuantityWorkflowActivity_ReceivedQuantity">
+    <value>Received Quantity</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ReceivingEnterTiQuantityWorkflowActivity_HiLabel">
+    <value>Hi Quantity</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ReceivingEnterTiQuantityWorkflowActivity_TiLabel">
+    <value>Ti Quantity</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ReceivingEnterTiQuantityWorkflowActivity_TotalLabel">
+    <value>Total Quantity</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ReceivingEnterTiQuantityWorkflowActivity_QuantityEntryPlaceholder">
+    <value>Speak/Type</value>
+    <comment>Gray default text in entry box.</comment>
+  </data>
+  <!-- Receiving Confirm Quantity Workflow -->
+  <data name="ReceivingConfirmQuantityWorkflowActivity_RemainingQuantity">
+    <value>Remaining Quantity</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ReceivingConfirmQuantityWorkflowActivity_ReceivedQuantity">
+    <value>Received Hi-Ti Quantity</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ReceivingConfirmQuantityWorkflowActivity_HiLabel">
+    <value>Hi Quantity</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ReceivingConfirmQuantityWorkflowActivity_TiLabel">
+    <value>Ti Quantity</value>
+    <comment>Application screen label, number of containers per pallet layer.</comment>
+  </data>
+  <data name="ReceivingConfirmQuantityWorkflowActivity_TotalLabel">
+    <value>Total Quantity</value>
+    <comment>Application screen label</comment>
+  </data>
+  <!-- Receiving Items Workflow -->
+  <data name="ReceivingItemsWorkflowActivity_Header">
+    <value>Purchase Order</value>
+    <comment>Application screen header, </comment>
+  </data>
+  <data name="ReceivingItemsWorkflowActivity_InitialPrompt">
+    <value>Item?</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="ReceivingItemsWorkflowActivity_Placeholder">
+    <value>Speak/Type/Scan</value>
+    <comment>Gray default text in entry box.</comment>
+  </data>
+  <data name="ReceivingItemsWorkflowActivity_EntryLabel">
+    <value>Product Identifier</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ReceivingItemsWorkflowActivity_NoItemReceived">
+    <value>Location unknown, no item received</value>
+    <comment>Application screen label</comment>
+  </data>
+  <data name="ReceivingItemsWorkflowActivity_LocationPrompt">
+    <value>Location is {0}</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="ReceivingItemsWorkflowActivity_InfoPromptSingular">
+    <value>you have one pick remaining</value>
+    <comment>Spoken prompt, when one item remains to be selected.</comment>
+  </data>
+  <data name="ReceivingItemsWorkflowActivity_InfoPromptPlural">
+    <value>you have {0} picks remaining</value>
+    <comment>Spoken prompt, when multiple items remaing to be selected.</comment>
+  </data>
+  <data name="ReceivingItemsWorkflowActivity_Barcode">
+    <value>Barcode</value>
+    <comment>Label for barcode of product</comment>
+  </data>
+  <!-- Receiving No More Workflow -->
+  <data name="ReceivingConfirmNoMoreWorkflowActivity_Header">
+    <value>No More Items?</value>
+    <comment>Application screen header.</comment>
+  </data>
+  <data name="ReceivingConfirmNoMoreWorkflowActivity_InitialPrompt">
+    <value>No more items, correct?</value>
+    <comment>Spoken prompt, confirmational.</comment>
+  </data>
+  <!-- Receiving Apply Label Workflow -->
+  <data name="ReceivingApplyLabelWorkflowActivity_Header">
+    <value>Apply label to pallet</value>
+    <comment>Application screen header.</comment>
+  </data>
+  <data name="ReceivingApplyLabelWorkflowActivity_InitialPrompt">
+    <value>Apply label to pallet</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="ReceivingApplyLabelWorkflowActivity_NextButtonText">
+    <value>Ready</value>
+    <comment>Application button text.</comment>
+  </data>
+  <!-- Receiving Damage Workflow Activity-->
+  <data name="ReceivingDamageWorkflowActivity_Header">
+    <value> • Say a number, a damage reason, or tap a damage reason to select</value>
+    <comment>Application screen header, formatted.</comment>
+  </data>
+  <data name="ReceivingDamageWorkflowActivity_InitialPrompt">
+    <value>Select a damage reason</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="ReceivingDamageWorkflowActivity_Title">
+    <value>Damage Reasons</value>
+    <comment>Application screen title</comment>
+  </data>
+  <data name="ReceivingDamageWorkflowActivity_Crushed">
+    <value>Crushed</value>
+    <comment>Receiving demo value.</comment>
+  </data>
+  <data name="ReceivingDamageWorkflowActivity_Leaking">
+    <value>Leaking</value>
+    <comment>Receiving demo value.</comment>
+  </data>
+  <data name="ReceivingDamageWorkflowActivity_Missing">
+    <value>Missing</value>
+    <comment>Receiving demo value.</comment>
+  </data>
+  <!-- Receiving Summary Workflow -->
+  <data name="ReceivingSummaryWorkflowActivity_Header">
+    <value>Invoice Summary</value>
+    <comment>Application screen header</comment>
+  </data>
+  <data name="ReceivingSummaryWorkflowActivity_InitialPrompt">
+    <value>Invoice Summary</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="ReceivingSummaryWorkflowActivity_StockCode">
+    <comment>Label for stock code</comment>
+    <value>Stock Code</value>
+  </data>
+  <!-- Receiving Confirm Quantity Workflow -->
+  <data name="ReceivingConfirmQuantityWorkflowActivity_Header">
+    <value>Verify quantity of {0}</value>
+    <comment>Application screen header.</comment>
+  </data>
+  <data name="ReceivingConfirmQuantityWorkflowActivity_InitialPrompt">
+    <value>{0} Correct?</value>
+    <comment>Spoken prompt, confirmational.</comment>
+  </data>
+  <!-- Receiving Confirm Condition Workflow -->
+  <data name="ReceivingConfirmConditionWorkflowActivity_Header">
+    <value>Verify condition of pallet</value>
+    <comment>Application screen header.</comment>
+  </data>
+  <data name="ReceivingConfirmConditionWorkflowActivity_InitialPrompt">
+    <value>Pallet Condition?</value>
+    <comment>Spoken prompt</comment>
+  </data>
+  <data name="ReceivingConfirmConditionWorkflowActivity_AffirmativeButtonText">
+    <value>Good</value>
+    <comment>Application button text.</comment>
+  </data>
+  <data name="ReceivingConfirmConditionWorkflowActivity_NegativeButtonText">
+    <value>Damaged</value>
+    <comment>Application button text.</comment>
+  </data>
+  <!-- Receiving Print Label Workflow -->
+  <data name="ReceivingPrintLabelWorkflowActivity_Abortable_StartedHeaderMsg">
+    <value>Printing label...</value>
+    <comment>Application screen header, when a label has begun printing.</comment>
+  </data>
+  <data name="ReceivingPrintLabelWorkflowActivity_Abortable_StartedSubHeaderMsg">
+    <value>one moment...</value>
+    <comment>Application screen sub-header, message for waiting for an operation to finish.</comment>
+  </data>
+</root>

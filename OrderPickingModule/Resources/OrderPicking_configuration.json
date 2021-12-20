@@ -1,0 +1,9 @@
+{
+  "WorkflowConfiguration": {
+    "WorkflowName": "OrderPicking",
+    "WorkflowFriendlyName": "WorkflowFriendlyName_OrderPicking",
+    "WorkflowModelName": "OrderPickingModel",
+    "WorkflowFiltersForSelecting": [ "RetailEmbeddedDemo", "RetailServer" ],
+    "AdditionalWorkflowsToLoad": [ "GuidedWorkRunner" ]
+  }
+}

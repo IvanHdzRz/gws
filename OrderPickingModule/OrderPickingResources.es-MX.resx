@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  
+  <!-- Workflow Friendly Names -->
+  <data name="WorkflowFriendlyName_OrderPicking">
+    <value>Selección del pedido</value>
+  </data>
+
+  <!-- Vocab Words -->
+  <data name="VocabWord_EndOrder">
+    <value>finalizar pedido</value>
+  </data>
+  <data name="VocabWord_Overflow">
+    <value>sobreflujo</value>
+  </data>
+  <data name="VocabWord_OrderStatus">
+      <value>estado del pedido</value>
+      <comment>"Order status" command.</comment>
+  </data>
+
+  <!-- Order Picking Workflow -->
+  <data name="OrderPickingWorkflowActivity_Title">
+    <value>Selección del pedido</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_OrderNumber">
+    <value>Id. de pedido: </value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_StockCode">
+    <value>Código de existencias</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_StockCodeEntryPlaceholder">
+    <value>Decir/Escribir/Escanear</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_QuantityEntryPlaceholder">
+    <value>Decir/Escribir</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_Sequence">
+    <value>Artículo seleccionado {0} de {1}</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_Location">
+    <value>UBICACIÓN</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_Details">
+    <value>DETALLES</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_OrderedQuantity">
+    <value>Cantidad solicitada</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_LastDigits">
+    <value> (Últimos {0} dígitos)</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_PickedQuantity">
+    <value>Cantidad seleccionada</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_CancelButtonText">
+    <value>Finalizar pedido</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_PriceLabel">
+    <value>Precio unitario:</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_StagingLocation">
+    <value>Ubicación de almacenamiento temporal</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_StagingLocationEntryPlaceholder">
+    <value>Decir/Escribir/Escanear</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_Container">
+    <value>Contenedor</value>
+  </data>
+  <data name="OrderPickingWorkflowActivity_OverflowButtonText">
+    <value>Sobreflujo</value>
+  </data>
+
+  <!-- Order Picking Get Containers Workflow -->
+  <data name="OrderPickingGetContainersWorkflowActivity_Header">
+    <value>Obtener contenedores</value>
+  </data>
+  <data name="OrderPickingGetContainersWorkflowActivity_InitialPromptSingular">
+    <value>Obtener contenedores para {0} pedido. Diga Siguiente cuando termine.</value>
+  </data>
+  <data name="OrderPickingGetContainersWorkflowActivity_InitialPromptPlural">
+    <value>Obtener contenedores para {0} pedidos. Diga Siguiente cuando termine.</value>
+  </data>
+  <data name="OrderPickingGetContainersWorkflowActivity_Instructions">
+    <value> • Obtener contenedores para pedidos\n • Diga o presione Siguiente para continuar</value>
+  </data>
+  
+  <!-- Order Picking Acknowledge Location Workflow -->
+  <data name="OrderPickingAcknowledgeLocationWorkflowActivity_Header">
+    <value>Artículo {0} de {1}</value>
+  </data>
+  <data name="OrderPickingAcknowledgeLocationWorkflowActivity_InitialPrompt">
+    <value>Ubicación: {0}</value>
+  </data>
+  <data name="OrderPickingAcknowledgeLocationWorkflowActivity_Instructions">
+    <value> • Vaya a la siguiente ubicación\n • Diga o presione Siguiente para seleccionar el artículo</value>
+  </data>
+
+  <!-- Order Picking Confirm No More Workflow -->
+  <data name="OrderPickingConfirmNoMoreWorkflowActivity_Header">
+    <value>Finalizar pedido</value>
+  </data>
+  <data name="OrderPickingConfirmNoMoreWorkflowActivity_SubHeader">
+    <value>Revise la lista de pedido de artículos</value>
+  </data>
+  <data name="OrderPickingConfirmNoMoreWorkflowActivity_Body">
+    <value>¿Está seguro de que desea finalizar el pedido?</value>
+  </data>
+  <data name="OrderPickingConfirmNoMoreWorkflowActivity_InitialPrompt">
+    <value>Finalizar pedido, ¿correcto?</value>
+  </data>
+  
+  <!-- Order Picking Confirm Skip Item Workflow -->
+  <data name="OrderPickingConfirmSkipProductWorkflowActivity_Header">
+    <value>Omitir artículo</value>
+  </data>
+  <data name="OrderPickingConfirmSkipProductWorkflowActivity_Body">
+    <value>Los artículos omitidos se agregarán al final de la lista de pedido. ¿Está seguro de que desea omitir este artículo ahora?</value>
+  </data>
+  <data name="OrderPickingConfirmSkipProductWorkflowActivity_InitialPrompt">
+    <value>Omitir artículo, ¿correcto?</value>
+  </data>
+  <data name="OrderPickingConfirmSkipProductWorkflowActivity_Instructions">
+    <value> • Diga o presione Sí para confirmar la omisión de este artículo\n • Diga o presione No para continuar</value>
+  </data>
+  
+  <!-- Order Picking Confirm Skip Enter Item Workflow -->
+  <data name="OrderPickingConfirmSkipEnterItemWorkflowActivity_Header">
+    <value>Omitir artículo</value>
+  </data>
+  <data name="OrderPickingConfirmSkipEnterItemWorkflowActivity_Body">
+    <value>Los artículos omitidos se agregarán al final de la lista de pedido. ¿Está seguro de que desea omitir este artículo ahora?</value>
+  </data>
+  <data name="OrderPickingConfirmSkipEnterItemWorkflowActivity_InitialPrompt">
+    <value>Omitir artículo, ¿correcto?</value>
+  </data>
+  <data name="OrderPickingConfirmSkipEnterItemWorkflowActivity_Instructions">
+    <value> • Diga o presione Sí para confirmar la omisión de este artículo\n • Diga o presione No para continuar</value>
+  </data>
+
+  <!-- Order Picking Enter Product Workflow -->
+  <data name="OrderPickingEnterProductWorkflowActivity_Header">
+    <value>Artículo {0} de {1}</value>
+  </data>
+  <data name="OrderPickingEnterProductWorkflowActivity_InitialPrompt">
+    <value>Ubicación: {0}</value>
+  </data>
+  <data name="OrderPickingEnterProductWorkflowActivity_Placeholder">
+    <value>¿Identificador del producto?</value>
+  </data>
+  <data name="OrderPickingEnterProductWorkflowActivity_InfoPrompt">
+    <value>Ubicación: {0}</value>
+  </data>
+  <data name="OrderPickingEnterProductWorkflowActivity_Instructions">
+    <value> • Ubique el código de existencias en la caja\n • Diga, escanee o escriba el código de existencias</value>
+  </data>
+
+  <!-- Order Picking Enter Quantity Workflow -->
+  <data name="OrderPickingEnterQuantityWorkflowActivity_Header">
+    <value>Colocar {0} en Contenedor {1}</value>
+  </data>
+  <data name="OrderPickingEnterQuantityWorkflowActivity_InitialPrompt">
+    <value>Colocar {0} en Contenedor {1}</value>
+  </data>
+  <data name="OrderPickingEnterQuantityWorkflowActivity_ErrorPrompt">
+    <value>¡Seleccionó la cantidad incorrecta! Vuelva a intentarlo. Coloque {0} en el pedido {1}</value>
+  </data>
+  <data name="OrderPickingEnterQuantityWorkflowActivity_ErrorMsg">
+    <value>¡Seleccionó la cantidad incorrecta! Vuelva a intentarlo.</value>
+  </data>
+  <data name="OrderPickingEnterQuantityWorkflowActivity_Placeholder">
+    <value>¿Cuántos seleccionó?</value>
+  </data>
+  <data name="OrderPickingEnterQuantityWorkflowActivity_Instructions">
+    <value> • Seleccione la cantidad solicitada de artículos\n • Diga o escriba la cantidad seleccionada de artículos\n • Diga siguiente</value>
+  </data>
+
+  <!-- Order Picking Confirm Quantity Workflow Activity -->
+    <data name="OrderPickingConfirmQuantityWorkflowActivity_Header">
+    <value>Confirmar {0} en Contenedor {1}</value>
+  </data>
+  <data name="OrderPickingConfirmQuantityWorkflowActivity_InitialPrompt">
+    <value>{0} en contenedor {1}, ¿correcto?</value>
+  </data>
+  <data name="OrderPickingConfirmQuantityWorkflowActivity_Instructions">
+    <value> • Diga o presione Sí para confirmar la cantidad\n • Diga o presione No si es incorrecta</value>
+  </data>
+
+  <!-- Order Picking Enter Substitute Product Workflow -->
+  <data name="OrderPickingEnterSubProductWorkflowActivity_Placeholder">
+    <value>¿Identificador del producto?</value>
+  </data>
+  <data name="OrderPickingEnterSubProductWorkflowActivity_SubstitutionInfoPrompt">
+    <value>{0}, ubicación: {1}, como sustitución de {2}</value>
+  </data>
+  <data name="OrderPickingEnterSubProductWorkflowActivity_SubstitutionsAvailablePrompt">
+    <value>Las sustituciones están disponibles para este artículo. Ubique {0}</value>
+  </data>
+  <data name="OrderPickingEnterSubProductWorkflowActivity_SubstituteHeader">
+    <value>Como sustitución de: {0}</value>
+  </data>
+  <data name="OrderPickingEnterSubProductWorkflowActivity_Instructions">
+    <value> • Ubique el código de existencias en la caja\n • Diga, escanee o escriba el código de existencias</value>
+  </data>
+
+  <!-- Order Picking Confirm Overflow Workflow -->
+  <data name="OrderPickingConfirmOverflowWorkflowActivity_Header">
+    <value>¿Confirmar sobreflujo?</value>
+  </data>
+  <data name="OrderPickingConfirmOverflowWorkflowActivity_InitialPrompt">
+    <value>Sobreflujo para contenedor {0}, ¿correcto?</value>
+  </data>
+  <data name="OrderPickingConfirmOverflowWorkflowActivity_Instructions">
+    <value> • Confirme para iniciar un nuevo contenedor para el pedido</value>
+  </data>
+
+  <!-- Order Picking Order Status Workflow Activity-->
+  <data name="OrderPickingOrderStatusWorkflowActivity_InitialPrompt">
+    <value>estado del pedido</value>
+  </data>
+  <data name="OrderPickingOrderStatusWorkflowActivity_RequestedQuantity">
+    <value>Cantidad solicitada: {0}</value>
+  </data>
+  <data name="OrderPickingOrderStatusWorkflowActivity_InfoPromptSingular">
+    <value>tiene una selección restante</value>
+  </data>
+  <data name="OrderPickingOrderStatusWorkflowActivity_InfoPromptPlural">
+    <value>tiene {0} selecciones restantes</value>
+  </data>
+
+  <!-- Order Picking Go To Staging Location Workflow -->
+  <data name="OrderPickingGoToStagingLocationWorkflowActivity_Header">
+    <value>Ir a ubicación de almacenamiento temporal</value>
+  </data>
+  <data name="OrderPickingGoToStagingLocationWorkflowActivity_InitialPrompt">
+    <value>Llevar pedidos completos a la ubicación de almacenamiento temporal.\nDiga Siguiente para continuar.</value>
+  </data>
+  <data name="OrderPickingGoToStagingLocationWorkflowActivity_Instructions">
+    <value> • Llevar pedidos a la ubicación de almacenamiento temporal\n • Diga o presione Siguiente para continuar</value>
+  </data>
+    
+  <!-- Order Picking Enter Staging Location Workflow -->
+  <data name="OrderPickingEnterStagingLocationWorkflowActivity_Header">
+    <value>Ubicación de contenedor {0}</value>
+  </data>
+  <data name="OrderPickingEnterStagingLocationWorkflowActivity_InitialPrompt">
+    <value>Ingrese la ubicación de almacenamiento temporal del contenedor {0}</value>
+  </data>
+  <data name="OrderPickingEnterStagingLocationWorkflowActivity_Instructions">
+    <value> • Coloque el contenedor en una ubicación de almacenamiento temporal\n • Ingrese la ubicación de almacenamiento temporal</value>
+  </data>
+
+  <!-- Order Picking Confirm Staging Location Workflow -->
+  <data name="OrderPickingConfirmStagingLocationWorkflowActivity_Header">
+    <value>Confirmar ubicación de almacenamiento temporal</value>
+  </data>
+  <data name="OrderPickingConfirmStagingLocationWorkflowActivity_InitialPrompt">
+    <value>Contenedor {0} en ubicación de almacenamiento temporal {1}, ¿correcto?</value>
+  </data>
+  <data name="OrderPickingConfirmStagingLocationWorkflowActivity_Instructions">
+    <value> • Confirme la ubicación de almacenamiento temporal</value>
+  </data>
+
+  <!-- Order Picking All Done Workflow -->
+  <data name="OrderPickingAllDoneWorkflowActivity_Header">
+    <value>Todo listo</value>
+  </data>
+  <data name="OrderPickingAllDoneWorkflowActivity_InitialPrompt">
+    <value>Todo listo. Para continuar diga siguiente.</value>
+  </data>
+  
+</root>

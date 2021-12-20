@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hfmcl:CoreView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:hfmcl="clr-namespace:Honeywell.Firebird.CoreLibrary;assembly=Honeywell.GuidedWork.XF"
+             x:Class="OrderPicking.OrderPickingOrderStatusView">
+  <StackLayout>
+    <!-- Unlike the other ListViews used throughout the app, this one does not make use of CachingStrategy="RecycleElement", which was a fix for VORET-546.
+    VORET-546 wasn't directly reproducible, however google searches indicated that using the RecycleElement caching strategy was a rememdy for the exception seen
+    in that ticket. The reason this ListView does not use RecycleElement as a caching strategy is because we were seeing an undesired symptom: In this list, we
+    highlight the first item via the ListView.SelectedItem property to show the user the current item they are on for a given order picking order. 
+    With RecycleElement used, this highlight was not showing. This issue has been captured in VORET-557.-->
+    <ListView HasUnevenRows="true" ItemsSource="{Binding CurrentAndUpcomingPicks}" SelectedItem="{Binding CurrentItem, Mode=TwoWay}" AutomationId="OrderPickingOrderStatusList">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ImageCell IsEnabled="false" AutomationId="OrderPickingOrderStatusViewImageCell" ImageSource="{Binding ProductImage}" Text="{Binding ProductName}" Detail="{Binding RequestedQuantity}" TextColor="{x:Static hfmcl:ColorResources.DefaultTextColor}" DetailColor="{x:Static hfmcl:ColorResources.DefaultTextColor}"/>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </StackLayout>
+</hfmcl:CoreView>

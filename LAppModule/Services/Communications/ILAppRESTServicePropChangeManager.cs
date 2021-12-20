@@ -1,0 +1,12 @@
+﻿//////////////////////////////////////////////////////////////////////////////
+//    Copyright (C) 2018 Honeywell International Inc. All rights reserved.
+//////////////////////////////////////////////////////////////////////////////
+
+namespace LApp
+{
+    using RESTCommunication;
+
+    public interface ILAppRESTServicePropChangeManager : IRESTServicePropChangeManager
+    {
+    }
+}

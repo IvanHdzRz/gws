@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright (C) 2017 Honeywell International Inc. All rights reserved. -->
+<hfmcl:FlowListSelectionView
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"
+    xmlns:hfmcl="clr-namespace:Honeywell.Firebird.CoreLibrary;assembly=Honeywell.GuidedWork.XF"
+    xmlns:skia="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
+    xmlns:i18n="clr-namespace:Honeywell.Firebird.CoreLibrary.Localization.Xaml;assembly=Honeywell.GuidedWork.XF"
+    x:Class="Receiving.ReceivingDamageSelectView">
+
+    <StackLayout>
+
+        <Label Text="{i18n:Translate Header}" Style="{StaticResource ListHeaderLabelStyle}" AutomationId="WorkflowListHeaderLabel" />
+
+        <flv:FlowListView x:Name="SelectListView" FlowTappedBackgroundColor="{x:Static hfmcl:ColorResources.HoneywellMediumBlue}" FlowTappedBackgroundDelay="300" FlowItemsSource="{Binding IndexedCells}" FlowColumnCount="2" HasUnevenRows="True" SeparatorVisibility="None" AutomationId="WorkflowSelectList" Margin="5,0,5,0">
+
+            <flv:FlowListView.FlowColumnTemplate>
+                <DataTemplate>
+                    <StackLayout HeightRequest="105">
+                        <StackLayout Style="{StaticResource CardBorderStyle}" Margin="5,5,5,5" VerticalOptions="FillAndExpand">
+                            <StackLayout Style="{StaticResource CardBodyStyle}">
+                                <Grid VerticalOptions="EndAndExpand">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Label Text="{Binding Index}" Style="{StaticResource WorkflowIndexStyle}" AutomationId="ReceivingDamageSelectViewIndexLabel" />
+                                </Grid>
+                                <Label Text="{Binding Name}" Style="{StaticResource WorkflowNameStyle}" AutomationId="ReceivingDamageSelectViewNameLabel" />
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+                </DataTemplate>
+            </flv:FlowListView.FlowColumnTemplate>
+        </flv:FlowListView>
+
+    </StackLayout>
+</hfmcl:FlowListSelectionView>

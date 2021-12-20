@@ -1,0 +1,9 @@
+﻿{
+  "WorkflowConfiguration": {
+    "WorkflowName": "WarehousePicking",
+    "WorkflowFriendlyName": "WorkflowFriendlyName_WarehousePicking",
+    "WorkflowModelName": "WarehousePickingModel",
+    "WorkflowFiltersForSelecting": [ "EmbeddedDemo", "MicroServices" ],
+    "AdditionalWorkflowsToLoad": [ "GuidedWorkRunner" ]
+  }
+}

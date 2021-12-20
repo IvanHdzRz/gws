@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hfmcl:CoreView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:guidedwork="clr-namespace:GuidedWork;assembly=GuidedWork"
+             xmlns:hfmcl="clr-namespace:Honeywell.Firebird.CoreLibrary;assembly=Honeywell.GuidedWork.XF"
+             xmlns:i18n="clr-namespace:Honeywell.Firebird.CoreLibrary.Localization.Xaml;assembly=Honeywell.GuidedWork.XF"
+             x:Class="WarehousePicking.WarehousePickingPerformanceView">
+
+  <StackLayout Padding="10">
+    <Label Text="{Binding Header}" Style="{StaticResource ListHeaderLabelStyle}" AutomationId="WarehousePickingOrderStatusHeaderLabel" />
+    <!-- Unlike the other ListViews used throughout the app, this one does not make use of CachingStrategy="RecycleElement", which was a fix for VORET-546.
+    VORET-546 wasn't directly reproducible, however google searches indicated that using the RecycleElement caching strategy was a rememdy for the exception seen
+    in that ticket. The reason this ListView does not use RecycleElement as a caching strategy is because we were seeing an undesired symptom: In this list, we
+    highlight the first item via the ListView.SelectedItem property to show the user the current item they are on for a given warehouse picking order. 
+    With RecycleElement used, this highlight was not showing. This issue has been captured in VORET-557.-->
+    <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="WarehousePickingPerformanceViewBoxView"/>
+    <Grid>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="*"></RowDefinition>
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+        <ColumnDefinition Width="2*"></ColumnDefinition>
+      </Grid.ColumnDefinitions>
+      <Label Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Start" Text="{i18n:Translate Activity}" AutomationId="WarehousePickingPerformanceViewActivityLabel"/>
+      <Label Grid.Row="0" Grid.Column="1" HorizontalTextAlignment="End" Text="{i18n:Translate Time}" AutomationId="WarehousePickingPerformanceViewTimeLabel" />
+    </Grid>
+    <ListView VerticalOptions="FillAndExpand" HasUnevenRows="true" ItemsSource="{Binding CurrentAndUpcomingPicks}" CachingStrategy="RecycleElement" ItemSelected="OnItemSelected" AutomationId="WarehousePickingOrderSummaryItemsList">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <ViewCell.View>
+              <Grid Padding="5">
+                <Grid.RowDefinitions>
+                  <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                  <ColumnDefinition Width="*"></ColumnDefinition>
+                  <ColumnDefinition Width="2*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Row="0" Grid.Column="0" Text="{Binding ActivityName}" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" FontSize="Small" FontAttributes="Bold" TextColor="{x:Static hfmcl:ColorResources.DefaultTextColor}" AutomationId="WarehousePickingPerformanceViewActivityNameLabel"/>
+                <Label Grid.Row="0" Grid.Column="1" Text="{Binding ActivityDuration}" HorizontalTextAlignment="End" VerticalTextAlignment="Center" FontSize="Small" FontAttributes="Bold" TextColor="{x:Static hfmcl:ColorResources.DefaultTextColor}" AutomationId="WarehousePickingPerformanceViewActivityDurationLabel"/>
+              </Grid>
+            </ViewCell.View>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+    <Button Text="{i18n:Translate ReadyButtonText, Converter={StaticResource StringCaseConverter}, ConverterParameter=U}"
+        Command="{Binding ValidationModel.SubmitResponseCommand}"
+        CommandParameter="{i18n:Translate accept_entry_word}"
+        VerticalOptions="End"
+        Style="{StaticResource PrimaryButtonStyle}"
+        AutomationId="ReadyButton" />
+  </StackLayout>
+</hfmcl:CoreView>

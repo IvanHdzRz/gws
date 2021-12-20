@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Development": {
+      "commandName": "Project"
+    },
+    "MockCatalyst": {
+      "commandName": "Project",
+      "commandLineArgs": "--mock-catalyst"
+    }
+  }
+}

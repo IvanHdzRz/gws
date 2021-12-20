@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Auto-generated, do not edit by hand -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.honeywell.GuidedWorkDemo" android:versionCode="1" android:versionName="1.0">
+	<uses-sdk android:minSdkVersion="23" />
+	<application android:allowBackup="false" android:label="Guided Work" android:icon="@drawable/icon" android:requestLegacyExternalStorage="true" android:extractNativeLibs="true">
+		<uses-library android:name="com.symbol.emdk" android:required="false" />
+		<provider android:name="androidx.core.content.FileProvider" android:authorities="${applicationId}.fileprovider" android:exported="false" android:grantUriPermissions="true">
+			<meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"></meta-data>
+		</provider>
+	</application>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	<uses-permission android:name="android.permission.BROADCAST_STICKY" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+	<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission android:name="android.permission.RECORD_AUDIO" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="com.honeywell.decode.permission.DECODE" />
+	<uses-permission android:name="com.symbol.emdk.permission.EMDK" />
+</manifest>

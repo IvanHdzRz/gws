@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright (C) 2017 Honeywell International Inc. All rights reserved. -->
+<hfmcl:CoreView
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:GuidedWork;assembly=RetailModule"
+    xmlns:hfmcl="clr-namespace:Honeywell.Firebird.CoreLibrary;assembly=Honeywell.GuidedWork.XF"
+    xmlns:i18n="clr-namespace:Honeywell.Firebird.CoreLibrary.Localization.Xaml;assembly=Honeywell.GuidedWork.XF"
+    x:Class="OrderPicking.OrderPickingView">
+
+        <Grid RowSpacing="0" VerticalOptions="Fill">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="70*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="291*" />
+                <RowDefinition Height="65*" />
+            </Grid.RowDefinitions>
+        
+        <Grid x:Name="SequenceGrid" Grid.Row="0" ColumnSpacing="0" VerticalOptions="Fill">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="50" />
+            </Grid.ColumnDefinitions>
+            <StackLayout x:Name="SequenceLayout" Spacing="0" VerticalOptions="Center" Grid.Column="1">
+                <StackLayout Orientation="Horizontal" Spacing="0" HorizontalOptions="Center">
+                    <Label x:Name="HeaderLabel" AutomationId="OrderPickingSequenceLabel" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Spacing="0" HorizontalOptions="Center">
+                    <Label Text="{i18n:Translate OrderPickingWorkflowActivity_OrderNumber}" Style="{StaticResource OrderNumberLabelStyle}" HorizontalOptions="Center" AutomationId="OrderPickingOrderIdentifierLabelLabel" />
+                    <Label Text="{Binding OrderIdentifier}" Style="{StaticResource OrderNumberLabelStyle}" HorizontalOptions="Center" AutomationId="OrderPickingOrderIdentifierLabel" />
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout x:Name="InstructionsLayout" VerticalOptions="Center" IsVisible="False" Grid.Column="0" Grid.ColumnSpan="2">
+                <Label Text="{Binding Instructions}" AutomationId="OrderPickingInstructionsLabel" />
+            </StackLayout>
+
+            <StackLayout VerticalOptions="Fill" HorizontalOptions="Fill" Grid.Column="2">
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnInfoTapped" AutomationId="OrderPickingInfoTapRecognizer" />
+                </StackLayout.GestureRecognizers>
+                <Image Source="grey_info.png" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" AutomationId="OrderPickingInfoImage" />
+            </StackLayout>
+        </Grid>
+
+
+
+
+        <StackLayout Style="{StaticResource SectionTitleLayoutStyle}" Grid.Row="1">
+            <Label Text="{i18n:Translate OrderPickingWorkflowActivity_Location}" Style="{StaticResource SectionTitleLabelStyle}" AutomationId="OrderPickingLocationLabel"/>
+        </StackLayout>
+
+        <StackLayout x:Name="LocationDescriptorsLayout" Orientation="Horizontal" HorizontalOptions="Fill" Spacing="0" Grid.Row="2" VerticalOptions="Center" />
+
+        <StackLayout Style="{StaticResource SectionTitleLayoutStyle}" Grid.Row="3">
+            <Label Text="{i18n:Translate OrderPickingWorkflowActivity_Details}" Style="{StaticResource SectionTitleLabelStyle}" AutomationId="OrderPickingDetailsLabel" />
+        </StackLayout>
+
+        <StackLayout VerticalOptions="FillAndExpand" Spacing="0" Padding="10,5,10,0" Grid.Row="4">
+
+            <Label Text="{Binding ProductName}" Style="{StaticResource NameLabelStyle}" AutomationId="OrderPickingProductNameLabel" />
+
+
+            <StackLayout Orientation="Horizontal" Padding="0,10,0,0" HorizontalOptions="Fill" VerticalOptions="FillAndExpand" >
+                <Grid VerticalOptions="FillAndExpand">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="65*" />
+                        <RowDefinition Height="35*" />
+                    </Grid.RowDefinitions>
+                    <Grid HorizontalOptions="Center" Grid.Column="0" Grid.Row="0" Padding="0,0,5,0" RowSpacing="0" VerticalOptions="Center">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <local:ImageWithTextSubview ImagePath="{Binding ProductImage}" Text="{i18n:Translate NoImage}" />
+
+                        <StackLayout HorizontalOptions="Center" Spacing="0" Grid.Row="1">
+                            <StackLayout Orientation="Horizontal" IsVisible="{Binding Price, Converter={StaticResource StringVisibleConverter}}" >
+                                <Label Text="{i18n:Translate OrderPickingWorkflowActivity_PriceLabel}" Style="{StaticResource SmallBodyLabelStyle}" VerticalOptions="End" AutomationId="OrderPickingPriceDescriptorLabel" />
+                                <Label Text="{Binding Price}" Style="{StaticResource PriceLabelStyle}" AutomationId="OrderPickingPriceLabel" />
+                            </StackLayout>
+                            <Label Text="{Binding Size}" Style="{StaticResource SmallBodyLabelStyle}" IsVisible="{Binding Size, Converter={StaticResource StringVisibleConverter}}" AutomationId="OrderPickingPriceLabel" />
+                        </StackLayout>
+
+                    </Grid>
+                    <StackLayout Spacing="0" Grid.Column="0" Grid.Row="1" VerticalOptions="Fill">
+                        <Label Text="{i18n:Translate OrderPickingWorkflowActivity_OrderedQuantity}" Style="{StaticResource EntryBoldLabelStyle}" HorizontalOptions="Center" AutomationId="OrderPickingOrderedQuantityLabel" />
+                        <Label Text="{Binding RemainingQuantity}" Style="{StaticResource QuantityLabelStyle}" HorizontalOptions="Center" AutomationId="OrderPickingRemainingQuantityLabel" />
+                    </StackLayout>
+
+                    <StackLayout VerticalOptions="Center" HorizontalOptions="Fill" Grid.Column="1" Grid.Row="0" Padding="5,0,0,0">
+
+                        <StackLayout Spacing="0">
+                            <StackLayout Orientation="Horizontal" Spacing="0">
+                                <Label Text="{i18n:Translate OrderPickingWorkflowActivity_StockCode}" Style="{StaticResource SmallBodyLabelStyle}" AutomationId="OrderPickingStockCodeLabelLabel" />
+                                <Label Text=": "  Style="{StaticResource SmallBodyLabelStyle}" AutomationId="OrderPickingStockCodeColonLabel" />
+                            </StackLayout>
+                            <Label x:Name="ProductIdentifierLabel" AutomationId="OrderPickingProductIdentifierLabel" />
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal" Spacing="0">
+                            <Label Text="{i18n:Translate OrderPickingWorkflowActivity_StockCode}" Style="{StaticResource EntryBoldLabelStyle}" AutomationId="OrderPickingStockCodeEntryLabel" />
+                            <Label Text="{Binding LastDigitsLabel}" LineBreakMode="NoWrap" Style="{StaticResource EntrySpecLabelStyle}" AutomationId="OrderPickingLast3DigitsLabel" />
+                        </StackLayout>
+
+                        <hfmcl:UserEntrySubview x:Name="StockCodeEntrySubview" 
+                                Placeholder="{i18n:Translate OrderPickingWorkflowActivity_StockCodeEntryPlaceholder}"
+                                SubmitResponseCommand="{Binding ValidationModel.SubmitResponseCommand}"
+                                FontSize="14"
+                                ErrorMessageFontSize="10"
+                                BorderWidth="2"
+                                ShowUnderline="False"
+                                IsEnabled="False"
+                                AutomationId="OrderPickingStockCodeEntrySub" />
+
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="1" Grid.Row="1" Padding="5,0,0,0" VerticalOptions="Fill">
+
+                        <StackLayout Spacing="0">
+                            <Label Text="{i18n:Translate OrderPickingWorkflowActivity_PickedQuantity}" Style="{StaticResource EntryBoldLabelStyle}" AutomationId="OrderPickingPickedQuantityLabel" />
+
+                            <hfmcl:UserEntrySubview x:Name="QuantityEntrySubview" 
+                                    Placeholder="{i18n:Translate OrderPickingWorkflowActivity_QuantityEntryPlaceholder}"
+                                    SubmitResponseCommand="{Binding ValidationModel.SubmitResponseCommand}"
+                                    FontSize="14"
+                                    ErrorMessageFontSize="10"
+                                    BorderWidth="2"
+                                    ShowUnderline="False"
+                                    IsEnabled="False"
+                                    AutomationId="OrderPickingQuantityEntrySub" />
+                        </StackLayout>
+
+                    </StackLayout>
+
+                </Grid>
+            </StackLayout>
+
+        </StackLayout>
+        
+        <Grid x:Name="ButtonGrid" VerticalOptions="End" Grid.Row="5" Padding="10,5,10,10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+        </Grid>
+
+        </Grid>
+
+</hfmcl:CoreView>

@@ -1,0 +1,55 @@
+﻿[
+  {
+    "Name": "NewExampleWorkflowActivity",
+    "Default": "GenericCodeProcessingWorkflowActivity",
+    "ReferencedEvents": [
+      {
+        "WfaReferenceName": "BaldEagleWorkflowActivity",
+        "Name": "TaskManagerWorkflowActivity::StartNewExampleWorkflow",
+        "Actions": [
+          {
+            "Type": "PushReplaceNavigation",
+            "Params": {
+              "Destination": "NewExampleWorkflowActivity"
+            }
+          }
+        ]
+      },
+      {
+        "WfaReferenceName": "OperPrepCompositeWorkflowActivity",
+        "Name": "NewExampleReturnFromOperPrep",
+        "Actions": [
+          {
+            "Type": "PushReplaceNavigation",
+            "Params": {
+              "Destination": "GenericCodeProcessingWorkflowReturnFromOperPrepActivity"
+            }
+          }
+        ]
+      },
+      {
+        "WfaReferenceName": "NoiseSampleCompositeWorkflowActivityWithReturnActivity",
+        "Name": "NewExampleReturnFromOperPrep",
+        "Actions": [
+          {
+            "Type": "PushReplaceNavigation",
+            "Params": {
+              "Destination": "GenericCodeProcessingWorkflowReturnFromOperPrepActivity"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "GenericCodeProcessingWorkflowActivity",
+    "ControllerName": "NewExampleWorkflowController"
+  },
+  {
+    "Name": "GenericCodeProcessingWorkflowReturnFromOperPrepActivity",
+    "ControllerName": "NewExampleWorkflowController",
+    "Params": {
+      "IsReturningFromOperPrep": true
+    }
+  }
+]

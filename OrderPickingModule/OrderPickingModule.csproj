@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wpa81</AssetTargetFallback>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\OrderPicking_configuration.json" />
+    <None Remove="Resources\OrderPicking_data.json" />
+    <None Remove="Resources\OrderPicking_wfa.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\OrderPicking_configuration.json" />
+    <EmbeddedResource Include="Resources\OrderPicking_data.json" />
+    <EmbeddedResource Include="Resources\OrderPicking_wfa.json" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Honeywell.GuidedWork.RetailModule" Version="1.4.0.0" />
+  </ItemGroup>
+</Project>

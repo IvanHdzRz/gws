@@ -1,0 +1,55 @@
+﻿[
+  {
+    "Name": "SimpleAppSettingsWorkflowActivityComp",
+    "Default": "SimpleAppSettingsWorkflowActivity",
+    "ReferencedEvents": [
+      {
+        "WfaReferenceName": "SettingsWorkflowActivity",
+        "Name": "SettingsMenuWorkflowActivity::SimpleAppSettings",
+        "Actions": [
+          {
+            "Type": "PushNavigation",
+            "Params": {
+              "Destination": "SimpleAppSettingsWorkflowActivityComp"
+            }
+          }
+        ]
+      }
+    ],
+    "Events": [
+      {
+        "Name": "SimpleAppSettingsWorkflowActivity::VoiceConsoleSettings",
+        "Actions": [
+          {
+            "Type": "PushNavigation",
+            "Params": {
+              "Destination": "VoiceConsoleSettingsWorkflowActivity"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "SimpleAppSettingsWorkflowActivity",
+    "ControllerName": "SimpleApp.SimpleAppSettingsController",
+    "ViewModelName": "SimpleApp.SimpleAppSettingsViewModel",
+    "ViewNames": [ "SimpleApp.SimpleAppSettingsView" ],
+    "Params": {
+      "EnableMenuOption": false,
+      "MicIconStateOverride": false,
+      "InactiveGlobalWords": [ "VocabWord_GlobalAnchorWord VocabWord_StandBy" ]
+    }
+  },
+  {
+    "Name": "VoiceConsoleSettingsWorkflowActivity",
+    "ControllerName": "VoiceConsoleComm.VoiceConsoleServerSettingsController",
+    "ViewModelName": "VoiceConsoleComm.VoiceConsoleServerSettingsViewModel",
+    "ViewNames": [ "VoiceConsoleComm.VoiceConsoleServerSettingsView" ],
+    "Params": {
+      "EnableMenuOption": false,
+      "MicIconStateOverride": false,
+      "InactiveGlobalWords": [ "VocabWord_GlobalAnchorWord VocabWord_StandBy" ]
+    }
+  }
+]

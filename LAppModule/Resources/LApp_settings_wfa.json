@@ -1,0 +1,31 @@
+﻿[
+  {
+    "Name": "LAppSettingsWorkflowActivityComp",
+    "Default": "LAppSettingsWorkflowActivity",
+    "ReferencedEvents": [
+      {
+        "WfaReferenceName": "SettingsWorkflowActivity",
+        "Name": "SettingsMenuWorkflowActivity::LAppSettings",
+        "Actions": [
+          {
+            "Type": "PushNavigation",
+            "Params": {
+              "Destination": "LAppSettingsWorkflowActivity"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "LAppSettingsWorkflowActivity",
+    "ControllerName": "LApp.LAppSettingsController",
+    "ViewModelName": "LApp.LAppSettingsViewModel",
+    "ViewNames": [ "LApp.LAppSettingsView" ],
+    "Params": {
+      "EnableMenuOption": false,
+      "MicIconStateOverride": false,
+      "InactiveGlobalWords": [ "VocabWord_GlobalAnchorWord VocabWord_StandBy" ]
+    }
+  }
+]

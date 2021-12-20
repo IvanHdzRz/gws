@@ -1,0 +1,31 @@
+﻿[
+  {
+    "Name": "BasePickingExampleSettingsWorkflowActivityComp",
+    "Default": "BasePickingExampleSettingsWorkflowActivity",
+    "ReferencedEvents": [
+      {
+        "WfaReferenceName": "SettingsWorkflowActivity",
+        "Name": "SettingsMenuWorkflowActivity::BasePickingExampleSettings",
+        "Actions": [
+          {
+            "Type": "PushNavigation",
+            "Params": {
+              "Destination": "BasePickingExampleSettingsWorkflowActivity"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "BasePickingExampleSettingsWorkflowActivity",
+    "ControllerName": "BasePickingExample.BasePickingExampleSettingsController",
+    "ViewModelName": "BasePickingExample.BasePickingExampleSettingsViewModel",
+    "ViewNames": [ "BasePickingExample.BasePickingExampleSettingsView" ],
+    "Params": {
+      "EnableMenuOption": false,
+      "MicIconStateOverride": false,
+      "InactiveGlobalWords": [ "VocabWord_GlobalAnchorWord VocabWord_StandBy" ]
+    }
+  }
+]

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wpa81</AssetTargetFallback>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleAppModule\SimpleAppModule.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Resources\SimpleApp_configuration.json" />
+    <None Remove="Resources\SimpleApp_settings_wfa.json" />
+    <None Remove="Resources\SimpleApp_wfa.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\SimpleApp_configuration.json" />
+    <EmbeddedResource Include="Resources\SimpleApp_settings_wfa.json" />
+    <EmbeddedResource Include="Resources\SimpleApp_wfa.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Honeywell.GuidedWork" Version="1.4.0.0" />
+  </ItemGroup>
+</Project>

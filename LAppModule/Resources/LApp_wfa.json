@@ -1,0 +1,55 @@
+﻿[
+  {
+    "Name": "LAppWorkflowActivity",
+    "Default": "GenericCodeProcessingWorkflowActivity",
+    "ReferencedEvents": [
+        {
+            "WfaReferenceName": "BaldEagleWorkflowActivity",
+            "Name": "TaskManagerWorkflowActivity::StartLAppWorkflow",
+            "Actions": [
+                {
+                    "Type": "PushReplaceNavigation",
+                    "Params": {
+                        "Destination": "LAppWorkflowActivity"
+                    }
+                }
+            ]
+        },
+        {
+            "WfaReferenceName": "OperPrepCompositeWorkflowActivity",
+            "Name": "LAppReturnFromOperPrep",
+            "Actions": [
+                {
+                    "Type": "PushReplaceNavigation",
+                    "Params": {
+                        "Destination": "GenericCodeProcessingWorkflowReturnFromOperPrepActivity"
+                    }
+                }
+            ]
+        },
+        {
+            "WfaReferenceName": "NoiseSampleCompositeWorkflowActivityWithReturnActivity",
+            "Name": "LAppReturnFromOperPrep",
+            "Actions": [
+                {
+                    "Type": "PushReplaceNavigation",
+                    "Params": {
+                        "Destination": "GenericCodeProcessingWorkflowReturnFromOperPrepActivity"
+                    }
+                }
+            ]
+        }
+    ]
+  },
+  {
+    "Name": "GenericCodeProcessingWorkflowActivity",
+    "ControllerName": "LAppWorkflowController"
+  },
+  {
+    "Name": "GenericCodeProcessingWorkflowReturnFromOperPrepActivity",
+    "ControllerName": "LAppWorkflowController",
+    "Params": {
+      "IsReturningFromOperPrep": true
+    }
+  }
+]

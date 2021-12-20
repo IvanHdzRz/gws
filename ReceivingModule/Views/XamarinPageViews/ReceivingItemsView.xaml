@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hfmcl:CoreView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:hfmcl="clr-namespace:Honeywell.Firebird.CoreLibrary;assembly=Honeywell.GuidedWork.XF"
+             xmlns:i18n="clr-namespace:Honeywell.Firebird.CoreLibrary.Localization.Xaml;assembly=Honeywell.GuidedWork.XF"
+             x:Class="Receiving.ReceivingItemsView">
+
+  <StackLayout Padding="10">
+    <Label Text="{Binding Header}" Style="{StaticResource ListHeaderLabelStyle}" AutomationId="ReceivingItemsHeaderLabel" />
+    <!-- Unlike the other ListViews used throughout the app, this one does not make use of CachingStrategy="RecycleElement", which was a fix for VORET-546.
+    VORET-546 wasn't directly reproducible, however google searches indicated that using the RecycleElement caching strategy was a rememdy for the exception seen
+    in that ticket. The reason this ListView does not use RecycleElement as a caching strategy is because we were seeing an undesired symptom: In this list, we
+    highlight the first item via the ListView.SelectedItem property to show the user the current item they are on for a given order picking order. 
+    With RecycleElement used, this highlight was not showing. This issue has been captured in VORET-557.-->
+
+    <BoxView Style="{StaticResource HorizontalRuleStyle}" AutomationId="ReceivingItemsViewHeaderBoxView"/>
+
+    <Grid>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"></RowDefinition>
+        <RowDefinition Height="*"></RowDefinition>
+        <RowDefinition Height="Auto"></RowDefinition>
+        <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="7*"></ColumnDefinition>
+        <ColumnDefinition Width="1*"></ColumnDefinition>
+      </Grid.ColumnDefinitions>
+      <Label Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Start" Text="{i18n:Translate Receiving_ProductDescription}" AutomationId="ReceivingItemsViewProductDescriptionLabel"/>
+      <Label Grid.Row="0" Grid.Column="1" HorizontalTextAlignment="Center" Text="{i18n:Translate Receiving_Qty}" AutomationId="ReceivingItemsViewQtyLabel" />
+    
+
+    <ListView VerticalOptions="FillAndExpand" Grid.Row="1" Grid.ColumnSpan="2" HasUnevenRows="true" ItemsSource="{Binding CurrentAndUpcomingPicks}" CachingStrategy="RecycleElement" ItemSelected="OnItemSelected" AutomationId="ReceivingItemsList">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <ViewCell.View>
+              <Grid Padding="5">
+                <Grid.RowDefinitions>
+                  <RowDefinition Height="60"></RowDefinition>
+                  <RowDefinition Height="10"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                  <ColumnDefinition Width="2*"></ColumnDefinition>
+                  <ColumnDefinition Width="2*"></ColumnDefinition>
+                  <ColumnDefinition Width="3*"></ColumnDefinition>
+                  <ColumnDefinition Width="1*"></ColumnDefinition>                    
+                </Grid.ColumnDefinitions>
+                <Image Grid.Row="0" Grid.Column="0" Source="{Binding ProductImage}" Grid.RowSpan="2" AutomationId="ReceivingItemsViewProductImage"/>
+                <Label Grid.Row="0" Grid.Column="1" Text="{Binding ProductName}" Grid.ColumnSpan="2" HorizontalTextAlignment="Start" VerticalTextAlignment="End" FontSize="Small" FontAttributes="Bold" TextColor="{x:Static hfmcl:ColorResources.DefaultTextColor}" AutomationId="ReceivingItemsViewProductNameLabel" />
+                <Label Grid.Row="1" Grid.Column="1" Text="{i18n:Translate Barcode}" HorizontalTextAlignment="Start" VerticalTextAlignment="Start" FontSize="Micro" TextColor="Gray" AutomationId="ReceivingItemsViewBarcodeLabel" />
+                <Label Grid.Row="1" Grid.Column="2" Text="{Binding ProductIdentifier}" HorizontalTextAlignment="Start" VerticalTextAlignment="Start" FontSize="Micro" TextColor="Gray" AutomationId="ReceivingItemsViewProductIdentifierLabel" />
+                <Label Grid.Row="0" Grid.Column="3" Text="{Binding RemainingQuantity}" Grid.RowSpan="2" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="Black" AutomationId="ReceivingItemsViewRemainingQuantityLabel"/>
+                <Image Grid.Row="0" Grid.Column="3" Source="green_check.png" Grid.RowSpan="2" IsVisible="{Binding IsComplete}" Margin="0,0,3,0" AutomationId="ReceivingItemsViewGreenCheckImage" />
+                <Image Grid.Row="0" Grid.Column="3" Source="damaged.png" Grid.RowSpan="2" IsVisible="{Binding IsDamaged}" Margin="0,0,3,0" AutomationId="ReceivingItemsViewDamagedImage"/>
+              </Grid>
+            </ViewCell.View>
+          </ViewCell>            
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+
+    <BoxView Style="{StaticResource HorizontalRuleStyle}" Grid.Row="2" Grid.ColumnSpan="2" AutomationId="ReceivingItemsViewReceivingEntryBoxView"/>
+
+      <StackLayout VerticalOptions="End" Grid.Row="3" Grid.ColumnSpan="2">
+      <Label Text="{i18n:Translate EntryLabel}" Style="{StaticResource EntryBoldLabelStyle}" AutomationId="ReceivingEntryLabelLabel" />
+      <hfmcl:UserEntrySubview Placeholder="{i18n:Translate Placeholder}"
+              Text="{Binding Response, Mode=TwoWay}"
+              SubmitResponseCommand="{Binding ValidationModel.SubmitResponseCommand}"
+              ErrorMessage="{Binding ErrorMessage}"
+              BorderWidth="2"
+              ShowUnderline="False"
+              ErrorMessageFontSize="10"
+              AutomationId="ReceivingConfirmProduct" />
+
+   
+    </StackLayout>
+    </Grid>
+    </StackLayout>
+</hfmcl:CoreView>

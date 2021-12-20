@@ -1,0 +1,10 @@
+﻿{
+    "WorkflowConfiguration" :
+    {
+        "WorkflowName": "BasePickingExample",
+        "WorkflowFriendlyName": "WorkflowFriendlyName_BasePickingExample",
+        "WorkflowModelName": "BasePickingExampleModel",
+        "WorkflowFiltersForSelecting": [ "EmbeddedDemo", "MicroServices" ],
+        "AdditionalWorkflowsToLoad": [ "GuidedWorkRunner" ] 
+    }
+}

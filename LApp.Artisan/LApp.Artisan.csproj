@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DefineConstants>TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_0;FILE_SYSTEM</DefineConstants>
+    <WarningsNotAsErrors />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType />
+    <DefineConstants>TRACE;RELEASE;NETCOREAPP;NETCOREAPP3_0;FILE_SYSTEM</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">
+    <StartAction>Project</StartAction>
+    <ExternalConsole>false</ExternalConsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="__pycache__\**" />
+    <EmbeddedResource Remove="__pycache__\**" />
+    <None Remove="__pycache__\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="GuidedWorkArtisan.vad" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ArtisanCommon\ArtisanCommon.csproj" />
+    <ProjectReference Include="..\LAppModule\LAppModule.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Honeywell.GuidedWork.Devices" Version="1.4.0.0" />
+  </ItemGroup>
+  
+  <PropertyGroup>
+    <_LastSelectedProfileId>.\Properties\PublishProfiles\vad.linux-arm64.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+</Project>

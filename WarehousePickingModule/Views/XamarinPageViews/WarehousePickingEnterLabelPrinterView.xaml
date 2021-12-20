@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright (C) 2014 Honeywell International Inc. All rights reserved. -->
+<hfmcl:CoreView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:hfmcl="clr-namespace:Honeywell.Firebird.CoreLibrary;assembly=Honeywell.GuidedWork.XF"
+             xmlns:i18n="clr-namespace:Honeywell.Firebird.CoreLibrary.Localization.Xaml;assembly=Honeywell.GuidedWork.XF"
+             x:Class="WarehousePicking.WarehousePickingEnterLabelPrinterView">
+
+
+    <StackLayout VerticalOptions="FillAndExpand" Padding="10">
+
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <Label Text="{i18n:Translate EntryLabel}" Style="{StaticResource EntryBoldLabelStyle}" AutomationId="WarehousePickingLabelPrinterEntryLabelLabel" />
+        
+            <StackLayout BackgroundColor="{x:Static hfmcl:ColorResources.HoneywellMediumBlue}" Padding="2">
+                <hfmcl:DoneEntry x:Name ="LabelPrinterEntry"
+                      Text="{Binding Response, Mode=TwoWay}"
+                      Placeholder="{i18n:Translate LabelPrinterEntryPlaceholder}"
+                      Keyboard="{Binding Keyboard, Converter={StaticResource KeyboardConverter}}"
+                      DoneButtonText="{i18n:Translate SubmitButtonText}"
+                      Done="OnDone"
+                      FontFamily="{x:Static hfmcl:FontResources.HoneywellSansBook}"
+                      ShowUnderline="False"
+                      BackgroundColor="{x:Static hfmcl:ColorResources.HoneywellWhite}"
+                      AutomationId="WarehousePickingEnterLabelPrinterDoneEntry" />
+            </StackLayout>
+        </StackLayout>
+           
+    </StackLayout>
+
+</hfmcl:CoreView>

@@ -1,0 +1,11 @@
+﻿{
+    "WorkflowConfiguration" :
+    {
+        "WorkflowName": "BasePicking",
+        "WorkflowFriendlyName": "WorkflowFriendlyName_BasePicking",
+        "WorkflowModelName": "BasePickingModel",
+        "WorkflowBackgroundImage": "BasePicking_Logo.png",
+        "WorkflowFiltersForSelecting": [ "EmbeddedDemo", "MicroServices" ],
+        "AdditionalWorkflowsToLoad": [ "GuidedWorkRunner" ]
+    }
+}

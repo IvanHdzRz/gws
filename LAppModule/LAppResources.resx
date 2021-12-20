@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LAppSettingsWorkflowActivity_Host" xml:space="preserve">
+    <value>Host</value>
+  </data>
+  <data name="LAppSettingsWorkflowActivity_LAppSettingsLabel" xml:space="preserve">
+    <value>LApp Mobile</value>
+  </data>
+  <data name="LAppSettingsWorkflowActivity_Port" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="LAppSettingsWorkflowActivity_WorkflowSettingsLabel" xml:space="preserve">
+    <value>Workflow Settings</value>
+  </data>
+  <data name="SettingsMenuWorkflowActivity_LAppSettings" xml:space="preserve">
+    <value>LApp Mobile Settings</value>
+  </data>
+  <data name="WorkflowFriendlyName_LApp" xml:space="preserve">
+    <value>LApp Mobile</value>
+  </data>
+  <data name="LApp_BackgroundActivity_Header_RetrieveCompanies" xml:space="preserve">
+    <value>Retrieving Companies</value>
+  </data>
+  <data name="LApp_BackgroundActivity_Header_SignOn" xml:space="preserve">
+    <value>Signing On</value>
+  </data>
+  <data name="LApp_BackgroundActivity_Header_RetrieveWarehouses" xml:space="preserve">
+    <value>Retrieving Warehouses</value>
+  </data>
+  <data name="LApp_BackgroundActivity_Header_RetrieveZones" xml:space="preserve">
+    <value>Retrieving Zones</value>
+  </data>
+  <data name="LApp_BackgroundActivity_Header_RetrieveLicensePlateId" xml:space="preserve">
+    <value>Retrieving License Plate ID</value>
+  </data>
+  <data name="LApp_BackgroundActivity_Header_RetrieveOrders" xml:space="preserve">
+    <value>Retrieving Orders</value>
+  </data>
+  <data name="LApp_BackgroundActivity_Header_RetrieveSerialNumbers" xml:space="preserve">
+    <value>Retrieving Serial Numbers</value>
+  </data>
+  <data name="LApp_BackgroundActivity_Header_RetrieveBatchNumbers" xml:space="preserve">
+    <value>Retrieving Batch Numbers</value>
+  </data>
+  <data name="LApp_SignOn_Failed_Required" xml:space="preserve">
+    <value>Username and Password are required</value>
+  </data>
+  <data name="LApp_SignOn_Authentication_Failed" xml:space="preserve">
+    <value>Authentication Failed</value>
+  </data>
+  <data name="LApp_SignOn_Header" xml:space="preserve">
+    <value>LApp Mobile Sign On</value>
+  </data>
+  <data name="LApp_SelectCompany_Header" xml:space="preserve">
+    <value>Select Company</value>
+  </data>
+  <data name="LApp_SelectCompany_Prompt" xml:space="preserve">
+    <value>Select Company</value>
+  </data>
+  <data name="LApp_SelectCompanySingle_Header" xml:space="preserve">
+    <value>Select Company</value>
+  </data>
+  <data name="LApp_SelectCompanySingle_Prompt" xml:space="preserve">
+    <value>Select Company {0}</value>
+  </data>
+  <data name="LApp_SelectWarehouse_Header" xml:space="preserve">
+    <value>Select Warehouse</value>
+  </data>
+  <data name="LApp_SelectWarehouse_Prompt" xml:space="preserve">
+    <value>Select Warehouse</value>
+  </data>
+  <data name="LApp_SelectWarehouseSingle_Header" xml:space="preserve">
+    <value>Select Warehouse</value>
+  </data>
+  <data name="LApp_SelectWarehouseSingle_Prompt" xml:space="preserve">
+    <value>Select Warehouse {0}</value>
+  </data>
+  <data name="LApp_SelectZone_Header" xml:space="preserve">
+    <value>Select Zone</value>
+  </data>
+  <data name="LApp_SelectZone_Prompt" xml:space="preserve">
+    <value>Select Zone</value>
+  </data>
+  <data name="LApp_SelectZoneSingle_Header" xml:space="preserve">
+    <value>Select Zone</value>
+  </data>
+  <data name="LApp_SelectZoneSingle_Prompt" xml:space="preserve">
+    <value>Select Zone {0}</value>
+  </data>
+  <data name="LApp_SelectOrder_Header" xml:space="preserve">
+    <value>Select Order</value>
+  </data>
+  <data name="LApp_SelectOrder_Prompt" xml:space="preserve">
+    <value>Select Order</value>
+  </data>
+  <data name="LApp_SelectOrderSingle_Header" xml:space="preserve">
+    <value>Select Order</value>
+  </data>
+  <data name="LApp_SelectOrderSingle_Prompt" xml:space="preserve">
+    <value>Select Order {0}</value>
+  </data>
+  <data name="LApp_Location_Header" xml:space="preserve">
+    <value>Confirm Location</value>
+  </data>
+  <data name="LApp_Location_Prompt" xml:space="preserve">
+    <value>Proceed to {0}</value>
+  </data>
+  <data name="LApp_Location_Label" xml:space="preserve">
+    <value>Checkdigit</value>
+  </data>
+  <data name="LApp_Location_WrongCheckDigit" xml:space="preserve">
+    <value>Wrong Checkdigit</value>
+  </data>
+  <data name="LApp_Location_Button_Ready" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="LApp_Location_Button_SkipAisle" xml:space="preserve">
+    <value>Skip Location</value>
+  </data>
+  <data name="LApp_Product_Header" xml:space="preserve">
+    <value>Confirm Product</value>
+  </data>
+  <data name="LApp_Product_Prompt" xml:space="preserve">
+    <value>Locate product {0}</value>
+  </data>
+  <data name="LApp_Product_Label" xml:space="preserve">
+    <value>Checkdigit</value>
+  </data>
+  <data name="LApp_Product_Button_Ready" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="LApp_Product_Button_SkipAisle" xml:space="preserve">
+    <value>Skip Product</value>
+  </data>
+  <data name="LApp_Product_Image_Label" xml:space="preserve">
+    <value>Product Image</value>
+  </data>
+  <data name="LApp_Product_Progress_Header" xml:space="preserve">
+    <value>Products Confirmed</value>
+  </data>
+  <data name="LApp_Overflow_SkipProduct" xml:space="preserve">
+    <value>Skip Product</value>
+  </data>
+  <data name="LApp_Overflow_SkipProduct_Not_Implemented" xml:space="preserve">
+    <value>Skip Product has not been implemented at this time</value>
+  </data>
+  <data name="LApp_Quantity_Header" xml:space="preserve">
+    <value>Enter Quantity</value>
+  </data>
+  <data name="LApp_Quantity_Label" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="LApp_Quantity_Prompt" xml:space="preserve">
+    <value>Pick {0}</value>
+  </data>
+  <data name="LApp_SerialNumber_Header" xml:space="preserve">
+    <value>Enter Serial Number</value>
+  </data>
+  <data name="LApp_SerialNumber_Label" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="LApp_SerialNumber_Prompt" xml:space="preserve">
+    <value>Pick {0},,Serial Number</value>
+  </data>
+  <data name="LApp_BatchNumber_Header" xml:space="preserve">
+    <value>Enter Batch Number</value>
+  </data>
+  <data name="LApp_BatchNumber_Label" xml:space="preserve">
+    <value>Batch Number</value>
+  </data>
+  <data name="LApp_BatchNumber_Prompt" xml:space="preserve">
+    <value>Pick {0},, Batch Number</value>
+  </data>
+  <data name="LApp_SelectBatchNumber_Header" xml:space="preserve">
+    <value>Select Batch Number</value>
+  </data>
+  <data name="LApp_SelectBatchNumber_Prompt" xml:space="preserve">
+    <value>Select Batch Number</value>
+  </data>
+  <data name="LApp_SelectBatchNumberSingle_Header" xml:space="preserve">
+    <value>Select Batch Number</value>
+  </data>
+  <data name="LApp_SelectBatchNumberSingle_Prompt" xml:space="preserve">
+    <value>Select Batch Number {0}</value>
+  </data>
+  <data name="LApp_LicensePlate_Header" xml:space="preserve">
+    <value>Enter License Plate</value>
+  </data>
+  <data name="LApp_LicensePlate_Label" xml:space="preserve">
+    <value>License Plate</value>
+  </data>
+  <data name="LApp_LicensePlate_Prompt" xml:space="preserve">
+    <value>License Plate, say {0}, {1}, or {2} to submit</value>
+  </data>
+  <data name="LApp_LicensePlate_Note_Label" xml:space="preserve">
+    <value>Note: </value>
+  </data>
+  <data name="LApp_LicensePlate_Note_Value" xml:space="preserve">
+    <value>Note content is displayed here. Multiple lines of notes are supported as shown.</value>
+  </data>
+  <data name="LApp_LicensePlate_Pallet" xml:space="preserve">
+    <value>Pallet</value>
+  </data>
+  <data name="LApp_LicensePlate_Tote" xml:space="preserve">
+    <value>Tote</value>
+  </data>
+  <data name="LApp_LicensePlate_Box" xml:space="preserve">
+    <value>Box</value>
+  </data>
+  <data name="LApp_AssignmentComplete_Header" xml:space="preserve">
+    <value>Order {0} Complete</value>
+  </data>
+  <data name="LApp_AssignmentComplete_Prompt" xml:space="preserve">
+    <value>Order Complete</value>
+  </data>
+  <data name="LApp_CheckProductDamaged_Header" xml:space="preserve">
+    <value>Is the Product Damaged?</value>
+  </data>
+  <data name="LApp_CheckProductDamaged_Prompt" xml:space="preserve">
+    <value>Is the Product Damaged?</value>
+  </data>
+  <data name="LApp_TakePhoto_Header" xml:space="preserve">
+    <value>Take a Photo of Damage to Product</value>
+  </data>
+  <data name="LApp_TakePhoto_Prompt" xml:space="preserve">
+    <value>Take a Photo of Damage to Product</value>
+  </data>
+  <data name="LApp_TakePhoto_Prompt_No_Camera" xml:space="preserve">
+    <value>Take a Photo of Damage to Product and upload, when finished say ready</value>
+  </data>
+  <data name="LApp_PickRouteDetails_LocationBanner_Label" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="LApp_CompanyDetails_CompanyBanner_Label" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="LApp_WarehouseDetails_WarehouseBanner_Label" xml:space="preserve">
+    <value>Warehouse</value>
+  </data>
+  <data name="LApp_ZoneDetails_ZoneBanner_Label" xml:space="preserve">
+    <value>Zone</value>
+  </data>
+  <data name="LApp_LicensePlateDetails_LicensePlateBanner_Label" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="LApp_PickRouteDetails_Location_Label" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="LApp_PickRouteDetails_DetailsBanner_Label" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="LApp_PickRouteDetails_ProductId_Label" xml:space="preserve">
+    <value>Product ID</value>
+  </data>
+  <data name="LApp_PickRouteDetails_Line_Label" xml:space="preserve">
+    <value>Line</value>
+  </data>
+  <data name="LApp_PickRouteDetails_Quantity_Label" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="LApp_PickRouteDetails_BatchNumberBanner_Label" xml:space="preserve">
+    <value>Batch Number</value>
+  </data>
+  <data name="LApp_EnterQuantity_Failed" xml:space="preserve">
+    <value>Quantity not set</value>
+  </data>
+  <data name="LApp_EnterQuantity_Wrong" xml:space="preserve">
+    <value>Wrong Quantity</value>
+  </data>
+  <data name="LApp_EnterBatchNumber_Wrong" xml:space="preserve">
+    <value>Invalid Batch Number</value>
+  </data>
+  <data name="LApp_EnterSerialNumber_Wrong" xml:space="preserve">
+    <value>Invalid Serial Number</value>
+  </data>
+  <data name="LApp_Overflow_ChangeWarehouse" xml:space="preserve">
+    <value>Change Warehouse</value>
+  </data>
+  <data name="LApp_LicenseLastDate_Header" xml:space="preserve">
+    <value>Enter Last Service Date</value>
+  </data>
+  <data name="LApp_LicenseLastDate_Label" xml:space="preserve">
+    <value>Last Service Date for this unit</value>
+  </data>
+  <data name="LApp_LicenseLastDate_Prompt" xml:space="preserve">
+    <value>What is the date of the last service of this unit</value>
+  </data>
+  <data name="LApp_LicenseLastDate_DateFormat_Label" xml:space="preserve">
+    <value>Date Format: </value>
+  </data>
+  <data name="LApp_LicenseLastDate_DateFormat_MM/dd/yy_value" xml:space="preserve">
+    <value>MM/DD/YY</value>
+  </data>
+  <data name="LApp_LicenseLastDate_MinDate_Label" xml:space="preserve">
+    <value>Minimum Date: </value>
+  </data>
+  <data name="LApp_LicenseLastDate_MaxDate_Label" xml:space="preserve">
+    <value>Maximum Date: </value>
+  </data>
+  <data name="LApp_CosmeticDamage" xml:space="preserve">
+    <value>Cosmetic Damage</value>
+  </data>
+  <data name="LApp_DamageMinor" xml:space="preserve">
+    <value>Minor</value>
+  </data>
+  <data name="LApp_DamageModerate" xml:space="preserve">
+    <value>Moderate</value>
+  </data>
+  <data name="LApp_DamageSevere" xml:space="preserve">
+    <value>Severe</value>
+  </data>
+  <data name="LApp_ElectricalDamage" xml:space="preserve">
+    <value>Electrical Damage</value>
+  </data>
+  <data name="LApp_EnquireDamageSeverityHeader" xml:space="preserve">
+    <value>{0} Severity</value>
+  </data>
+  <data name="LApp_MechanicalDamage" xml:space="preserve">
+    <value>Mechanical Damage</value>
+  </data>
+  <data name="LApp_EnquireDamageSeverityPrompt" xml:space="preserve">
+    <value>How severe is the {0}</value>
+  </data>
+  <data name="LApp_EnquireDamageTypeHeader" xml:space="preserve">
+    <value>What kinds of damage has the product sustained?</value>
+  </data>
+  <data name="LApp_EnquireDamageTypePrompt" xml:space="preserve">
+    <value>What kinds of damage has the product sustained?</value>
+  </data>
+  <data name="LApp_NoDamageConfirmation" xml:space="preserve">
+    <value>Are you sure there are no damages?</value>
+  </data>
+  <data name="LApp_Main_Tab_Label" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="LApp_Product_Tab_Label" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="LApp_PhotoTransmit_Message" xml:space="preserve">
+    <value>LApp Transmitting Photos</value>
+  </data>
+  <data name="LApp_BackgroundActivity_Header_TransmitPhotos" xml:space="preserve">
+    <value>Transmitting Photos</value>
+  </data>
+  <data name="LApp_BackgroundActivity_Header_RetrievePickRoute" xml:space="preserve">
+    <value>Retrieving Pick Route</value>
+  </data>
+  <data name="LApp_BackgroundActivity_Header_TransmitPickQuantity" xml:space="preserve">
+    <value>Transmitting Quantity</value>
+  </data>
+  <data name="LApp_BackgroundActivity_Header_TransmitPickSerial" xml:space="preserve">
+    <value>Transmitting Serial Number</value>
+  </data>
+  <data name="LApp_NetworkTimeout_Error" xml:space="preserve">
+    <value>Network request has timed out.</value>
+  </data>
+</root>

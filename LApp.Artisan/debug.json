@@ -1,0 +1,16 @@
+{
+	"AppProperties": {
+		"Server or EmbeddedDemo": "EmbeddedDemo",
+		"Host": "164.145.197.243",
+		"Port": "9092",
+		"Proxy": "false",
+		"Secure": "false"
+	},
+	"DeviceProperties": {
+		"SwVersion.Locale": "en_US",
+		"Operator.Id": "operator",
+		"Device.Id": "1234",
+		"SwVersion.ApplicationVersion": "CAT_V4.1.3"
+	},
+	"WorkflowName": "LApp"
+}

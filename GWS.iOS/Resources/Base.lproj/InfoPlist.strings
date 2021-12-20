@@ -1,0 +1,3 @@
+﻿"NSMicrophoneUsageDescription"="This application uses the microphone to convert your speech into commands";
+"NSCameraUsageDescription"="This app needs access to the camera to take photos.";
+"NSPhotoLibraryUsageDescription"="This app needs access to photos.";
